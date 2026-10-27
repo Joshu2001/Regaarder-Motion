@@ -47,3 +47,10 @@ Photographic cloud billows replace the full-screen fractal wallpaper when availa
 ## Version 25 · organic focus and corrected cargo sequence
 
 Latest direction supersedes the earlier forward-cargo request: closest cases appear first, then recede at separate depth rates from 8–13 seconds, revealing the rear cases and the shoulder before the people pullback. Floor contact stays fixed. Foreground cover cases remain an independently timed later layer. Grass/edge blur uses irregular overlapping feathered alpha masks rather than rectangular clipping, with cached drawing surfaces. Clouds translate, rotate and breathe independently at different layer rates. Lightning has branching flashes and stronger internal illumination; glass cracks include connected fracture rings while leaving the photograph readable. Integrated Nazi armbands remain unavailable after the earlier image-service rejection; plain period-uniform assets are unchanged.
+
+
+## Version 26 · shared camera and glass surface
+
+Cargo and people now occupy fixed billboard depths and project through one retreating camera with an initial vertical descent. At the opening, people and the closest cover cases are behind the camera or outside the crop; they are opaque, not faded into view. The nearest cargo top begins around 61% of picture height and rises toward 40% during descent, then retreats in perspective. Later foreground cases enter through perspective and conceal lower bodies naturally. The plain period-uniform figures are retained under the user-approved no-armband option.
+
+The photograph, gold frame and glass are composited into one surface and projected using a subdivided perspective mesh, with visible lower frame thickness. Glass sectors sample the picture with small stable refractive offsets; connected fracture edges have subtle bright/dark bevels. A broad reflected light sweeps over the surface as cracks spread. Photograph and clouds darken after that reflection beat, with independently editable controls. Obsolete independent cargo zoom controls are removed from the main shot tools.

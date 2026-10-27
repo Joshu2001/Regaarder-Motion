@@ -1,12 +1,12 @@
 # Regaarder Motion Atelier
 
-Published version: 25
-Sites source commit: `c043f5b3170d320c1b97739a491b4fd4b6386351`
+Published version: 26
+Sites source commit: `97fc9171aae1e0e15b8de250bbb319d9cf0c8a18`
 
-Editable documentary motion scenes. This revision replaces rectangular grass blur with feathered organic masks, corrects the latest cargo direction to closest cases receding toward rear cases before the shoulder reveal, and adds independent cloud motion, branching lightning and connected glass fracture rings.
+Editable documentary motion scenes. Cargo, foreground covers and opaque period-uniform figures now project through a shared retreating camera with vertical descent. The framed photograph uses true perspective projection, refractive glass sectors, beveled fracture edges, a sweeping reflection and coordinated late darkening of picture and storm clouds.
 
 Serve `dist/` with a local web server. Run `scripts/check-*.mjs` with Node from the repository root.
 
 Live site: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site
 
-The uniformed figure assets are unchanged. Integrated historical armbands remain incomplete after image generation rejected that detail; no floating armband overlays are used. The selected cargo-image cleanup was also rejected by the image service; no generated replacement was used. See docs/IMAGE-EDIT-V25.json for the exact attempted prompt.
+The user approved retaining the current plain period-uniform figures without armbands. No floating armband overlays are used.

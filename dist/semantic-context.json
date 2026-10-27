@@ -127,7 +127,8 @@
         "late foreground cargo"
       ],
       "soundCue": "Pending narration and sound direction; no sound is attached.",
-      "status": "User-directed visual reconstruction. No real-person identification or archival attribution is asserted."
+      "status": "User-directed visual reconstruction. No real-person identification or archival attribution is asserted.",
+      "cameraMethod": "Shared perspective camera over fixed-depth billboards; opaque people reveal through cropping and foreground occlusion; reflective refractive glass on a perspective-projected frame."
     },
     {
       "id": "depot-framed-storm",
@@ -151,7 +152,8 @@
         "glowing lightning divider",
         "brief secondary lightning"
       ],
-      "status": "reference-inspired visual sequence; narration pending"
+      "status": "reference-inspired visual sequence; narration pending",
+      "cameraMethod": "Shared perspective camera over fixed-depth billboards; opaque people reveal through cropping and foreground occlusion; reflective refractive glass on a perspective-projected frame."
     }
   ],
   "assets": [
