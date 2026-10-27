@@ -1,8 +1,8 @@
 import * as T from './vendor/three.module.js';
-import {rearPanelPlacement} from './scene-framing.js?v=depot-v16';
+import {rearPanelPlacement} from './scene-framing.js?v=depot-v17';
 import {OrbitControls} from './vendor/OrbitControls.js';
 import {TransformControls} from './vendor/TransformControls.js';
-import {sampleTrack,defaultTracks,sampleCamera,pose} from './chess-motion.js?v=depot-v16';
+import {sampleTrack,defaultTracks,sampleCamera,pose} from './chess-motion.js?v=depot-v17';
 import {Reflector} from './vendor/Reflector.js';
 const clamp=v=>Math.max(0,Math.min(1,v)),ease=v=>{v=clamp(v);return v*v*(3-2*v)};
 // The fallback rasterizes the SAME Three.js scene through a per-pixel depth buffer.
