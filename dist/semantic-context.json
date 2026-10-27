@@ -128,6 +128,30 @@
       ],
       "soundCue": "Pending narration and sound direction; no sound is attached.",
       "status": "User-directed visual reconstruction. No real-person identification or archival attribution is asserted."
+    },
+    {
+      "id": "depot-framed-storm",
+      "scene": "depot",
+      "localStart": 32,
+      "localEnd": 58,
+      "narration": "",
+      "narrationStatus": "pending",
+      "intent": "Pull back from the warehouse into a framed monochrome photograph, progressively crack its glass, tilt and recede between opposing storm clouds.",
+      "assets": [
+        "depot-man-left",
+        "depot-man-right",
+        "depot-crate",
+        "depot-room"
+      ],
+      "actions": [
+        "frame pullback",
+        "progressive glass cracks",
+        "independent tilt and rotation",
+        "blue and red clouds",
+        "glowing lightning divider",
+        "brief secondary lightning"
+      ],
+      "status": "reference-inspired visual sequence; narration pending"
     }
   ],
   "assets": [
@@ -427,17 +451,17 @@
     },
     {
       "assetId": "depot-man-left",
-      "generationPrompt": "A complete lifelike photographic cutout asset of ONE fictional man, standing front-facing with natural human proportions. Portrait aspect 2:3. Show the entire person from above the complete hair to below both knees, BOTH shoulders, BOTH complete arms and hands fully visible, with 10 percent transparent margin on every side. Absolutely nothing cropped off, no missing anatomy. He wears a plain dark brown vintage work jacket with two chest pockets over a dark shirt and plain brown trousers, arms relaxed beside his body. Serious neutral expression, warm cinematic amber key light from upper left, realistic detailed cloth and natural skin, dark softly shaded right side. Plain sleeves without badges. True transparent alpha background, no room, no furniture, no box, no shadow outside the subject, no lettering, no symbols, no watermark. This is a separate animation character asset, not a framed portrait. The man is about 48 years old, light complexion, short naturally curly dark brown hair with gray temples, slightly broad face, clean-shaven, no glasses. Head connects naturally to neck and shoulders.",
+      "generationPrompt": "Historical documentary animation asset. Two fictional middle aged soldiers in plain gray-green 1940s military field tunics, shoulder boards, breast pockets, belts, matching trousers and boots. Left curly short gray-brown hair, right combed gray hair and round dark glasses. Both serious neutral expressions, standing facing camera with arms relaxed. Full bodies and complete heads, shoulders, arms and hands fully visible, no cropped anatomy. Warm amber cinematic key light upper left. No flags, no political symbols, no armbands, no lettering or badges. Two clearly separated nonoverlapping figures, one per half of a landscape 3:2 transparent sprite sheet with generous transparent gutters and margins. Realistic detailed photographic fabric and skin, true transparent background, no room, cargo or floor.",
       "promptStatus": "exact",
-      "method": "new complete generated RGBA figure with separate editable insignia",
-      "rationale": "Replace rough reference masks and head splices with intact anatomy for the shoulder-first pullback."
+      "method": "Generated uniformed pair, isolated by native SVG viewport; no added armband overlays",
+      "rationale": "Military uniforms replace civilian work jackets; integrated historical insignia generation was rejected and remains incomplete."
     },
     {
       "assetId": "depot-man-right",
-      "generationPrompt": "A complete lifelike photographic cutout asset of ONE fictional man, standing front-facing with natural human proportions. Portrait aspect 2:3. Show the entire person from above the complete hair to below both knees, BOTH shoulders, BOTH complete arms and hands fully visible, with 10 percent transparent margin on every side. Absolutely nothing cropped off, no missing anatomy. He wears a plain dark brown vintage work jacket with two chest pockets over a dark shirt and plain brown trousers, arms relaxed beside his body. Serious neutral expression, warm cinematic amber key light from upper left, realistic detailed cloth and natural skin, dark softly shaded right side. Plain sleeves without badges. True transparent alpha background, no room, no furniture, no box, no shadow outside the subject, no lettering, no symbols, no watermark. This is a separate animation character asset, not a framed portrait. The man is about 55 years old, light complexion, neatly combed-back gray-brown hair, angular face, clean-shaven, wearing small dark round sunglasses with thin black frames. Head connects naturally to neck and shoulders.",
+      "generationPrompt": "Historical documentary animation asset. Two fictional middle aged soldiers in plain gray-green 1940s military field tunics, shoulder boards, breast pockets, belts, matching trousers and boots. Left curly short gray-brown hair, right combed gray hair and round dark glasses. Both serious neutral expressions, standing facing camera with arms relaxed. Full bodies and complete heads, shoulders, arms and hands fully visible, no cropped anatomy. Warm amber cinematic key light upper left. No flags, no political symbols, no armbands, no lettering or badges. Two clearly separated nonoverlapping figures, one per half of a landscape 3:2 transparent sprite sheet with generous transparent gutters and margins. Realistic detailed photographic fabric and skin, true transparent background, no room, cargo or floor.",
       "promptStatus": "exact",
-      "method": "new complete generated RGBA figure with separate editable insignia",
-      "rationale": "Replace rough reference masks and head splices with intact anatomy for the shoulder-first pullback."
+      "method": "Generated uniformed pair, isolated by native SVG viewport; no added armband overlays",
+      "rationale": "Military uniforms replace civilian work jackets; integrated historical insignia generation was rejected and remains incomplete."
     }
   ],
   "futureInputs": {

@@ -2,11 +2,11 @@
 
 Editable documentary motion scenes and shared composition tools.
 
-Published version: 21
-Sites source commit: `1ad47e95d7f8923ba2cf74a5724923df21511982`
+Published version: 22
+Sites source commit: `ad8a68e3a929d1a4c3f2181cf8dcdb01af94c50a`
 
-This revision replaces rough depot reference masks with complete generated figures and adds twelve independently editable cargo cases, a floor-anchored approach and shoulder-first parallax pullback.
+This revision adds continuous mountain descent, grounded forward cargo parallax, plain military uniforms, and a framed photograph pullback with progressive glass cracks, reversible tilt, colored storm clouds and lightning. Integrated historical armband generation was rejected by the image service and remains incomplete; floating armband overlays are removed.
 
-Open `dist/index.html` with a local web server. Run `node scripts/check-depot-motion.mjs` and the other `scripts/check-*.mjs` checks from the project root.
+Serve `dist/` with a local web server. Run the checks in `scripts/check-*.mjs` from the repository root.
 
 Live site: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site

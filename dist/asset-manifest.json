@@ -563,27 +563,27 @@
     },
     {
       "id": "depot-man-left",
-      "label": "Depot figure \u00b7 left \u00b7 complete generated asset",
-      "src": "assets/depot-person-left-v9.png",
+      "label": "Depot soldier \u00b7 left \u00b7 plain military uniform",
+      "src": "assets/depot-soldier-left-v10.svg",
       "kind": "image",
       "alpha": true,
       "slots": [
         "depotManLeft"
       ],
-      "method": "newly generated complete alpha figure; complete head, torso, both arms and hands; no reference-frame masks or head splice",
+      "method": "Generated transparent uniformed pair, isolated by native SVG viewport. Integrated political insignia request rejected; no floating armband overlay.",
       "active": true,
       "editable": true
     },
     {
       "id": "depot-man-right",
-      "label": "Depot figure \u00b7 right \u00b7 complete generated asset",
-      "src": "assets/depot-person-right-v9.png",
+      "label": "Depot soldier \u00b7 right \u00b7 plain military uniform",
+      "src": "assets/depot-soldier-right-v10.svg",
       "kind": "image",
       "alpha": true,
       "slots": [
         "depotManRight"
       ],
-      "method": "newly generated complete alpha figure; complete head, torso, both arms and hands; no reference-frame masks or head splice",
+      "method": "Generated transparent uniformed pair, isolated by native SVG viewport. Integrated political insignia request rejected; no floating armband overlay.",
       "active": true,
       "editable": true
     },
@@ -640,6 +640,18 @@
       "slots": [],
       "method": "user-reference photograph with native SVG subject mask; independent runtime armband",
       "active": false,
+      "editable": true
+    },
+    {
+      "id": "depot-mountain-face",
+      "label": "Mountain descent \u00b7 continuous rock face",
+      "src": "assets/depot-mountain-face-v10.png",
+      "kind": "image",
+      "alpha": false,
+      "slots": [
+        "depotMountain"
+      ],
+      "active": true,
       "editable": true
     }
   ]

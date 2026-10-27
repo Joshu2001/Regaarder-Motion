@@ -23,3 +23,10 @@ The blank core exposes the whole Depot action plus isolated figures and cargo. T
 `check-depot-motion.mjs` checks descent endpoints and continuity, monotonic pullback, independent foreground timing, two marked figures, unchanged earlier phase starts differential cargo approach, floor anchoring and active RGBA figure sources. Existing Noir, battle, authoring and composition checks remain required. Browser QA must inspect the descent, shoulder view and final frame as well as selection.
 
 Narration and sound remain pending. Obtain Joshua's transcript before asserting what this scene communicates or adding sound cues. Prompt records and concise creative intent are authoring data, not private reasoning or model training. Future work includes narration-aligned audio and video export.
+
+
+## Version 22 · descent and framed storm
+
+The 58-second shot descends along an extended rock face for 8 seconds before the depot emerges. Cargo contact positions are fixed independently of scale, with contact shadows. Cargo approach no longer reverses when the figure camera pulls back. Twelve cases, a corner flag and larger foreground covers form the depth layers. Newly generated plain field-gray military uniforms replace civilian jackets. The image service rejected generation of integrated Nazi armbands; floating overlays are removed and this requested detail remains incomplete.
+
+At 32 seconds the depot becomes a monochrome photograph in a gold beaded frame. The frame recedes over 23 seconds; cracks begin at 40 seconds and spread over 8 seconds. Rotation and perspective tilt begin at 43 seconds, reaching their editable targets over 12 seconds. Blue/cyan and red cloud fields surround a white glowing divider and brief secondary flashes. Fine-tune exposes timing, frame size, signed rotation/tilt, cloud density/speed/position/colors and lightning frequency/brightness/width/position. Objects remain selectable and have individual motion keys. Figure insignia are source-image details, not editable floating patches. Exact successful generation prompts are in `assets/depot-generation-briefs-v10.json`.
