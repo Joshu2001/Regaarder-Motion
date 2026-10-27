@@ -10,3 +10,4 @@ const s={scale:.5,angle:0,tilt:1},L=framePoint(-500,0,s,f),R=framePoint(500,0,s,
 console.log('Depot camera passed: shared continuous retreat, cropped close cargo, initial vertical descent, opaque shoulder reveal, physical foreground entry and perspective frame projection.');
 
 const still=projectDepotObject({...near,depthStrength:0},depotCamera(8,f));assert.equal(still.scale,1);assert.equal(still.x,near.x);
+const leftFigure=people.find(o=>o.id==='man-left'),rightFigure=people.find(o=>o.id==='man-right'),cam=depotCamera(12,f),leftInner=projectDepotObject({...leftFigure,x:leftFigure.x+leftFigure.width*.28},cam),rightInner=projectDepotObject({...rightFigure,x:rightFigure.x-rightFigure.width*.26},cam);assert(rightInner.x-leftInner.x>150,'Shoulder reveal must preserve the warehouse aisle');
