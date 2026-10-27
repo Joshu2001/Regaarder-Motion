@@ -1,7 +1,7 @@
 /* City continuation: generated aerial plate, editable media, ground seam and traced territories. */
 let cityLogoImage=null,cityCatImage=null;
 let cityEngine=null,cityPickMode=null,cityTrace=[],cityTraceColor='#8657d9',cityMedia=null,cityImage=new Image();cityImage.src='assets/city-aerial-v1.png';cityMedia=cityImage;cityImage.onload=()=>{base._renderKey='';refreshPosters()};
-import('./city-engine.js?v=depot-v17').then(({createCityEngine})=>{cityEngine=createCityEngine();base._renderKey='';restoreCityMedia();restoreCityMarks()}).catch(e=>console.error('City engine',e));
+import('./city-engine.js?v=depot-v18').then(({createCityEngine})=>{cityEngine=createCityEngine();base._renderKey='';restoreCityMedia();restoreCityMarks()}).catch(e=>console.error('City engine',e));
 const cityBuffers={};for(const k of ['frame','chess','blur']){const c=document.createElement('canvas');c.width=960;c.height=540;cityBuffers[k]=c}
 function cityReady(){return cityMedia instanceof HTMLVideoElement?cityMedia.readyState>=2:cityMedia?.complete&&cityMedia.naturalWidth>0}
 function cityEase(v){return motionEase(v,'smooth')}

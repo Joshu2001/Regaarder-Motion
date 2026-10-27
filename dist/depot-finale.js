@@ -1,8 +1,8 @@
-import {paintDepotTitle} from './depot-title.js?v=depot-v17';
-import {paintDepotGlass} from './depot-glass.js?v=depot-v17';
-import {framePoint,drawPerspectiveFrame} from './depot-camera.js?v=depot-v17';
-import {depotEase} from './depot-motion.js?v=depot-v17';
-import {recordSceneAsset} from './scene-geometry.js?v=depot-v17';
+import {paintDepotTitle} from './depot-title.js?v=depot-v18';
+import {paintDepotGlass} from './depot-glass.js?v=depot-v18';
+import {framePoint,drawPerspectiveFrame} from './depot-camera.js?v=depot-v18';
+import {depotEase} from './depot-motion.js?v=depot-v18';
+import {recordSceneAsset} from './scene-geometry.js?v=depot-v18';
 export function finaleState(t,f){const q=depotEase((t-f.depotFrameStart)/Math.max(.1,f.depotFrameTime)),crack=depotEase((t-f.depotCrackStart)/Math.max(.1,f.depotCrackTime)),tilt=depotEase((t-f.depotTiltStart)/Math.max(.1,f.depotTiltTime));return {q,crack,tilt,scale:1.13+(f.depotFrameEndScale-1.13)*q,angle:(f.depotFrameRotation*tilt+Math.sin(t*.65)*(f.depotFrameSway??0)*tilt)*Math.PI/180,skew:-Math.sin(f.depotFrameTilt*tilt*Math.PI/180)*.25,mono:q,dark:depotEase((t-f.depotCrackStart-f.depotCrackTime*.45)/Math.max(1,f.depotFrameStart+f.depotFrameTime-f.depotCrackStart-f.depotCrackTime*.45)),brightness:1-(f.depotFrameDarkness??.72)*depotEase((t-f.depotCrackStart-f.depotCrackTime*.45)/Math.max(1,f.depotFrameStart+f.depotFrameTime-f.depotCrackStart-f.depotCrackTime*.45))}}
 // Continuous fractal density, available immediately even before image decoding.
 export function cloudDensity(x,y,seed=1){const hash=(a,b)=>{const v=Math.sin(a*127.1+b*311.7+seed*43.7)*43758.5453;return v-Math.floor(v)},noise=(x,y)=>{const a=Math.floor(x),b=Math.floor(y);let u=x-a,v=y-b;u=u*u*(3-2*u);v=v*v*(3-2*v);return (hash(a,b)*(1-u)+hash(a+1,b)*u)*(1-v)+(hash(a,b+1)*(1-u)+hash(a+1,b+1)*u)*v};let n=0,amp=.54;for(let k=0;k<6;k++){n+=noise(x,y)*amp;x=x*2.03+7;y=y*2.01+3;amp*=.48}return n}
