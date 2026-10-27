@@ -54,3 +54,7 @@ See `CONFLICT-CONTINUATION.md` for the new horizontal glide, independently edita
 ## Contextual authoring follow-up
 Delivered: head-only text occlusion, animated ground fire patches, renderer-derived selection bounds, contextual controls, alpha-aware blank-layer picking, motion keys for flames/soldiers, applyable manual masks, and local SVG palette tracing.
 Next: user-defined head/occlusion masks for arbitrary replacements, semantic automatic background segmentation, contour/Bezier vector tracing, direct drag/resize handles, and broader per-object selection for legacy 3D/template scenes. Obtain the author's narration transcript before aligning editing metaphors with narration and sound. Generation briefs and concise intent belong in context records; private reasoning does not.
+
+## Supply-depot continuation
+
+Added a smoke-covered downward camera passage after Conflict, a warm supply room, shoulder-first figure reveal, a layered pullback, and independently editable historical insignia/cargo. See DEPOT-CONTINUATION.md for timings, source provenance, rejected-generation status and editing limits. Shared registry actions include the full shot and transparent figures/cargo. Next priorities for this shot are editable subject masks, cleaner replacement full-body cutouts, transcript alignment and sound.

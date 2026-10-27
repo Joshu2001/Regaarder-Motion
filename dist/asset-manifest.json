@@ -534,6 +534,91 @@
       "generationPrompt": "Edit only the fire in this exact target image. Preserve every soldier and rifle pose, all rocks, sky, mountains, composition, framing and lighting. Replace the small illustrated orange flame stickers with photorealistic irregular turbulent ground flames behind and around the soldiers, on the same ground positions. Natural translucent hot yellow cores, amber orange edges, fine curling tongues, subtle heat distortion and faint gray wisps. Keep flames modest, below shoulder level, no explosion, no giant blast, no added soldiers, no text, no UI. This is a reference keyframe for a motion editor; preserve all scene geometry.",
       "creativeIntent": "Natural ground combustion around soldiers before a single explosion; preserve editable separate scene layers.",
       "promptStatus": "executed-image-edit"
+    },
+    {
+      "id": "depot-room",
+      "label": "Supply depot \u00b7 warm industrial background",
+      "src": "assets/depot-room.png",
+      "kind": "image",
+      "alpha": false,
+      "slots": [
+        "depotRoom"
+      ],
+      "method": "generated photographic background plate",
+      "active": true,
+      "editable": true
+    },
+    {
+      "id": "depot-crate",
+      "label": "Canvas-covered military equipment case",
+      "src": "assets/depot-crate.png",
+      "kind": "image",
+      "alpha": true,
+      "slots": [
+        "depotCrate"
+      ],
+      "method": "generated alpha cargo cutout; independent vector markings",
+      "active": true,
+      "editable": true
+    },
+    {
+      "id": "depot-man-left",
+      "label": "Depot figure \u00b7 left",
+      "src": "assets/depot-man-left.svg",
+      "kind": "image",
+      "alpha": true,
+      "slots": [
+        "depotManLeft"
+      ],
+      "method": "user-reference photograph with a native SVG subject mask; independent runtime armband",
+      "active": true,
+      "editable": true
+    },
+    {
+      "id": "depot-man-right",
+      "label": "Depot figure \u00b7 right, round glasses",
+      "src": "assets/depot-man-right.svg",
+      "kind": "image",
+      "alpha": true,
+      "slots": [
+        "depotManRight"
+      ],
+      "method": "user-reference photograph with native SVG subject mask; independent runtime armband",
+      "active": true,
+      "editable": true
+    },
+    {
+      "id": "depot-figures-reference",
+      "label": "Depot figures \u00b7 supplied source frame",
+      "src": "assets/depot-figures-reference.png",
+      "kind": "image",
+      "alpha": false,
+      "slots": [],
+      "method": "user-provided visual source, not archival attribution",
+      "active": false,
+      "editable": true
+    },
+    {
+      "id": "depot-head-reference",
+      "label": "Depot left figure \u00b7 full-head source frame",
+      "src": "assets/depot-head-reference.png",
+      "kind": "image",
+      "alpha": false,
+      "slots": [],
+      "method": "user-provided visual source for unclipped hair contour",
+      "active": false,
+      "editable": true
+    },
+    {
+      "id": "depot-generation-briefs",
+      "label": "Depot \u00b7 exact generation briefs and result status",
+      "src": "assets/depot-generation-briefs.json",
+      "kind": "documentation",
+      "alpha": false,
+      "slots": [],
+      "method": "exact submitted prompts; rejected figure generation explicitly recorded",
+      "active": false,
+      "editable": true
     }
   ]
 }

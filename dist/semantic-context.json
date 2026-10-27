@@ -101,6 +101,33 @@
       ],
       "soundCue": "No audio attached. Future narration and foley cues must be aligned to the saved shot-event times.",
       "status": "visual sequence supplied by user; narrative metaphor and sound awaiting transcript"
+    },
+    {
+      "id": "conflict-to-depot",
+      "scene": "depot",
+      "localStart": 0,
+      "localEnd": 34,
+      "narration": "",
+      "narrationStatus": "pending",
+      "intent": "Move from the battlefield into a concealed wartime supply setting, then reveal the two figures and marked cargo.",
+      "metaphor": "The descent moves beneath the visible conflict; the backward move reveals people and equipment within the same wartime supply system. This association is user-directed and remains provisional until the transcript is supplied.",
+      "assets": [
+        "depot-room",
+        "depot-crate",
+        "depot-man-left",
+        "depot-man-right"
+      ],
+      "editingActions": [
+        "dark smoke veil",
+        "continuous downward camera passage",
+        "depth-separated cargo reveal",
+        "shoulder close-up",
+        "monotonic pullback",
+        "independent figure cutouts and armbands",
+        "late foreground cargo"
+      ],
+      "soundCue": "Pending narration and sound direction; no sound is attached.",
+      "status": "User-directed visual reconstruction. No real-person identification or archival attribution is asserted."
     }
   ],
   "assets": [
@@ -383,6 +410,34 @@
       "promptStatus": "not a new generation; see soldiers-sheet exact prompt",
       "method": "Standalone self-contained SVG cutout, using the original PNG quadrant with no runtime sheet canvas.",
       "rationale": "Avoid shared master-sheet and cropped-canvas dependencies; retain original pixels and transparent edges."
+    },
+    {
+      "assetId": "depot-room",
+      "generationPrompt": "Create a new cinematic 16:9 background plate using the supplied reference ONLY for lighting, perspective and atmosphere. An empty 1930s\u20131940s industrial military warehouse / underground supply depot interior. Deep central aisle, receding ceiling beams and metal pipes, rows of hanging round warm tungsten lamps becoming small golden bokeh in the distance, dark shelves and shadowy machinery at far sides, amber haze illuminated from the upper left, realistic warm brown/olive tones, filmic high contrast, believable detailed photography. Camera at chest height looking horizontally down the aisle, central vanishing point around x52% y48%. Empty foreground, no people, no foreground crates or bags, no flags, no symbols, no writing, no watermark, no UI, no arrows. This clean plate will be layered behind independently animated cutouts.",
+      "promptStatus": "exact submitted prompt",
+      "method": "generated background plate",
+      "rationale": "Match the supplied warm historical collage while keeping parallax layers editable."
+    },
+    {
+      "assetId": "depot-crate",
+      "generationPrompt": "Create one realistic photographic alpha cutout of a large WWII-era wooden military equipment crate covered by an olive drab green canvas tarp. Use the supplied reference as style guidance for the foreground green cargo. Wide box with rounded canvas-draped top and angular shoulders, heavy textured woven olive fabric, one dark brown leather tie-down strap vertically down the front, a little dark wooden crate base with horizontal slats visible along the bottom. Seen from straight ahead slightly above, full object isolated with margin on all sides, natural 4:3 aspect. Warm soft amber lighting from upper left, realistic folds, subtle worn fabric, dark shadows, consistent cinematic documentary collage. Front canvas has clear empty area on the LEFT of the strap for a separately editable marking. No symbols, no text, no person, no military weapon, no background, no watermark, no shadow outside object. True transparent alpha. One single crate, not multiple objects.",
+      "promptStatus": "exact submitted prompt",
+      "method": "generated alpha cutout",
+      "rationale": "Match the supplied warm historical collage while keeping parallax layers editable."
+    },
+    {
+      "assetId": "depot-man-left",
+      "generationPrompt": "Not generated. Native SVG masks use the supplied documentary reference frames.",
+      "promptStatus": "user-supplied source",
+      "method": "self-contained SVG reference cutout with separately editable insignia overlay",
+      "rationale": "Preserve the supplied figures after the new figure-generation request was rejected; avoid inventing real identities."
+    },
+    {
+      "assetId": "depot-man-right",
+      "generationPrompt": "Not generated. Native SVG masks use the supplied documentary reference frames.",
+      "promptStatus": "user-supplied source",
+      "method": "self-contained SVG reference cutout with separately editable insignia overlay",
+      "rationale": "Preserve the supplied figures after the new figure-generation request was rejected; avoid inventing real identities."
     }
   ],
   "futureInputs": {
