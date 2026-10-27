@@ -563,27 +563,27 @@
     },
     {
       "id": "depot-man-left",
-      "label": "Depot figure \u00b7 left",
-      "src": "assets/depot-man-left.svg",
+      "label": "Depot figure \u00b7 left \u00b7 complete generated asset",
+      "src": "assets/depot-person-left-v9.png",
       "kind": "image",
       "alpha": true,
       "slots": [
         "depotManLeft"
       ],
-      "method": "user-reference photograph with a native SVG subject mask; independent runtime armband",
+      "method": "newly generated complete alpha figure; complete head, torso, both arms and hands; no reference-frame masks or head splice",
       "active": true,
       "editable": true
     },
     {
       "id": "depot-man-right",
-      "label": "Depot figure \u00b7 right, round glasses",
-      "src": "assets/depot-man-right.svg",
+      "label": "Depot figure \u00b7 right \u00b7 complete generated asset",
+      "src": "assets/depot-person-right-v9.png",
       "kind": "image",
       "alpha": true,
       "slots": [
         "depotManRight"
       ],
-      "method": "user-reference photograph with native SVG subject mask; independent runtime armband",
+      "method": "newly generated complete alpha figure; complete head, torso, both arms and hands; no reference-frame masks or head splice",
       "active": true,
       "editable": true
     },
@@ -617,6 +617,28 @@
       "alpha": false,
       "slots": [],
       "method": "exact submitted prompts; rejected figure generation explicitly recorded",
+      "active": false,
+      "editable": true
+    },
+    {
+      "id": "depot-man-left-legacy-v8",
+      "label": "Depot figure \u00b7 left \u00b7 archived rough mask",
+      "src": "assets/depot-man-left.svg",
+      "kind": "image",
+      "alpha": true,
+      "slots": [],
+      "method": "user-reference photograph with a native SVG subject mask; independent runtime armband",
+      "active": false,
+      "editable": true
+    },
+    {
+      "id": "depot-man-right-legacy-v8",
+      "label": "Depot figure \u00b7 right, round glasses \u00b7 archived rough mask",
+      "src": "assets/depot-man-right.svg",
+      "kind": "image",
+      "alpha": true,
+      "slots": [],
+      "method": "user-reference photograph with native SVG subject mask; independent runtime armband",
       "active": false,
       "editable": true
     }

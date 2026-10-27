@@ -58,3 +58,8 @@ Next: user-defined head/occlusion masks for arbitrary replacements, semantic aut
 ## Supply-depot continuation
 
 Added a smoke-covered downward camera passage after Conflict, a warm supply room, shoulder-first figure reveal, a layered pullback, and independently editable historical insignia/cargo. See DEPOT-CONTINUATION.md for timings, source provenance, rejected-generation status and editing limits. Shared registry actions include the full shot and transparent figures/cargo. Next priorities for this shot are editable subject masks, cleaner replacement full-body cutouts, transcript alignment and sound.
+
+
+## Depot refinement · version 21
+
+Active figures now use complete generated RGBA assets rather than the archived reference masks. Twelve separately editable cargo cases use far, middle, near and foreground planes. A floor-anchored approach precedes a shoulder-first pullback; starting camera focus and per-object parallax strength are editable. Successful exact figure prompts are retained in the asset prompt record.

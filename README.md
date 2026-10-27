@@ -1,18 +1,12 @@
-# Regaarder Motion
+# Regaarder Motion Atelier
 
-Source and assets for published Motion Atelier version 20.
+Editable documentary motion scenes and shared composition tools.
 
-Published site: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site
+Published version: 21
+Sites source commit: `1ad47e95d7f8923ba2cf74a5724923df21511982`
 
-Sites source commit: `8e0cc71236724e9603dc15034ab6aad87d0ca486`.
+This revision replaces rough depot reference masks with complete generated figures and adds twelve independently editable cargo cases, a floor-anchored approach and shoulder-first parallax pullback.
 
-## Run locally
+Open `dist/index.html` with a local web server. Run `node scripts/check-depot-motion.mjs` and the other `scripts/check-*.mjs` checks from the project root.
 
-This is a buildless static application. Run `python3 -m http.server 8000` from the repository and open http://localhost:8000/dist/ in a modern browser. Serve over HTTP rather than opening index.html with file:// so modules and assets load correctly.
-
-- `dist/`: application source, vendor modules and included image/video assets.
-- `docs/`: authoring guidance, generation prompts, source provenance and roadmap. `DEPOT-CONTINUATION.md` describes the latest smoke/descent/pullback sequence and cutout limitations.
-- `scripts/`: Node.js regression checks, including `node scripts/check-depot-motion.mjs` and `node scripts/check-noir-anchor.mjs`.
-- `.openai/hosting.json`: existing Sites publication identity and static hosting configuration.
-
-Edits, uploaded media and composition recipes are stored in the current browser's localStorage/IndexedDB. Export recipes and uploaded media separately when moving user-authored projects between computers. Included project assets are in this repository; source credits and provenance records are retained where applicable. The depot is a staged historical collage, not archival evidence or a reconstructed 3D room.
+Live site: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site
