@@ -1,9 +1,9 @@
 # Regaarder Motion Atelier
 
-Published version: 32
-Sites source commit: `7f1a6e56b1a43eca567fca4619deb457181fcdbb`
+Published version: 33
+Sites source commit: `7166ce26f732bca794f19556b191e07affd98e05`
 
-Documentary motion editor. Glass uses deterministic closed polygon shards with independent optical normals, moving reflections, brightness/tint and refraction, dark splits and selective bevel highlights. Material settings support surface keyframes. Includes granular scene controls, keyboard transport and measured responsive playback layout.
+Documentary motion editor with closed refractive glass shards and a complete finale: secondary shatter/reflection, progressive darkening, portal beam, edge-on frame absorption, clearing light, then title. Stage timings and material controls support keyframes. Includes transport speed, keyboard controls and responsive playback layout.
 
 Serve `dist/` with a local web server. Run `scripts/check-*.mjs` with Node from the repository root.
 

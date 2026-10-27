@@ -66,3 +66,6 @@ Version 30: high-energy impact preset with 1.6s fracture spread, luminous bevele
 
 
 Version 32: pane rebuilt as 20 deterministic closed shards (12 at minimum branch density), including all pane corners. Shared boundaries are tiled without overlap or holes at tested center/off-center impacts. Each shard has an independent optical normal, local brightness/tint, tiny rotation and image displacement, and a differently angled/offset moving reflection. Dark crevices and selective thin bevel highlights replace uniformly glowing spokes. Material settings (optical tilt, facet contrast, reflection separation, tint) are exposed in the glass director and support surface keyframes. Existing impact timing, global frame perspective and transport layout retained.
+
+
+Version 33: complete post-fracture finale: secondary reflection and wider shard gaps, late darkening, an irregular soft portal beam, accelerated retreat and edge-on rotation, frame absorption, beam clearing, then a title delay. Large tinted rivalry portraits emerge in the storm. A dedicated director group exposes stage timings, gap/tilt, beam dimensions/intensity, absorption and title pause; timeline jump points cover each beat. Tests check ordering, full disappearance before title, continuous retreat and renderer coordinates.
