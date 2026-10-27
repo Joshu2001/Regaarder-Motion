@@ -8,11 +8,11 @@ const p0=depotPlacement(people[1],depotState(10,f),f),p1=depotPlacement(people[1
 const phases=depotPhase({battle:100,images:126,end:136,noir:80},f);assert.equal(phases.depot,118);assert.equal(phases.images,176);assert.equal(phases.end,186);assert.equal(phases.battle,100);assert.equal(phases.noir,80);
 const crates=f.depotObjects.filter(o=>o.type==='crate');assert.equal(crates.length,12);
 for(const [depth,count] of [['back',4],['mid',4],['near',2],['front',2]])assert.equal(crates.filter(o=>o.depth===depth).length,count);
-const before=depotState(5.3,f),approach=depotState(9.3,f);assert(approach.cargoBackScale>before.cargoBackScale);assert(approach.midScale>approach.cargoBackScale);assert(approach.nearScale>approach.midScale);assert(people.every(o=>depotEnvelope(9.3,o)===0));
-for(const depth of ['back','mid','near']){const o=crates.find(o=>o.depth===depth),a=depotPlacement(o,before,f),b=depotPlacement(o,approach,f);assert(b.scale>a.scale);assert(b.y<a.y);assert.equal(b.y+o.height*.44*b.scale,o.y+o.height*.44)}
+const before=depotState(5.3,f),approach=depotState(9.3,f);assert(approach.cargoBackScale<before.cargoBackScale);assert(approach.midScale>approach.cargoBackScale);assert(approach.nearScale>approach.midScale);assert(people.every(o=>depotEnvelope(9.3,o)===0));
+for(const depth of ['back','mid','near']){const o=crates.find(o=>o.depth===depth),a=depotPlacement(o,before,f),b=depotPlacement(o,approach,f);assert(b.scale<a.scale);assert(b.y>a.y);assert.equal(b.y+o.height*.44*b.scale,o.y+o.height*.44)}
 // Full-body asset head is above frame at shoulder reveal, then enters during pullback.
 const right=people[1];const headY=t=>{const p=depotPlacement(right,depotState(t,f),f);return p.y+(.08-.5)*right.height*p.scale};assert(headY(13)<0);assert(headY(32)>0);
 for(const side of ['left','right']){const svg=fs.readFileSync(`dist/assets/depot-soldier-${side}-v10.svg`,'utf8');assert(svg.includes('data:image/png;base64,'));assert(fs.readFileSync('dist/depot-assets.js','utf8').includes('assets/depot-uniformed-pair-v10.png'))}
-console.log('Depot motion passed: continuous descent, staged differential floor cargo, shoulder-first head reveal, monotonic pullback, floor contact, forward cargo motion and complete uniformed figure sources.');
+console.log('Depot motion passed: continuous descent, staged differential floor cargo, shoulder-first head reveal, monotonic pullback, floor contact, near-to-far cargo recession and complete uniformed figure sources.');
 
-for(let t=8;t<30;t+=.2){const a=depotState(t,f),b=depotState(t+.2,f);assert(b.nearScale>=a.nearScale);assert(b.frontScale>=a.frontScale)}
+for(let t=8;t<30;t+=.2){const a=depotState(t,f),b=depotState(t+.2,f);assert(b.nearScale<=a.nearScale);assert(b.frontScale===a.frontScale)}
