@@ -1,12 +1,10 @@
 # Regaarder Motion Atelier
 
-Published version: 27
-Sites source commit: `e0e4c588b84c612501db281e801f690f5f13bc1e`
+Published version: 29
+Sites source commit: `58da9edbe7c9a9a91268a2a509ccfc4a5297452c`
 
-Editable documentary motion scenes. Cargo, foreground covers and opaque period-uniform figures project through one retreating camera with vertical descent and calibrated shoulder clearance. The framed photograph uses perspective projection, refractive glass sectors, beveled fracture edges, a sweeping reflection and coordinated late darkening of picture and storm clouds.
+Historical documentary animation with shared perspective camera, newly generated period-uniform figure cutouts, calibrated cargo/shoulder reveal, backlit atmosphere, layered storm clouds, irregular refractive glass, a receding picture frame and animated final title.
 
 Serve `dist/` with a local web server. Run `scripts/check-*.mjs` with Node from the repository root.
 
-Live site: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site
-
-The user approved retaining the current plain period-uniform figures without armbands. No floating armband overlays are used.
+Live: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site/
