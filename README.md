@@ -1,9 +1,9 @@
 # Regaarder Motion Atelier
 
-Published version: 30
-Sites source commit: `b2304149bec8157735035e62318293f989944b7c`
+Published version: 31
+Sites source commit: `b2d1a892346e5a435ef2eb7f5c3e0485fd9c3f88`
 
-Documentary motion editor with a luminous glass impact, storm animation, period figure cutouts, editable camera/cargo staging, grouped surface keyframes, selectable title entrances and transitions. Playback supports 0.25–2x speed, keyboard transport, volume/mute and fullscreen Fill/Fit.
+Documentary motion editor with granular surface controls, keyframes, playback speed, keyboard transport and fullscreen Fill/Fit. Player sizing reserves the actual stage tabs and transport height so controls remain inside short viewports. Inspector scrolling is independent.
 
 Serve `dist/` with a local web server. Run `scripts/check-*.mjs` with Node from the repository root.
 
