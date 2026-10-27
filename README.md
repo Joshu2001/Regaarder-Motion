@@ -1,12 +1,12 @@
 # Regaarder Motion Atelier
 
-Published version: 23
-Sites source commit: `7a72c4f4a5c404ed6d26977bb34c856d7a452729`
+Published version: 24
+Sites source commit: `802e461402000b2ae13fe6a16d1bda3db2b74052`
 
-Editable documentary motion scenes. This revision adds reliable textured storm clouds, stronger progressive glass fractures, and size-linked picture darkening, with contextual controls.
+Editable documentary motion scenes. This revision adds explicit depot asset readiness and bounded recovery, shared PNG soldier decoding, incomplete-photo prevention, side-poster repainting, photographic storm billows and subtler glass cracks with readable picture darkening.
 
 Serve `dist/` with a local web server. Run `scripts/check-*.mjs` with Node from the repository root.
 
 Live site: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site
 
-The uniformed figures use plain period uniforms. Integrated historical armbands remain incomplete after image generation rejected that detail; no floating armband overlays are used.
+The figures use plain period uniforms. Integrated historical armbands remain incomplete after image generation rejected that detail; no floating armband overlays are used.

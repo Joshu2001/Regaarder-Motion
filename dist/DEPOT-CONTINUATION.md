@@ -35,3 +35,10 @@ At 32 seconds the depot becomes a monochrome photograph in a gold beaded frame. 
 ## Version 23 · cloud and glass readability
 
 The storm now uses continuous fractal cloud density rendered immediately from a cached texture, rather than an image-dependent layer. No solid polygon fallback is used. Glass fractures have stronger dark edges and bright bevels so they remain legible as the frame recedes. Picture brightness decreases continuously with frame pullback, reaching 18% at the final size by default. Darkening amount and crack visibility are editable in Fine-tune and the contextual frame toolbar.
+
+
+## Version 24 · loading recovery and picture clarity
+
+Required depot image readiness is now explicit. Failed local overrides recover once to bundled assets; unrecoverable failures name the missing asset instead of silently omitting it. The frame is not rendered with an incomplete source photograph. The two soldiers now load the same ordinary PNG sheet and are separated by cached canvas viewports at render time, avoiding duplicate embedded SVG image decoding. A Reload bundled depot assets action restores sources without resetting object edits. Side-card posters repaint after the 3D engine resolves or fails.
+
+Photographic cloud billows replace the full-screen fractal wallpaper when available, with a dark textured fallback while loading. Picture darkening now retains 52% brightness at the final size; glass fractures use subtle bevels instead of thick white linework. Saved previous default contrast values migrate individually, preserving custom values.

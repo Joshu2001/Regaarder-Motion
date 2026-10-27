@@ -12,7 +12,7 @@ const before=depotState(5.3,f),approach=depotState(9.3,f);assert(approach.cargoB
 for(const depth of ['back','mid','near']){const o=crates.find(o=>o.depth===depth),a=depotPlacement(o,before,f),b=depotPlacement(o,approach,f);assert(b.scale>a.scale);assert(b.y<a.y);assert.equal(b.y+o.height*.44*b.scale,o.y+o.height*.44)}
 // Full-body asset head is above frame at shoulder reveal, then enters during pullback.
 const right=people[1];const headY=t=>{const p=depotPlacement(right,depotState(t,f),f);return p.y+(.08-.5)*right.height*p.scale};assert(headY(13)<0);assert(headY(32)>0);
-for(const side of ['left','right']){const svg=fs.readFileSync(`dist/assets/depot-soldier-${side}-v10.svg`,'utf8');assert(svg.includes('data:image/png;base64,'));assert(code.includes(`assets/depot-soldier-${side}-v10.svg`))}
+for(const side of ['left','right']){const svg=fs.readFileSync(`dist/assets/depot-soldier-${side}-v10.svg`,'utf8');assert(svg.includes('data:image/png;base64,'));assert(fs.readFileSync('dist/depot-assets.js','utf8').includes('assets/depot-uniformed-pair-v10.png'))}
 console.log('Depot motion passed: continuous descent, staged differential floor cargo, shoulder-first head reveal, monotonic pullback, floor contact, forward cargo motion and complete uniformed figure sources.');
 
 for(let t=8;t<30;t+=.2){const a=depotState(t,f),b=depotState(t+.2,f);assert(b.nearScale>=a.nearScale);assert(b.frontScale>=a.frontScale)}
