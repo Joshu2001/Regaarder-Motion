@@ -69,3 +69,18 @@ Version 32: pane rebuilt as 20 deterministic closed shards (12 at minimum branch
 
 
 Version 33: complete post-fracture finale: secondary reflection and wider shard gaps, late darkening, an irregular soft portal beam, accelerated retreat and edge-on rotation, frame absorption, beam clearing, then a title delay. Large tinted rivalry portraits emerge in the storm. A dedicated director group exposes stage timings, gap/tilt, beam dimensions/intensity, absorption and title pause; timeline jump points cover each beat. Tests check ordering, full disappearance before title, continuous retreat and renderer coordinates.
+
+
+## Version34 · rivalry exit and floating-shoe chapter
+
+Extends the existing depot timeline to84seconds. Default sequence: portal clears53.25, title53.6, Puma zoom58–59.4, black gap, chapter60.2, assembly2.7seconds, moving hold12seconds, environment dim3seconds, whole-scene fade2seconds. These are inferred timings from screenshots and the narrated walkthrough, not measured source-video timing.
+
+Six deterministic procedural3D trainer meshes show upper/sole/collar/laces through independent yaw,pitch,roll rotations. They are illustrative models, not photogrammetric replicas or verified branded product models. Individual colours,position,size,blur,brightness,opacity,drift,rotation speeds and transform keyframes are exposed under Shoes. Right-side models stay unlabelled pending product identification.
+
+Chapter controls expose text,entrance variants,stagger,defocus,bloom,recession,hold/dim/fade timing,background logo transforms/tints,neon flash and particles. Quick preview buttons and jump points avoid scrubbing the entire clip. Numeric surface settings support the existing keyframe system; object colour/style are static controls. Settings continue to export through the existing story/preset system.
+
+Glass presets: Hairline,Cracked,Shattered,Falling shards. Break amount,detached fraction,fall start,gravity,spin and fade are independent. Beam intensity is applied to all portal light passes;zero removes beam contribution.
+
+The Puma silhouette is sourced from the official about.puma.com header and shared by the chapter,zoom transition,city reveal,chess logo and heritage badge. The old improvised animal paths are removed. The historical badge remains an illustrative composition. Source credit:assets/brand-credits.txt.
+
+Validation:check-chapter-motion.mjs checks ordering,black gap,continuous rotations and reversal,finite geometry/rendering,environment-first dim and shard falling. All existing checks also run. Shoes render sharply into per-object buffers before one depth-blur composite to avoid per-face filtering overhead.

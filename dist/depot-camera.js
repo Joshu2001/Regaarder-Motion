@@ -1,5 +1,5 @@
 // World billboards projected through one retreating camera. Screen units at final framing.
-import {depotEase} from './depot-motion.js?v=depot-v19';
+import {depotEase} from './depot-motion.js?v=depot-v20';
 const lerp=(a,b,t)=>a+(b-a)*t;
 export function depotCamera(age,f){const start=f.depotCameraStart??8,end=f.depotCameraEnd??30,t=Math.max(0,Math.min(1,(age-start)/Math.max(.1,end-start)));const retreat=f.depotCameraEase==='linear'?t:f.depotCameraEase==='smooth'?depotEase(t):t*(2-t);const drop=depotEase((age-start)/4),settle=depotEase((age-start-5)/Math.max(1,end-start-5));return {x:lerp(f.depotCameraStartX??500,480,retreat),y:lerp(lerp(f.depotCameraStartY??260,f.depotCameraLowY??310,drop),270,settle),z:(f.depotCameraDistance??1200)*(1-retreat),horizon:270,retreat,age}}
 export function projectDepotObject(o,camera){const z=o.worldZ??({back:2900,mid:2300,near:1800,people:1000,front:650}[o.depth]??1000),distance=z-camera.z,strength=o.depthStrength??1;if(strength===0)return {visible:true,x:o.x,y:o.y,scale:1,rotation:o.rotation||0,z};if(distance<40)return {visible:false,x:0,y:0,scale:0,z};const scale=1+(z/distance-1)*strength,px=480+((o.x-480)*z-(camera.x-480)*1000)/distance,py=camera.horizon+((o.y-camera.horizon)*z-(camera.y-camera.horizon)*1000)/distance;return {visible:true,x:o.x+(px-o.x)*strength,y:o.y+(py-o.y)*strength,scale,rotation:o.rotation||0,z}}

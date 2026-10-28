@@ -1,10 +1,9 @@
 # Regaarder Motion Atelier
 
-Published version: 33
-Sites source commit: `7166ce26f732bca794f19556b191e07affd98e05`
+Live template: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site
 
-Documentary motion editor with closed refractive glass shards and a complete finale: secondary shatter/reflection, progressive darkening, portal beam, edge-on frame absorption, clearing light, then title. Stage timings and material controls support keyframes. Includes transport speed, keyboard controls and responsive playback layout.
+Version34 adds the floating-shoe chapter, Puma logo zoom exit and black interval, independently editable 3D trainer motion, chapter text/light/logo controls, glass break presets and falling shards. The official Puma silhouette is shared across affected scenes.
 
-Serve `dist/` with a local web server. Run `scripts/check-*.mjs` with Node from the repository root.
+Sites source commit: ed3b2d3232453e92538ad1eb0ec2bdff4200fef1
 
-Live: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site/
+Source is in dist/. Serve dist/ as static files. Run scripts/check-*.mjs with Node for validation. See docs/DEPOT-CONTINUATION.md for timing, controls and limitations. Shoes are procedural illustrative meshes; timings are inferred pending the source clip.
