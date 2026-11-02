@@ -1,0 +1,110 @@
+[
+  {
+    "id": "final-stadium-v94",
+    "src": "assets/final-stadium-v94.png",
+    "label": "V94 generated illustrative stadium",
+    "kind": "image",
+    "active": true,
+    "editable": true,
+    "slots": [
+      "finalStadium"
+    ],
+    "method": "Generated original raster illustration, not archival footage",
+    "reviewStatus": "draft",
+    "tags": [
+      "v94",
+      "football",
+      "stadium"
+    ],
+    "sha256": "e08874f2417aea5b6b10b6ef6545cbefdc925e88ae9c8126d225f87eabe5d6a6",
+    "provenance": {
+      "usageLabel": "generated-illustration",
+      "source": "OpenAI image generation in current conversation",
+      "owner": "Project-generated",
+      "date": "2026-11-02",
+      "permission": "Generated for this project",
+      "modifications": "Original bytes retained"
+    }
+  },
+  {
+    "id": "final-hall-v94",
+    "src": "assets/final-hall-v94.png",
+    "label": "V94 generated illustrative hall",
+    "kind": "image",
+    "active": true,
+    "editable": true,
+    "slots": [
+      "finalHall"
+    ],
+    "method": "Generated original raster illustration, not archival footage",
+    "reviewStatus": "draft",
+    "tags": [
+      "v94",
+      "football",
+      "hall"
+    ],
+    "sha256": "cd4e6e4a31b68b65fa3925650afa99ea368685b8b95652d91aa7d67e782b9db0",
+    "provenance": {
+      "usageLabel": "generated-illustration",
+      "source": "OpenAI image generation in current conversation",
+      "owner": "Project-generated",
+      "date": "2026-11-02",
+      "permission": "Generated for this project",
+      "modifications": "Original bytes retained"
+    }
+  },
+  {
+    "id": "final-team-v94",
+    "src": "assets/final-team-v94.png",
+    "label": "V94 generated illustrative team",
+    "kind": "image",
+    "active": true,
+    "editable": true,
+    "slots": [
+      "finalTeam"
+    ],
+    "method": "Generated original raster illustration, not archival footage",
+    "reviewStatus": "draft",
+    "tags": [
+      "v94",
+      "football",
+      "team"
+    ],
+    "sha256": "05fa299383590edd1ee5d3e2dfa763cc7a6f3dc66fdb8287d977ccc36c8f8830",
+    "provenance": {
+      "usageLabel": "generated-illustration",
+      "source": "OpenAI image generation in current conversation",
+      "owner": "Project-generated",
+      "date": "2026-11-02",
+      "permission": "Generated for this project",
+      "modifications": "Original bytes retained"
+    }
+  },
+  {
+    "id": "final-trophy-v94",
+    "src": "assets/final-trophy-v94.png",
+    "label": "V94 generated illustrative trophy",
+    "kind": "image",
+    "active": true,
+    "editable": true,
+    "slots": [
+      "finalTrophy"
+    ],
+    "method": "Generated original raster illustration, not archival footage",
+    "reviewStatus": "draft",
+    "tags": [
+      "v94",
+      "football",
+      "trophy"
+    ],
+    "sha256": "e75e38b32d9ee101dc6ae9a47a71cabcb76546526ee9a7edd03e482fe078c103",
+    "provenance": {
+      "usageLabel": "generated-illustration",
+      "source": "OpenAI image generation in current conversation",
+      "owner": "Project-generated",
+      "date": "2026-11-02",
+      "permission": "Generated for this project",
+      "modifications": "Original bytes retained"
+    }
+  }
+]

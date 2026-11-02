@@ -1,0 +1,1 @@
+Joshua authorized implementation before personal review. Pending: feedback on minute 15–16; existing hat/anatomy/shadows backlog retained. Observed source: 640x360 30fps, duration 1614.63288s. Shot interpretation uses 1fps samples. Structural implementation is a draft with labelled illustrative moving-footage fallbacks. No narration invented.

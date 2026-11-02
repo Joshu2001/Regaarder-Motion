@@ -1,0 +1,1 @@
+Joshua: preserve V93 humanoids, independent red players, stagger trophy/flag/title/flames and correct camera approach. Native scenes and timing controls added. Remaining differences recorded in CURRENT-V95.md. Source reference mapping +900 seconds.
