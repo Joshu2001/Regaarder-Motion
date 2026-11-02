@@ -1,0 +1,7 @@
+{
+  "bytes": 7926748,
+  "meshes": 13,
+  "skins": 4,
+  "animations": 1,
+  "status": "binary structure passed; native scoped lighting and material-color tracks are not generic GLTF equivalents"
+}

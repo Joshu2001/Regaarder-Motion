@@ -1,0 +1,387 @@
+{
+  "defaults": {
+    "wartimeEnabled": true,
+    "wartimeRate": 1,
+    "wartimeSceneDurations": {},
+    "wartimeLayerEdits": {},
+    "wartimeSourceBindings": {},
+    "wartimeFullSources": {},
+    "wartimeCameraX": 0,
+    "wartimeCameraY": 0,
+    "wartimeCameraZoom": 0,
+    "wartimeFire": 1,
+    "wartimeSmoke": 1,
+    "wartimeNoteCount": 28,
+    "wartimeCloudSpeed": 10,
+    "wartimeEyeX": 0.43,
+    "wartimeEyeY": 0.435,
+    "wartimeSeed": 75,
+    "wartimeTitle": "THE BETRAYAL",
+    "wartimeChapter": "CHAPTER 3",
+    "wartimeLetterbox": 0
+  },
+  "sources": {
+    "wartHall": "wartime-plates-v75.png",
+    "wartStadium": "wartime-bleachers-v75.png",
+    "wartSky": "wartime-plates-v75.png",
+    "wartHouse": "wartime-plates-v75.png",
+    "wartBrothers": "wartime-people-v75.png",
+    "wartSuccess": "wartime-people-v75.png",
+    "wartWorker": "wartime-people-v75.png",
+    "wartFamily": "wartime-people-v75.png",
+    "wartAircraft": "wartime-objects-v75.png",
+    "wartBuilding": "wartime-objects-v75.png",
+    "wartSeated": "wartime-objects-v75.png",
+    "wartPortrait": "wartime-objects-v75.png",
+    "wartExplosion": "explosion-smoke-v61.png",
+    "wartFlame": "fire.png"
+  },
+  "layers": [
+    {
+      "id": "wartHall",
+      "label": "Hall",
+      "slot": "wartHall",
+      "depth": 6
+    },
+    {
+      "id": "wartStadium",
+      "label": "Stadium",
+      "slot": "wartStadium",
+      "depth": 6
+    },
+    {
+      "id": "wartSky",
+      "label": "Sky",
+      "slot": "wartSky",
+      "depth": 6
+    },
+    {
+      "id": "wartHouse",
+      "label": "House",
+      "slot": "wartHouse",
+      "depth": 6
+    },
+    {
+      "id": "wartBrothers",
+      "label": "Brothers",
+      "slot": "wartBrothers",
+      "depth": 2
+    },
+    {
+      "id": "wartSuccess",
+      "label": "Success",
+      "slot": "wartSuccess",
+      "depth": 2
+    },
+    {
+      "id": "wartWorker",
+      "label": "Worker",
+      "slot": "wartWorker",
+      "depth": 2
+    },
+    {
+      "id": "wartFamily",
+      "label": "Family",
+      "slot": "wartFamily",
+      "depth": 2
+    },
+    {
+      "id": "wartAircraft",
+      "label": "Aircraft",
+      "slot": "wartAircraft",
+      "depth": 2
+    },
+    {
+      "id": "wartBuilding",
+      "label": "Building",
+      "slot": "wartBuilding",
+      "depth": 2
+    },
+    {
+      "id": "wartSeated",
+      "label": "Seated",
+      "slot": "wartSeated",
+      "depth": 2
+    },
+    {
+      "id": "wartPortrait",
+      "label": "Portrait",
+      "slot": "wartPortrait",
+      "depth": 2
+    },
+    {
+      "id": "wartExplosion",
+      "label": "Explosion",
+      "slot": "wartExplosion",
+      "depth": 2
+    },
+    {
+      "id": "wartFlame",
+      "label": "Flame",
+      "slot": "wartFlame",
+      "depth": 2
+    },
+    {
+      "id": "chapter",
+      "label": "chapter",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shards",
+      "label": "shards",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "silhouettes",
+      "label": "silhouettes",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "banknotes",
+      "label": "banknotes",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "explosion",
+      "label": "explosion",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "smoke",
+      "label": "smoke",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "propeller",
+      "label": "propeller",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "emblem",
+      "label": "emblem",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "eye-reflection",
+      "label": "eye-reflection",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "fire-back",
+      "label": "fire-back",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "fire-front",
+      "label": "fire-front",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "embers",
+      "label": "embers",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "light",
+      "label": "light",
+      "slot": null,
+      "depth": 2
+    }
+  ],
+  "stages": [
+    {
+      "id": "wartime-chapter-hold",
+      "from": 475,
+      "to": 480.5,
+      "duration": 5.5,
+      "label": "Chapter title retreats"
+    },
+    {
+      "id": "wartime-chapter-fade",
+      "from": 480.5,
+      "to": 482.3,
+      "duration": 1.8,
+      "label": "Title fades to black"
+    },
+    {
+      "id": "wartime-black-pause",
+      "from": 482.3,
+      "to": 483.5,
+      "duration": 1.2,
+      "label": "Black pause"
+    },
+    {
+      "id": "wartime-hall-entry",
+      "from": 483.5,
+      "to": 488.1,
+      "duration": 4.6,
+      "label": "Shadow hall and silhouettes"
+    },
+    {
+      "id": "wartime-brothers-entry",
+      "from": 488.1,
+      "to": 490.2,
+      "duration": 2.1,
+      "label": "Brothers enter foreground"
+    },
+    {
+      "id": "wartime-brothers-hold",
+      "from": 490.2,
+      "to": 494.5,
+      "duration": 4.3,
+      "label": "Brothers in hall"
+    },
+    {
+      "id": "wartime-stadium-reveal",
+      "from": 494.5,
+      "to": 496,
+      "duration": 1.5,
+      "label": "Foreground passage to stadium"
+    },
+    {
+      "id": "wartime-money",
+      "from": 496,
+      "to": 499.3,
+      "duration": 3.3,
+      "label": "Arms open and falling money"
+    },
+    {
+      "id": "wartime-seated-reveal",
+      "from": 499.3,
+      "to": 500.5,
+      "duration": 1.2,
+      "label": "Pass smiling man to seated brother"
+    },
+    {
+      "id": "wartime-seated-hold",
+      "from": 500.5,
+      "to": 503.4,
+      "duration": 2.9,
+      "label": "Seated brother holds"
+    },
+    {
+      "id": "wartime-blast-entry",
+      "from": 503.4,
+      "to": 504.4,
+      "duration": 1,
+      "label": "Explosion expands"
+    },
+    {
+      "id": "wartime-blast-smoke",
+      "from": 504.4,
+      "to": 506.4,
+      "duration": 2,
+      "label": "Smoke covers scene"
+    },
+    {
+      "id": "wartime-aircraft-entry",
+      "from": 506.4,
+      "to": 507.5,
+      "duration": 1.1,
+      "label": "Aircraft emerges from smoke"
+    },
+    {
+      "id": "wartime-aircraft-hold",
+      "from": 507.5,
+      "to": 509.4,
+      "duration": 1.9,
+      "label": "Aircraft over red storm"
+    },
+    {
+      "id": "wartime-aircraft-exit",
+      "from": 509.4,
+      "to": 510.4,
+      "duration": 1,
+      "label": "Aircraft leaves above frame"
+    },
+    {
+      "id": "wartime-building-entry",
+      "from": 510.4,
+      "to": 512.6,
+      "duration": 2.2,
+      "label": "Factory building rises"
+    },
+    {
+      "id": "wartime-emblem",
+      "from": 512.6,
+      "to": 514,
+      "duration": 1.4,
+      "label": "Historical emblem emerges"
+    },
+    {
+      "id": "wartime-building-hold",
+      "from": 514,
+      "to": 518.1,
+      "duration": 4.1,
+      "label": "Factory exterior and red sky"
+    },
+    {
+      "id": "wartime-interior-wipe",
+      "from": 518.1,
+      "to": 519.8,
+      "duration": 1.7,
+      "label": "Building lifts to reveal factory"
+    },
+    {
+      "id": "wartime-worker",
+      "from": 519.8,
+      "to": 523,
+      "duration": 3.2,
+      "label": "Factory worker foreground"
+    },
+    {
+      "id": "wartime-eye-reflection",
+      "from": 523,
+      "to": 524,
+      "duration": 1,
+      "label": "Worker contracts into eye reflection"
+    },
+    {
+      "id": "wartime-portrait-reveal",
+      "from": 524,
+      "to": 525.7,
+      "duration": 1.7,
+      "label": "Pull back from eye to portrait"
+    },
+    {
+      "id": "wartime-fire-build",
+      "from": 525.7,
+      "to": 529.5,
+      "duration": 3.8,
+      "label": "Flames and reflected warm light"
+    },
+    {
+      "id": "wartime-house-dissolve",
+      "from": 529.5,
+      "to": 530.5,
+      "duration": 1,
+      "label": "Portrait dissolves to house"
+    },
+    {
+      "id": "wartime-family-entry",
+      "from": 530.5,
+      "to": 531.6,
+      "duration": 1.1,
+      "label": "Foreground head reveals family"
+    },
+    {
+      "id": "wartime-family-pullback",
+      "from": 531.6,
+      "to": 535,
+      "duration": 3.4,
+      "label": "Family group pullback"
+    }
+  ]
+}

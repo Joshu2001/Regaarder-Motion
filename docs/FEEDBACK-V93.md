@@ -1,0 +1,2 @@
+# Feedback and authorization — V93
+Joshua asked for a specialized native tool set covering current characters and assets, with granular editability, reusable templates and no dependency on external authoring apps. He authorized implementation and asked to continue after interruption. Existing concerns include inverted/tense arms, head shape, hat alignment, body/leg/pelvis silhouette, seated contact and lighting/shadows. These remain the refinement criteria, not claims of exact completion. V93 supplies working tools and modest factory edits; visual acceptance remains pending.

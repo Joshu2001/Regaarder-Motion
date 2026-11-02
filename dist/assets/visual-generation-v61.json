@@ -1,0 +1,27 @@
+[
+  {
+    "file": "continuation-boy-color-v61.png",
+    "original": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-645f8fd2-1787-4349-bb59-5dc8c1a2e32b.png",
+    "sha256": "a778deccd667f4fc63f14edc9f6c350d5e8d3e23c7aab845270c22348eb60567",
+    "prompt": "Use case: precise-object-edit. Edit target: supplied grayscale boy cutout. Change ONLY colorization. Preserve exactly the same boy identity, face, eye direction, pose, expression, framing, body shape, clothing folds and cutout silhouette. Colorize photograph naturally: muted warm light skin, subtle reddish cheek tones, sandy light brown hair, gray-blue eyes, warm off-white shirt and dark brown-charcoal overalls. Restrained historical photographic palette, natural window light. Preserve original shading and dirt. Keep all empty space genuinely transparent. Do not add background or objects. Do not crop or reposition. No text.",
+    "references": [
+      "portrait-room-person-v53.png"
+    ],
+    "tool": "built-in image_gen",
+    "date": "2026-10-29",
+    "modifications": "Copied byte-for-byte; runtime transforms and color controls only.",
+    "referenceSHA256": {
+      "portrait-room-person-v53.png": "e4a23de5afe53b15d0f1b0e3814d4a05e003ae355eed1501b808bb9c6740d5d3"
+    }
+  },
+  {
+    "file": "ruined-cluster-v61.png",
+    "original": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-8e8f668b-690d-47c0-9ec1-fbc481f2dc28.png",
+    "sha256": "8e1698ac9ffef831b05d84d6fa11bf7ca3d6a97db5bf3caeb569e7a7075a540a",
+    "prompt": "Use case: historical-scene. Asset type: isolated ruined building cluster cutout for parallax compositing. Photorealistic black-and-white archival documentary appearance, bomb-damaged early twentieth century European masonry buildings. Asymmetric cluster: a low jagged collapsed shell left, a squat two-storey shattered building middle with exposed rooms and rubble, one taller narrow crumbling wall toward right. Broken roofs, irregular openings, exposed beams and bricks, deep visible side walls, debris at base. Three-quarter perspective seen from street level. No complete intact buildings, no repeated identical facades, no intact roofline. Finely detailed weathered plaster, real masonry, natural diffuse light, moderate contrast. Cluster spans wide landscape frame, entire silhouette visible, generous transparent margins above and sides. No sky, no ground plane except tightly localized rubble at base, no people, no fire, no text. Truly transparent background and transparent window openings.",
+    "references": [],
+    "tool": "built-in image_gen",
+    "date": "2026-10-29",
+    "modifications": "Copied byte-for-byte; runtime transforms and color controls only."
+  }
+]

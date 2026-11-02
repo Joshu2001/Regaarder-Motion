@@ -1,0 +1,1884 @@
+{
+  "schema": "motion-model-scene-v1",
+  "camera": {
+    "position": [
+      0,
+      1.7,
+      6
+    ],
+    "target": [
+      0,
+      2,
+      -30
+    ],
+    "fov": 58
+  },
+  "lights": {
+    "ambient": 0.4,
+    "direction": [
+      -0.3,
+      0.8,
+      0.5
+    ],
+    "intensity": 0.38
+  },
+  "nodes": [
+    {
+      "id": "ground",
+      "name": "ground",
+      "geometry": {
+        "kind": "heightfield",
+        "columns": 32,
+        "rows": 64,
+        "amplitude": 0.08,
+        "repeatX": 6,
+        "repeatY": 16
+      },
+      "position": [
+        0,
+        -0.16,
+        -35
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        38,
+        125,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "facade--1-0",
+      "name": "facade--1-0",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        -4.1,
+        5.5,
+        2
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        11,
+        11,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal--1-0",
+      "name": "wall-reveal--1-0",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        -4.3,
+        4.4,
+        -2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        8.8,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade--1-1",
+      "name": "facade--1-1",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        -4.3999999999999995,
+        6.1,
+        -9
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        11,
+        12.2,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal--1-1",
+      "name": "wall-reveal--1-1",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        -4.3,
+        4.88,
+        -13.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        9.76,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade--1-2",
+      "name": "facade--1-2",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        -4.1,
+        6.7,
+        -20
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        11,
+        13.4,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal--1-2",
+      "name": "wall-reveal--1-2",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        -4.3,
+        5.36,
+        -24.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        10.72,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade--1-3",
+      "name": "facade--1-3",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        -4.3999999999999995,
+        5.5,
+        -31
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        11,
+        11,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal--1-3",
+      "name": "wall-reveal--1-3",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        -4.3,
+        4.4,
+        -35.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        8.8,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade--1-4",
+      "name": "facade--1-4",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        -4.1,
+        6.1,
+        -42
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        11,
+        12.2,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal--1-4",
+      "name": "wall-reveal--1-4",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        -4.3,
+        4.88,
+        -46.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        9.76,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade-1-0",
+      "name": "facade-1-0",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        4.1,
+        5.5,
+        2
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        11,
+        11,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal-1-0",
+      "name": "wall-reveal-1-0",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        4.3,
+        4.4,
+        -2.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        8.8,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade-1-1",
+      "name": "facade-1-1",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        4.3999999999999995,
+        6.1,
+        -9
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        11,
+        12.2,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal-1-1",
+      "name": "wall-reveal-1-1",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        4.3,
+        4.88,
+        -13.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        9.76,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade-1-2",
+      "name": "facade-1-2",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        4.1,
+        6.7,
+        -20
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        11,
+        13.4,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal-1-2",
+      "name": "wall-reveal-1-2",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        4.3,
+        5.36,
+        -24.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        10.72,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade-1-3",
+      "name": "facade-1-3",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        4.3999999999999995,
+        5.5,
+        -31
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        11,
+        11,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal-1-3",
+      "name": "wall-reveal-1-3",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        4.3,
+        4.4,
+        -35.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        8.8,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "facade-1-4",
+      "name": "facade-1-4",
+      "geometry": {
+        "kind": "plane",
+        "columns": 4,
+        "rows": 4
+      },
+      "position": [
+        4.1,
+        6.1,
+        -42
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        11,
+        12.2,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "wall-reveal-1-4",
+      "name": "wall-reveal-1-4",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        4.3,
+        4.88,
+        -46.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        9.76,
+        1
+      ],
+      "material": {
+        "color": "#414244"
+      }
+    },
+    {
+      "id": "rubble-0",
+      "name": "rubble-0",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.6,
+        0.1,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.25,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-1",
+      "name": "rubble-1",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.7537795958248292,
+        0.22,
+        3.05
+      ],
+      "rotation": [
+        17,
+        31,
+        7
+      ],
+      "scale": [
+        0.65,
+        0.45,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-2",
+      "name": "rubble-2",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.501788347648809,
+        0.33999999999999997,
+        2.1
+      ],
+      "rotation": [
+        34,
+        62,
+        14
+      ],
+      "scale": [
+        0.9,
+        0.65,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-3",
+      "name": "rubble-3",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.485215186216813,
+        0.1,
+        1.1500000000000004
+      ],
+      "rotation": [
+        51,
+        93,
+        21
+      ],
+      "scale": [
+        1.15,
+        0.25,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-4",
+      "name": "rubble-4",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.8205339303841956,
+        0.22,
+        0.20000000000000018
+      ],
+      "rotation": [
+        68,
+        124,
+        28
+      ],
+      "scale": [
+        1.4,
+        0.45,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-5",
+      "name": "rubble-5",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.54543533402477,
+        0.33999999999999997,
+        -0.75
+      ],
+      "rotation": [
+        85,
+        155,
+        35
+      ],
+      "scale": [
+        0.4,
+        0.65,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-6",
+      "name": "rubble-6",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.371947740499139,
+        0.1,
+        -1.6999999999999993
+      ],
+      "rotation": [
+        102,
+        186,
+        42
+      ],
+      "scale": [
+        0.65,
+        0.25,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-7",
+      "name": "rubble-7",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.897592214422629,
+        0.22,
+        -2.6499999999999995
+      ],
+      "rotation": [
+        119,
+        217,
+        49
+      ],
+      "scale": [
+        0.9,
+        0.45,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-8",
+      "name": "rubble-8",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.57658438329063,
+        0.33999999999999997,
+        -3.5999999999999996
+      ],
+      "rotation": [
+        136,
+        248,
+        56
+      ],
+      "scale": [
+        1.15,
+        0.65,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-9",
+      "name": "rubble-9",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.261694972459022,
+        0.1,
+        -4.549999999999999
+      ],
+      "rotation": [
+        153,
+        279,
+        63
+      ],
+      "scale": [
+        1.4,
+        0.25,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-10",
+      "name": "rubble-10",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.9839357959466355,
+        0.22,
+        -5.5
+      ],
+      "rotation": [
+        170,
+        310,
+        70
+      ],
+      "scale": [
+        0.4,
+        0.45,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-11",
+      "name": "rubble-11",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.594823728671067,
+        0.33999999999999997,
+        -6.449999999999999
+      ],
+      "rotation": [
+        187,
+        341,
+        77
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-12",
+      "name": "rubble-12",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.1559143399590903,
+        0.1,
+        -7.399999999999999
+      ],
+      "rotation": [
+        204,
+        372,
+        84
+      ],
+      "scale": [
+        0.9,
+        0.25,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-13",
+      "name": "rubble-13",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.0784232783816297,
+        0.22,
+        -8.35
+      ],
+      "rotation": [
+        221,
+        403,
+        91
+      ],
+      "scale": [
+        1.15,
+        0.45,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-14",
+      "name": "rubble-14",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.599912259871926,
+        0.33999999999999997,
+        -9.299999999999999
+      ],
+      "rotation": [
+        238,
+        434,
+        98
+      ],
+      "scale": [
+        1.4,
+        0.65,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-15",
+      "name": "rubble-15",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.056004182626468,
+        0.1,
+        -10.25
+      ],
+      "rotation": [
+        255,
+        465,
+        105
+      ],
+      "scale": [
+        0.4,
+        0.25,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-16",
+      "name": "rubble-16",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.1798056089678233,
+        0.22,
+        -11.2
+      ],
+      "rotation": [
+        272,
+        496,
+        112
+      ],
+      "scale": [
+        0.65,
+        0.45,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-17",
+      "name": "rubble-17",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.591782710375187,
+        0.33999999999999997,
+        -12.149999999999999
+      ],
+      "rotation": [
+        289,
+        527,
+        119
+      ],
+      "scale": [
+        0.9,
+        0.65,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-18",
+      "name": "rubble-18",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.963285236864868,
+        0.1,
+        -13.099999999999998
+      ],
+      "rotation": [
+        306,
+        558,
+        126
+      ],
+      "scale": [
+        1.15,
+        0.25,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-19",
+      "name": "rubble-19",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.286742590289125,
+        0.22,
+        -14.05
+      ],
+      "rotation": [
+        323,
+        589,
+        133
+      ],
+      "scale": [
+        1.4,
+        0.45,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-20",
+      "name": "rubble-20",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.570542546651256,
+        0.33999999999999997,
+        -15
+      ],
+      "rotation": [
+        340,
+        620,
+        140
+      ],
+      "scale": [
+        0.4,
+        0.65,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-21",
+      "name": "rubble-21",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.878983176722363,
+        0.1,
+        -15.95
+      ],
+      "rotation": [
+        357,
+        651,
+        147
+      ],
+      "scale": [
+        0.65,
+        0.25,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-22",
+      "name": "rubble-22",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.397820596665174,
+        0.22,
+        -16.9
+      ],
+      "rotation": [
+        374,
+        682,
+        154
+      ],
+      "scale": [
+        0.9,
+        0.45,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-23",
+      "name": "rubble-23",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.536472547533837,
+        0.33999999999999997,
+        -17.849999999999998
+      ],
+      "rotation": [
+        391,
+        713,
+        161
+      ],
+      "scale": [
+        1.15,
+        0.65,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-24",
+      "name": "rubble-24",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.804212411411296,
+        0.1,
+        -18.799999999999997
+      ],
+      "rotation": [
+        408,
+        744,
+        168
+      ],
+      "scale": [
+        1.4,
+        0.25,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-25",
+      "name": "rubble-25",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.511571261209265,
+        0.22,
+        -19.75
+      ],
+      "rotation": [
+        425,
+        775,
+        175
+      ],
+      "scale": [
+        0.4,
+        0.45,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-26",
+      "name": "rubble-26",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.490023092536985,
+        0.33999999999999997,
+        -20.7
+      ],
+      "rotation": [
+        442,
+        806,
+        182
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-27",
+      "name": "rubble-27",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.7399613536648295,
+        0.1,
+        -21.65
+      ],
+      "rotation": [
+        459,
+        837,
+        189
+      ],
+      "scale": [
+        0.9,
+        0.25,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-28",
+      "name": "rubble-28",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.626490886523446,
+        0.22,
+        -22.599999999999998
+      ],
+      "rotation": [
+        476,
+        868,
+        196
+      ],
+      "scale": [
+        1.15,
+        0.45,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-29",
+      "name": "rubble-29",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.431808208179977,
+        0.33999999999999997,
+        -23.549999999999997
+      ],
+      "rotation": [
+        493,
+        899,
+        203
+      ],
+      "scale": [
+        1.4,
+        0.65,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-30",
+      "name": "rubble-30",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.687079353671257,
+        0.1,
+        -24.5
+      ],
+      "rotation": [
+        510,
+        930,
+        210
+      ],
+      "scale": [
+        0.4,
+        0.25,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-31",
+      "name": "rubble-31",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.7410603224361463,
+        0.22,
+        -25.45
+      ],
+      "rotation": [
+        527,
+        961,
+        217
+      ],
+      "scale": [
+        0.65,
+        0.45,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-32",
+      "name": "rubble-32",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.362597451023033,
+        0.33999999999999997,
+        -26.4
+      ],
+      "rotation": [
+        544,
+        992,
+        224
+      ],
+      "scale": [
+        0.9,
+        0.65,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-33",
+      "name": "rubble-33",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.6462654713095475,
+        0.1,
+        -27.349999999999998
+      ],
+      "rotation": [
+        561,
+        1023,
+        231
+      ],
+      "scale": [
+        1.15,
+        0.25,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-34",
+      "name": "rubble-34",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.853765048013733,
+        0.22,
+        -28.299999999999997
+      ],
+      "rotation": [
+        578,
+        1054,
+        238
+      ],
+      "scale": [
+        1.4,
+        0.45,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-35",
+      "name": "rubble-35",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.283305734714038,
+        0.33999999999999997,
+        -29.25
+      ],
+      "rotation": [
+        595,
+        1085,
+        245
+      ],
+      "scale": [
+        0.4,
+        0.65,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-36",
+      "name": "rubble-36",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.618059235108642,
+        0.1,
+        -30.199999999999996
+      ],
+      "rotation": [
+        612,
+        1116,
+        252
+      ],
+      "scale": [
+        0.65,
+        0.25,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-37",
+      "name": "rubble-37",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.9631151923770593,
+        0.22,
+        -31.15
+      ],
+      "rotation": [
+        629,
+        1147,
+        259
+      ],
+      "scale": [
+        0.9,
+        0.45,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-38",
+      "name": "rubble-38",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.194981235524936,
+        0.33999999999999997,
+        -32.1
+      ],
+      "rotation": [
+        646,
+        1178,
+        266
+      ],
+      "scale": [
+        1.15,
+        0.65,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-39",
+      "name": "rubble-39",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.602833510090045,
+        0.1,
+        -33.05
+      ],
+      "rotation": [
+        663,
+        1209,
+        273
+      ],
+      "scale": [
+        1.4,
+        0.25,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-40",
+      "name": "rubble-40",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.067665229663012,
+        0.22,
+        -34
+      ],
+      "rotation": [
+        680,
+        1240,
+        280
+      ],
+      "scale": [
+        0.4,
+        0.45,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-41",
+      "name": "rubble-41",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.098791536257446,
+        0.33999999999999997,
+        -34.949999999999996
+      ],
+      "rotation": [
+        697,
+        1271,
+        287
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-42",
+      "name": "rubble-42",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.600789568775408,
+        0.1,
+        -35.9
+      ],
+      "rotation": [
+        714,
+        1302,
+        294
+      ],
+      "scale": [
+        0.9,
+        0.25,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-43",
+      "name": "rubble-43",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.166033087778627,
+        0.22,
+        -36.85
+      ],
+      "rotation": [
+        731,
+        1333,
+        301
+      ],
+      "scale": [
+        1.15,
+        0.45,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-44",
+      "name": "rubble-44",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.996008191685143,
+        0.33999999999999997,
+        -37.8
+      ],
+      "rotation": [
+        748,
+        1364,
+        308
+      ],
+      "scale": [
+        1.4,
+        0.65,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-45",
+      "name": "rubble-45",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.6119544305166498,
+        0.1,
+        -38.75
+      ],
+      "rotation": [
+        765,
+        1395,
+        315
+      ],
+      "scale": [
+        0.4,
+        0.25,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-46",
+      "name": "rubble-46",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.256918418344548,
+        0.22,
+        -39.699999999999996
+      ],
+      "rotation": [
+        782,
+        1426,
+        322
+      ],
+      "scale": [
+        0.65,
+        0.45,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-47",
+      "name": "rubble-47",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.8879899195650225,
+        0.33999999999999997,
+        -40.65
+      ],
+      "rotation": [
+        799,
+        1457,
+        329
+      ],
+      "scale": [
+        0.9,
+        0.65,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    }
+  ]
+}

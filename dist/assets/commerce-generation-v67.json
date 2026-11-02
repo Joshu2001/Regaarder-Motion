@@ -1,0 +1,44 @@
+{
+  "schema": "motion-asset-generation-v1",
+  "reference": "User-uploaded documentary WEBM; decoded source approximately 03:53.3–04:03.8",
+  "authorization": "Joshua approved missing bridge implementation after scene audit.",
+  "retention": "All generated originals retained byte-for-byte. No reference video frames used as production assets.",
+  "assets": [
+    {
+      "key": "street",
+      "prompt": "Use case: historical-scene. Create a clean photorealistic cinematic background plate for a layered documentary animation, landscape 1920x1080. Early 1920s German small-town street, stone and plaster facades tightly lining a narrow cobbled road, vanishing point left of center at x=650 y=480, right facade close and large. Match the uploaded street reference's muted warm olive-beige grading, soft overcast late-afternoon light and shallow photographic depth. Camera eye height 1.65m, 50mm lens. EMPTY scene: no people, vehicles, letters, logos or graphics. Keep architecture readable but softly focused, not miniature or illustration. Image is a clean background layer only, not a storyboard.",
+      "outputHint": "Generated images are saved to /workspace/scratch/64de17626efa/generated_images as /workspace/scratch/64de17626efa/generated_images/exec-4026df6c-76f6-4700-922c-85b9a5d1fe3e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "tool": "built-in image_gen",
+      "transparentRequested": false,
+      "created": "2026-10-30",
+      "status": "active; illustrative generated artwork"
+    },
+    {
+      "key": "subject",
+      "prompt": "Use case: historical-scene. Production photographic transparent PNG cutout, one young man from head to mid-thigh, no background, no floor or cast shadow. Same fictional young blond swept-side-hair man as LEFT young portrait reference: angular youthful face, serious expression, pale complexion, blue eyes. He now wears an early 1920s charcoal black wool suit, white collared shirt and narrow black tie. Body turned slightly toward image left, head looking toward a person offscreen left; both arms relaxed, shoulders and entire hair intact. Match the street reference pose and 50mm photographic perspective. Muted olive warm daylight from upper left, natural skin texture, neutral expression, no stylization. Center the isolated figure with transparent margin; no objects or text.",
+      "outputHint": "Generated images are saved to /workspace/scratch/64de17626efa/generated_images as /workspace/scratch/64de17626efa/generated_images/exec-cba9f68a-1f69-4139-b973-ec13ad707e6f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "tool": "built-in image_gen",
+      "transparentRequested": true,
+      "created": "2026-10-30",
+      "status": "active; illustrative generated artwork"
+    },
+    {
+      "key": "shoulder",
+      "prompt": "Use case: historical-scene. One isolated photographic foreground cutout on true transparent background: back view of the head, neck, white collar and shoulders/upper chest of a young adult man in an early 1920s black wool suit jacket. Camera extremely close from behind, head and neck seen from rear-left, no visible face. Complete rounded head at top, broad shoulders flare toward the bottom, garment continues to bottom edge. Shape occupies 85% width and 95% height, enough transparent space around sides to preserve silhouette. Neutral warm olive daylight, realistic fine dark wool and skin, sharp native asset so compositor can apply defocus. No scenery, no floor, no white backdrop, no text.",
+      "outputHint": "Generated images are saved to /workspace/scratch/64de17626efa/generated_images as /workspace/scratch/64de17626efa/generated_images/exec-eed6bd31-7d8a-4147-bd26-612d26b0a15b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "tool": "built-in image_gen",
+      "transparentRequested": true,
+      "created": "2026-10-30",
+      "status": "active; illustrative generated artwork"
+    },
+    {
+      "key": "cash",
+      "prompt": "Use case: product-mockup. One isolated photorealistic bundle of old green-gray US-style dollar banknotes with a white paper band and thin muted ochre band edges, transparent background. Three-quarter angle shows the broad engraved green note top and thick stacked pale paper edges, short rectangular cash bundle, long dimension horizontal, view from 35 degrees above and slightly left. Used as independently rotating VFX money in documentary collage. Detailed aged paper, dark printed oval portrait and ornamental engraving but no clearly legible serial text required. Soft neutral light, fully visible all corners, no other object, no shadow extending beyond object, no table or backdrop. Single bundle, no asset sheet.",
+      "outputHint": "Generated images are saved to /workspace/scratch/64de17626efa/generated_images as /workspace/scratch/64de17626efa/generated_images/exec-642d380f-18b0-439c-907b-3df836add39c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "tool": "built-in image_gen",
+      "transparentRequested": true,
+      "created": "2026-10-30",
+      "status": "active; illustrative generated artwork"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "status": "passed",
+  "images": [
+    {
+      "file": "blast-motion-v76-00.png",
+      "size": [
+        1536,
+        1536
+      ],
+      "sha256": "5678122ca4065efbbe5729877e8ca023b7e0418ed564fe328e16158df8a71ca5"
+    },
+    {
+      "file": "flame-motion-v76-01.png",
+      "size": [
+        2880,
+        1080
+      ],
+      "sha256": "497da2a03765aaa88b465744b6681ebb11cf39638b7ec83828b7028c05dce4a7"
+    },
+    {
+      "file": "family-layers-v76.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "8380d54b3ab607fa6b36c7f02535bace5d08f3e03bdf5439f47af0945897f0fb"
+    },
+    {
+      "file": "workshop-depth-v76.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "07df47b6781f9cd9bdb6aac35327579fec67968c8c836e9c6a6ae8f167f0e9a3"
+    },
+    {
+      "file": "blast-motion-v76-03.png",
+      "size": [
+        1536,
+        1536
+      ],
+      "sha256": "fcf29e6622ca2f7cb622bf36838f50f5d8967c3dfa35c8654a2481213b069eae"
+    },
+    {
+      "file": "blast-keyframes-v76.png",
+      "size": [
+        1385,
+        1136
+      ],
+      "sha256": "69ed5a80846eead466e50d03fd8c9c84c78f61433f9e7a5042b239ea461e5b9e"
+    },
+    {
+      "file": "flame-motion-v76-01.working.png",
+      "size": [
+        2880,
+        1080
+      ],
+      "sha256": "497da2a03765aaa88b465744b6681ebb11cf39638b7ec83828b7028c05dce4a7"
+    },
+    {
+      "file": "blast-motion-v76-02.png",
+      "size": [
+        1536,
+        1536
+      ],
+      "sha256": "babec36cf84176a8f0445799cf1cc5fa00e0c88da4fa0414b1e3d24986dfce3e"
+    },
+    {
+      "file": "flame-motion-v76-05.working.png",
+      "size": [
+        2880,
+        1080
+      ],
+      "sha256": "b0ae43758d08e425782606c663cf719e88e25c865f141e767ac277a701797dbd"
+    },
+    {
+      "file": "family-house-v76.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "de2ec1366d83aabed3fdc659744ba50fc232fa622bdf403fe77fbedb280b0bb4"
+    },
+    {
+      "file": "flame-motion-v76-02.png",
+      "size": [
+        2880,
+        1080
+      ],
+      "sha256": "db0cd907422ed0fa23e25bce6dc980f5ecc6f42d628788848bda34c148fb91e2"
+    },
+    {
+      "file": "flame-motion-v76-03.png",
+      "size": [
+        2880,
+        1080
+      ],
+      "sha256": "58b50130dc5ed84a01b84bd99f81bf48fd159c263a7a099fcb95e4f09cd3dc72"
+    },
+    {
+      "file": "flame-motion-v76-05.png",
+      "size": [
+        2880,
+        1080
+      ],
+      "sha256": "b0ae43758d08e425782606c663cf719e88e25c865f141e767ac277a701797dbd"
+    },
+    {
+      "file": "blast-motion-v76-01.png",
+      "size": [
+        1536,
+        1536
+      ],
+      "sha256": "83534ce2d8e9a285900cacd296ae9e5ff127049741d30b42e12ea28d0063cf42"
+    },
+    {
+      "file": "chapter-sneakers-v76.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "3df47fb71b1760a7de44ef9bf62315366fcad56de4c51e3aa8787e22b8448b16"
+    },
+    {
+      "file": "factory-aircraft-v76.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "6c0f8d1ad37f4b0eb6c68c8482c29c36c08c42d7b78d99741a80602a5c68e80a"
+    },
+    {
+      "file": "human-silhouettes-v76.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "41f304f97f41bc20d7fcfaee67c3a3013cda279cb26d13f1a7c3ea223ea540e4"
+    },
+    {
+      "file": "flame-motion-v76-00.png",
+      "size": [
+        2880,
+        1080
+      ],
+      "sha256": "26aa4537b561513faae175f00ba6e0cfa9c00af8f37ad12a8d3f7c5e1a052ee5"
+    },
+    {
+      "file": "brother-poses-v76.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "4be45743a98b7b471867c0c344006b61beff070bbf92c1b103afb3ab810f9e1c"
+    },
+    {
+      "file": "flame-motion-v76-04.png",
+      "size": [
+        2880,
+        1080
+      ],
+      "sha256": "715aeacfb4445bf350f8d2adc436ebaaaa57c8eea8a6181425d1bbfbfc7f4b0b"
+    },
+    {
+      "file": "blast-motion-v76-05.png",
+      "size": [
+        1536,
+        1536
+      ],
+      "sha256": "63b75d12a1acd2c0626431002b9e067caeb408cfb9df902899a8baeb5ccf6d79"
+    },
+    {
+      "file": "worker-portrait-v76.png",
+      "size": [
+        1774,
+        887
+      ],
+      "sha256": "e6183d12894c576b14aadb41981322837adfda98688009d8a700a9a223da51cb"
+    },
+    {
+      "file": "blast-motion-v76-04.png",
+      "size": [
+        1536,
+        1536
+      ],
+      "sha256": "068561c2b17b5311feb4dca24af2619037517b13eb9513a38dc07fa7b4518605"
+    }
+  ],
+  "flameFrames": 144,
+  "blastFrames": 96,
+  "checks": [
+    "full PNG decoding",
+    "unique changing frames",
+    "nonempty frame coverage"
+  ],
+  "blastMethod": "Bidirectional coarse-to-fine Horn-Schunck optical flow of premultiplied alpha; not validated fluid simulation."
+}

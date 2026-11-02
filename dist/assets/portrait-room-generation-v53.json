@@ -1,0 +1,56 @@
+{
+  "schema": "regaarder-generation-record-v1",
+  "selectedReference": "assets/portrait-room-selected-reference-v53.png",
+  "selectedReferenceSHA256": "bc1b70d0b5e3311e5e57940e4c57feb70f8dc426984873e6677115f12a801179",
+  "outputs": [
+    {
+      "assetId": "portrait-room-person-v53",
+      "output": "assets/portrait-room-person-v53.png",
+      "sha256": "e4a23de5afe53b15d0f1b0e3814d4a05e003ae355eed1501b808bb9c6740d5d3",
+      "tool": "image_gen.imagegen",
+      "originalToolOutput": "exec-57cec750-494a-40f5-a92f-3b6930621305.png",
+      "reference": "assets/portrait-room-selected-reference-v53.png",
+      "transparentBackground": true,
+      "exactSubmittedPrompt": "Use case: background-extraction / identity-preserve. Edit target: the supplied selected annotated monochrome portrait. Create ONLY a genuine transparent-background cutout of the EXACT seated boy from this image. Preserve his facial identity, gaze, expression, hairstyle, head proportions, shirt, dark vest/suspenders, pose, left-window directional light, grayscale shading and natural photographic texture. Include the whole visible torso and arms, completing only small clothing areas hidden by the foreground container if necessary; no new gesture. Remove the entire room, window, cloth, foreground vessel, red arrows and subscription graphic. Hair and clothing edges must have clean natural alpha without a gray/white fringe. No checkerboard, no background, no shadow rectangle, no captions. Keep the boy's original seated proportions. Put the isolated figure centrally with comfortable transparent margins; do not crop the hair or shoulders. Production sprite for an editable layered documentary scene. Do not redesign or beautify the face.",
+      "status": "candidate; implemented for user visual review"
+    },
+    {
+      "assetId": "portrait-room-room-v53",
+      "output": "assets/portrait-room-room-v53.png",
+      "sha256": "a3978525054160b8d2bf61fa2848b6a224c070a8838ec1e4f8df3bda4d1aafa7",
+      "tool": "image_gen.imagegen",
+      "originalToolOutput": "exec-7c5bb553-9865-4f51-a54e-6e250be071b6.png",
+      "reference": "assets/portrait-room-selected-reference-v53.png",
+      "transparentBackground": false,
+      "exactSubmittedPrompt": "Use case: precise-object-edit. Edit the supplied selected image into a clean EMPTY ROOM background plate. Preserve the original camera angle and wide framing: the bright multi-pane wooden window fills the left third, rough pale window reveal and deep sill at left, the wall to the right is a very dark low-key plaster wall. Remove the boy completely, remove the folded cloth on the sill, remove the large vessel at lower left and the slim partial foreground object at far left. Reconstruct the previously concealed wall, sill, and a restrained dark wooden floor visible only across the lower strip, following the room's existing perspective. Preserve the original room geometry and window placement as closely as possible. This is a clean plate of the SAME room, not a redesigned interior: no extra furniture, no extra windows, no shelves, no people. Soft natural light from image-left, grayscale photographic detail, shadow falling to the right. Remove every red arrow and subscription graphic; no writing, logos or UI. Wide landscape canvas, original approximately 1.85:1 framing. Output opaque background.",
+      "status": "candidate; implemented for user visual review"
+    },
+    {
+      "assetId": "portrait-room-vase-v53",
+      "output": "assets/portrait-room-vase-v53.png",
+      "sha256": "4f3ddcdffdac580e8c9a5c7d3777922b8079a4dc8fa32226f913494552565adc",
+      "tool": "image_gen.imagegen",
+      "originalToolOutput": "exec-a1ed3953-084b-4d2e-947a-64221fa02ec5.png",
+      "reference": "assets/portrait-room-selected-reference-v53.png",
+      "transparentBackground": true,
+      "exactSubmittedPrompt": "Use case: background-extraction / precise-object-edit. Use the large dark open-rim vessel in the LOWER LEFT of the supplied selected image as the precise design reference. Produce ONLY this foreground earthenware vase/crock/wash vessel as a separate genuinely transparent-background cutout. Preserve the wide elliptical open mouth, thick softly flared rim, very dark ceramic surface and soft highlight from a left window. Reconstruct a plausible short rounded body and base where the source cuts the object off; keep the opening broad, not a narrow-neck flower vase. Do not add flowers, handles, decoration, text or contents. Show the complete object with transparent margins so the editor can place it partly offscreen. Three-quarter slightly elevated view matching the reference rim ellipse. Black-and-white natural photographic style, clean alpha edges, no baked room/background, no checkerboard, no floating cast shadow or rectangular fringe. Do not include the boy, cloth, window, red arrows or YouTube graphic.",
+      "status": "candidate; implemented for user visual review"
+    },
+    {
+      "assetId": "portrait-room-cloth-v53",
+      "output": "assets/portrait-room-cloth-v53.png",
+      "sha256": "f5f6f333b2ad4abd3cf83365f3d6bd2f04515d963da55fe63c7c4561f8413de8",
+      "tool": "image_gen.imagegen",
+      "originalToolOutput": "exec-a248b222-eedc-4d8f-8943-74ff3731d804.png",
+      "reference": "assets/portrait-room-selected-reference-v53.png",
+      "transparentBackground": true,
+      "exactSubmittedPrompt": "Use case: background-extraction. From the supplied selected image isolate ONLY the small pale folded/draped cloth on the window sill immediately behind the boy's left shoulder (image-left). Preserve its recognizable piled fabric folds, grayscale texture and light from the left. Reconstruct only its concealed lower edge, creating a complete small folded cloth object as a genuinely transparent-background sprite. No person, no sill, no window, no room or vase, no annotations, no red arrows, no text or logos, no checkerboard. Natural photographic material, restrained highlights and realistic alpha edges. Center the cloth with transparent margins. It is a separate middle/background prop for depth parallax; do not turn it into a hanging garment.",
+      "status": "candidate; implemented for user visual review"
+    }
+  ],
+  "retainedPreviousPortrait": "assets/history-portrait-v46.png",
+  "limitations": [
+    "Reference-based generation is not pixel-identical segmentation or a verified historical likeness.",
+    "Room geometry and concealed regions are authored approximations."
+  ]
+}

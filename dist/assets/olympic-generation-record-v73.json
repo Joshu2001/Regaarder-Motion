@@ -1,0 +1,93 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-31",
+  "assets": [
+    {
+      "file": "olympic-statue-v73.png",
+      "prompt": "Use case: historical-scene. Asset type: isolated golden sculpture for a documentary motion composition. A monumental bronze-gold classical athletic victory sculpture group: three upward-reaching figures clustered together, central tall figure with one arm extending vertically to hold a circular laurel wreath overhead. Weathered polished gold/bronze with realistic relief, fine facial and muscular detail, dramatic warm light from upper left. Low viewing angle, entire sculpture and wreath visible, tall composition, no base pedestal. Genuine transparent background with clean edges and generous margin. No rings, text, logos, sky or background. An illustrative reconstruction, not an archival photograph.",
+      "original": "exec-1375531c-9621-4cad-9620-0622f466c3b4.png",
+      "status": "selected",
+      "active": true,
+      "reason": "Required independent layer in the approved continuation",
+      "sha256": "03199d5b35708db5cb89faaf4975e731972218c78561c0dc5199f0e9a686d049",
+      "modifications": "Original tool output file retained byte-for-byte. Runtime component masks, skyline polygons, source crops and color/placement only."
+    },
+    {
+      "file": "period-television-v73.png",
+      "prompt": "Use case: historical-scene. Asset type: clean isolated period television cabinet for separately animated screen content. A late-1930s experimental television, wide rectangular dark walnut wooden cabinet, rounded rectangular convex CRT glass on left taking 72 percent of cabinet width, two small ivory tuning knobs and cloth speaker on right, seen exactly straight-on at eye level. Photoreal aged wood, beveled metal screen rim, subtle glass highlights, softly lit from upper left. Screen is uniformly dark green-black with no picture, no writing. Complete cabinet with margin, no table, no room, no people, no antenna. Genuine transparent background outside cabinet. Wide 3:2 image; product centered. No text, logo or image burned into screen.",
+      "original": "exec-5c3eb91b-6934-4638-b988-00afe0bbcb31.png",
+      "status": "selected",
+      "active": true,
+      "reason": "Required independent layer in the approved continuation",
+      "sha256": "eb7dad999f91326a5d6a3d87cc10657262a318ad6f602eb16658d44704dc5228",
+      "modifications": "Original tool output file retained byte-for-byte. Runtime component masks, skyline polygons, source crops and color/placement only."
+    },
+    {
+      "file": "olympic-track-v73.png",
+      "prompt": "Use case: historical-scene. Asset type: empty background plate for layered documentary animation. Photorealistic 1936 European athletics stadium, camera low near the inside curve of a brown cinder running track, curved thin white lane markings lead from lower left towards right distance, immense packed black-and-white spectator stands curving around the upper half, weathered concrete retaining wall. Sky neutral pale gray occupying upper 18 percent for later replacement. No athletes or foreground people. Wide 16:9 composition, realistic period architecture, photographic fine grain, natural daylight, no modern signage, no text, no logos. This is an illustrative period reconstruction.",
+      "original": "exec-d69d2337-3d66-4220-ae46-da6b5d51a934.png",
+      "status": "selected",
+      "active": true,
+      "reason": "Required independent layer in the approved continuation",
+      "sha256": "12bef98cae59c22e94385dac30ff1e81b706ed5ddb728d8dc7ad0ada40f6148e",
+      "modifications": "Original tool output file retained byte-for-byte. Runtime component masks, skyline polygons, source crops and color/placement only."
+    },
+    {
+      "file": "owens-poses-v73.png",
+      "prompt": "Use case: historical-scene. Asset type: three-column transparent pose atlas, illustrative reconstruction of Jesse Owens for a documentary, not an archival photograph. Reference image is Jesse Owens likeness reference: preserve his narrow face, cropped hair, ears, eyes and lean powerful athletic build. Three separate poses with generous empty gutters and no overlap. LEFT column: full body in a fixed forward-leaning sprint pose, moving left, bent arms, one knee forward, other leg extended, white 1930s track singlet and shorts, dark leather spikes; all limbs/shoes visible. CENTER column: front-facing waist-up portrait, calm determined expression, deep red plain track singlet, arms relaxed. RIGHT column: waist-up side/three-quarter profile facing left, same red singlet, right hand open raised above shoulder in friendly greeting, left hand near chest. Photographic skin/fabric detail, soft left lighting, natural color, no text, logos, symbols, medals, track, floor or background. True transparent background for all three subjects. Wide 1536x1024 composition.",
+      "original": "exec-04799817-9289-449c-9af8-9b21357045c5.png",
+      "status": "selected",
+      "active": true,
+      "reason": "Required independent layer in the approved continuation",
+      "sha256": "fff7f7207a3d673f1ad4713f5a4277107592e00cea24e47a13e9730e2e26c95f",
+      "modifications": "Original tool output file retained byte-for-byte. Runtime component masks, skyline polygons, source crops and color/placement only."
+    },
+    {
+      "file": "olympic-entrance-v73.png",
+      "prompt": "Use case: historical-scene. Asset type: empty photographic architectural plate for a 1936 Olympic meeting scene. Berlin Olympic stadium entrance inspired by its two tall plain rectangular stone towers, one on each side of center, low curved stadium facade between them, broad empty gray stone paved plaza leading towards the gate in one-point perspective. Front-on centered camera at human eye level, architecture in middle third and towers reaching upper third, plenty of foreground paving. Neutral gray sky for later replacement. No people, flags, emblems, rings, text or signage. High photographic detail, overcast soft daylight, subdued monochrome stone; wide 16:9. Illustrative period reconstruction, not an archival photograph.",
+      "original": "exec-84fa7f08-cb06-4266-9ae7-80cbc977912b.png",
+      "status": "selected",
+      "active": true,
+      "reason": "Required independent layer in the approved continuation",
+      "sha256": "b75284786e325cf33748417f274866a037157fb28dfb6f2ee7d2631a1e47d02d",
+      "modifications": "Original tool output file retained byte-for-byte. Runtime component masks, skyline polygons, source crops and color/placement only."
+    },
+    {
+      "file": "brothers-tv-meeting-v73.png",
+      "prompt": "Use case: historical-scene. Asset type: three-column transparent atlas of the established fictional brothers for documentary animation. The supplied image is strict fictional identity and wardrobe reference only. LEFT column: black sweater, white collar, wavy hair man, smiling warmly with head tilted a little right, both hands at hips, waist-up. CENTER column: glasses, dark suit, white shirt, red tie man smiling broadly, hands at hips, waist-up, slightly facing left. RIGHT column: same black-sweater man shown waist-up in side profile facing right, attentive calm expression, arms relaxed by his sides, no gestures. Three clearly separated independent subjects with wide empty gutters, no overlap, full head/hair and shoulders, generous transparent margin. Photoreal detail, soft left light, natural subdued colors. No background, furniture, symbols, text, logos or extra people. Genuine transparency.",
+      "original": "exec-59bcf813-08f8-400c-9e01-e8ac21c2fce4.png",
+      "status": "selected",
+      "active": true,
+      "reason": "Required independent layer in the approved continuation",
+      "sha256": "5a35af66851235112a77f8d2abfc838e9f580eccc86f03cddb655e1e1a30add7",
+      "modifications": "Original tool output file retained byte-for-byte. Runtime component masks, skyline polygons, source crops and color/placement only."
+    },
+    {
+      "file": "audience-foreground-v73.png",
+      "prompt": "Use case: historical-scene. Asset type: foreground crowd alpha strip for a layered documentary animation. Backs of heads and shoulders of a dense 1930s European civilian audience seen from behind, many felt hats and flat caps with a few uncovered heads, black-and-white photographic look. One horizontal row with a naturally irregular upper silhouette, bodies extend below bottom edge. Heads occupy lower third to lower half of a very wide image; entire space above and between upper silhouettes genuinely transparent. No stage, buildings, flags, symbols, text or background. Sharp photographic cloth and hat details, soft overhead light. Generous left/right overscan for camera parallax. Wide 16:9 composition.",
+      "original": "exec-eed33c64-7064-4a92-a745-668639ff1d47.png",
+      "status": "selected",
+      "active": true,
+      "reason": "Required independent layer in the approved continuation",
+      "sha256": "a13a2ee359b931eab496f5178e9bf3b7bc760bbebb6781c46eccb2752fb440ab",
+      "modifications": "Original tool output file retained byte-for-byte. Runtime component masks, skyline polygons, source crops and color/placement only."
+    },
+    {
+      "file": "television-room-v73.png",
+      "prompt": "Use case: historical-scene. Asset type: clean empty room backdrop for a 1930s television documentary scene. Front-facing pale aged plaster wall, very subtle horizontal masonry seams and soft gray weathering, dark narrow wooden wainscot along lower fifth, a little worn wood floor visible at bottom with gentle perspective towards the wall. Symmetrical eye-level camera. Diffuse window light from left, realistic photographic texture, quiet restrained gray/off-white palette, wide 16:9. No television, furniture, people, windows in view, decorations, text, symbols or logos. This is an illustrative supporting plate.",
+      "original": "exec-ddec6e1c-81ee-446f-bae4-156099bff1a2.png",
+      "status": "selected",
+      "active": true,
+      "reason": "Required independent layer in the approved continuation",
+      "sha256": "23319625198b70838708fd5cd1df1b8bf4f398dc0f41570dd5a07974889413a9",
+      "modifications": "Original tool output file retained byte-for-byte. Runtime component masks, skyline polygons, source crops and color/placement only."
+    }
+  ],
+  "blocked": {
+    "subject": "Historical portrait background extraction",
+    "stage": "input",
+    "category": "public-figure",
+    "status": "No output created; no retry",
+    "resolution": "Original archive photograph retained as a visible rectangular photograph; no isolated-portrait extraction implemented."
+  }
+}

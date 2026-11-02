@@ -1,0 +1,92 @@
+# Procedural flame and embers
+
+Stable ID: `procedural-flame`
+
+Procedural animated flames, sparks and flickering fire light.
+
+## Implementation
+
+- [flame-engine.js](../../dist/flame-engine.js) — SHA-256 `41593aef19a9b52cd42ad5ded7b65507077918d1de685a119c31193245d209d8`; functions: inline/class renderer.
+- [continuation.js](../../dist/continuation.js) — SHA-256 `17ddd9afec0261e06d667b32320849b86635d120cb8dff5e5996fbba575c4df9`; functions: `motionEase` (line 1), `syncDuration` (line 11), `fxValue` (line 25), `selectEffect` (line 27), `startPart` (line 30), `chooseAsset` (line 32), `assetDB` (line 33), `saveAsset` (line 33), `restoreAssets` (line 33), `ready` (line 35), `cover` (line 36), `contain` (line 37), `flameTexture` (line 39), `drawFire` (line 40), `applyRegionBlur` (line 45), `drawPairPiece` (line 47), `drawStandingPiece` (line 48), `hueShift` (line 49), `wallFire` (line 50), `renderOutdoor` (line 52), `drawBlurSelection` (line 59), `photographedFire` (line 66), `landscapePlate` (line 69), `drawBackPiece` (line 70), `composeRoofPortraits` (line 71), `emberParticles` (line 72), `liveCombustion` (line 73), `attachFireVideo` (line 76), `refreshPosters` (line 88).
+
+## Controls and compatibility
+
+```json
+{
+  "adapter": "capability",
+  "preview": {
+    "availability": "Add & preview in the composition editor"
+  },
+  "capabilities": {
+    "playback": "Shared blank-layer clock: speed, reverse, delay, pause, easing, slow/fast",
+    "parameters": "Independent per-instance copies; nested JSON editable",
+    "media": "Main source asset where applicable",
+    "direction": "Timing reversal; geometric axes only where implemented",
+    "geometry": "Images remain planes; full unseen object reconstruction is not implemented."
+  },
+  "slots": [],
+  "commonPlayback": {
+    "speed": 1,
+    "reverse": false,
+    "delay": 0,
+    "pauseAt": 0.5,
+    "pauseFor": 0,
+    "ease": "linear",
+    "slowFast": false,
+    "slowStart": 0.3,
+    "slowEnd": 0.65,
+    "slowSpeed": 0.35,
+    "fastSpeed": 2
+  }
+}
+```
+
+## Exact factory values
+
+| Parameter | Exact default | Type | Unit / meaning | Source |
+|---|---|---|---|---|
+| `fire` | `85` | number | Native renderer units; inspect linked implementation before conversion | `continuation.js#continuationDefaults` |
+| `fireSpeed` | `55` | number | Native renderer rate; do not assume multiplier | `continuation.js#continuationDefaults` |
+| `fireColor` | `"#ff681f"` | string | Renderer color value | `continuation.js#continuationDefaults` |
+| `fireDelay` | `1` | number | Native renderer units; inspect linked implementation before conversion | `continuation.js#continuationDefaults` |
+| `fireBuild` | `5` | number | Native renderer units; inspect linked implementation before conversion | `continuation.js#continuationDefaults` |
+| `fireStyle` | `"classic"` | string | Native renderer units; inspect linked implementation before conversion | `continuation.js#continuationDefaults` |
+| `fireSource` | `"stock"` | string | Native renderer units; inspect linked implementation before conversion | `continuation.js#continuationDefaults` |
+
+## Limitations
+
+- Native scene and media dependencies remain applicable.
+- Native units must not be reinterpreted without inspecting the linked renderer.
+- Image planes do not reconstruct unseen geometry. Artwork-specific gesture rigs require native calibration.
+
+## Machine-readable instance
+
+```json
+{
+  "schema": "regaarder-animation-instance-v1",
+  "effectId": "procedural-flame",
+  "parameters": {
+    "fire": 85,
+    "fireSpeed": 55,
+    "fireColor": "#ff681f",
+    "fireDelay": 1,
+    "fireBuild": 5,
+    "fireStyle": "classic",
+    "fireSource": "stock"
+  },
+  "playback": {
+    "speed": 1,
+    "reverse": false,
+    "delay": 0,
+    "pauseAt": 0.5,
+    "pauseFor": 0,
+    "ease": "linear",
+    "slowFast": false,
+    "slowStart": 0.3,
+    "slowEnd": 0.65,
+    "slowSpeed": 0.35,
+    "fastSpeed": 2
+  },
+  "bindings": {}
+}
+```

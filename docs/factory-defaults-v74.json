@@ -1,0 +1,471 @@
+{
+  "version": 74,
+  "sourceRange": [
+    415,
+    475
+  ],
+  "templateRange": [
+    425,
+    485
+  ],
+  "defaults": {
+    "betrayalEnabled": true,
+    "betrayalRate": 1,
+    "betrayalSceneDurations": {},
+    "betrayalLayerEdits": {},
+    "betrayalSourceBindings": {},
+    "betrayalFullSources": {},
+    "betrayalCameraX": 0,
+    "betrayalCameraY": 0,
+    "betrayalCameraZoom": 0,
+    "betrayalFocus": 1,
+    "betrayalFlash": 1,
+    "betrayalRed": 1,
+    "betrayalNoteCount": 28,
+    "betrayalSeed": 74,
+    "betrayalMedalText": "4X GOLD MEDALS",
+    "betrayalChapter": "CHAPTER 3",
+    "betrayalTitle": "THE BETRAYAL",
+    "betrayalGlyphStagger": 0.035,
+    "betrayalGlyphSettle": 0.65,
+    "betrayalPathStyle": "dotted",
+    "betrayalPathAnimation": "draw-flow",
+    "betrayalPathWidth": 2.5,
+    "betrayalPathDash": 5,
+    "betrayalPathGap": 8,
+    "betrayalPathSpeed": 24,
+    "betrayalRouteDuration": 2.8,
+    "betrayalRouteTargets": [
+      [
+        -74,
+        41
+      ],
+      [
+        -118,
+        34
+      ],
+      [
+        -47,
+        -16
+      ],
+      [
+        -99,
+        19
+      ],
+      [
+        -3,
+        55
+      ],
+      [
+        30,
+        60
+      ],
+      [
+        77,
+        29
+      ],
+      [
+        139,
+        36
+      ],
+      [
+        151,
+        -34
+      ],
+      [
+        28,
+        -26
+      ],
+      [
+        31,
+        30
+      ],
+      [
+        45,
+        15
+      ],
+      [
+        104,
+        1
+      ],
+      [
+        120,
+        -6
+      ],
+      [
+        174,
+        -41
+      ],
+      [
+        -70,
+        -33
+      ]
+    ],
+    "betrayalGrip": [
+      0.5,
+      0.885,
+      0.64
+    ],
+    "betrayalLetterbox": 16
+  },
+  "sources": {
+    "betrSpike": "track-spike-views-v74.png",
+    "betrHeldSpike": "track-spike-views-v74.png",
+    "betrHolder": "owens-product-pose-v74.png",
+    "betrFingers": "owens-product-pose-v74.png",
+    "betrSeated": "seated-athletes-v74.png",
+    "betrGround": "training-ground-v74.png",
+    "betrWinner": "medalists-v74.png",
+    "betrSilver": "medalists-v74.png",
+    "betrBronze": "medalists-v74.png",
+    "betrBrotherA": "facing-brothers-v74.png",
+    "betrBrotherB": "facing-brothers-v74.png",
+    "betrFactory": "workshop-clean-v72.png",
+    "betrGeography": "globe-earth-day-nasa-v69.jpg"
+  },
+  "stages": [
+    {
+      "id": "betrayal-meeting-hold",
+      "to": 417.233,
+      "label": "Meeting continuation",
+      "duration": 2.233,
+      "from": 415
+    },
+    {
+      "id": "betrayal-spike-entrance",
+      "to": 419.233,
+      "label": "Black running spike rises into focus",
+      "duration": 2,
+      "from": 417.233
+    },
+    {
+      "id": "betrayal-spike-hold",
+      "to": 419.7,
+      "label": "Product hold over blurred meeting",
+      "duration": 0.467,
+      "from": 419.233
+    },
+    {
+      "id": "betrayal-background-flash",
+      "to": 420.467,
+      "label": "Background flash changes the setting",
+      "duration": 0.767,
+      "from": 419.7
+    },
+    {
+      "id": "betrayal-shoe-exit",
+      "to": 421.4,
+      "label": "Shoe departs and seated athletes sharpen",
+      "duration": 0.933,
+      "from": 420.467
+    },
+    {
+      "id": "betrayal-seated-athletes",
+      "to": 425.3,
+      "label": "Seated-athlete hold",
+      "duration": 3.9,
+      "from": 421.4
+    },
+    {
+      "id": "betrayal-held-shoe-entry",
+      "to": 426.5,
+      "label": "Owens holding the shoe enters foreground",
+      "duration": 1.2,
+      "from": 425.3
+    },
+    {
+      "id": "betrayal-held-shoe-hold",
+      "to": 431.767,
+      "label": "Smiling product presentation",
+      "duration": 5.267,
+      "from": 426.5
+    },
+    {
+      "id": "betrayal-podium-flash",
+      "to": 432.767,
+      "label": "Whole-frame flash into medal podium",
+      "duration": 1,
+      "from": 431.767
+    },
+    {
+      "id": "betrayal-podium-settle",
+      "to": 433.767,
+      "label": "Podium establishes",
+      "duration": 1,
+      "from": 432.767
+    },
+    {
+      "id": "betrayal-medal-type-in",
+      "to": 434.8,
+      "label": "4X GOLD MEDALS assembles",
+      "duration": 1.033,
+      "from": 433.767
+    },
+    {
+      "id": "betrayal-medal-type-hold",
+      "to": 438.1,
+      "label": "Medal title hold",
+      "duration": 3.3,
+      "from": 434.8
+    },
+    {
+      "id": "betrayal-medal-type-out",
+      "to": 439.633,
+      "label": "Letters leave and side athletes lower",
+      "duration": 1.533,
+      "from": 438.1
+    },
+    {
+      "id": "betrayal-political-rise",
+      "to": 441.433,
+      "label": "Political portrait rises behind winner",
+      "duration": 1.8,
+      "from": 439.633
+    },
+    {
+      "id": "betrayal-column-rise",
+      "to": 444.1,
+      "label": "Tall plinth rises under winner",
+      "duration": 2.667,
+      "from": 441.433
+    },
+    {
+      "id": "betrayal-audience-rise",
+      "to": 445.2,
+      "label": "Near audience fills the bottom",
+      "duration": 1.1,
+      "from": 444.1
+    },
+    {
+      "id": "betrayal-political-hold",
+      "to": 447.667,
+      "label": "Political/podium depth hold",
+      "duration": 2.467,
+      "from": 445.2
+    },
+    {
+      "id": "betrayal-brothers-return",
+      "to": 449.7,
+      "label": "Portrait drops as brothers enter",
+      "duration": 2.033,
+      "from": 447.667
+    },
+    {
+      "id": "betrayal-brothers-gold",
+      "to": 451.667,
+      "label": "Brothers hold on yellow success scene",
+      "duration": 1.967,
+      "from": 449.7
+    },
+    {
+      "id": "betrayal-banknotes",
+      "to": 453.2,
+      "label": "Banknotes tumble overhead",
+      "duration": 1.533,
+      "from": 451.667
+    },
+    {
+      "id": "betrayal-map-patches",
+      "to": 454.167,
+      "label": "Patch reveal into parchment map",
+      "duration": 0.967,
+      "from": 453.2
+    },
+    {
+      "id": "betrayal-world-orders",
+      "to": 457.967,
+      "label": "Dotted routes grow from the shoe",
+      "duration": 3.8,
+      "from": 454.167
+    },
+    {
+      "id": "betrayal-factory-tear",
+      "to": 459,
+      "label": "Torn opening returns to factory",
+      "duration": 1.033,
+      "from": 457.967
+    },
+    {
+      "id": "betrayal-factory-hold",
+      "to": 462.167,
+      "label": "Facing brothers in factory",
+      "duration": 3.167,
+      "from": 459
+    },
+    {
+      "id": "betrayal-red-window",
+      "to": 463.167,
+      "label": "Red irregular window opens between them",
+      "duration": 1,
+      "from": 462.167
+    },
+    {
+      "id": "betrayal-tension-push",
+      "to": 470.1,
+      "label": "Red tension scene builds",
+      "duration": 6.933,
+      "from": 463.167
+    },
+    {
+      "id": "betrayal-fade-black",
+      "to": 471.2,
+      "label": "Scene fades down",
+      "duration": 1.1,
+      "from": 470.1
+    },
+    {
+      "id": "betrayal-black-hold",
+      "to": 474,
+      "label": "Near-black separator",
+      "duration": 2.8,
+      "from": 471.2
+    },
+    {
+      "id": "betrayal-chapter-three",
+      "to": 475,
+      "label": "Chapter 3: THE BETRAYAL begins",
+      "duration": 1,
+      "from": 474
+    }
+  ],
+  "layers": [
+    {
+      "id": "betrSpike",
+      "label": "betrSpike",
+      "slot": "betrSpike",
+      "depth": 1.8
+    },
+    {
+      "id": "betrHeldSpike",
+      "label": "betrHeldSpike",
+      "slot": "betrHeldSpike",
+      "depth": 1.8
+    },
+    {
+      "id": "betrHolder",
+      "label": "betrHolder",
+      "slot": "betrHolder",
+      "depth": 1.8
+    },
+    {
+      "id": "betrFingers",
+      "label": "betrFingers",
+      "slot": "betrFingers",
+      "depth": 1.8
+    },
+    {
+      "id": "betrSeated",
+      "label": "betrSeated",
+      "slot": "betrSeated",
+      "depth": 1.8
+    },
+    {
+      "id": "betrGround",
+      "label": "betrGround",
+      "slot": "betrGround",
+      "depth": 5
+    },
+    {
+      "id": "betrWinner",
+      "label": "betrWinner",
+      "slot": "betrWinner",
+      "depth": 1.8
+    },
+    {
+      "id": "betrSilver",
+      "label": "betrSilver",
+      "slot": "betrSilver",
+      "depth": 1.8
+    },
+    {
+      "id": "betrBronze",
+      "label": "betrBronze",
+      "slot": "betrBronze",
+      "depth": 1.8
+    },
+    {
+      "id": "betrBrotherA",
+      "label": "betrBrotherA",
+      "slot": "betrBrotherA",
+      "depth": 1.8
+    },
+    {
+      "id": "betrBrotherB",
+      "label": "betrBrotherB",
+      "slot": "betrBrotherB",
+      "depth": 1.8
+    },
+    {
+      "id": "betrFactory",
+      "label": "betrFactory",
+      "slot": "betrFactory",
+      "depth": 5
+    },
+    {
+      "id": "betrGeography",
+      "label": "betrGeography",
+      "slot": "betrGeography",
+      "depth": 5
+    },
+    {
+      "id": "podium",
+      "label": "podium",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "medal-type",
+      "label": "medal-type",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "archive",
+      "label": "archive",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "audience",
+      "label": "audience",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "banknotes",
+      "label": "banknotes",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "routes",
+      "label": "routes",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "map",
+      "label": "map",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "red-window",
+      "label": "red-window",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "chapter",
+      "label": "chapter",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shards",
+      "label": "shards",
+      "slot": null,
+      "depth": 2
+    }
+  ]
+}

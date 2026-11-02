@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-28",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: photorealistic-natural. Asset type: full frame cloud interior texture for a cinematic moving cloud transition. 16:9 close volumetric gray-white cumulus clouds, soft organic turbulent billows with fine vapor texture, layered light and shadow, cloudy depth across the entire frame. No sky holes or horizon, no ground, no sun, no subjects, no text. Natural photographic clouds seen while passing through a dense cloud bank. Avoid smooth gradients, uniform flat white, cartoon bubbles or hard round blobs. Neutral gray palette so it can be darkened in compositing.",
+  "output": "exec-df9598e9-c4d8-4125-bc0b-de4e653db7f6.png",
+  "modifications": "Original PNG retained; runtime layered drift, edge mask and brightness. Generated illustration, not cloud footage."
+}

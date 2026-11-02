@@ -1,0 +1,384 @@
+{
+  "defaults": {
+    "shelterEnabled": true,
+    "shelterRate": 1,
+    "shelterSceneDurations": {},
+    "shelterLayerEdits": {},
+    "shelterSourceBindings": {},
+    "shelterCameraX": 0,
+    "shelterCameraY": 0,
+    "shelterCameraZoom": 0,
+    "shelterQuote": "“THE BASTARDS\nARE BACK AGAIN”",
+    "shelterQuoteColor": "#e5344c",
+    "shelterLensMagnification": 2.1,
+    "shelterLensRadius": 94,
+    "shelterWindStrength": 1,
+    "shelterFlashStrength": 1,
+    "shelterFactoryPullback": 0.28,
+    "shelterCloudSpeed": 18,
+    "shelterLight": 1,
+    "shelterLetterText": "Adi,\n\nI do not believe you have\nthe character to lead our\ncompany. While I am away,\nmy wife will represent me\nin all decisions regarding\nthe business. This is not\na request.\n\nRudi",
+    "shelterIllustrationLabel": true
+  },
+  "stages": [
+    {
+      "id": "shelter-family",
+      "from": 535,
+      "to": 542.3,
+      "duration": 7.2999999999999545,
+      "label": "family"
+    },
+    {
+      "id": "shelter-aircraft",
+      "from": 542.3,
+      "to": 544.4,
+      "duration": 2.1000000000000227,
+      "label": "aircraft"
+    },
+    {
+      "id": "shelter-bombing",
+      "from": 544.4,
+      "to": 547.7,
+      "duration": 3.300000000000068,
+      "label": "bombing"
+    },
+    {
+      "id": "shelter-pair-entry",
+      "from": 547.7,
+      "to": 549.5,
+      "duration": 1.7999999999999545,
+      "label": "pair entry"
+    },
+    {
+      "id": "shelter-pair-passage",
+      "from": 549.5,
+      "to": 551.5,
+      "duration": 2,
+      "label": "pair passage"
+    },
+    {
+      "id": "shelter-quote-build",
+      "from": 551.5,
+      "to": 557,
+      "duration": 5.5,
+      "label": "quote build"
+    },
+    {
+      "id": "shelter-aircraft-annotation",
+      "from": 557,
+      "to": 560.7,
+      "duration": 3.7000000000000455,
+      "label": "aircraft annotation"
+    },
+    {
+      "id": "shelter-type-passage",
+      "from": 560.7,
+      "to": 562.3,
+      "duration": 1.599999999999909,
+      "label": "type passage"
+    },
+    {
+      "id": "shelter-shelter-hold",
+      "from": 562.3,
+      "to": 565.2,
+      "duration": 2.900000000000091,
+      "label": "shelter hold"
+    },
+    {
+      "id": "shelter-ceiling-passage",
+      "from": 565.2,
+      "to": 566.9,
+      "duration": 1.6999999999999318,
+      "label": "ceiling passage"
+    },
+    {
+      "id": "shelter-conflict",
+      "from": 566.9,
+      "to": 569.7,
+      "duration": 2.800000000000068,
+      "label": "conflict"
+    },
+    {
+      "id": "shelter-soldiers",
+      "from": 569.7,
+      "to": 573,
+      "duration": 3.2999999999999545,
+      "label": "soldiers"
+    },
+    {
+      "id": "shelter-workers",
+      "from": 573,
+      "to": 575.5,
+      "duration": 2.5,
+      "label": "workers"
+    },
+    {
+      "id": "shelter-machines",
+      "from": 575.5,
+      "to": 578.3,
+      "duration": 2.7999999999999545,
+      "label": "machines"
+    },
+    {
+      "id": "shelter-factory",
+      "from": 578.3,
+      "to": 585.2,
+      "duration": 6.900000000000091,
+      "label": "factory"
+    },
+    {
+      "id": "shelter-letter-entry",
+      "from": 585.2,
+      "to": 587.3,
+      "duration": 2.099999999999909,
+      "label": "letter entry"
+    },
+    {
+      "id": "shelter-lens",
+      "from": 587.3,
+      "to": 595,
+      "duration": 7.7000000000000455,
+      "label": "lens"
+    }
+  ],
+  "layers": [
+    {
+      "id": "shelterPairA",
+      "slot": "shelterPairA",
+      "label": "shelterPairA"
+    },
+    {
+      "id": "shelterPairB",
+      "slot": "shelterPairB",
+      "label": "shelterPairB"
+    },
+    {
+      "id": "shelterProfileA",
+      "slot": "shelterProfileA",
+      "label": "shelterProfileA"
+    },
+    {
+      "id": "shelterProfileB",
+      "slot": "shelterProfileB",
+      "label": "shelterProfileB"
+    },
+    {
+      "id": "shelterRoom",
+      "slot": "shelterRoom",
+      "label": "shelterRoom"
+    },
+    {
+      "id": "shelterRuins",
+      "slot": "shelterRuins",
+      "label": "shelterRuins"
+    },
+    {
+      "id": "shelterFactory",
+      "slot": "shelterFactory",
+      "label": "shelterFactory"
+    },
+    {
+      "id": "shelterPaper",
+      "slot": "shelterPaper",
+      "label": "shelterPaper"
+    },
+    {
+      "id": "shelterSoldiers",
+      "slot": "shelterSoldiers",
+      "label": "shelterSoldiers"
+    },
+    {
+      "id": "shelterWorkers",
+      "slot": "shelterWorkers",
+      "label": "shelterWorkers"
+    },
+    {
+      "id": "shelterMachines",
+      "slot": "shelterMachines",
+      "label": "shelterMachines"
+    },
+    {
+      "id": "shelterManA",
+      "slot": "shelterManA",
+      "label": "shelterManA"
+    },
+    {
+      "id": "shelterWomanA",
+      "slot": "shelterWomanA",
+      "label": "shelterWomanA"
+    },
+    {
+      "id": "shelterManB",
+      "slot": "shelterManB",
+      "label": "shelterManB"
+    },
+    {
+      "id": "shelterWomanB",
+      "slot": "shelterWomanB",
+      "label": "shelterWomanB"
+    },
+    {
+      "id": "shelterFrontal",
+      "slot": "shelterFrontal",
+      "label": "shelterFrontal"
+    },
+    {
+      "id": "shelterPlane",
+      "slot": "shelterPlane",
+      "label": "shelterPlane"
+    },
+    {
+      "id": "shelterFamilyPlate",
+      "slot": "shelterFamilyPlate",
+      "label": "shelterFamilyPlate"
+    },
+    {
+      "id": "shelterStorm",
+      "slot": "shelterStorm",
+      "label": "shelterStorm"
+    },
+    {
+      "id": "shelterBlast",
+      "slot": "shelterBlast",
+      "label": "shelterBlast"
+    },
+    {
+      "id": "shelterTree",
+      "slot": "shelterTree",
+      "label": "shelterTree"
+    },
+    {
+      "id": "family",
+      "slot": null,
+      "label": "family"
+    },
+    {
+      "id": "aircraft",
+      "slot": null,
+      "label": "aircraft"
+    },
+    {
+      "id": "bomb",
+      "slot": null,
+      "label": "bomb"
+    },
+    {
+      "id": "blasts",
+      "slot": null,
+      "label": "blasts"
+    },
+    {
+      "id": "ruin-ground",
+      "slot": null,
+      "label": "ruin-ground"
+    },
+    {
+      "id": "ceiling",
+      "slot": null,
+      "label": "ceiling"
+    },
+    {
+      "id": "pillar",
+      "slot": null,
+      "label": "pillar"
+    },
+    {
+      "id": "quote",
+      "slot": null,
+      "label": "quote"
+    },
+    {
+      "id": "connector-white",
+      "slot": null,
+      "label": "connector-white"
+    },
+    {
+      "id": "connector-red",
+      "slot": null,
+      "label": "connector-red"
+    },
+    {
+      "id": "eye-a",
+      "slot": null,
+      "label": "eye-a"
+    },
+    {
+      "id": "eye-b",
+      "slot": null,
+      "label": "eye-b"
+    },
+    {
+      "id": "sky",
+      "slot": null,
+      "label": "sky"
+    },
+    {
+      "id": "looming-portrait",
+      "slot": null,
+      "label": "looming-portrait"
+    },
+    {
+      "id": "factory",
+      "slot": null,
+      "label": "factory"
+    },
+    {
+      "id": "paper",
+      "slot": null,
+      "label": "paper"
+    },
+    {
+      "id": "lens",
+      "slot": null,
+      "label": "lens"
+    },
+    {
+      "id": "montage",
+      "slot": null,
+      "label": "montage"
+    },
+    {
+      "id": "film-grain",
+      "slot": null,
+      "label": "film-grain"
+    },
+    {
+      "id": "illustration-label",
+      "slot": null,
+      "label": "illustration-label"
+    },
+    {
+      "id": "tree-left",
+      "slot": null,
+      "label": "tree-left"
+    },
+    {
+      "id": "tree-right",
+      "slot": null,
+      "label": "tree-right"
+    }
+  ],
+  "sources": {
+    "shelterPairA": "shelter-people-v80.png",
+    "shelterPairB": "shelter-people-v80.png",
+    "shelterProfileA": "shelter-people-v80.png",
+    "shelterProfileB": "shelter-people-v80.png",
+    "shelterRoom": "shelter-plates-v80.png",
+    "shelterRuins": "shelter-plates-v80.png",
+    "shelterFactory": "shelter-plates-v80.png",
+    "shelterPaper": "shelter-plates-v80.png",
+    "shelterSoldiers": "shelter-illustrations-v80.png",
+    "shelterWorkers": "shelter-industrial-metal-v80.png",
+    "shelterMachines": "shelter-industrial-metal-v80.png",
+    "shelterManA": "shelter-cutouts-v81.png",
+    "shelterWomanA": "shelter-cutouts-v81.png",
+    "shelterManB": "shelter-cutouts-v81.png",
+    "shelterWomanB": "shelter-cutouts-v81.png",
+    "shelterFrontal": "shelter-cutouts-v81.png",
+    "shelterPlane": "shelter-cutouts-v81.png",
+    "shelterFamilyPlate": "shelter-environments-v81.png",
+    "shelterStorm": "shelter-environments-v81.png",
+    "shelterBlast": "shelter-environments-v81.png",
+    "shelterTree": "shelter-environments-v81.png"
+  }
+}

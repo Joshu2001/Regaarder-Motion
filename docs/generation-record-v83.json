@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-01",
+  "tool": "Built-in imagegen",
+  "transparent_background": true,
+  "originals": [
+    {
+      "file": "assets/feud-frontal-v83.png",
+      "prompt": "Use case: historical-scene. Asset type: photographic documentary cutout for editable animation. Create a single centered frontal head-and-shoulders portrait, perfectly facing camera, of a fictional stern 1940s German industrialist, fused vertically from two different middle-aged brothers. LEFT HALF: wavy short dark hair, no glasses, angular face, icy blue-white side light. RIGHT HALF: receding combed-back dark hair, dark round rectangular spectacles, stern face, deep crimson side light. Match eyes, nose and mouth at the exact vertical center seam so the whole is one coherent symmetrical frontal composite head. Fine realistic skin pores, actual photographic detail, dramatic near-black shadows, black suit shoulders. Full hair crown, ears, neck and shoulders included with space around silhouette. Isolated on genuinely transparent background. No text, no symbols, no background, no fire. Fictional reconstruction, not an archival photo. Large square high-resolution image; face centered so its nose is at image x=50%, eyes at y=40%; shoulders near bottom.",
+      "reference": null,
+      "sha256": "3d1cd58e4c82b372aa3243d1b781dfdfeaa1196f738992fd1a5af61d49b1ac10",
+      "active": true,
+      "status": "selected-with-limits; illustrative, not historical evidence",
+      "modifications": "Original PNG bytes retained, runtime cropping/compositing only"
+    },
+    {
+      "file": "assets/feud-head-views-v83.png",
+      "prompt": "Use case: stylized-concept. Asset type: MULTI-VIEW HEAD SPRITE ATLAS on genuinely TRANSPARENT background for documentary animation. Use the attached reference only for the silver sculptural head style and character design. Create exactly SIX SEPARATE HEADS in a precise 3-column by 2-row regular grid. Each cell has equal size, generous transparent gutters, complete head from crown to short neck. TOP ROW: same stern wavy-haired man WITHOUT glasses in three views: cell1 LEFT profile (nose points left), cell2 direct FRONT view, cell3 RIGHT profile (nose points right). BOTTOM ROW: same stern receding-haired man WITH dark spectacles in three views: cell1 LEFT profile, cell2 FRONT, cell3 RIGHT profile. All six are consistent polished silver/graphite metal sculptural bust HEADS, strong rim light, furrowed brow, detailed grooves, clean isolated alpha edges. Identical head scale and vertical eye alignment within cells, no shoulders. No words, no labels, no flames, no cloudy background, no overlapping cells. This is a new atlas based on reference style, preserve consistency across views.",
+      "reference": "assets/rivalry-heads-v65.png",
+      "sha256": "b0a2d551c5966e86d692863b4c8bb69ece4b1a448227ff46670ffed263bbd4dd",
+      "active": true,
+      "status": "selected-with-limits; illustrative, not historical evidence",
+      "modifications": "Original PNG bytes retained, runtime cropping/compositing only"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Motionclone-v84-11m55-12m55.mp4": {
+    "frames": 1440,
+    "fps": 24,
+    "duration": "60.000000",
+    "dimensions": [
+      960,
+      540
+    ],
+    "fullDecode": "passed"
+  },
+  "Motionclone-v84-comparison.mp4": {
+    "frames": 1440,
+    "fps": 24,
+    "duration": "60.000000",
+    "dimensions": [
+      1920,
+      580
+    ],
+    "fullDecode": "passed"
+  }
+}

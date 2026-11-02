@@ -1,0 +1,138 @@
+{
+  "status": "functional checks passed; visual fidelity remains partial",
+  "topology": {
+    "vertices": 18280,
+    "triangles": 36556,
+    "connectedComponents": 1,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "joints": 51
+  },
+  "checks": [
+    "all150frame inventories and finite joints",
+    "hard cut at local frame116",
+    "source/time mapping duration5seconds",
+    "legacy scene hashes preserved",
+    "four weights normalized; parent hierarchy acyclic",
+    "malformed camera/root rejection and finger keys accepted"
+  ],
+  "headMeasurements": [
+    {
+      "frame": 0,
+      "source": 895,
+      "landmark": "red head",
+      "reference": [
+        337,
+        224
+      ],
+      "reconstruction": [
+        335.25753325292305,
+        224.57207291721187
+      ],
+      "errorPixels": 1.8339732242528008,
+      "errorDiagonalPercent": 0.16650481229168504,
+      "referenceUncertaintyPixels": "approximately6–10; manual center estimate"
+    },
+    {
+      "frame": 0,
+      "source": 895,
+      "landmark": "coach head",
+      "reference": [
+        706,
+        96
+      ],
+      "reconstruction": [
+        708.0487804878048,
+        100.97560975609764
+      ],
+      "errorPixels": 5.3809101397611006,
+      "errorDiagonalPercent": 0.48852808805012654,
+      "referenceUncertaintyPixels": "approximately6–10; manual center estimate"
+    },
+    {
+      "frame": 20,
+      "source": 895.6666666666666,
+      "landmark": "red head",
+      "reference": [
+        235,
+        224
+      ],
+      "reconstruction": [
+        222.21519624884144,
+        229.0069097147943
+      ],
+      "errorPixels": 13.730271368321148,
+      "errorDiagonalPercent": 1.2465592336156588,
+      "referenceUncertaintyPixels": "approximately6–10; manual center estimate"
+    },
+    {
+      "frame": 20,
+      "source": 895.6666666666666,
+      "landmark": "coach head",
+      "reference": [
+        713,
+        90
+      ],
+      "reconstruction": [
+        708.0487804878048,
+        100.97560975609764
+      ],
+      "errorPixels": 12.04070530226896,
+      "errorDiagonalPercent": 1.0931650199149454,
+      "referenceUncertaintyPixels": "approximately6–10; manual center estimate"
+    },
+    {
+      "frame": 80,
+      "source": 897.6666666666666,
+      "landmark": "red head",
+      "reference": [
+        154,
+        214
+      ],
+      "reconstruction": [
+        154.3184323593744,
+        220.03932167042612
+      ],
+      "errorPixels": 6.04771075749951,
+      "errorDiagonalPercent": 0.5490663283168281,
+      "referenceUncertaintyPixels": "approximately6–10; manual center estimate"
+    },
+    {
+      "frame": 80,
+      "source": 897.6666666666666,
+      "landmark": "coach head",
+      "reference": [
+        787,
+        77
+      ],
+      "reconstruction": [
+        786.1013463538484,
+        100.97560975609764
+      ],
+      "errorPixels": 23.992445510043908,
+      "errorDiagonalPercent": 2.1782529773279165,
+      "referenceUncertaintyPixels": "approximately6–10; manual center estimate"
+    },
+    {
+      "frame": 147,
+      "source": 899.9,
+      "landmark": "coach head",
+      "reference": [
+        640,
+        160
+      ],
+      "reconstruction": [
+        644.1638308752894,
+        153.6485406598425
+      ],
+      "errorPixels": 7.5946377996377805,
+      "errorDiagonalPercent": 0.6895104707797608,
+      "referenceUncertaintyPixels": "approximately6–10; manual center estimate"
+    }
+  ],
+  "silhouetteIoU": "not measured; >=0.90 NOT certified",
+  "continuousPlayback": "not watched or listened to continuously; exact native-frame ordered samples used",
+  "browserGPU": "not verified",
+  "nativeJoin": "895 switches from prior primitive mesh to new skinned mesh; preceding scene refinement pending",
+  "publication": "No deployment or remote commit"
+}

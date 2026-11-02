@@ -1,0 +1,11 @@
+# V74 observed evidence and authored implementation
+
+Reference: user uploaded 640×360,30fps original, source415–475. The previous analysis and transcript supply the scene order/narrative; historical claims are not independently fact-checked. User reference frames remain diagnostic only and are not used as production plates.
+
+Observed: shoe rises over blurred meeting; protected foreground survives background flash; seated group; smiling athlete presents shoe; whole-frame flash; podium/4X GOLD MEDALS glyphs; political portrait, column, audience; brothers and falling notes; patch reveal to world routes; ragged return to factory; localized red tension; fade; explicit near-black pause471.2–474; chapter glyph entrance474–475.
+
+Authored: two consistent generated shoe views and 2.5D pitch/roll/scale; original-resolution alpha crops and connected-sky treeline matte; group focus compositor; independent foreground shoe and calibrated grip/finger matte; generated illustrative people/environment; shared living sky; staggered live text; podium geometry; unchanged archival rectangular political image with editorial eye glows; existing near audience; independent facing brother planes; seeded note planes; NASA equirectangular geography given a procedural parchment/land-color treatment; map-bound source shoe and V68 arc-length dotted/dashed/solid/arrow routes; compound irregular reveal masks; layered factory push and inner-edge red tint; complete opaque black pause; live chapter glyph/shard motion.
+
+Unresolved: no recovered 3D shoe or live body/hand rig, exact historical image identities/poses/likenesses differ, relaxed medalists differ from original poses, political card remains rectangular (earlier image extraction was refused and has not been retried), routes are illustrative and not shipment records, geography coloring is a classified raster treatment not verified vector borders. Factory/red interior differs from source. Title ends during assembly at475; no unseen later hold is invented.
+
+Review: sampled source-equivalent stills, stage midpoints, deterministic full black interval and control tests. Preview encoded at native960×540/24fps. CPU Canvas/actual-code VM checks do not establish native-browser playback/GPU performance or exhaustive audiovisual review. No remote commit/deployment.

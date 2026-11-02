@@ -1,0 +1,25 @@
+{
+  "source": "woman-blouse-hem-gesture.mp4",
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "duration": 10,
+  "sampleIntervalSeconds": 0.125,
+  "method": "Shi-Tomasi features and forward/backward Lucas-Kanade tracking; reject return error >1.5 px. Displacements are image-space evidence, not anatomical ground truth.",
+  "regions": {
+    "background": {
+      "tracked_points": 144,
+      "median_displacement_0_to_3s_px_at_640x360": 0.023597143590450287
+    },
+    "head": {
+      "tracked_points": 110,
+      "median_displacement_0_to_3s_px_at_640x360": 3.8581085205078125
+    },
+    "hand_and_hem": {
+      "tracked_points": 2,
+      "median_displacement_0_to_3s_px_at_640x360": 21.133514404296875
+    }
+  }
+}

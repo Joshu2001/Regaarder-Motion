@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "created": "2026-10-28",
+  "tool": "Built-in image_gen.imagegen",
+  "modelVersion": "Not exposed by tool",
+  "approval": "Joshua approved the frame interpretation, then explicitly authorized implementation of both continuations; later visual revisions are expected.",
+  "referenceUse": "Prompts written from observations of user-provided video frames. No reference image was passed to the image generator, and no source-video pixels are bundled as production assets.",
+  "sources": [
+    {
+      "file": "Nazi_Brothers_cut_01-14_to_01-45.mp4",
+      "libraryFileId": "libfile_60a9cc5c020c81918f7a94329dc4f1b6",
+      "originalOffsetSeconds": 74,
+      "reviewedClipSeconds": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27.5,
+        29,
+        30.5
+      ],
+      "resolution": "1920x1080",
+      "frameRate": "30 fps",
+      "sha256": "9b32d3e63d0c7afa1b5ea1478a2c7b00b77e745fa1dcbe4be6d143d9a0159821"
+    },
+    {
+      "file": "The Nazi Brothers Who Started Rival Shoe Companies - MagnatesMedia (1080p, h264)_01-44.0_to_01-56.0.webm",
+      "libraryFileId": "libfile_8823b01550408191a081be49ca1ace3c",
+      "nominalOriginalOffsetSeconds": 104,
+      "reviewedClipSeconds": [
+        0,
+        0.1,
+        0.3,
+        0.6,
+        1.5,
+        2.8,
+        3.3,
+        3.7,
+        4.1,
+        4.5,
+        6,
+        7.5,
+        7.8,
+        8.2,
+        8.6,
+        9,
+        9.2,
+        11
+      ],
+      "timeBase": "1/1000; average frame rate not reported",
+      "timingCaveat": "Opening 0\u2013approximately 0.5s contains unrelated aerial imagery, excluded. Nominal original offset is inferred from uploaded filename, not independently synchronized.",
+      "sha256": "ac59f87218a7c8ce02bf7a05dacd86fa754c1ab241a61cc292ac373d7cdfd8f1"
+    }
+  ],
+  "permission": "Generated project illustrations for the user-authorized template; video/reference owner and rights beyond this task not independently verified. Illustrative fictional characters and locations, not archival documentation.",
+  "modifications": "All four generated PNGs copied byte-for-byte. Runtime transforms, grading, focus, opacity and compositing only. Boys retain generated alpha; labels and town title rendered separately.",
+  "reuse": "nursery-passer-v37.png is reused byte-for-byte for both foreground crossings, with independent v38 placement, blur and brightness. It is an approximation of the reference adult crossings.",
+  "assets": [
+    {
+      "file": "assets/village-boys-v38.png",
+      "prompt": "Use case: historical-scene. Asset type: transparent foreground cutout for an editable cinematic documentary collage, early 1900s Bavaria. Two fictional European boys, about 8 and 10, standing close together, visible head to mid-thigh, entirely contained with generous margins. Left boy tousled blond hair, dark worn wool jacket and open collar, looking curiously to camera right. Right boy light brown hair, brown flat cap, brown wool jacket, looking slightly upward with thoughtful expression. Natural human anatomy, convincing hands, subtle cool daylight from upper left, textured realistic cinematic photographic illustration, muted slate brown palette. The pair occupy central 70% of image, equal eye level, separate readable silhouettes, no environment, no window, no lettering or labels, no watermark. Real transparent alpha background; retain opaque clothing and hair. Original illustrative characters, not archival evidence. Landscape 3:2 composition.",
+      "transparentBackground": true,
+      "sha256": "7d38fdf389990e1a85a6ea8ecb2e8d7263720b0ea8ca216ee00d1393007a6347",
+      "bytes": 2429629
+    },
+    {
+      "file": "assets/village-town-v38.png",
+      "prompt": "Use case: historical-scene. Asset type: widescreen 16:9 background plate for an editable cinematic documentary collage. An empty Bavarian town square around 1905, inspired by Herzogenaurach: tall half-timbered plaster houses frame both sides, a stone gate tower with pointed roof at center distance, cobbled street receding to central archway. Slightly wide-angle low street-level view, architectural perspective, large dramatic blue sky with white clouds occupying upper third. Cool daylight, muted slate timber and warm cream plaster, softly vignetted edges, realistic photographic illustration with tactile period textures. Clear empty central square and no people so foreground characters can be composited separately. No modern vehicles, signage, lettering, logos, watermark, no baked title. Original illustration, not archival evidence.",
+      "transparentBackground": false,
+      "sha256": "a01f1254bb09ee6eb2a1718fdbdad72dcc0ef0225720eb5ed728fe9be035e0a2",
+      "bytes": 3102399
+    },
+    {
+      "file": "assets/village-workshop-v38.png",
+      "prompt": "Use case: historical-scene. Asset type: widescreen 16:9 cinematic background plate for early 1900s Bavarian shoemaking documentary collage. Close medium view of a fictional male shoemaker at a wooden bench; his cropped cream rolled-sleeve shirt and dark apron torso occupy the LEFT third, head mostly above top edge. His anatomically convincing hands work on one dark brown leather lace-up low shoe on the bench at lower center-right, toe pointing right. Shoe fully visible, realistic stitching, laces, rounded toe, no branding. Long softly blurred artisan workshop recedes to the right, repeated tall glowing windows, wooden tools and lasts, warm ivory daylight with deep umber shadows. Tactile photographic realism, shallow depth of field, subtle edge softness, subdued film grain. Composition leaves central shoe readable for slow camera movement. No modern machinery, text, logos, watermark. Original illustrative scene, not archival documentation.",
+      "transparentBackground": false,
+      "sha256": "b1faa063842d3bf25388b426d8b80e74a2fc5308a3222fa59de61c6973f38e90",
+      "bytes": 2327744
+    },
+    {
+      "file": "assets/village-seamstress-v38.png",
+      "prompt": "Use case: historical-scene. Asset type: widescreen 16:9 cinematic background plate for early 1900s Bavarian family documentary collage. Fictional adult European woman in her thirties, brown hair pinned back, simple ivory long-sleeved blouse and dark charcoal apron, standing at left-center in a dim timber domestic sewing room. She smiles softly while inspecting a cream cotton blouse on a wooden hanger, held at right-center; her two anatomically correct hands gently arrange sleeve and collar. Blouse entirely visible with fine gathered fabric and small buttons; no printed pattern. Framing head to waist with generous top and side margins, the woman and hanger distinct, softly lit from tall window at left, warm ivory highlights and umber interior shadows. Shelves with folded cloth and a few hanging garments blur behind her. Realistic cinematic photographic illustration, shallow depth of field, tactile fabrics, gentle peripheral softness, muted historical colors. No text, logo, watermark, modern objects. Original illustrative characters, not archival evidence.",
+      "transparentBackground": false,
+      "sha256": "3efc3d1136061d665c94e0c3baa2b00328fbdf522c96c2ef8bac95436732cc9e",
+      "bytes": 2192658
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "Motionclone-v76-continuation.mp4",
+    "bytes": 12497153,
+    "sha256": "712395d0407762c9b628c9db6dbed6d73bc457eab48a2419fcef633053180ee5",
+    "width": 960,
+    "height": 540,
+    "seconds": 60,
+    "frames": 1440,
+    "fullDecode": "passed"
+  },
+  {
+    "file": "Motionclone-v76-side-by-side.mp4",
+    "bytes": 13220881,
+    "sha256": "2d858304b90268d14a544079a4eb1087a6579b5e8808c23237dde0ed4270aa78",
+    "width": 1440,
+    "height": 446,
+    "seconds": 60,
+    "frames": 1440,
+    "fullDecode": "passed"
+  },
+  {
+    "file": "Motionclone-v76-comparison-0p05x.mp4",
+    "bytes": 24951506,
+    "sha256": "1beb238f7652aa759e584b4d30b1b1c467017eb855ae3a3e338ab3ad3ec8855f",
+    "width": 1440,
+    "height": 446,
+    "seconds": 1200,
+    "frames": 7200,
+    "fullDecode": "passed"
+  }
+]

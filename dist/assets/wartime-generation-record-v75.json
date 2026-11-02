@@ -1,0 +1,52 @@
+[
+  {
+    "file": "wartime-plates-v75.png",
+    "sha256": "9f9b9af15e186120d6c3962a23b690cdc4526da837c215fabfd017661c277382",
+    "promptBrief": "Four-quadrant generated cinematic industrial hall, stadium, red wartime sky and half-timbered house plate atlas.",
+    "active": true,
+    "detail": "Initial environment atlas; stadium quadrant superseded by eye-level bleachers.",
+    "exactPrompt": "Create one 2x2 contact sheet of four distinct cinematic documentary background plates, no text, no symbols, no people, no borders between images: top left an empty 1930s German industrial hall with long symmetrical rows, cold blue daylight and deep perspective; top right an empty 1930s European stadium with tiered seating under a cold sky; bottom left a dark red turbulent wartime cloud sky with smoky light; bottom right a 1940s German half timbered house exterior at dusk under a pink-orange sky. Realistic, dramatic lighting, 16:9 composition within each quadrant, clear clean detail.",
+    "tool": "built-in image_gen",
+    "referencedAsset": null
+  },
+  {
+    "file": "wartime-portraits-candidate-v75.png",
+    "sha256": "173829aa7182da0c8f48042924dc60e8099f55db701386f7827049ceef6f5a47",
+    "promptBrief": "Four-quadrant fictional 1940s portraits: two brothers, smiling man with arms open, factory worker and worried family.",
+    "active": false,
+    "detail": "Original opaque candidate retained unchanged; transparent edit selected.",
+    "exactPrompt": "Create a 2 by 2 grid of four separate realistic documentary illustration portraits, each against plain neutral background, no text. Each quadrant is a different scene: top left two middle aged 1940s German brothers, one bespectacled in suit and one serious man in dark sports jacket facing viewer, waist up; top right bespectacled middle aged man smiling with arms open; bottom left stern factory worker in shirt, waist up; bottom right worried 1940s European family with mother, father and three children grouped closely, waist up. Cinematic photo realism, historically inspired fictional people, clear subject separation, dramatic directional lighting.",
+    "tool": "built-in image_gen",
+    "referencedAsset": null
+  },
+  {
+    "file": "wartime-people-v75.png",
+    "sha256": "81e524efca25a732ea46cb247e2053dcb44ff1fc2fa7df14cf676efbee832606",
+    "promptBrief": "Remove gray backgrounds and dividers from original four-quadrant portrait atlas; preserve groups, faces, clothing, hands and layout; transparent empty background and clean alpha.",
+    "active": true,
+    "detail": "Generated alpha edit of wartime-portraits-candidate-v75.png; runtime quadrant crops, independent transforms, grayscale and light.",
+    "exactPrompt": "Remove the gray backgrounds and white grid dividers from this four-quadrant atlas. Preserve the exact four groups and their locations, scale, faces, clothing, hands and grouping. Make all background pixels fully transparent. No shadows on the empty background, no text, no added elements. Keep each subject entirely within its original quadrant and preserve the original atlas layout. Photorealistic clean alpha edges.",
+    "tool": "built-in image_gen",
+    "referencedAsset": "wartime-portraits-candidate-v75.png"
+  },
+  {
+    "file": "wartime-objects-v75.png",
+    "sha256": "90cb87746ecad6522823a435c269e967b1301cc817fc49e0bf26a85d7d23de20",
+    "promptBrief": "Transparent 2x2 atlas: gray left-facing 1940s propeller aircraft, monochrome German factory building, seated stern man in dark work jacket, close stern man with rectangular black glasses. Fictional documentary illustration, no aircraft Nazi markings.",
+    "active": true,
+    "detail": "Runtime quadrant crops and transforms; aircraft landing gear and historical likeness differ from reference.",
+    "exactPrompt": "Transparent background production sprite atlas, a precise 2x2 grid, each object entirely within its quadrant with padding, no grid lines, no text. Top left: photorealistic gray 1940s single propeller fighter aircraft in left-facing side view, entire plane visible. Top right: an isolated black and white old three story German shoe factory brick building, full facade at three quarter angle with ground edge, no sky. Bottom left: realistic stern 1940s European man seated with hands in lap wearing dark work jacket, visible from head to knees, no chair extending beyond silhouette. Bottom right: extreme close portrait of a stern bespectacled 1940s European man, realistic skin and black rectangular glasses, visible eyes, face front facing. Historical documentary illustration, fictional subjects, clean fully transparent empty background, sharp detailed alpha silhouettes. No Nazi markings on aircraft.",
+    "tool": "built-in image_gen",
+    "referencedAsset": null
+  },
+  {
+    "file": "wartime-bleachers-v75.png",
+    "sha256": "01a8c675276c86a2322e3df3f0fd88d4ef69be4258f267f9c8ee031d4afccc23",
+    "promptBrief": "Empty 1930s German stadium concrete bleachers at ground level facing horizontal worn pale gray rows; no aerial arena, people, text or emblems; eye height near seated head, cool daylight, 16:9 photographic historical illustration.",
+    "active": true,
+    "detail": "Replaces aerial stadium quadrant for this sequence; original candidate retained.",
+    "exactPrompt": "Photorealistic cinematic documentary background plate, empty 1930s German stadium concrete bleachers seen from ground level directly facing the rows. Six to eight horizontal worn pale gray wooden benches or concrete seating tiers climbing upward, no oval arena, no aerial view, no people, no text or emblems. Camera eye height about seated person's head, flat horizontal rows from left to right, cool gray daylight, faint cloud sky only along the very top. Clear central seating steps and room for compositing two seated people in foreground, 16:9 composition, photographic historical illustration.",
+    "tool": "built-in image_gen",
+    "referencedAsset": null
+  }
+]

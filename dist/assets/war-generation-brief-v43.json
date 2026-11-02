@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-28",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: historical-scene. Asset type: cinematic documentary illustration for an editable parallax composition, NOT archival evidence. Create a wide 16:9 scene of two young adult Central European brothers in plain worn early-20th-century work coats, tired dusty faces, one blond man in the foreground on the right and the second slightly farther behind on the left. They stand in a desolate muddy wartime landscape, distant damaged village, smoke near the horizon, with a luminous amber sunset sky occupying the upper two thirds of the frame. Natural dramatic photographic illustration, muted olive and brown clothing, warm horizon and cool heavy clouds. Keep the upper sky clean enough for a descending reveal. Figures enter from below in animation, so compose them in the bottom third with their heads around y=70 percent. No insignia, flags, symbols, text, logos or watermark. Do not copy any real individual's face. No flames painted onto the figures: fire will be separately editable in compositing.",
+  "output": "exec-495b4de3-9d36-46f0-862f-9f1afe92a49a.png",
+  "transparent_background": false,
+  "reference": "User described wartime reveal; uploaded clip ends while figures begin entering. This is an illustrative reconstruction, not a copied reference frame or archival image.",
+  "modifications": "Output retained byte-for-byte; scaled and translated at runtime; fire is a separate layer.",
+  "permission": "User authorized project generation. No broad historical-authenticity or third-party clearance claim."
+}

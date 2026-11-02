@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "four native catalog presets and direct 3D editor action",
+    "native editor initializes inside main application",
+    "native humanoid creates independently editable scene layer in Blank Composition",
+    "template unpacking retains actors, props, lights, camera and tracks",
+    "previous blank layers retained"
+  ],
+  "result": {
+    "schema": "regaarder-native3d-v1",
+    "objects": 6,
+    "layerType": "native-humanoid3d",
+    "blankOpen": true
+  },
+  "templateObjects": 17,
+  "pageErrors": []
+}

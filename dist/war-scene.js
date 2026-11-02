@@ -1,0 +1,19 @@
+import {paintCloudAtmosphere} from './living-sky.js?v=motion-v70';
+import {projectDepthRect} from './eye-journey.js?v=motion-v70';
+import {warDefaults,warState} from './war-motion.js?v=motion-v70';
+import {drawAssetMedia} from './effect-library.js?v=motion-v70';
+import {paintCloudVeil,paintFire} from './reveal-fx.js?v=motion-v70';
+import {syncMediaClip} from './media-clip.js?v=motion-v70';
+import {recordSceneAsset} from './scene-geometry.js?v=motion-v70';
+export function createWarScene(images,previous){let buffer;return {paint(c,t,input={}){
+ const f={...warDefaults,...input},s=warState(t,f);if(!s.active)return s;c.canvas.sceneAssets=[];c.fillStyle='#080c10';c.fillRect(0,0,960,540);
+ if(s.cloudProgress<1){buffer||=Object.assign(document.createElement('canvas'),{width:960,height:540});previous.paint(buffer.getContext('2d'),s.start,{...f,laundryFadeTime:0});c.drawImage(buffer,0,-Math.min(1,s.cloudProgress)*180);paintCloudVeil(c,s.age,s.cloudProgress,{opacity:f.warCloudOpacity,texture:images.transitionClouds,brightness:1-.55*Math.min(1,Math.max(0,(s.cloudProgress-.6)/.7)),drift:f.warCloudDrift,scale:f.warCloudScale,evolution:f.warLivingClouds?f.warCloudEvolution:0,wind:f.warCloudWind});return s;}
+ function layer(slot,x,y,w,h,blur=0){const depth=slot==='warFront'?(f.warFrontDepth??1):slot==='warRear'?(f.warRearDepth??.68):slot==='warLandscape'?(f.warLandDepth??.32):(f.warSkyDepth??.08);if(f.warCameraZoom!==undefined&&['warFront','warRear','warLandscape'].includes(slot)){x=480+f.warX+(x-480)*f.warScale;y=270+f.warY+(y-270)*f.warScale;w*=f.warScale;h*=f.warScale;}[x,y,w,h]=projectDepthRect([x,y,w,h],{zoom:f.warCameraZoom??1,x:f.warCameraX??480,y:f.warCameraY??270},depth);const im=images[slot];if(!im?.naturalWidth&&!im?.width)return;c.save();c.filter=blur?`blur(${blur}px)`:'none';drawAssetMedia(c,im,[x,y,w,h],f,s.age);c.restore();recordSceneAsset(c,{id:slot,kind:'image',name:slot,assetSlot:slot},[x,y,w,h]);}
+ if(s.cloudProgress>=1){c.save();const skyW=960*f.warSkyScale,skyH=540*f.warSkyScale;layer('warSky',(960-skyW)/2,(540-skyH)/2+(1-s.rise)*f.warSkyTravel,skyW,skyH);if(f.warLivingClouds)paintCloudAtmosphere(c,s.age,{skyCloudColor:'#d8d4cf',skyOpacity:f.warCloudDetail,skyWind:f.warCloudWind,skyEvolution:f.warCloudEvolution,skyDensity:.62,skyScale:1.3,skyLayers:2,skyLight:.2});
+ const glow=c.createRadialGradient(f.warSunX,f.warSunY,0,f.warSunX,f.warSunY,Math.max(1,f.warSunRadius));glow.addColorStop(0,`rgba(255,251,204,${f.warSunOpacity})`);glow.addColorStop(1,'rgba(255,241,170,0)');c.fillStyle=glow;c.fillRect(0,0,960,540);
+ c.save();if(f.warCameraZoom===undefined){c.translate(480+f.warX,270+f.warY);c.scale(f.warScale,f.warScale);c.translate(-480,-270);}
+ const land=images.warLandscape;if(land){const w=1056,h=w*(land.naturalHeight||land.height)/(land.naturalWidth||land.width);layer('warLandscape',-48,f.warLandY+(1-s.rise)*f.warLandTravel,w,h);}
+ for(const [slot,prefix]of [['warRear','warRear'],['warFront','warFront']]){const im=images[slot];if(!im)continue;const h=f[prefix+'Height'],w=h*(im.naturalWidth||im.width)/(im.naturalHeight||im.height);layer(slot,f[prefix+'X']-w/2,f[prefix+'Y']-h+(1-s.rise)*f[prefix+'Travel'],w,h,f[prefix+'Blur']);}c.restore();c.restore();}
+ const dark=1-.55*Math.min(1,Math.max(0,(s.cloudProgress-.6)/.7));paintCloudVeil(c,s.age,s.cloudProgress,{texture:images.transitionClouds,opacity:f.warCloudOpacity,brightness:dark,drift:f.warCloudDrift,scale:f.warCloudScale,evolution:f.warLivingClouds?f.warCloudEvolution:0,wind:f.warCloudWind});
+ if(f.warFireEnabled&&s.fire>0){let media=images.warFire;if(media)media=syncMediaClip(media,s.age-s.riseAt,{loop:true,playing:globalThis.motionAtelierPlaying===true,end:media.duration||8});paintFire(c,s.age,projectDepthRect([0,f.warFireTop,960,f.warFireHeight],{zoom:f.warCameraZoom??1,x:f.warCameraX??480,y:f.warCameraY??270},1.1),f.warFireOpacity*s.fire,media,{glow:f.warFireGlow});}return s;
+ }}}

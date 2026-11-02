@@ -1,0 +1,394 @@
+{
+  "schema": "motion-factory-v73",
+  "defaults": {
+    "olympicEnabled": true,
+    "olympicRate": 1,
+    "olympicSceneDurations": {},
+    "olympicLayerEdits": {},
+    "olympicSourceBindings": {},
+    "olympicFullSources": {},
+    "olympicCameraX": 0,
+    "olympicCameraY": 0,
+    "olympicCameraZoom": 0,
+    "olympicCloudWind": 14,
+    "olympicGold": "#eeee25",
+    "olympicRed": "#a30d22",
+    "olympicParticleCount": 85,
+    "olympicParticleSeed": 73,
+    "olympicParticleSpeed": 1,
+    "olympicFlashStrength": 1,
+    "olympicTitle": "JESSE OWENS",
+    "olympicDate": "1936",
+    "olympicTitleSize": 145,
+    "olympicLetterStagger": 0.11,
+    "olympicTitleSettle": 0.65,
+    "olympicEyeGlow": 0.9,
+    "olympicEyePoints": [
+      [
+        0.473,
+        0.176
+      ],
+      [
+        0.588,
+        0.176
+      ]
+    ],
+    "olympicFocusStrength": 1,
+    "olympicTVTint": 0.35,
+    "olympicStaticStrength": 1,
+    "olympicMaskSeed": 49,
+    "olympicMaskEdge": 5,
+    "olympicLetterbox": 16,
+    "olympicVignette": 0.22
+  },
+  "sources": {
+    "olympStatue": "olympic-statue-v73.png",
+    "olympTV": "period-television-v73.png",
+    "olympTrack": "olympic-track-v73.png",
+    "olympRunner": "owens-poses-v73.png",
+    "olympOwens": "owens-poses-v73.png",
+    "olympGreeting": "owens-poses-v73.png",
+    "olympSmileA": "brothers-tv-meeting-v73.png",
+    "olympSmileB": "brothers-tv-meeting-v73.png",
+    "olympAddi": "brothers-tv-meeting-v73.png",
+    "olympEntrance": "olympic-entrance-v73.png",
+    "olympCrowd": "audience-foreground-v73.png",
+    "olympBerlin": "berlin-parade-v73.jpg",
+    "olympPolitical": "political-frontal-v73.jpg",
+    "olympRoom": "television-room-v73.png",
+    "olympTeam": "athletics-team-v65.png",
+    "olympSky": "war-sky-v43.png"
+  },
+  "layers": [
+    {
+      "id": "olympStatue",
+      "slot": "olympStatue",
+      "file": "olympic-statue-v73.png",
+      "label": "Statue",
+      "depth": 2.5
+    },
+    {
+      "id": "olympTV",
+      "slot": "olympTV",
+      "file": "period-television-v73.png",
+      "label": "TV",
+      "depth": 2.5
+    },
+    {
+      "id": "olympTrack",
+      "slot": "olympTrack",
+      "file": "olympic-track-v73.png",
+      "label": "Track",
+      "depth": 5
+    },
+    {
+      "id": "olympRunner",
+      "slot": "olympRunner",
+      "file": "owens-poses-v73.png",
+      "label": "Runner",
+      "depth": 2.5
+    },
+    {
+      "id": "olympOwens",
+      "slot": "olympOwens",
+      "file": "owens-poses-v73.png",
+      "label": "Owens",
+      "depth": 1.4
+    },
+    {
+      "id": "olympGreeting",
+      "slot": "olympGreeting",
+      "file": "owens-poses-v73.png",
+      "label": "Greeting",
+      "depth": 1.4
+    },
+    {
+      "id": "olympSmileA",
+      "slot": "olympSmileA",
+      "file": "brothers-tv-meeting-v73.png",
+      "label": "SmileA",
+      "depth": 1.4
+    },
+    {
+      "id": "olympSmileB",
+      "slot": "olympSmileB",
+      "file": "brothers-tv-meeting-v73.png",
+      "label": "SmileB",
+      "depth": 1.4
+    },
+    {
+      "id": "olympAddi",
+      "slot": "olympAddi",
+      "file": "brothers-tv-meeting-v73.png",
+      "label": "Addi",
+      "depth": 1.4
+    },
+    {
+      "id": "olympEntrance",
+      "slot": "olympEntrance",
+      "file": "olympic-entrance-v73.png",
+      "label": "Entrance",
+      "depth": 5
+    },
+    {
+      "id": "olympCrowd",
+      "slot": "olympCrowd",
+      "file": "audience-foreground-v73.png",
+      "label": "Crowd",
+      "depth": 1.4
+    },
+    {
+      "id": "olympBerlin",
+      "slot": "olympBerlin",
+      "file": "berlin-parade-v73.jpg",
+      "label": "Berlin",
+      "depth": 5
+    },
+    {
+      "id": "olympPolitical",
+      "slot": "olympPolitical",
+      "file": "political-frontal-v73.jpg",
+      "label": "Political",
+      "depth": 2.5
+    },
+    {
+      "id": "olympRoom",
+      "slot": "olympRoom",
+      "file": "television-room-v73.png",
+      "label": "Room",
+      "depth": 5
+    },
+    {
+      "id": "olympTeam",
+      "slot": "olympTeam",
+      "file": "athletics-team-v65.png",
+      "label": "Team",
+      "depth": 2.5
+    },
+    {
+      "id": "olympSky",
+      "slot": "olympSky",
+      "file": "war-sky-v43.png",
+      "label": "Sky",
+      "depth": 5
+    },
+    {
+      "id": "rings",
+      "slot": null,
+      "label": "rings",
+      "depth": 2
+    },
+    {
+      "id": "date",
+      "slot": null,
+      "label": "date",
+      "depth": 2
+    },
+    {
+      "id": "name",
+      "slot": null,
+      "label": "name",
+      "depth": 2
+    },
+    {
+      "id": "fragments",
+      "slot": null,
+      "label": "fragments",
+      "depth": 2
+    },
+    {
+      "id": "tear",
+      "slot": null,
+      "label": "tear",
+      "depth": 2
+    },
+    {
+      "id": "podium",
+      "slot": null,
+      "label": "podium",
+      "depth": 2
+    },
+    {
+      "id": "eyes",
+      "slot": null,
+      "label": "eyes",
+      "depth": 2
+    }
+  ],
+  "stages": [
+    {
+      "id": "olympic-crowd-retract",
+      "from": 355,
+      "to": 356.3,
+      "label": "Crowd reveal contracts",
+      "duration": 1.3000000000000114
+    },
+    {
+      "id": "olympic-red-fragments",
+      "from": 356.3,
+      "to": 360.5,
+      "label": "Red fragments in street",
+      "duration": 4.199999999999989
+    },
+    {
+      "id": "olympic-white-gold",
+      "from": 360.5,
+      "to": 362.3,
+      "label": "White flash to gold",
+      "duration": 1.8000000000000114
+    },
+    {
+      "id": "olympic-olympic-hold",
+      "from": 362.3,
+      "to": 363.567,
+      "label": "Golden Olympic composition",
+      "duration": 1.266999999999996
+    },
+    {
+      "id": "olympic-date-1936",
+      "from": 363.567,
+      "to": 365.667,
+      "label": "1936 assembles",
+      "duration": 2.099999999999966
+    },
+    {
+      "id": "olympic-berlin-parade",
+      "from": 365.667,
+      "to": 368.633,
+      "label": "Berlin parade reveal",
+      "duration": 2.966000000000008
+    },
+    {
+      "id": "olympic-crt-pullback",
+      "from": 368.633,
+      "to": 371.5,
+      "label": "Reveal television",
+      "duration": 2.8670000000000186
+    },
+    {
+      "id": "olympic-brothers-tv",
+      "from": 371.5,
+      "to": 377.167,
+      "label": "Brothers beside television",
+      "duration": 5.666999999999973
+    },
+    {
+      "id": "olympic-tv-push",
+      "from": 377.167,
+      "to": 379.067,
+      "label": "Approach screen",
+      "duration": 1.900000000000034
+    },
+    {
+      "id": "olympic-tv-static",
+      "from": 379.067,
+      "to": 380.067,
+      "label": "Screen interference",
+      "duration": 1
+    },
+    {
+      "id": "olympic-through-screen",
+      "from": 380.067,
+      "to": 381.267,
+      "label": "Through screen to track",
+      "duration": 1.1999999999999886
+    },
+    {
+      "id": "olympic-runner-silhouette",
+      "from": 381.267,
+      "to": 384.4,
+      "label": "Runner silhouette",
+      "duration": 3.1329999999999814
+    },
+    {
+      "id": "olympic-jesse-title",
+      "from": 384.4,
+      "to": 386.6,
+      "label": "Jesse Owens glyph assembly",
+      "duration": 2.2000000000000455
+    },
+    {
+      "id": "olympic-jesse-hold",
+      "from": 386.6,
+      "to": 392.067,
+      "label": "Runner and title hold",
+      "duration": 5.4669999999999845
+    },
+    {
+      "id": "olympic-red-track-tear",
+      "from": 392.067,
+      "to": 393.8,
+      "label": "Red irregular reveal",
+      "duration": 1.733000000000004
+    },
+    {
+      "id": "olympic-portrait-pullback",
+      "from": 393.8,
+      "to": 397.833,
+      "label": "Political portrait pullback",
+      "duration": 4.0330000000000155
+    },
+    {
+      "id": "olympic-team-podium",
+      "from": 397.833,
+      "to": 399.667,
+      "label": "Team and podium rise",
+      "duration": 1.8339999999999463
+    },
+    {
+      "id": "olympic-crowd-depth",
+      "from": 399.667,
+      "to": 402.633,
+      "label": "Audience depth",
+      "duration": 2.966000000000008
+    },
+    {
+      "id": "olympic-owens-entrance",
+      "from": 402.633,
+      "to": 404.267,
+      "label": "Owens foreground entrance",
+      "duration": 1.6340000000000146
+    },
+    {
+      "id": "olympic-owens-hold",
+      "from": 404.267,
+      "to": 407.3,
+      "label": "Owens foreground hold",
+      "duration": 3.0330000000000155
+    },
+    {
+      "id": "olympic-rack-back",
+      "from": 407.3,
+      "to": 407.967,
+      "label": "Rack focus to rear",
+      "duration": 0.6669999999999732
+    },
+    {
+      "id": "olympic-political-depth-hold",
+      "from": 407.967,
+      "to": 411.933,
+      "label": "Depth focus hold",
+      "duration": 3.966000000000008
+    },
+    {
+      "id": "olympic-portrait-occlusion",
+      "from": 411.933,
+      "to": 412.9,
+      "label": "Portrait occlusion wipe",
+      "duration": 0.9669999999999845
+    },
+    {
+      "id": "olympic-village-meeting",
+      "from": 412.9,
+      "to": 415,
+      "label": "Meeting setup",
+      "duration": 2.1000000000000227
+    }
+  ],
+  "sourceStart": 355,
+  "sourceEnd": 415,
+  "templateStart": 365,
+  "templateEnd": 425,
+  "duration": 60,
+  "note": "Factory defaults, not a live user-instance export. Existing source/local clocks and custom settings remain independent."
+}

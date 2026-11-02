@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "source/local clock inverse at four rates with custom durations",
+    "all15stages deterministic",
+    "exact source655 incoming frame",
+    "15independent object visibility checks",
+    "black stage exactly black",
+    "invalid inputs rejected and settings nonmutation",
+    "native director725seconds, preserved playhead/custom settings, disabling665",
+    "four actual library source adapters isolated and restored",
+    "V82 and shelter renderer/director hashes preserved"
+  ],
+  "nativeBrowser": "not verified"
+}

@@ -1,0 +1,640 @@
+{
+  "schema": "regaarder-layered-chapter-v1",
+  "sourceClip": "03:55–04:47 nominal; actual PTS0–52.902",
+  "policy": "Uncertain depth defaults to independent layers",
+  "defaults": {
+    "chapterSequenceEnabled": true,
+    "chapterLayerEdits": {},
+    "chapterSourceBindings": {},
+    "chapterEdgeAlpha": 110,
+    "chapterRoomDirection": 1,
+    "chapterTreeDirection": "left",
+    "chapterPoseDirection": "left",
+    "chapterJoinDirection": "right",
+    "chapterPosePixelsPerSecond": 1400,
+    "chapterSalesText": "SALES",
+    "chapterManufacturingText": "MANUFACTURING",
+    "chapterTitleSmall": "CHAPTER 2:",
+    "chapterTitleText": "THE NAZI OLYMPICS",
+    "chapterSalesFont": 250,
+    "chapterManufacturingFont": 104,
+    "chapterTitleFont": 58,
+    "chapterTitleColor": "#f6c55b",
+    "chapterRoleColor": "#e5edf4",
+    "chapterRoleFillMode": "image",
+    "chapterTitleFillMode": "color",
+    "chapterTextureSpeed": 12,
+    "chapterTextureScale": 1,
+    "chapterSalesStart": 0.15,
+    "chapterSalesReveal": 1.1,
+    "chapterRoomSwapStart": 3,
+    "chapterRoomSwapEnd": 4.4,
+    "chapterManufactureStart": 7.1,
+    "chapterManufactureEnd": 8.7,
+    "chapterPairStart": 10.7,
+    "chapterWireStart": 13.1,
+    "chapterFactoryCut": 16.45,
+    "chapterRivalryStart": 20.6,
+    "chapterEyeFireStart": 21.8,
+    "chapterGroundFireStart": 22.1,
+    "chapterFadeStart": 28.7,
+    "chapterBlackStart": 30.3,
+    "chapterTitleStart": 32.8,
+    "chapterTitleAssembleEnd": 34.2,
+    "chapterTitleRetreatEnd": 39.5,
+    "chapterTitleBlack": 41.2,
+    "chapterSportsStart": 42.2,
+    "chapterSalesmanStart": 43.4,
+    "chapterSalesmanEnd": 44.8,
+    "chapterTreeStart": 47.8,
+    "chapterTreeEnd": 49.4,
+    "chapterPoseStart": 52.1,
+    "chapterSequenceDuration": 52.95,
+    "chapterFactoryInitialZoom": 4.8,
+    "chapterFactoryDecay": 1.4,
+    "chapterFactoryWidth": 500,
+    "chapterFactoryY": 145,
+    "chapterRoomRetreat": 0.16,
+    "chapterFactoryRetreat": 0.3,
+    "chapterTitleRetreat": 0.3,
+    "chapterSportsRetreat": 0.18,
+    "chapterHeadSize": 520,
+    "chapterHeadYaw": 84,
+    "chapterPanelBlue": "#113b58",
+    "chapterPanelRed": "#621221",
+    "chapterLeftEyeU": 0.78,
+    "chapterLeftEyeV": 0.48,
+    "chapterRightEyeU": 0.29,
+    "chapterRightEyeV": 0.48,
+    "chapterEyeFireSize": 74,
+    "chapterFireStrength": 0.82,
+    "chapterFireHeight": 180,
+    "chapterHeadLight": 0.85,
+    "chapterTitleScatterX": 560,
+    "chapterTitleScatterY": 200,
+    "chapterTitleBlur": 22,
+    "chapterGlyphDelay": 0.018,
+    "chapterPropCount": 8,
+    "chapterPropSpeed": 36,
+    "chapterPropSeed": 17,
+    "chapterSkyWind": 19,
+    "chapterSkyEvolution": 0.12,
+    "chapterHorizonBlur": 7,
+    "chapterTeamCount": 12,
+    "chapterSalesmanSize": 390,
+    "chapterTreeWidth": 600,
+    "chapterTreeBlur": 1.4,
+    "chapterMarkerEnabled": false,
+    "chapterMarkerColor": "#3857ff",
+    "chapterMarkerSize": 22,
+    "chapterJoinDuration": 1.042,
+    "chapterBridgeStatus": "authored; original diagram-to-room bridge not supplied",
+    "chapterGroundHorizon": 425
+  },
+  "sources": {
+    "chapterRoom": "room-color-v62.png",
+    "chapterWindow": "room-color-v62.png",
+    "chapterPot1": "portrait-room-vase-v53.png",
+    "chapterPot2": "portrait-room-vase-v53.png",
+    "chapterPot3": "portrait-room-vase-v53.png",
+    "chapterYoungRudi": "young-portraits-v65.png",
+    "chapterYoungAdi": "young-portraits-v65.png",
+    "chapterShelf": "chapter-props-v65.png",
+    "chapterVase": "portrait-room-vase-v53.png",
+    "chapterSill": "portrait-room-cloth-v53.png",
+    "chapterFactoryOld": "period-factory-v65.png",
+    "chapterFence": "chapter-props-v65.png",
+    "chapterBike": "chapter-bike-v65.png",
+    "chapterGround": "dark-earth-v63.png",
+    "chapterSky": "war-sky-v43.png",
+    "chapterHeadAdi": "rivalry-heads-v65.png",
+    "chapterHeadRudi": "rivalry-heads-v65.png",
+    "chapterBrandAdi": "adidas-wordmark.svg",
+    "chapterBrandRudi": "puma-lockup.svg",
+    "chapterRoleTexture": "title-cloud-fill-v44.png",
+    "chapterTitleTexture": "title-cloud-fill-v44.png",
+    "chapterFireTexture": "fire.png",
+    "chapterHorizon": "athletics-horizon-v65.png",
+    "chapterSalesman": "club-salesman-v65.png",
+    "chapterTree": "foreground-tree-v65.png",
+    "chapterOlderAdi": "older-brothers-poses-v65.png",
+    "chapterOlderRudi": "older-brothers-poses-v65.png",
+    "chapterOpenAdi": "older-brothers-poses-v65.png",
+    "chapterOpenRudi": "older-brothers-poses-v65.png",
+    "chapterFactoryNew": "factory-front-v65.png",
+    "chapterProp1": "salvage-brown-shoe-v58.png",
+    "chapterProp2": "salvage-cream-shoe-v58.png",
+    "chapterProp3": "shoe-solid-default-v56.png",
+    "chapterProp4": "salvage-cream-shoe-v58.png",
+    "chapterProp5": "salvage-brown-shoe-v58.png",
+    "chapterProp6": "salvage-cream-shoe-v58.png",
+    "chapterProp7": "shoe-solid-default-v56.png",
+    "chapterProp8": "salvage-cream-shoe-v58.png",
+    "chapterAthlete1": "athletics-team-v65.png",
+    "chapterAthlete2": "athletics-team-v65.png",
+    "chapterAthlete3": "athletics-team-v65.png",
+    "chapterAthlete4": "athletics-team-v65.png",
+    "chapterAthlete5": "athletics-team-v65.png",
+    "chapterAthlete6": "athletics-team-v65.png",
+    "chapterAthlete7": "athletics-team-v65.png",
+    "chapterAthlete8": "athletics-team-v65.png",
+    "chapterAthlete9": "athletics-team-v65.png",
+    "chapterAthlete10": "athletics-team-v65.png",
+    "chapterAthlete11": "athletics-team-v65.png",
+    "chapterAthlete12": "athletics-team-v65.png"
+  },
+  "atlasRects": {
+    "chapterWindow": [
+      0.027,
+      0,
+      0.307,
+      0.59
+    ],
+    "chapterYoungRudi": [
+      0,
+      0,
+      0.5,
+      1
+    ],
+    "chapterYoungAdi": [
+      0.5,
+      0,
+      0.5,
+      1
+    ],
+    "chapterShelf": [
+      0,
+      0,
+      0.5,
+      1
+    ],
+    "chapterFence": [
+      0.5,
+      0,
+      0.5,
+      1
+    ],
+    "chapterHeadAdi": [
+      0,
+      0,
+      0.5,
+      1
+    ],
+    "chapterHeadRudi": [
+      0.5,
+      0,
+      0.5,
+      1
+    ],
+    "chapterOlderAdi": [
+      0,
+      0,
+      0.5,
+      0.52
+    ],
+    "chapterOlderRudi": [
+      0.5,
+      0,
+      0.5,
+      0.52
+    ],
+    "chapterOpenAdi": [
+      0,
+      0.52,
+      0.5,
+      0.48
+    ],
+    "chapterOpenRudi": [
+      0.5,
+      0.52,
+      0.5,
+      0.48
+    ],
+    "chapterAthlete1": [
+      0,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete2": [
+      0.08333333333333333,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete3": [
+      0.16666666666666666,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete4": [
+      0.25,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete5": [
+      0.3333333333333333,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete6": [
+      0.4166666666666667,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete7": [
+      0.5,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete8": [
+      0.5833333333333334,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete9": [
+      0.6666666666666666,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete10": [
+      0.75,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete11": [
+      0.8333333333333334,
+      0,
+      0.08333333333333333,
+      1
+    ],
+    "chapterAthlete12": [
+      0.9166666666666666,
+      0,
+      0.08333333333333333,
+      1
+    ]
+  },
+  "layers": [
+    {
+      "slot": "chapterRoom",
+      "label": "Room",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 5
+    },
+    {
+      "slot": "chapterWindow",
+      "label": "Window",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterPot1",
+      "label": "Pot1",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterPot2",
+      "label": "Pot2",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterPot3",
+      "label": "Pot3",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterYoungRudi",
+      "label": "Young Rudi",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterYoungAdi",
+      "label": "Young Adi",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterShelf",
+      "label": "Shelf",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterVase",
+      "label": "Vase",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterSill",
+      "label": "Sill",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterFactoryOld",
+      "label": "Factory Old",
+      "scene": "factory",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterFence",
+      "label": "Fence",
+      "scene": "factory",
+      "representation": "independent image layer",
+      "defaultDepth": 1.1
+    },
+    {
+      "slot": "chapterBike",
+      "label": "Bike",
+      "scene": "factory",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterGround",
+      "label": "Ground",
+      "scene": "factory",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterSky",
+      "label": "Sky",
+      "scene": "factory",
+      "representation": "independent image layer",
+      "defaultDepth": 5
+    },
+    {
+      "slot": "chapterHeadAdi",
+      "label": "Head Adi",
+      "scene": "rivalry",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterHeadRudi",
+      "label": "Head Rudi",
+      "scene": "rivalry",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterBrandAdi",
+      "label": "Brand Adi",
+      "scene": "rivalry",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterBrandRudi",
+      "label": "Brand Rudi",
+      "scene": "rivalry",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterRoleTexture",
+      "label": "Role Texture",
+      "scene": "room",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterTitleTexture",
+      "label": "Title Texture",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterFireTexture",
+      "label": "Fire Texture",
+      "scene": "rivalry",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterHorizon",
+      "label": "Horizon",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 5
+    },
+    {
+      "slot": "chapterSalesman",
+      "label": "Salesman",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 1.1
+    },
+    {
+      "slot": "chapterTree",
+      "label": "Tree",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 1.1
+    },
+    {
+      "slot": "chapterOlderAdi",
+      "label": "Older Adi",
+      "scene": "growth",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterOlderRudi",
+      "label": "Older Rudi",
+      "scene": "growth",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterOpenAdi",
+      "label": "Open Adi",
+      "scene": "growth",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterOpenRudi",
+      "label": "Open Rudi",
+      "scene": "growth",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterFactoryNew",
+      "label": "Factory New",
+      "scene": "growth",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterProp1",
+      "label": "Prop1",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterProp2",
+      "label": "Prop2",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterProp3",
+      "label": "Prop3",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterProp4",
+      "label": "Prop4",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterProp5",
+      "label": "Prop5",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterProp6",
+      "label": "Prop6",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterProp7",
+      "label": "Prop7",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterProp8",
+      "label": "Prop8",
+      "scene": "title",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete1",
+      "label": "Athlete1",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete2",
+      "label": "Athlete2",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete3",
+      "label": "Athlete3",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete4",
+      "label": "Athlete4",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete5",
+      "label": "Athlete5",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete6",
+      "label": "Athlete6",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete7",
+      "label": "Athlete7",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete8",
+      "label": "Athlete8",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete9",
+      "label": "Athlete9",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete10",
+      "label": "Athlete10",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete11",
+      "label": "Athlete11",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    },
+    {
+      "slot": "chapterAthlete12",
+      "label": "Athlete12",
+      "scene": "sports",
+      "representation": "independent image layer",
+      "defaultDepth": 2
+    }
+  ],
+  "bridge": "Authored provisional join; missing reference bridge",
+  "sourceGeometry": "Unconfirmed; image planes by default"
+}

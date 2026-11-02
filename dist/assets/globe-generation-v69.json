@@ -1,0 +1,20 @@
+[
+  {
+    "id": "globe_asset_nebula",
+    "prompt": "Use case: stylized-concept. Asset type: high-resolution full-frame background plate for a cinematic Earth/brand documentary opening. Landscape 1920x1080. Deep midnight blue luminous cloudy atmosphere on the LEFT, dark wine-red and magenta cloudy atmosphere on the RIGHT, a narrow DARK open vertical channel at the center where an animated electrical seam will be composited later. Volumetric smoky cloud detail, subtle cyan and pink edge light, restrained faint dust. Clouds have broad smooth forms with fine wispy texture; darkness and photographic softness, not colorful outer-space galaxy art. Keep center moderately dark; no baked lightning, no bright flare, NO Earth, no planets, no stars larger than tiny specks, NO logos, NO typography. Background only. Independent animated lighting and globe will be added in code. Avoid central white stripe and oversaturated neon. High-quality realistic cinematic VFX texture.",
+    "created": "2026-10-30",
+    "tool": "image_gen",
+    "referenceImages": [],
+    "usage": "Illustrative compositing asset; not archival footage",
+    "originalPreserved": true
+  },
+  {
+    "id": "globe_asset_cloud",
+    "prompt": "Use case: photorealistic-natural. Asset type: independent compositing cloud veil on TRUE transparent background. Wide landscape 1920x1080. A broad bank of soft white and pearl-gray high-altitude cloud and thin atmospheric wisps, viewed from above at a slight oblique angle, broad soft masses with natural small detail and feathered outer alpha. Largest luminous cloud masses on upper left and lower right, a partially clear central channel. Neutral daylight illumination, not blue/red baked light. Cloud opacity varies naturally. No ground, no globe, no horizon, no black or colored backdrop, no text or borders. This is a reusable foreground cloud wipe and moving cloud plate; fill most of the image without clipping hard cloud edges.",
+    "created": "2026-10-30",
+    "tool": "image_gen",
+    "referenceImages": [],
+    "usage": "Illustrative compositing asset; not archival footage",
+    "originalPreserved": true
+  }
+]

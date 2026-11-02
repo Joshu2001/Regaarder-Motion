@@ -1,0 +1,85 @@
+{
+  "schema": "motion-generation-record-v72",
+  "tool": "built-in image_gen",
+  "created": "2026-10-31",
+  "promptRecordStatus": "Normalized production prompt summaries retained here; exact generation requests remain in the originating conversation. No tool model identifier supplied.",
+  "assets": [
+    {
+      "file": "football-field-v72.png",
+      "prompt": "Empty period football field; remove people/ball, low grass camera, distant sheds, goal and cloudy slate sky.",
+      "sha256": "fff7ab325f294f4d42f16e4956144f21f2a738c269544633b5ca811a5bd4d36c",
+      "status": "selected",
+      "active": true,
+      "reason": "Missing independently replaceable layer required by approved source continuation.",
+      "modifications": "Original output retained byte-for-byte; runtime crops/masks/color transforms only."
+    },
+    {
+      "file": "football-kicker-v72.png",
+      "prompt": "Fictional period footballer kicking left, off-white jersey, dark shorts and socks, brown ankle boots, full body isolated on transparent background.",
+      "sha256": "25615fe1147bec54e17131b745f304eba51661df751a7002d9b6f43dae7eb022",
+      "status": "selected",
+      "active": true,
+      "reason": "Missing independently replaceable layer required by approved source continuation.",
+      "modifications": "Original output retained byte-for-byte; runtime crops/masks/color transforms only."
+    },
+    {
+      "file": "library-clean-v72.png",
+      "prompt": "Empty period dark oak library, shelves, left window and parquet floor, one-point perspective.",
+      "sha256": "bc00d8040aace758e0cce8e2e0afd605ef024cac92725bfd42cda7a499aacb4d",
+      "status": "selected",
+      "active": true,
+      "reason": "Missing independently replaceable layer required by approved source continuation.",
+      "modifications": "Original output retained byte-for-byte; runtime crops/masks/color transforms only."
+    },
+    {
+      "file": "workshop-clean-v72.png",
+      "prompt": "Empty period shoe workshop, side benches and belt machinery, windows right, central floor.",
+      "sha256": "c3eab31b8a2e74465d14b22850a637aca4cc08bacf94db97078c3ad8e7c73488",
+      "status": "selected",
+      "active": true,
+      "reason": "Missing independently replaceable layer required by approved source continuation.",
+      "modifications": "Original output retained byte-for-byte; runtime crops/masks/color transforms only."
+    },
+    {
+      "file": "brothers-seated-v72.png",
+      "prompt": "Two-column transparent atlas preserving the fictional brothers identity: black-top man holding boot left; glasses/suit/red tie salesman presenting hand right.",
+      "sha256": "60c90b91a1fb2b916b065c5307210fac1d19e6b8e8a4eb0fbe255ff59c0b7ec9",
+      "status": "selected",
+      "active": true,
+      "reason": "Missing independently replaceable layer required by approved source continuation.",
+      "modifications": "Original output retained byte-for-byte; runtime crops/masks/color transforms only."
+    },
+    {
+      "file": "writing-desk-v72.png",
+      "prompt": "Dark oak period writing desk isolated with legs, papers, pen and ledger, no chair.",
+      "sha256": "40ce18af3fb0f095d8ed7e7c1a65dbb5bd4b827c99590eee1b54e2d3b9e81a32",
+      "status": "selected",
+      "active": true,
+      "reason": "Missing independently replaceable layer required by approved source continuation.",
+      "modifications": "Original output retained byte-for-byte; runtime crops/masks/color transforms only."
+    },
+    {
+      "file": "factory-street-v72.png",
+      "prompt": "Empty pale industrial cobblestone factory street with depth and one-point perspective.",
+      "sha256": "8298a364110ea36c01d52121d6e83f82c91fd84a0f20f4c0f9e3475b3775ef55",
+      "status": "selected",
+      "active": true,
+      "reason": "Missing independently replaceable layer required by approved source continuation.",
+      "modifications": "Original output retained byte-for-byte; runtime crops/masks/color transforms only."
+    },
+    {
+      "file": "leather-boot-v72.png",
+      "prompt": "One 1930s brown leather football ankle boot, toe left/heel right, three-quarter side view, laces/welt/leather studs and natural creases, transparent, no logos; kicker reference for materials.",
+      "sha256": "836c42e29a7feee1392a5f20b821271744f3e42aaf96d1fd7d7b59992463b688",
+      "status": "selected",
+      "active": true,
+      "reason": "Missing independently replaceable layer required by approved source continuation.",
+      "modifications": "Original output retained byte-for-byte; runtime crops/masks/color transforms only."
+    }
+  ],
+  "blocked": {
+    "subject": "Straight horizontal extended-arm standing pose",
+    "status": "Tool safety filter blocked; no output asset created. No retry.",
+    "resolution": "Use retained open-arm planes; report pose deviation."
+  }
+}

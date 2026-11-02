@@ -1,0 +1,210 @@
+{
+  "schema": "regaarder-native3d-v1",
+  "version": 1,
+  "name": "Female anatomical foundation",
+  "duration": 5,
+  "sourceOffset": null,
+  "lighting": {
+    "exposure": 0.92,
+    "ambient": 0.65
+  },
+  "cameraId": "camera-main",
+  "background": "#141820",
+  "nodes": [
+    {
+      "id": "camera-main",
+      "type": "camera",
+      "name": "Scene camera",
+      "position": [
+        2.2,
+        1.4,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "target": [
+        0,
+        1,
+        0
+      ],
+      "fov": 32
+    },
+    {
+      "id": "key",
+      "type": "light",
+      "name": "Key softbox",
+      "position": [
+        2.2,
+        4,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "lightType": "directional",
+      "color": "#fff3e1",
+      "intensity": 3,
+      "castShadow": true,
+      "shadowRadius": 4
+    },
+    {
+      "id": "fill",
+      "type": "light",
+      "name": "Fill light",
+      "position": [
+        -3,
+        2,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "lightType": "directional",
+      "color": "#b7d4ff",
+      "intensity": 1.2,
+      "castShadow": false
+    },
+    {
+      "id": "rim",
+      "type": "light",
+      "name": "Rim light",
+      "position": [
+        1,
+        3,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "lightType": "directional",
+      "color": "#dce6ff",
+      "intensity": 2,
+      "castShadow": false
+    },
+    {
+      "id": "floor",
+      "type": "plane",
+      "name": "Ground / contact shadow",
+      "position": [
+        0,
+        -0.012,
+        0
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        12,
+        12,
+        1
+      ],
+      "visible": true,
+      "material": {
+        "color": "#1a2029",
+        "roughness": 0.85,
+        "metalness": 0
+      }
+    },
+    {
+      "id": "humanoid",
+      "type": "humanoid",
+      "name": "Anatomical mannequin",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "proportions": {
+        "headSize": 1.06,
+        "neckLength": 0.95,
+        "shoulderWidth": 1,
+        "armLength": 1,
+        "legLength": 1
+      },
+      "assetId": "anatomical-humanoid-v89",
+      "pose": "standing",
+      "style": "faceless",
+      "material": {
+        "color": "#d4d4c9",
+        "roughness": 0.46,
+        "metalness": 0
+      },
+      "parts": {
+        "shirt": {
+          "visible": true,
+          "color": "#7d8c9d",
+          "roughness": 0.52
+        },
+        "trousers": {
+          "visible": true,
+          "color": "#343e4b",
+          "roughness": 0.58
+        },
+        "hat": {
+          "visible": false,
+          "color": "#dedbca",
+          "roughness": 0.78,
+          "width": 1,
+          "height": 1,
+          "depth": 1,
+          "lift": 0,
+          "tilt": -4,
+          "bandColor": "#a7a18f"
+        }
+      },
+      "bones": {},
+      "boneTracks": {},
+      "ik": {},
+      "tracks": {},
+      "shape": {
+        "female": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "defaults": {
+    "feudEnabled": true,
+    "feudRate": 1,
+    "feudSceneDurations": {},
+    "feudLayerEdits": {},
+    "feudSourceBindings": {},
+    "feudCameraX": 0,
+    "feudCameraY": 0,
+    "feudCameraZoom": 0,
+    "feudCloudWind": 18,
+    "feudCloudEvolution": 0.11,
+    "feudFireStrength": 1,
+    "feudEyeStrength": 1,
+    "feudTitle": "THE TOWN OF BENT NECKS",
+    "feudChapter": "CHAPTER 4:",
+    "feudTitleSize": 51,
+    "feudTitleColor": "#ffe595",
+    "feudTitleScatter": 420,
+    "feudTitleBlur": 22,
+    "feudIllustrationLabel": true
+  },
+  "stages": [
+    {
+      "id": "feud-court-continuation",
+      "from": 655,
+      "to": 658.6,
+      "duration": 3.6000000000000227,
+      "label": "court continuation"
+    },
+    {
+      "id": "feud-witness-slices",
+      "from": 658.6,
+      "to": 662.7,
+      "duration": 4.100000000000023,
+      "label": "witness slices"
+    },
+    {
+      "id": "feud-face-pullback",
+      "from": 662.7,
+      "to": 669.7,
+      "duration": 7,
+      "label": "face pullback"
+    },
+    {
+      "id": "feud-allegation-collage",
+      "from": 669.7,
+      "to": 675.3,
+      "duration": 5.599999999999909,
+      "label": "allegation collage"
+    },
+    {
+      "id": "feud-collage-question",
+      "from": 675.3,
+      "to": 677.2,
+      "duration": 1.900000000000091,
+      "label": "collage question"
+    },
+    {
+      "id": "feud-question-hold",
+      "from": 677.2,
+      "to": 682,
+      "duration": 4.7999999999999545,
+      "label": "question hold"
+    },
+    {
+      "id": "feud-metal-heads",
+      "from": 682,
+      "to": 688.5,
+      "duration": 6.5,
+      "label": "metal heads"
+    },
+    {
+      "id": "feud-heads-factory-handoff",
+      "from": 688.5,
+      "to": 691.5,
+      "duration": 3,
+      "label": "heads factory handoff"
+    },
+    {
+      "id": "feud-factory-split",
+      "from": 691.5,
+      "to": 695.5,
+      "duration": 4,
+      "label": "factory split"
+    },
+    {
+      "id": "feud-company-reveal",
+      "from": 695.5,
+      "to": 698.2666666666667,
+      "duration": 2.7666666666666515,
+      "label": "company reveal"
+    },
+    {
+      "id": "feud-revenge-fire",
+      "from": 698.2666666666667,
+      "to": 706,
+      "duration": 7.7333333333333485,
+      "label": "revenge fire"
+    },
+    {
+      "id": "feud-fade-black",
+      "from": 706,
+      "to": 707.5,
+      "duration": 1.5,
+      "label": "fade black"
+    },
+    {
+      "id": "feud-black-hold",
+      "from": 707.5,
+      "to": 710.0333333333333,
+      "duration": 2.533333333333303,
+      "label": "black hold"
+    },
+    {
+      "id": "feud-chapter-assembly",
+      "from": 710.0333333333333,
+      "to": 712,
+      "duration": 1.966666666666697,
+      "label": "chapter assembly"
+    },
+    {
+      "id": "feud-chapter-hold",
+      "from": 712,
+      "to": 715,
+      "duration": 3,
+      "label": "chapter hold"
+    }
+  ],
+  "sources": {
+    "feudPortrait": "feud-frontal-v83.png",
+    "feudHeadA": "feud-head-views-v83.png",
+    "feudHeadB": "feud-head-views-v83.png",
+    "feudPersonA": "shelter-cutouts-v81.png",
+    "feudPersonB": "shelter-cutouts-v81.png",
+    "feudPersonC": "shelter-cutouts-v81.png",
+    "feudPersonD": "shelter-cutouts-v81.png",
+    "feudFactory": "period-factory-v65.png",
+    "feudGround": "dark-earth-v63.png",
+    "feudBrandA": "adidas-wordmark.svg",
+    "feudBrandB": "puma-lockup.svg",
+    "feudFire": "trial-fire-v82.png",
+    "feudShoeA": "salvage-brown-shoe-v58.png",
+    "feudShoeB": "salvage-cream-shoe-v58.png",
+    "feudCourt": "trial-environments-audience-v82.png",
+    "feudWitnessA": "trial-people-b-v82.png",
+    "feudWitnessB": "trial-people-b-v82.png"
+  },
+  "layers": [
+    {
+      "id": "feudPortrait",
+      "slot": "feudPortrait",
+      "label": "feudPortrait"
+    },
+    {
+      "id": "feudHeadA",
+      "slot": "feudHeadA",
+      "label": "feudHeadA"
+    },
+    {
+      "id": "feudHeadB",
+      "slot": "feudHeadB",
+      "label": "feudHeadB"
+    },
+    {
+      "id": "feudPersonA",
+      "slot": "feudPersonA",
+      "label": "feudPersonA"
+    },
+    {
+      "id": "feudPersonB",
+      "slot": "feudPersonB",
+      "label": "feudPersonB"
+    },
+    {
+      "id": "feudPersonC",
+      "slot": "feudPersonC",
+      "label": "feudPersonC"
+    },
+    {
+      "id": "feudPersonD",
+      "slot": "feudPersonD",
+      "label": "feudPersonD"
+    },
+    {
+      "id": "feudFactory",
+      "slot": "feudFactory",
+      "label": "feudFactory"
+    },
+    {
+      "id": "feudGround",
+      "slot": "feudGround",
+      "label": "feudGround"
+    },
+    {
+      "id": "feudBrandA",
+      "slot": "feudBrandA",
+      "label": "feudBrandA"
+    },
+    {
+      "id": "feudBrandB",
+      "slot": "feudBrandB",
+      "label": "feudBrandB"
+    },
+    {
+      "id": "feudFire",
+      "slot": "feudFire",
+      "label": "feudFire"
+    },
+    {
+      "id": "feudShoeA",
+      "slot": "feudShoeA",
+      "label": "feudShoeA"
+    },
+    {
+      "id": "feudShoeB",
+      "slot": "feudShoeB",
+      "label": "feudShoeB"
+    },
+    {
+      "id": "feudCourt",
+      "slot": "feudCourt",
+      "label": "feudCourt"
+    },
+    {
+      "id": "feudWitnessA",
+      "slot": "feudWitnessA",
+      "label": "feudWitnessA"
+    },
+    {
+      "id": "feudWitnessB",
+      "slot": "feudWitnessB",
+      "label": "feudWitnessB"
+    },
+    {
+      "id": "clouds",
+      "slot": null,
+      "label": "clouds"
+    },
+    {
+      "id": "question",
+      "slot": null,
+      "label": "question"
+    },
+    {
+      "id": "head-a",
+      "slot": null,
+      "label": "head-a"
+    },
+    {
+      "id": "head-b",
+      "slot": null,
+      "label": "head-b"
+    },
+    {
+      "id": "eye-a",
+      "slot": null,
+      "label": "eye-a"
+    },
+    {
+      "id": "eye-b",
+      "slot": null,
+      "label": "eye-b"
+    },
+    {
+      "id": "factory-a",
+      "slot": null,
+      "label": "factory-a"
+    },
+    {
+      "id": "factory-b",
+      "slot": null,
+      "label": "factory-b"
+    },
+    {
+      "id": "rail",
+      "slot": null,
+      "label": "rail"
+    },
+    {
+      "id": "ground",
+      "slot": null,
+      "label": "ground"
+    },
+    {
+      "id": "fire-front",
+      "slot": null,
+      "label": "fire-front"
+    },
+    {
+      "id": "fire-back",
+      "slot": null,
+      "label": "fire-back"
+    },
+    {
+      "id": "chapter-title",
+      "slot": null,
+      "label": "chapter-title"
+    },
+    {
+      "id": "chapter-label",
+      "slot": null,
+      "label": "chapter-label"
+    },
+    {
+      "id": "chapter-shoes",
+      "slot": null,
+      "label": "chapter-shoes"
+    },
+    {
+      "id": "illustration-label",
+      "slot": null,
+      "label": "illustration-label"
+    }
+  ]
+}

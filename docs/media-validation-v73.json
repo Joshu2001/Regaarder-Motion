@@ -1,0 +1,24 @@
+[
+  {
+    "file": "Motionclone-v73-continuation.mp4",
+    "duration": "60.000000",
+    "width": 960,
+    "height": 540,
+    "frames": "1440",
+    "fps": "24/1",
+    "audio": false,
+    "decode": "passed",
+    "sha256": "a4168bf2bd7c109e7472a66325b27f357af1bcac4ff15d0a95ea0fd5676eea9a"
+  },
+  {
+    "file": "Motionclone-v73-side-by-side.mp4",
+    "duration": "60.000000",
+    "width": 1920,
+    "height": 540,
+    "frames": "1440",
+    "fps": "24/1",
+    "audio": false,
+    "decode": "passed",
+    "sha256": "7e760c8272ede8c653ac6cc321dd2dbbd10cba7cbe38826b01b654957562ad6b"
+  }
+]

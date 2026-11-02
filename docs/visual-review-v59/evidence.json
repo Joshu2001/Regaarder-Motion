@@ -1,0 +1,60 @@
+{
+  "purpose": "Diagnostic comparison; not production artwork",
+  "method": "Milestone frame comparison, not native-speed playback certification or an automatic similarity score.",
+  "samples": [
+    {
+      "requestedClipSeconds": 1.4,
+      "selectedReferencePresentationSeconds": 1.402,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    },
+    {
+      "requestedClipSeconds": 4.5,
+      "selectedReferencePresentationSeconds": 4.462,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    },
+    {
+      "requestedClipSeconds": 6,
+      "selectedReferencePresentationSeconds": 5.99,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    },
+    {
+      "requestedClipSeconds": 11.8,
+      "selectedReferencePresentationSeconds": 11.824,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    },
+    {
+      "requestedClipSeconds": 20,
+      "selectedReferencePresentationSeconds": 20.002,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    },
+    {
+      "requestedClipSeconds": 34,
+      "selectedReferencePresentationSeconds": 33.983,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    },
+    {
+      "requestedClipSeconds": 48,
+      "selectedReferencePresentationSeconds": 48.003,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    },
+    {
+      "requestedClipSeconds": 58,
+      "selectedReferencePresentationSeconds": 57.983,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    },
+    {
+      "requestedClipSeconds": 67.5,
+      "selectedReferencePresentationSeconds": 67.466,
+      "v59State": "direct shared frame painter at requested time",
+      "v58State": "decoded closest30fps frame"
+    }
+  ]
+}

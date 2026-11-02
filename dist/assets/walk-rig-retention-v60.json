@@ -1,0 +1,67 @@
+{
+  "schema": "walking-retention-v60",
+  "classicModule": "cutout-walk.js",
+  "classicModuleSHA256": "2e0be1621439ccd0759a66dba049dfd0bdca9bcd364ee632e6df93e1b985843a",
+  "classicSource": "assets/salvage-searcher-v58.png",
+  "classicSourceSHA256": "f3573d95a760905e4eca5fc3c8afbb48921f94bb641494e59d9d4a11df33bc72",
+  "classicPreset": "assets/classic-cutout-walk-v59.json",
+  "newPreset": "assets/natural-mesh-walk-v60.json",
+  "classicRetainedByteForByte": true,
+  "newRig": "mesh-walk.js",
+  "partRects": {
+    "torso": [
+      35,
+      5,
+      370,
+      400
+    ],
+    "head": [
+      470,
+      45,
+      365,
+      355
+    ],
+    "coat": [
+      840,
+      5,
+      410,
+      405
+    ],
+    "thigh": [
+      110,
+      418,
+      225,
+      400
+    ],
+    "shin": [
+      550,
+      418,
+      160,
+      395
+    ],
+    "boot": [
+      825,
+      505,
+      420,
+      290
+    ],
+    "upperarm": [
+      75,
+      815,
+      275,
+      415
+    ],
+    "torcharm": [
+      445,
+      805,
+      395,
+      405
+    ],
+    "forearm": [
+      935,
+      800,
+      245,
+      415
+    ]
+  }
+}

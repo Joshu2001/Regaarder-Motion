@@ -1,0 +1,101 @@
+{
+  "policy": "Retain every available generated output byte-for-byte, including rejected and superseded versions. Template activation and review status are separate. No absent historical outputs are invented.",
+  "outputs": [
+    {
+      "generationOutput": "exec-04ed9210-23e0-43f2-af43-03c655837a30.png",
+      "sha256": "a01f1254bb09ee6eb2a1718fdbdad72dcc0ef0225720eb5ed728fe9be035e0a2",
+      "retainedAs": [
+        "assets/village-town-v38.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-14bb83c2-8cc6-4301-988e-076e89092d33.png",
+      "sha256": "8a37d3b77769d7d10e90d958503ee5b27e213560339e302a28e798415cca6bfb",
+      "retainedAs": [
+        "assets/precision-architecture-v39.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-1b6ad78f-3d74-4839-baf5-198780049244.png",
+      "sha256": "7d38fdf389990e1a85a6ea8ecb2e8d7263720b0ea8ca216ee00d1393007a6347",
+      "retainedAs": [
+        "assets/village-boys-v38.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-2e122af5-610c-4694-bf11-ff1b428aa8bd.png",
+      "sha256": "9adda31cd93ce578f5cefc23104c89f1d211066b9b15da8b572eb5d2085a898c",
+      "retainedAs": [
+        "assets/precision-clouds-v39.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-59a25c5d-05d9-4108-a91e-adc54b5efefd.png",
+      "sha256": "0096c88cfaf558ccf9c12a3cab2892e59bd00beb5b3be44803990a45c9c12c3c",
+      "retainedAs": [
+        "assets/precision-aerial-v39.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-6efd84de-a98b-49ac-82f4-68046710560c.png",
+      "sha256": "89de885d20bb31e2b8566297c651910a3b8cf53ac88a5e8e122739cd718aaab2",
+      "retainedAs": [
+        "assets/precision-masonry-v39.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-775e7526-a77c-4ca5-9d9b-5be0be344051.png",
+      "sha256": "3efc3d1136061d665c94e0c3baa2b00328fbdf522c96c2ef8bac95436732cc9e",
+      "retainedAs": [
+        "assets/village-seamstress-v38.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-8e7fdc9c-f980-429d-9a20-5bd62ee85e94.png",
+      "sha256": "df051bed25243bf7264dedf1ac92fcb864664bb881f66425ac66d53e7bc26a35",
+      "retainedAs": [
+        "assets/precision-seamstress-v39.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-f079edb6-e426-4918-af0e-580c864619df.png",
+      "sha256": "ad234a89586c7dbf8302b1f12409106d8b51bdba44540d05dc6f92204b29391a",
+      "retainedAs": [
+        "assets/precision-linen-v39.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-f0b9e939-7a1f-4dc2-931a-0d964f9a33bb.png",
+      "sha256": "b1faa063842d3bf25388b426d8b80e74a2fc5308a3222fa59de61c6973f38e90",
+      "retainedAs": [
+        "assets/village-workshop-v38.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-f17879e8-04bf-4fc1-9d38-93069cb61871.png",
+      "sha256": "ff0edacca540c0c6c178ce4ceaf9c2f104211ef0dd3fd44226821ff5dcdb4a39",
+      "retainedAs": [
+        "assets/precision-face-v39.png"
+      ],
+      "recovered": false
+    },
+    {
+      "generationOutput": "exec-f25f0367-f283-42db-9da5-0b767226234d.png",
+      "sha256": "92e6631e35ca849f14a0df1e5527e4f035939a118ae57d18b07736b0118af75a",
+      "retainedAs": [
+        "assets/archive/linen-long-sleeve-rejected-v39-92e6631e.png"
+      ],
+      "recovered": true
+    }
+  ]
+}

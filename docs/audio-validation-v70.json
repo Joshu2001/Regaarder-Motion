@@ -1,0 +1,14 @@
+{
+  "mix": "Reference soundtrack + original synthesized SFX at0.55 gain; limiter0.93; reference not isolated voice",
+  "measurements": [
+    [
+      "mean_volume",
+      "-15.5 dB"
+    ],
+    [
+      "max_volume",
+      "-1.7 dB"
+    ]
+  ],
+  "listeningLimitation": "No native-device listening/latency certification."
+}

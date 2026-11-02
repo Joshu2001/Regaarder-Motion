@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "scoped lighting pixel isolation",
+    "shared-depth composition retains both figures",
+    "hat fit keys sample exact cut",
+    "editor creates part width key from sampled value",
+    "no browser errors"
+  ],
+  "redDelta": 0,
+  "coachDelta": 10.38034420289855,
+  "white": 48059,
+  "blue": 43894,
+  "hat0": 1.22,
+  "hatCut": 1.02
+}

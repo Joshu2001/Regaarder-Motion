@@ -1,0 +1,37 @@
+{
+  "schema": "regaarder-generation-record-v1",
+  "selectedReference": "assets/ruined-window-selected-reference-v55.png",
+  "outputs": [
+    {
+      "assetId": "ruined-window-person-v55",
+      "output": "assets/ruined-window-person-v55.png",
+      "originalToolOutput": "exec-c7ee6a2c-a8d5-45fd-8dc2-596f09a9ae8b.png",
+      "transparentBackground": true,
+      "exactSubmittedPrompt": "Use case: background-extraction, identity-preserve. Edit target: the supplied exact selected monochrome reference. Extract ONLY the young man seen from behind and in right profile, wearing the dark heavy coat. Preserve exact facial profile, downward gaze, ear, swept hair, neck, coat collar and photographic grayscale lighting. It must look like he is looking DOWN through a ruined window at the street. Output genuine transparent alpha with no city, wall, arrows, UI or subscribe graphic. Complete only small clipped hair/coat areas naturally, maintain the original pose; no redesigned face, no turning to camera. Include head and shoulders/upper torso, isolated centered with very little transparent padding. Production cutout, no ground shadow.",
+      "tool": "image_gen.imagegen",
+      "status": "implemented for user visual review",
+      "sha256": "fb93dcc62d5df16b7a03715db262346c6c24393765840b6390a5701d841c6156"
+    },
+    {
+      "assetId": "ruined-window-city-v55",
+      "output": "assets/ruined-window-city-v55.png",
+      "originalToolOutput": "exec-c1a21a1f-a4e4-4c87-bcc5-6d4847c61af3.png",
+      "transparentBackground": false,
+      "exactSubmittedPrompt": "Use case: precise-object-edit. Edit target: exact supplied monochrome ruined-window reference. Remove ONLY the man, the foreground dark window wall and all red arrows and subscribe/UI graphics, reconstructing concealed city. Create a clean background plate of the SAME close ruined urban street seen DOWNWARD from an upstairs damaged building opening. Preserve the specific near bombed fa\u00e7ades, window openings, rubble street, hazy smoke and gray overcast light. This is a close elevated view into nearby damaged buildings, NOT an expansive panorama, mountain lookout, modern skyline or distant aerial city. Preserve original photographic blur and grayscale. Fill the entire wide landscape frame with the ruined street view. No people, interior window frame, text, logos or red marks.",
+      "tool": "image_gen.imagegen",
+      "status": "implemented for user visual review",
+      "sha256": "5f6d661bc49de2128aec20d838c1bb4f4c187db4567cb3c4c36294e1f82ee627"
+    },
+    {
+      "assetId": "ruined-window-wall-v55",
+      "output": "assets/ruined-window-wall-v55.png",
+      "originalToolOutput": "exec-89209d1a-a4cd-4c21-9098-7fa378e696b3.png",
+      "transparentBackground": true,
+      "exactSubmittedPrompt": "Use case: background-extraction / precise-object-edit. Edit target: exact supplied reference. Create ONLY the dark rough inner masonry/plaster wall and deep window reveal that would be immediately to the LEFT of the man's head in this shot. This is the inside edge of a broken empty wall opening, NO glass, NO wooden window frame, NO bars. Wide landscape canvas: dark charcoal textured wall occupies the left 35 percent, with an irregular near-vertical opening edge around x35%, and subtle thick inner reveal on its right edge lit faintly by overcast outside light. The rest of the canvas on the right is genuine transparency. Extend wall fully to top, bottom and left image edges. Remove the man, city, arrows, UI, logos and all other objects. Match original dark grayscale photographic rough plaster, subtle natural texture, no artificial vignette, no checkerboard. This near wall will occlude independently over a city background.",
+      "tool": "image_gen.imagegen",
+      "status": "implemented for user visual review",
+      "sha256": "63a174fb1031292e07a0a5dca24c179989ead5c1c1d8d4983733d289aedda1ba"
+    }
+  ],
+  "selectedReferenceSHA256": "d69c33b8ec27d4d2796cf20717667821d91fbfe6cb6a03bfb8c3a2cd58fac73f"
+}

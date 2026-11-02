@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checks": [
+    "6 contiguous deterministic stages, duration5seconds",
+    "four-rate inverse clocks with custom stage duration",
+    "exact V86 incoming endpoint",
+    "9 independent object visibility controls",
+    "measured scene cut frame116 at30fps",
+    "seated pelvis/knee geometry, lowering head trajectory and finite pose chains",
+    "blue foreground projected order crossing",
+    "outgoing/incoming focus progression",
+    "per-joint world-space keyframes interpolate and reject duplicate times",
+    "invalid settings rejection, missing media resilience and no settings mutation",
+    "native director910seconds, disabled905, previous settings/playhead preserved",
+    "isolated actual catalog prop replacement and restore",
+    "classic script parsing",
+    "13 previous scene/director/rig files preserved byte-for-byte"
+  ],
+  "nativeBrowser": "not verified",
+  "continuousPlayback": "not viewed or listened to; ordered-frame visual review"
+}

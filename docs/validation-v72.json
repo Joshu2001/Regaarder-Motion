@@ -1,0 +1,25 @@
+{
+  "timeline": "24 contiguous stages; 68.65 seconds",
+  "clockSamples": 10299,
+  "sourceRange": [
+    286.35,
+    355
+  ],
+  "templateRange": [
+    296.35,
+    365
+  ],
+  "checks": [
+    "source/local inverse with custom duration and 0.5/1/2 rates",
+    "invalid imports rejected",
+    "all stage centers opaque and deterministic",
+    "exact V71 first pose pixel match",
+    "independent active/inactive object transforms",
+    "ball coverage before cut",
+    "canvas state restoration",
+    "nonmutating settings",
+    "director VM initialization, playhead, endpoint, disable and finally restoration"
+  ],
+  "nativeBrowser": "not available; VM UI and CPU Canvas checks only",
+  "status": "passed"
+}

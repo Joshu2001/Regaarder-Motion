@@ -1,0 +1,197 @@
+{
+  "version": 93,
+  "units": {
+    "position": "meters",
+    "rotation": "degrees",
+    "time": "seconds"
+  },
+  "shape": {
+    "female": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0
+    },
+    "shoulders": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "chest": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "waist": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "abdomen": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "hips": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "pelvis": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "glutes": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "thighs": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "calves": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "headWidth": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "headDepth": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    },
+    "jaw": {
+      "range": [
+        -0.3,
+        0.3
+      ],
+      "default": 0
+    }
+  },
+  "sculpt": {
+    "space": "bind surface local",
+    "modes": [
+      "inflate",
+      "deflate",
+      "grabX"
+    ],
+    "radiusDefault": 0.055,
+    "strengthDefault": 0.003,
+    "mirrorPlane": "local X=0",
+    "maxOffsetsPerSurface": 12000,
+    "offsetRange": [
+      -0.15,
+      0.15
+    ],
+    "topologyGuard": "vertex count and FNV triangle index hash"
+  },
+  "weights": {
+    "maxInfluences": 4,
+    "sum": 1,
+    "selectedBoneWeightDefault": 0.75,
+    "mode": "per vertex assignment"
+  },
+  "corrective": {
+    "space": "local bone Euler angle",
+    "axes": [
+      "x",
+      "y",
+      "z"
+    ],
+    "defaultAngleRange": [
+      0,
+      60
+    ],
+    "maxLayers": 24
+  },
+  "hat": {
+    "fit": "head section at top minus 0.065m, 2% radial clearance",
+    "openingWidth": 0.158,
+    "openingDepth": 0.17853999999999998,
+    "offsetRange": [
+      -0.15,
+      0.15
+    ],
+    "limits": "bind section, not mesh collision"
+  },
+  "contacts": {
+    "surfaceLocalPointRange": [
+      -0.5,
+      0.5
+    ],
+    "clearanceRange": [
+      0,
+      0.25
+    ],
+    "handDefaultClearance": 0.12,
+    "footDefaultClearance": 0.08,
+    "limits": "effector target probes"
+  },
+  "garment": {
+    "easeRange": [
+      -0.01,
+      0.05
+    ],
+    "shirtLengthRange": [
+      -0.1,
+      0.15
+    ]
+  },
+  "materials": {
+    "clearcoat": [
+      0,
+      1
+    ],
+    "sheen": [
+      0,
+      1
+    ],
+    "finish": [
+      "cloth",
+      "plastic",
+      "metal",
+      "wood"
+    ],
+    "bumpDefault": 0.001,
+    "studioEnvironmentStrength": [
+      0,
+      2
+    ]
+  },
+  "shadowResolution": {
+    "draft": 1024,
+    "high": 2048,
+    "ultra": 4096
+  },
+  "authoritativeFormat": "regaarder-native3d-v1 JSON"
+}

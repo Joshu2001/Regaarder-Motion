@@ -1,0 +1,15 @@
+{
+  "sourceBodyVertices": 13380,
+  "sourceBodyQuads": 13378,
+  "renderVertices": 53514,
+  "renderTriangles": 107024,
+  "bones": 163,
+  "parts": {
+    "body": 76848,
+    "shirt": 19408,
+    "trousers": 10768
+  },
+  "fourWeightMaxError": 3.3306690738754696e-16,
+  "authorship": "CC0 anatomical body/skeleton/weights; project-authored subdivision, style target and fitted garment separation",
+  "clothing": "Fitted topology-derived garment shells, not simulated cloth or custom-tailored historical garments"
+}

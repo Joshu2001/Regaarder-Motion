@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "four-rate custom-duration clock inverse",
+    "20 deterministic stages",
+    "exact V83 incoming frame",
+    "exact black interval",
+    "12 independent visible object controls",
+    "invalid input rejection and settings nonmutation",
+    "independent title and map rotation",
+    "native director extends to785, preserves playhead/settings, disables to725",
+    "earlier renderer hashes preserved"
+  ],
+  "nativeBrowser": "not verified"
+}

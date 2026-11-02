@@ -1,0 +1,13 @@
+{
+  "vertices": 18280,
+  "triangles": 36556,
+  "joints": 51,
+  "components": [
+    18280
+  ],
+  "boundaryEdges": 0,
+  "nonManifoldEdges": 0,
+  "maxWeightError": 4.440892098500626e-16,
+  "method": "smooth implicit union / conforming marching tetrahedra / four-weight skin",
+  "author": "project-authored procedural model; no external model"
+}

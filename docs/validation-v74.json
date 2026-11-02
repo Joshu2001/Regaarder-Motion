@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "stages": 29,
+  "sourceRange": [
+    415,
+    475
+  ],
+  "templateRange": [
+    425,
+    485
+  ],
+  "clockInverseSamples": 9000,
+  "blackNativeSamples": 84,
+  "checks": [
+    "source clocks and custom durations",
+    "finite imports and paths",
+    "deterministic all-stage render",
+    "exact incoming V73 frame",
+    "full black interval",
+    "independent object visibility",
+    "editable path appearance and localized red light",
+    "missing-media behavior",
+    "settings nonmutation",
+    "actual appended director, reversible duration, preserved playhead and capability",
+    "actual page script order"
+  ],
+  "nativeBrowser": "Not verified; CPU Canvas and actual-code VM only"
+}

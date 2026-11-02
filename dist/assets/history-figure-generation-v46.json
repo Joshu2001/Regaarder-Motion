@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-28",
+  "tool": "image_gen.imagegen",
+  "key": "figure",
+  "prompt": "Use case: historical-scene. Asset type: isolated full-body rear-view character cutout for an editable cinematic parallax scene. A young adult European man seen completely from behind, standing still with arms at sides, plain dark charcoal early twentieth century civilian work jacket and trousers, scuffed boots. Natural realistic human proportions, subtle clothing folds, no stylization, not a stick figure. Small slight rim light, face invisible. Entire body including both boots inside frame, neutral upright pose. Genuine transparent background, no ground plane, no shadow outside cutout. No insignia, symbols, hats, text or logos. Photographic historical illustration, not archival evidence.",
+  "output": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-a3fa4d16-1d6f-4c47-9658-15f1c695212f.png"
+}

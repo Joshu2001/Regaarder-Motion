@@ -1,0 +1,433 @@
+{
+  "defaults": {
+    "divisionEnabled": true,
+    "divisionRate": 1,
+    "divisionSceneDurations": {},
+    "divisionLayerEdits": {},
+    "divisionSourceBindings": {},
+    "divisionCameraX": 0,
+    "divisionCameraY": 0,
+    "divisionCameraZoom": 0,
+    "divisionName": "ADI",
+    "divisionSurname": "DASSLER",
+    "divisionBrandA": "ADIDAS",
+    "divisionPronunciation": "AH-DEE-DAHS",
+    "divisionInitialBrand": "RUDA",
+    "divisionBrandB": "PUMA",
+    "divisionTownLabel": "HERZOGENAURACH",
+    "divisionTypeColor": "#e6e5df",
+    "divisionRed": "#8b2035",
+    "divisionBlue": "#164e9a",
+    "divisionRiverColor": "#ac8cf8",
+    "divisionRiverWidth": 6,
+    "divisionRiverPath": [
+      [
+        0,
+        0.3
+      ],
+      [
+        0.1,
+        0.35
+      ],
+      [
+        0.18,
+        0.43
+      ],
+      [
+        0.24,
+        0.45
+      ],
+      [
+        0.29,
+        0.42
+      ],
+      [
+        0.34,
+        0.47
+      ],
+      [
+        0.38,
+        0.48
+      ],
+      [
+        0.43,
+        0.53
+      ],
+      [
+        0.5,
+        0.56
+      ],
+      [
+        0.56,
+        0.58
+      ],
+      [
+        0.62,
+        0.68
+      ],
+      [
+        0.7,
+        0.7
+      ],
+      [
+        0.78,
+        0.72
+      ],
+      [
+        0.9,
+        0.8
+      ],
+      [
+        1,
+        0.86
+      ]
+    ],
+    "divisionWorkers": 9,
+    "divisionWindowExposure": 1,
+    "divisionEyeGlow": 0.85,
+    "divisionMaskStrength": 1,
+    "divisionIllustrationLabel": true
+  },
+  "stages": [
+    {
+      "id": "division-chapter-exit",
+      "from": 715,
+      "to": 719.4333333333333,
+      "duration": 4.43333333333328,
+      "label": "chapter exit"
+    },
+    {
+      "id": "division-black-hold",
+      "from": 719.4333333333333,
+      "to": 719.7,
+      "duration": 0.2666666666667652,
+      "label": "black hold"
+    },
+    {
+      "id": "division-writer-adi",
+      "from": 719.7,
+      "to": 722,
+      "duration": 2.2999999999999545,
+      "label": "writer adi"
+    },
+    {
+      "id": "division-name-assembly",
+      "from": 722,
+      "to": 725.5,
+      "duration": 3.5,
+      "label": "name assembly"
+    },
+    {
+      "id": "division-name-merge",
+      "from": 725.5,
+      "to": 728.2,
+      "duration": 2.7000000000000455,
+      "label": "name merge"
+    },
+    {
+      "id": "division-pronunciation",
+      "from": 728.2,
+      "to": 732.8,
+      "duration": 4.599999999999909,
+      "label": "pronunciation"
+    },
+    {
+      "id": "division-writer-rudi",
+      "from": 732.8,
+      "to": 737.5,
+      "duration": 4.7000000000000455,
+      "label": "writer rudi"
+    },
+    {
+      "id": "division-ruda-assembly",
+      "from": 737.5,
+      "to": 739.8,
+      "duration": 2.2999999999999545,
+      "label": "ruda assembly"
+    },
+    {
+      "id": "division-window-push",
+      "from": 739.8,
+      "to": 741.3666666666667,
+      "duration": 1.5666666666667197,
+      "label": "window push"
+    },
+    {
+      "id": "division-ruda-puma-morph",
+      "from": 741.3666666666667,
+      "to": 743.4,
+      "duration": 2.033333333333303,
+      "label": "ruda puma morph"
+    },
+    {
+      "id": "division-puma-runner",
+      "from": 743.4,
+      "to": 750.2,
+      "duration": 6.800000000000068,
+      "label": "puma runner"
+    },
+    {
+      "id": "division-scalloped-factory-passage",
+      "from": 750.2,
+      "to": 753.5,
+      "duration": 3.2999999999999545,
+      "label": "scalloped factory passage"
+    },
+    {
+      "id": "division-factory-division",
+      "from": 753.5,
+      "to": 757.3,
+      "duration": 3.7999999999999545,
+      "label": "factory division"
+    },
+    {
+      "id": "division-worker-passage",
+      "from": 757.3,
+      "to": 760.5,
+      "duration": 3.2000000000000455,
+      "label": "worker passage"
+    },
+    {
+      "id": "division-founder-adi",
+      "from": 760.5,
+      "to": 762.8,
+      "duration": 2.2999999999999545,
+      "label": "founder adi"
+    },
+    {
+      "id": "division-founder-exchange",
+      "from": 762.8,
+      "to": 764.8333333333334,
+      "duration": 2.0333333333334167,
+      "label": "founder exchange"
+    },
+    {
+      "id": "division-facade-town-pullback",
+      "from": 764.8333333333334,
+      "to": 768.3,
+      "duration": 3.4666666666665833,
+      "label": "facade town pullback"
+    },
+    {
+      "id": "division-organic-map-wipe",
+      "from": 768.3,
+      "to": 770,
+      "duration": 1.7000000000000455,
+      "label": "organic map wipe"
+    },
+    {
+      "id": "division-river-trace",
+      "from": 770,
+      "to": 772,
+      "duration": 2,
+      "label": "river trace"
+    },
+    {
+      "id": "division-map-label-turn",
+      "from": 772,
+      "to": 775,
+      "duration": 3,
+      "label": "map label turn"
+    }
+  ],
+  "sources": {
+    "divisionRoomA": "division-environments-v84.png",
+    "divisionRoomB": "division-environments-v84.png",
+    "divisionFacade": "division-environments-v84.png",
+    "divisionMap": "division-environments-v84.png",
+    "divisionWriterA": "division-people-v84.png",
+    "divisionWriterB": "division-people-v84.png",
+    "divisionWorkerA": "division-people-v84.png",
+    "divisionRunner": "division-people-v84.png",
+    "divisionCat": "division-people-v84.png",
+    "divisionWorkerB": "division-people-v84.png",
+    "divisionFactory": "period-factory-v65.png",
+    "divisionFounderA": "older-brothers-poses-v65.png",
+    "divisionFounderB": "older-brothers-poses-v65.png",
+    "divisionTown": "precision-architecture-v39.png",
+    "divisionGround": "dark-earth-v63.png",
+    "divisionStadium": "athletics-horizon-v65.png"
+  },
+  "layers": [
+    {
+      "id": "divisionRoomA",
+      "slot": "divisionRoomA",
+      "label": "divisionRoomA"
+    },
+    {
+      "id": "divisionRoomB",
+      "slot": "divisionRoomB",
+      "label": "divisionRoomB"
+    },
+    {
+      "id": "divisionFacade",
+      "slot": "divisionFacade",
+      "label": "divisionFacade"
+    },
+    {
+      "id": "divisionMap",
+      "slot": "divisionMap",
+      "label": "divisionMap"
+    },
+    {
+      "id": "divisionWriterA",
+      "slot": "divisionWriterA",
+      "label": "divisionWriterA"
+    },
+    {
+      "id": "divisionWriterB",
+      "slot": "divisionWriterB",
+      "label": "divisionWriterB"
+    },
+    {
+      "id": "divisionWorkerA",
+      "slot": "divisionWorkerA",
+      "label": "divisionWorkerA"
+    },
+    {
+      "id": "divisionRunner",
+      "slot": "divisionRunner",
+      "label": "divisionRunner"
+    },
+    {
+      "id": "divisionCat",
+      "slot": "divisionCat",
+      "label": "divisionCat"
+    },
+    {
+      "id": "divisionWorkerB",
+      "slot": "divisionWorkerB",
+      "label": "divisionWorkerB"
+    },
+    {
+      "id": "divisionFactory",
+      "slot": "divisionFactory",
+      "label": "divisionFactory"
+    },
+    {
+      "id": "divisionFounderA",
+      "slot": "divisionFounderA",
+      "label": "divisionFounderA"
+    },
+    {
+      "id": "divisionFounderB",
+      "slot": "divisionFounderB",
+      "label": "divisionFounderB"
+    },
+    {
+      "id": "divisionTown",
+      "slot": "divisionTown",
+      "label": "divisionTown"
+    },
+    {
+      "id": "divisionGround",
+      "slot": "divisionGround",
+      "label": "divisionGround"
+    },
+    {
+      "id": "divisionStadium",
+      "slot": "divisionStadium",
+      "label": "divisionStadium"
+    },
+    {
+      "id": "clouds",
+      "slot": null,
+      "label": "clouds"
+    },
+    {
+      "id": "desk",
+      "slot": null,
+      "label": "desk"
+    },
+    {
+      "id": "name-letters",
+      "slot": null,
+      "label": "name-letters"
+    },
+    {
+      "id": "brand-letters",
+      "slot": null,
+      "label": "brand-letters"
+    },
+    {
+      "id": "ruda-letters",
+      "slot": null,
+      "label": "ruda-letters"
+    },
+    {
+      "id": "window",
+      "slot": null,
+      "label": "window"
+    },
+    {
+      "id": "cat-eyes",
+      "slot": null,
+      "label": "cat-eyes"
+    },
+    {
+      "id": "scalloped-panel",
+      "slot": null,
+      "label": "scalloped-panel"
+    },
+    {
+      "id": "factory-a",
+      "slot": null,
+      "label": "factory-a"
+    },
+    {
+      "id": "factory-b",
+      "slot": null,
+      "label": "factory-b"
+    },
+    {
+      "id": "workers",
+      "slot": null,
+      "label": "workers"
+    },
+    {
+      "id": "founder-a",
+      "slot": null,
+      "label": "founder-a"
+    },
+    {
+      "id": "founder-b",
+      "slot": null,
+      "label": "founder-b"
+    },
+    {
+      "id": "town-back",
+      "slot": null,
+      "label": "town-back"
+    },
+    {
+      "id": "town-mid",
+      "slot": null,
+      "label": "town-mid"
+    },
+    {
+      "id": "town-front",
+      "slot": null,
+      "label": "town-front"
+    },
+    {
+      "id": "organic-wipe",
+      "slot": null,
+      "label": "organic-wipe"
+    },
+    {
+      "id": "river",
+      "slot": null,
+      "label": "river"
+    },
+    {
+      "id": "map-label",
+      "slot": null,
+      "label": "map-label"
+    },
+    {
+      "id": "illustration-label",
+      "slot": null,
+      "label": "illustration-label"
+    }
+  ]
+}

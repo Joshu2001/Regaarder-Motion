@@ -1,0 +1,102 @@
+[
+  {
+    "key": "young-portraits-v65",
+    "prompt": "Use case: historical-scene. Asset type: TWO SPRITE PORTRAIT ATLAS, transparent background. Use references for character/lighting/style, not as background. Wide landscape canvas 1536x1024, two EQUAL side-by-side cells, clear transparent gap. LEFT CELL: seated young European man early twenties with swept blond hair, white open-collar 1920s shirt and dark vest, leaning forward, gazing toward screen left, same appearance as reference 1. RIGHT CELL: young adult version age 21 of the blond frontal boy in reference 2, tousled hair, natural pale skin, cream shirt, brown work apron, looking directly forward, seated waist-up. Both entire upper bodies including forearms, generous head clearance, hands anatomically sound. Warm window light from left, photographic cinematic documentary realism, serious quiet expressions, identical camera elevation. Each subject centered entirely within own half, never overlap cells. No chair/table/background, no text, no logos, no baked shadow or halo. Genuine alpha transparency.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0001.jpg",
+      "/workspace/scratch/24b9f14cbd4b/Motionclone-v65/dist/assets/continuation-boy-color-v61.png"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-12c2a0c5-2661-4f3e-b62e-83ef79a8a6d0.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "period-factory-v65",
+    "prompt": "Use case: historical-scene. Asset type: isolated photographic factory building cutout for layered documentary animation. Match the supplied reference architecture closely: modest 1920s German rectangular brick two-storey shoe factory, dark steep gabled pitched roof, front gable on LEFT, long right side receding right, white plaster lower floor and dark brick upper floor, tall narrow windows, small central upper front signboard left blank. Three-quarter view from low eye level, entire building unobstructed from roof to foundation with margin. Black and white archival photographic aesthetic with real masonry, worn exterior but intact working factory. IMPORTANT only the BUILDING: no fence, no bicycle, no ground, no sky, no people, no attached surrounding bushes; these are separate editable layers. Interior windows remain opaque dark gray. Transparent background with crisp natural edges, no text, no watermark. Landscape canvas.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0069.jpg"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-c4b030bf-73fd-42ef-b0d9-14d209ef5653.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "rivalry-heads-v65",
+    "prompt": "Use case: stylized-concept. Asset type: TWO HEAD SPRITE ATLAS with genuine transparent background, wide 1536x1024, two equal side-by-side cells. Refer to supplied rivalry frame: LEFT CELL isolated oversized stern older male head facing RIGHT in strong three-quarter/profile, swept wavy hair, metallic charcoal silver sculptural photographic illustration; RIGHT CELL isolated stern older male head facing LEFT in three-quarter/profile, receding combed hair and dark rectangular spectacles. Each neck ends cleanly below jaw, full silhouette, no shoulders. Opposing heads centered fully in their separate halves with transparent gap. Strong silver highlights and deep sculpted wrinkles like monumental polished steel, realistic distinctive features, preserve general portrait types of reference. Neutral eyes only, no flames or glow baked in, fire added separately. No brand panels, no logos, no building, no background, no text, no base or pedestal. High detailed sharp clean alpha silhouettes.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0090.jpg"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-6d25ce93-8783-4dc9-b20f-c6cf189fb6b5.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "athletics-team-v65",
+    "prompt": "Use case: historical-scene. Asset type: isolated sports team sprite atlas, transparent background. Recreate general composition of supplied reference as photographic 1920s German amateur athletics/football group. EXACTLY TWELVE full-body men in ONE STRAIGHT ROW, evenly spaced across a wide landscape 1536x1024 canvas, each in own equal-width vertical cell with small TRANSPARENT GAPS, no touching/overlapping bodies. First ten wear white long-sleeve shirts, dark high-waist shorts/trousers, period socks and boots; eleventh in dark coat; last in dark jersey with a small pale number 249. Neutral standing relaxed poses looking at camera, slight individual height variation. Black and white archival photo texture, realistic people, worn clothes, low contrast midtones. Feet all on same baseline; full heads and shoes uncropped, centered in cells. No ground, no cast backdrop, no sky, no buildings, no labels, no watermark. Real alpha transparency; people only. This atlas will be split into 12 independent editable cutouts.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0156.jpg"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-c8899cb3-c5b9-45e0-a6a3-adca67884927.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "older-brothers-poses-v65",
+    "prompt": "Use case: historical-scene. Asset type: FOUR PHOTO CUTOUT SPRITES in a strict TWO BY TWO equal-cell ATLAS, transparent background 1536x1024. Reference for the two older men and costume. SAME TWO IDENTITIES in two poses. TOP LEFT: older wavy-haired man with dark pullover and small white round pin, leaning forward looking down, waist-up with hands near waist. TOP RIGHT: older receding dark-haired man in spectacles, dark suit, white shirt, vivid RED TIE (only saturated color), leaning forward looking down, waist-up, hands visible. BOTTOM LEFT: same pullover man facing forward, open arms spread in explanatory gesture, waist-up. BOTTOM RIGHT: same suited bespectacled man with red tie, open arms facing slightly left, waist-up. Clean realistic vintage photographic colorization, grayscale clothing/skin except red tie, accurate hands. Each person stays fully inside own quadrant, generous transparent clearance between cells, never overlap. No factory or ground or background, no props, no words. No Nazi symbols or uniforms. Genuine transparent alpha.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0181.jpg"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-f1a3bc6e-af26-4bd9-a891-65fdc0a72962.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "club-salesman-v65",
+    "prompt": "Use case: historical-scene. Asset type: single full-body photographic cutout for layered scene. A civilian German shoe salesman about 30 years old in the late 1920s viewed exactly FROM BEHIND, standing upright facing away from camera, head and both legs fully visible. Light gray long-sleeved shirt tucked into high waist dark gray trousers, period dark shoes, short dark hair. Left arm lowered holding a modest worn dark leather shoe sample bag; right hand at side. Match reference foreground back-facing man, neutral still standing pose (not walking), rear camera at shoulder height. Monochrome archival photographic style, realistic fabric, natural restrained light. Only man and held bag, no ground or surroundings or cast background shadow. Portrait canvas, generous margin, crisp genuine transparent alpha, no halo, no text.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0164.jpg"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-d40ffdd6-bac8-4576-a3dd-835a5a70ca75.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "foreground-tree-v65",
+    "prompt": "Use case: photorealistic-natural. Asset type: isolated foreground leafy TREE cutout for a cinematic occlusion transition. Full lush mature deciduous tree, dense irregular green foliage with natural small holes, realistic medium trunk mostly hidden by leaves, canopy fills a portrait canvas. Sunlight softly filtered overcast, photographic fine leaf detail, rounded but asymmetric crown. Entire silhouette visible with margin, no sky, no ground, no shadow patch, no other scenery, no text. True transparent alpha with natural leaf edges. Dense center must hide a scene boundary as this tree crosses close to camera.",
+    "referenceImages": [],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-69d9fad1-c1cc-4886-8464-d22ac99bc1e6.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "athletics-horizon-v65",
+    "prompt": "Use case: historical-scene. Asset type: isolated distant town/athletics-ground HORIZON CUTOUT layer, landscape 1536x1024. Reference for 1920s German outdoor sports ground surroundings: low plaster houses with pitched roofs, modest grandstand fence, thin telegraph poles, two tall dark deciduous trees, flattened low horizon band. Photographic lightly grainy monochrome archival look, natural soft distant light. No people, NO SKY, no clouds, no foreground ground; alpha-transparent above roofs/branches and below lower boundary. Only distant buildings/trees along lower horizontal band, entire skyline contained. This is a separately replaceable photographic parallax layer behind a sports team.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0156.jpg"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-cb5b4bdd-4b89-4d08-8aae-593abe925639.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "factory-front-v65",
+    "prompt": "Use case: historical-scene. Asset type: isolated factory frontage cutout, true transparency. Match small factory in supplied reference: single-storey wide dark red-brown brick shoe workshop, exactly front-on symmetrical facade, triangular gable/low pitched roof, long rows of tall rectangular multi-pane windows, small central double entry door, a blank small signboard in gable. Entire building roof to foundation visible with generous alpha margin. Realistic period 1930s German industrial photography lightly colorized, weathered but functional. NO people, no ground, no sky, no backdrop or cast shadow, no written text, no logo. Landscape canvas. Make it a clean standalone layer so two figures can stand independently behind it.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0181.jpg"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-97f6ea56-f7c3-41e6-a911-d5a60a44bf25.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  },
+  {
+    "key": "chapter-props-v65",
+    "prompt": "Use case: historical-scene. Asset type: TWO OBJECT SPRITE ATLAS, transparent background, wide 1536x1024, two equal side-by-side cells, clear transparent gap, no labels. LEFT CELL a narrow tall worn dark oak open cupboard/bookcase with three EMPTY deep shelves, simple 1910s rustic room furniture like reference 1, frontal three-quarter view, full silhouette including legs, no pots or wall (pots added separately). RIGHT CELL isolated low weathered wooden paling FENCE and large angled timber BRACE like reference 2 foreground: short run of pickets behind a braced post, diagonal support descends toward viewer, monochrome photographic wood grain, no bicycle or building or ground. Each object fits wholly within its own half. Natural photographic lighting, clean alpha edges, no halos, no scenery, no text.",
+    "referenceImages": [
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0001.jpg",
+      "/workspace/scratch/24b9f14cbd4b/analysis-03m55/exact/0069.jpg"
+    ],
+    "originalPath": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-9dbe6f6a-95c0-4038-af12-68ed4d53580f.png",
+    "tool": "built-in image_gen",
+    "date": "2026-10-30"
+  }
+]

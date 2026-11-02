@@ -1,0 +1,13 @@
+{
+  "schema": "regaarder-shoe-restoration-v1",
+  "restoredSource": "chapter-shoes.js",
+  "restoredSourceSHA256": "e7986fc125d900985a4eb46f32d2523a04a9a17c85a9f1172e9b5cccd353b010",
+  "baseline": "pre-V56 shoeMesh spikes geometry and original face colors/material/grain",
+  "repair": "Append 60 narrow upper/sole seam quads only; original face prefix unchanged.",
+  "preserved": "V56 pose/timing, paper texture, printed-paper fold mesh and exit.",
+  "spikeLength": 0.28,
+  "rejectedImplementation": "assets/archive/shoe-solid-v56.js",
+  "rejectedImplementationSHA256": "e123972f0978b960e4408b5ce76c41397d8320d8975a0125aec036f835de6369",
+  "userAppearanceReference": "image(20261029-041744).png",
+  "status": "implemented for user review"
+}

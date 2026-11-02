@@ -1,0 +1,39 @@
+{
+  "classification": "Native yuv420p tv/bt709. Black-luma frames can retain minute chroma residuals.",
+  "runs": {
+    "uniformBlackLuma16": [
+      {
+        "first": 971,
+        "last": 1053,
+        "frames": 83,
+        "sourceFrom": 867.3666666666667,
+        "sourceToExclusive": 870.1333333333333
+      },
+      {
+        "first": 1301,
+        "last": 1330,
+        "frames": 30,
+        "sourceFrom": 878.3666666666667,
+        "sourceToExclusive": 879.3666666666667
+      }
+    ],
+    "neutralBlackY16UV128": [],
+    "nearBlackLumaMax17": [
+      {
+        "first": 971,
+        "last": 1054,
+        "frames": 84,
+        "sourceFrom": 867.3666666666667,
+        "sourceToExclusive": 870.1666666666666
+      },
+      {
+        "first": 1301,
+        "last": 1330,
+        "frames": 30,
+        "sourceFrom": 878.3666666666667,
+        "sourceToExclusive": 879.3666666666667
+      }
+    ]
+  },
+  "indexing": "Source frame indices are ZERO-based: source=835+index/30"
+}

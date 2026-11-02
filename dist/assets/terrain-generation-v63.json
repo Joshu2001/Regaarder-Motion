@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-29",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: historical-scene. Asset type: seamless material texture for editable 3D terrain. A flat orthographic straight-down photograph of dark worn compacted gray-brown dirt and dusty earth in a 1920s war-damaged European town, scattered small irregular stones and a few broken brick fragments. Mostly traversable dark earth, broad subtle patches and wheel wear, sparse gravel, no dense white rubble carpet. Natural diffuse overcast lighting, no baked perspective, no horizon, no buildings, no large identifiable objects, no people, no shadows from offscreen objects, no text. Edge-to-edge square seamless tiling material, realistic varied medium-scale texture, muted near-monochrome palette. Ground detail should remain understated behind a walking cutout.",
+  "original": "generated_images/exec-cad6efc3-7996-4294-ad3a-1444c5f9f45c.png",
+  "output": "assets/dark-earth-v63.png",
+  "sha256": "425996e5e2d54de2474268f7798b9495bb484200051bb06264b8c0376db3031b",
+  "modifications": "Original copied byte-for-byte; runtime grayscale, brightness and repeated perspective projection.",
+  "limitations": "Generated terrain illustration, not archival evidence; seam quality and repetition remain visual-review matters."
+}

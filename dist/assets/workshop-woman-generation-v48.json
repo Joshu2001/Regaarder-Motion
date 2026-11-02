@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Image 1 is the edit target: our workshop illustration. Image 2 is a visual reference for the seated woman's gender, posture, clothing and warm room mood only. Replace ONLY the elderly bearded man in image 1 with a middle-aged woman with gray-brown hair in a simple low bun, NO hat, NO beard. She sits center-right looking downward, slightly hunched, hands resting together near knees. Off-white rolled-sleeve blouse, dark brown sleeveless work bodice and long dark brown skirt, period plain shoes. Natural anatomy and quiet tired expression. Keep the large left window, foreground dark tub, folded pale cloth, workshop walls, shelves, framing and realistic warm sunlight from image 1. Photographic historical illustration, not archival evidence. No text, logos, watermark or copied interface elements.",
+  "output": "exec-6f7663e6-3a54-42db-a389-ef66821b70f3.png",
+  "inputs": [
+    "assets/history-workshop-v46.png",
+    "User reference image(20261028-154342).png, libfile_f361d7f1d9688191813c7b802e6020fb"
+  ],
+  "note": "Woman replaces the mistaken default male worker; previous male image remains retained and inactive. Generated illustration, not archival evidence."
+}

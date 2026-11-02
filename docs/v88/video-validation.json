@@ -1,0 +1,102 @@
+{
+  "streams": [
+    {
+      "file": "Motionclone-v88-14m55-15m00.mp4",
+      "frames": 150,
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1"
+    },
+    {
+      "file": "Motionclone-v88-comparison.mp4",
+      "frames": 150,
+      "duration": 5.0,
+      "width": 1920,
+      "height": 576,
+      "fps": "30/1"
+    },
+    {
+      "file": "Motionclone-v88-comparison-0.05x.mp4",
+      "frames": 150,
+      "duration": 100.0,
+      "width": 1920,
+      "height": 576,
+      "fps": "3/2"
+    }
+  ],
+  "encodedParitySamples": [
+    {
+      "frame": 0,
+      "panel": "original",
+      "meanAbsoluteRGBError": 1.3229501028806585
+    },
+    {
+      "frame": 0,
+      "panel": "V88",
+      "meanAbsoluteRGBError": 1.4729526748971193
+    },
+    {
+      "frame": 20,
+      "panel": "original",
+      "meanAbsoluteRGBError": 1.3607458847736627
+    },
+    {
+      "frame": 20,
+      "panel": "V88",
+      "meanAbsoluteRGBError": 1.4880034722222222
+    },
+    {
+      "frame": 80,
+      "panel": "original",
+      "meanAbsoluteRGBError": 1.3207265946502058
+    },
+    {
+      "frame": 80,
+      "panel": "V88",
+      "meanAbsoluteRGBError": 1.4454867541152263
+    },
+    {
+      "frame": 115,
+      "panel": "original",
+      "meanAbsoluteRGBError": 0.993127572016461
+    },
+    {
+      "frame": 115,
+      "panel": "V88",
+      "meanAbsoluteRGBError": 1.359931841563786
+    },
+    {
+      "frame": 116,
+      "panel": "original",
+      "meanAbsoluteRGBError": 1.3489351851851852
+    },
+    {
+      "frame": 116,
+      "panel": "V88",
+      "meanAbsoluteRGBError": 1.5370505401234569
+    },
+    {
+      "frame": 147,
+      "panel": "original",
+      "meanAbsoluteRGBError": 1.453915252057613
+    },
+    {
+      "frame": 147,
+      "panel": "V88",
+      "meanAbsoluteRGBError": 1.1302687757201646
+    },
+    {
+      "frame": 149,
+      "panel": "original",
+      "meanAbsoluteRGBError": 1.6090014146090534
+    },
+    {
+      "frame": 149,
+      "panel": "V88",
+      "meanAbsoluteRGBError": 1.143135931069959
+    }
+  ],
+  "normalSpeedAudio": "Original reference audio muxed; no listening verification",
+  "slowMotionAudio": "silent; source frames displayed at1.5fps"
+}

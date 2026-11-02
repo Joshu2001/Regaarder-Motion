@@ -1,0 +1,3 @@
+# Retained garment candidates
+
+The active editor/project is complete without the optional Regaarder-v91-retained-candidates.zip companion. Two superseded V91 garment mesh candidates are retained byte-for-byte in that companion to keep the main source ZIP below its file-size ceiling. Their exact paths and hashes remain in provenance.json and the asset manifest; neither is active or assigned a renderer slot. Extract the companion alongside the main source ZIP to restore those inactive files under Motionclone-v91/dist/assets/humanoid-v91/candidates/. All active anatomy, clothing, rig, native editor code and earlier source scenes remain in the main project. The companion is part of this release's downloadable deliverables.

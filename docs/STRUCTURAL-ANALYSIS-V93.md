@@ -1,0 +1,3 @@
+# Structure — V93
+Template recipe → object/part/bone hierarchy → body foundation and regional rest shape → sparse surface offsets and skin weights → pose/IK and joint limits → angle-driven correctives → accessory fit and attachments → physical finishes and scoped lighting → shared native render/export.
+Native JSON is authoritative. Shape and corrective layers are evaluated from immutable source positions; offsets are not repeatedly accumulated. Garment ease is normal based. Contacts use target probes, not full-body collision. General topology editing, cloth simulation and physically based offline path tracing are not implemented.

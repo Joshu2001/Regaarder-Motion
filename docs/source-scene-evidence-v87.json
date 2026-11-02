@@ -1,0 +1,82 @@
+{
+  "status": "approved and implemented as V87",
+  "sourceInterval": [
+    895,
+    900
+  ],
+  "sourceTime": "895+localTime",
+  "defaultTemplateTime": "sourceTime+10 with prior defaults",
+  "frames": 150,
+  "fps": 30,
+  "hardCutFrameIndexZeroBased": 116,
+  "hardCutSource": 898.8666666666667,
+  "stages": [
+    {
+      "id": "checkpoint-sit-completion",
+      "from": 895,
+      "to": 895.9,
+      "localFrom": 0,
+      "localTo": 0.8999999999999773,
+      "duration": 0.8999999999999773,
+      "observed": "Red figure lowers onto the chair, then straightens the upper body; hands settle near thighs/knees.",
+      "proposed": "Reuse the same red rig, chair and desk; animate pelvis, knees, torso, elbows and wrists together. Preserve the V86 incoming pose.",
+      "timingStatus": "Hard cut at898.866667 measured; other boundaries are candidate authoring divisions."
+    },
+    {
+      "id": "checkpoint-seated-coach-drift",
+      "from": 895.9,
+      "to": 898.3,
+      "localFrom": 0.8999999999999773,
+      "localTo": 3.2999999999999545,
+      "duration": 2.3999999999999773,
+      "observed": "Red figure remains seated. Cream hat figure stays upright with folded arms and shifts toward image-right as framing changes. Smoke continues behind them.",
+      "proposed": "Use a coordinated scene camera/root-motion curve; exact division between camera and figure travel is inferred. Keep desk/figure occlusion and folded-arm pose.",
+      "timingStatus": "Hard cut at898.866667 measured; other boundaries are candidate authoring divisions."
+    },
+    {
+      "id": "checkpoint-departure-defocus",
+      "from": 898.3,
+      "to": 898.8666666666667,
+      "localFrom": 3.2999999999999545,
+      "localTo": 3.8666666666666742,
+      "duration": 0.5666666666667197,
+      "observed": "Cream figure reaches/crops at the right edge. The seated red figure and desk become strongly defocused while framing advances.",
+      "proposed": "Animate the outgoing crop, scene camera and defocus together; do not replace the scene with a black hold.",
+      "timingStatus": "Hard cut at898.866667 measured; other boundaries are candidate authoring divisions."
+    },
+    {
+      "id": "checkpoint-blue-pair-cut",
+      "from": 898.8666666666667,
+      "to": 899.0666666666667,
+      "localFrom": 3.8666666666666742,
+      "localTo": 4.06666666666672,
+      "duration": 0.20000000000004547,
+      "observed": "Hard scene change: large blue figure in the foreground, smaller cream/hat figure behind; residual blur and rapid relative displacement.",
+      "proposed": "Create a separate two-figure scene at the measured cut, initially blurred. Same coach identity; blue figure is a separate instance, not a red-to-blue dissolve.",
+      "timingStatus": "Hard cut at898.866667 measured; other boundaries are candidate authoring divisions."
+    },
+    {
+      "id": "checkpoint-foreground-crossing",
+      "from": 899.0666666666667,
+      "to": 899.3,
+      "localFrom": 4.06666666666672,
+      "localTo": 4.2999999999999545,
+      "duration": 0.2333333333332348,
+      "observed": "Blue torso passes in front of the cream figure; the cream figure becomes visible to its right.",
+      "proposed": "Author a camera orbit/lateral move and calibrated figure roots to match projected positions. Camera-versus-body contributions are not recovered from pixels.",
+      "timingStatus": "Hard cut at898.866667 measured; other boundaries are candidate authoring divisions."
+    },
+    {
+      "id": "checkpoint-blue-pair-settle",
+      "from": 899.3,
+      "to": 900,
+      "localFrom": 4.2999999999999545,
+      "localTo": 5,
+      "duration": 0.7000000000000455,
+      "observed": "Blue figure holds at image-left in partial profile/back view; smaller coach stands to the right. Background darkens to violet toward the lower field; definition settles.",
+      "proposed": "Hold two articulated standing rigs with restrained body/head motion and consistent depth/lighting. Do not invent a handshake, shoe exchange or contract signing before15:00.",
+      "timingStatus": "Hard cut at898.866667 measured; other boundaries are candidate authoring divisions."
+    }
+  ],
+  "approval": "Joshua: Yes go ahead, after explicit interpretation review"
+}

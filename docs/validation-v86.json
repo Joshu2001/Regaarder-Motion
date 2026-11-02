@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "34 contiguous deterministic stages",
+    "four-rate custom-duration clock inverse",
+    "exact V85 incoming frame",
+    "23 independent visible object controls",
+    "83/30 exact black-output holds, frame boundaries",
+    "finite articulated poses and palm-relative boot anchor",
+    "unfinished forward bend at endpoint",
+    "whole chapter/background fade before second black hold",
+    "invalid input rejection and settings nonmutation",
+    "native director905seconds, preserved playhead/settings, disables to845",
+    "four actual library media replacement instances isolated and restored",
+    "classic scripts parse",
+    "10 earlier sequence/director hashes preserved"
+  ],
+  "nativeBrowser": "not verified",
+  "viewing": "Ordered source frames/native samples and encoded comparison samples; no continuous playback/audio listening claim"
+}

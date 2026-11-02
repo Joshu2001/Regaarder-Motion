@@ -1,0 +1,18 @@
+import {commerceBridgeStages} from './commerce-bridge.js?v=motion-v70';
+import {chapterSequenceStages} from './chapter-sequence.js?v=motion-v70';
+import {expansionStages,retimeExpansionStages} from './sequence-expansion.js?v=motion-v70';
+import {warState} from './war-motion.js?v=motion-v70';
+export const legacyHistoryStages=[['war-hold',0,2.338],['eye-portal',2.338,3.267],['workshop',3.267,6.691],['number-reel-1',6.691,7.383],['ruins-wide',7.383,9.415],['ruins-close',9.415,11.758],['over-shoulder',11.758,18.027],['portrait-dissolve',18.027,18.987],['portrait-mono',18.987,25.088],['number-reel-2',25.088,25.593],['shoe-strip',25.593,32],['shoe-turn',32,38.849],['photo-flip',38.849,40.485],['photo-card',40.485,43.5],['portrait-color',43.5,50.837],['dark-exit',50.837,51.683],['ruined-street',51.683,53.788]].map(([id,from,to])=>({id,from,to,duration:to-from}));
+export const historyStages=[...legacyHistoryStages.filter(s=>s.to<=40.485),...expansionStages,...commerceBridgeStages,...chapterSequenceStages];
+export function migrateExpansionShots(current){if(!current)return structuredClone(historyStages);const old=new Map(legacyHistoryStages.map(s=>[s.id,s]));const rows=current.map(s=>{const next=historyStages.find(n=>n.id===s.id),prior=old.get(s.id);if(!next)return structuredClone(s);return {...s,from:next.from,to:next.to,duration:prior&&Math.abs(s.duration-prior.duration)<.000001?next.duration:s.duration};});for(const s of historyStages)if(!rows.some(r=>r.id===s.id))rows.push(structuredClone(s));return rows;}
+export const historyDefaults={historyEnabled:true,historyRate:1,historyEyeX:586,historyEyeY:312,historyEyeZoom:34,historyPush:.14,historyReelCount:7,historyReelColor:'#b8bcc3',historyOutline:'#eeeeea',historySelectedOutline:'#7084df',historyOutlineWidth:4,historyShoeColor:'#232426',historyShoeSize:620,historyShoeYaw:-86,historyShoePitch:8,historyShoeRoll:0,historySpikeLength:.28,historyFinalFire:.65,historyFinalFireX:470,historyFinalFireY:150,historyFinalFireSize:250,historyFigureX:480,historyFigureY:490,historyFigureHeight:140,historyGrain:.05};
+const clamp=x=>Math.max(0,Math.min(1,x));export const historyEase=x=>{x=clamp(x);return x*x*(3-2*x)};
+export function historyState(t,input={}){const f={...historyDefaults,...input},start=warState(t,f).end-2.338,rate=Math.max(.1,Number(f.historyRate)||1),age=(t-start)*rate,stages=retimeExpansionStages(f.historyShots||historyStages,f);let cursor=0,stage=stages.at(-1),phase=1;for(const item of stages){const duration=Math.max(.05,Number(item.duration)||.05);if(age<cursor+duration){stage=item;phase=clamp((age-cursor)/duration);break}cursor+=duration;}const length=stages.reduce((a,s)=>a+Math.max(.05,Number(s.duration)||.05),0);const joined=stages.length>=2&&stages[0].id==='war-hold'&&stages[1].id==='eye-portal',intro=joined?Math.max(.05,Number(stages[0].duration)||.05)+Math.max(.05,Number(stages[1].duration)||.05):0,sourceAge=joined&&age<intro?3.267*clamp(age/intro):stage.from+(stage.to-stage.from)*phase;return {start,age,end:start+length/rate,active:f.historyEnabled&&age>=0,stage:stage.id,phase,sourceAge,length};}
+
+export function migrateCommerceBridgeShots(current){
+ const rows=structuredClone(current||historyStages);
+ // Keep custom durations, order, disabled rows, artwork and user keys intact. Only add absent stages.
+ for(const stage of rows){const canonical=historyStages.find(x=>x.id===stage.id);if(canonical&&stage.id.startsWith('chapter-')){stage.from=canonical.from;stage.to=canonical.to;}}
+ const missing=commerceBridgeStages.filter(s=>!rows.some(x=>x.id===s.id)).map(s=>structuredClone(s));
+ const at=rows.findIndex(s=>s.id.startsWith('chapter-'));rows.splice(at<0?rows.length:at,0,...missing);return rows;
+}

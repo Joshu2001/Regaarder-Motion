@@ -1,0 +1,38 @@
+{
+  "checkpointRefinementEnabled": true,
+  "checkpointRefinementRedYaw": 1.5707963267948966,
+  "checkpointRefinementCoachYaw": 1.5707963267948966,
+  "checkpointRefinementBlueYaw": 1.5707963267948966,
+  "checkpointRefinementBlueCoachYaw": -1.3707963267948966,
+  "checkpointRefinementCamera": [
+    0,
+    1,
+    4,
+    0,
+    1,
+    0,
+    1100
+  ],
+  "checkpointRefinementRedRoot": [
+    -1.166,
+    0,
+    0.5
+  ],
+  "checkpointRefinementCoachRoot": [
+    0.85,
+    -0.09,
+    -0.1
+  ],
+  "checkpointRefinementBlueRoot": [
+    -0.6,
+    0,
+    0.3
+  ],
+  "checkpointRefinementBlueCoachRoot": [
+    0.5,
+    -0.15,
+    -0.6
+  ],
+  "checkpointRefinementBend": 1,
+  "checkpointRefinementLight": 1
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "stages": 26,
+  "sourceRange": [
+    475,
+    535
+  ],
+  "templateRange": [
+    485,
+    545
+  ],
+  "checks": [
+    "custom source/local inverse at four speeds",
+    "invalid imports rejected",
+    "deterministic render of all stages",
+    "exact V74 join",
+    "explicit black pause",
+    "independent object and effect visibility",
+    "inactive layer isolation",
+    "missing media fallback",
+    "settings nonmutation",
+    "actual director extension/reversal and playhead preservation",
+    "MotionCore capability and script order"
+  ],
+  "nativeBrowser": "Not verified; CPU Canvas rendering and actual director VM harness"
+}

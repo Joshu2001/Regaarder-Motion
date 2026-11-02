@@ -1,0 +1,67 @@
+{
+  "schema": "motion-walker-generation-v60",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: identity-preserve / historical-scene. Create a production CHARACTER PARTS ATLAS on genuine transparent background, square 1536x1536 canvas, exactly THREE COLUMNS by THREE ROWS of equally sized invisible cells. Use the reference man for identity, gray overcoat, vintage trousers, lace-up boots and photographic desaturated lighting. Nine physically separated photographic parts, each centered within its own cell with at least 30px transparent margins, no labels, lines, grid or text. Row1 col1: complete coat upper torso from shoulder/neck to waist, NO head and NO arms, photoreal gray wool with continuous fabric behind where arms would attach. Row1 col2: SAME man's entire head and neck, side profile facing RIGHT, slightly looking down, isolated. Row1 col3: lower coat skirt/hips, waist to upper thigh, NO legs; coat hem open and naturally draped. Row2 col1: one straight trouser THIGH segment, hip to knee, oriented vertically down, no skin. Row2 col2: one straight trouser SHIN segment knee to ankle vertically down, no foot. Row2 col3: one entire vintage dark lace-up BOOT side profile, toe pointing RIGHT, ankle opening upwards, horizontal sole. Row3 col1: gray overcoat upper sleeve shoulder to elbow, vertically downward, no hand. Row3 col2: forearm sleeve with hand holding small metal flashlight pointing RIGHT/down; isolated, elbow at upper-left and flashlight at lower-right, NO beam. Row3 col3: plain forearm sleeve and relaxed empty hand, vertically down. All parts must be reconstructed to have full rounded ends and cloth coverage for animation overlaps. No complete person, duplicate heads, background, floor, backdrop shadows or extra props. Keep realistic scale within each cell, not cartoon or vector. Exact nine-cell order is critical.",
+  "reference": "assets/salvage-searcher-v58.png",
+  "output": "assets/walker-parts-atlas-v60.png",
+  "originalToolOutput": "exec-04b476bc-1e64-4e85-841a-b21a4585b504.png",
+  "transparentBackground": true,
+  "sha256": "1821abe53b305a5efed17d06d95588b949ad88a0718b2d13edf018a258f0ae09",
+  "referenceSHA256": "f3573d95a760905e4eca5fc3c8afbb48921f94bb641494e59d9d4a11df33bc72",
+  "partRects": {
+    "torso": [
+      35,
+      5,
+      370,
+      400
+    ],
+    "head": [
+      470,
+      45,
+      365,
+      355
+    ],
+    "coat": [
+      840,
+      5,
+      410,
+      405
+    ],
+    "thigh": [
+      110,
+      418,
+      225,
+      400
+    ],
+    "shin": [
+      550,
+      418,
+      160,
+      395
+    ],
+    "boot": [
+      825,
+      505,
+      420,
+      290
+    ],
+    "upperarm": [
+      75,
+      815,
+      275,
+      415
+    ],
+    "torcharm": [
+      445,
+      805,
+      395,
+      405
+    ],
+    "forearm": [
+      935,
+      800,
+      245,
+      415
+    ]
+  }
+}

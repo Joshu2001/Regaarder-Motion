@@ -1,0 +1,119 @@
+{
+  "checks": [
+    {
+      "check": "check-refinement-v71.mjs",
+      "exitCode": 0,
+      "output": "V71: 29,660 monotonic/inverse samples; 89 exact anchors; nonmutating custom preservation; disable restores defaults; audio seek/pause/rate checks passed.\nV71 walk: six continuous cycles, bounded stance shifts, finite zero-rate handling and parent-alpha preservation passed.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-refinement-director-v71.mjs",
+      "exitCode": 0,
+      "output": "V71 director: async initialization, preserved playhead, native-clock dispatch, custom profile isolation and finally restoration on render failures passed.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-walking-v64.mjs",
+      "exitCode": 0,
+      "output": "V64: young source binding, adult retention, both hand trajectories and opaque masonry attachment passed.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-natural-walk.mjs",
+      "exitCode": 0,
+      "output": "Natural walk: IK lengths, matched stance/root, sole contact, continuous foot curves, pose hierarchy, denser mesh, preset validation, classic retention, slider/facing and actual joint dragging passed.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-model-expansion.mjs",
+      "exitCode": 0,
+      "output": "V58 geometry, OBJ roundtrip, transforms, tracks, render fallback, timeline migration, black interval, native editor and sequence binding passed.\n",
+      "diagnostics": "(node:74) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+    },
+    {
+      "check": "check-hybrid-v64.mjs",
+      "exitCode": 0,
+      "output": "V64 hybrid: shared projection, persistent support-bound failure, 2.5x character approach with visible head, wall progression, transform-bound masonry mounts, foot bounds and tap controls passed.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-city-motion.mjs",
+      "exitCode": 0,
+      "output": "City motion checks passed: descent, flyover, focus, roll, logo timing, and held continuation.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-noir-anchor.mjs",
+      "exitCode": 0,
+      "output": "Secrets anchor passed: constant text/head position and size through early writing, full reveal, sideways motion, short/long parallax and transformed cutouts.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-battle-motion.mjs",
+      "exitCode": 0,
+      "output": "Conflict motion passed: deterministic paths, density-independent flow, staggered firing, flash envelopes, glide endpoints and progressive blast/fog growth.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-chapter-motion.mjs",
+      "exitCode": 0,
+      "output": "Chapter passed: black separation, staggered assembly, continuous 3D tumbling, reversible speeds, retreat, environment-first dimming, fade, detached shards and finite rendering.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-chapter-v65.mjs",
+      "exitCode": 0,
+      "output": "V65 checks passed: source independence, custom timing migration, transforms, eye attachment, scene renders, image fill and four directions.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-commerce-v67.mjs",
+      "exitCode": 0,
+      "output": "V67 passed: deterministic poses, valid phase order, independent source renders, transform preservation, custom timing/key preservation, idempotent insertion, exact room endpoint continuity.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-path-integration-v68.mjs",
+      "exitCode": 0,
+      "output": "V68 production integration passed: shoe dash phase advances continuously under the actual history/money compositor.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-globe-drama-v70.mjs",
+      "exitCode": 0,
+      "output": "V70 drama/audio passed: asymmetric entrances and opposing exits, time-varying depth, sparse pulses, monotonic C1 camera, target advance, deterministic unclipped 48kHz stereo, stem/WAV geometry, explicit unlock, pause/seek/speed synchronization and end stop.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-animation-library.mjs",
+      "exitCode": 0,
+      "output": "Animation library passed: exact catalog/default/hash parity; isolated presets; speed/pause/reverse/slow-fast clock; continuous cloud velocity; four opaque passage directions; actual UI search/add/import/export; future-action clock and scoped content bindings.\n",
+      "diagnostics": "(node:210) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+    },
+    {
+      "check": "check-authoring.mjs",
+      "exitCode": 0,
+      "output": "Authoring checks passed: movable divisions, polygon transforms, continuous pen-path reveal, inverse parallax and structured-input validation.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-asset-register.mjs",
+      "exitCode": 0,
+      "output": "Asset provenance passed: complete inventory, exact hashes, explicit usage labels, current opening logos and official Adidas geometry.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "check-local-server.mjs",
+      "exitCode": 0,
+      "output": "Dependency-free local server: editor, byte ranges, HEAD and errors passed.\n",
+      "diagnostics": ""
+    },
+    {
+      "check": "animation-registry --check",
+      "exitCode": 0,
+      "output": "{\"effects\":146,\"modules\":123,\"scopes\":76,\"parameters\":10252}\n",
+      "diagnostics": ""
+    }
+  ],
+  "allPassed": true
+}

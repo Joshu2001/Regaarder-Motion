@@ -1,0 +1,47 @@
+{
+  "schema": "regaarder-generation-record-v1",
+  "selectedReference": "assets/mother-room-selected-reference-v54.png",
+  "outputs": [
+    {
+      "assetId": "mother-room-person-v54",
+      "output": "assets/mother-room-person-v54.png",
+      "transparentBackground": true,
+      "tool": "image_gen.imagegen",
+      "exactSubmittedPrompt": "Use case: background-extraction / precise-object-edit. Production asset for an editable layered historical scene. Exact edit target is the supplied image. Extract only the seated woman including her complete clothing and shoes as a single transparent cutout. Preserve her exact identity, bowed head, hands, pose, warm lighting and textures. Remove all room, chair background, vessel and cloth; retain only the woman. Center with minimal transparent padding. Remove the bottom review timestamp label and any UI/text. Do not change the photographic style.",
+      "status": "implemented for user visual review",
+      "sha256": "98e5f031907117f5a0ed696d39e9f7532f4e900b6f9f38576d6e4dee2dcdbfcb",
+      "originalToolOutput": "exec-4849fac8-6ec1-410e-9dd9-c1d6a1884814.png"
+    },
+    {
+      "assetId": "mother-room-room-v54",
+      "output": "assets/mother-room-room-v54.png",
+      "transparentBackground": false,
+      "tool": "image_gen.imagegen",
+      "exactSubmittedPrompt": "Use case: background-extraction / precise-object-edit. Production asset for an editable layered historical scene. Exact edit target is the supplied image. Create the clean room background by removing the seated woman and chair, the large foreground wash tub, and all cloth on the left windowsill. Reconstruct the hidden wall and floor naturally. Preserve the window, perspective, shelves, lighting, and room framing exactly. No people, no foreground vessel, no windowsill cloth. Remove the bottom review timestamp label and any UI/text. Do not change the photographic style.",
+      "status": "implemented for user visual review",
+      "sha256": "d78ffdb9b685ad8e8ca66e2c2348303dc6598d98c2b6603879c6ac03f3a7d7b1",
+      "originalToolOutput": "exec-34b9e653-1c78-453b-a979-aebd08d0f402.png"
+    },
+    {
+      "assetId": "mother-room-vase-v54",
+      "output": "assets/mother-room-vase-v54.png",
+      "transparentBackground": true,
+      "tool": "image_gen.imagegen",
+      "exactSubmittedPrompt": "Use case: background-extraction / precise-object-edit. Production asset for an editable layered historical scene. Exact edit target is the supplied image. Extract only the large dark wooden wash tub in the lower left foreground as a separate transparent cutout. Preserve its rim, staves, metal bands, perspective and warm light. Reconstruct the small clipped parts so the vessel is complete. No floor, woman, window, shadows on background, or other objects. Minimal transparent padding. Remove the bottom review timestamp label and any UI/text. Do not change the photographic style.",
+      "status": "implemented for user visual review",
+      "sha256": "30b9d8a6e39a4d3d774f82a968c704fb25c4a078fe544ed9848f58e395109e68",
+      "originalToolOutput": "exec-e62c6928-d7c3-4ad1-9a09-1a8c8a16966b.png"
+    },
+    {
+      "assetId": "mother-room-cloth-v54",
+      "output": "assets/mother-room-cloth-v54.png",
+      "transparentBackground": true,
+      "tool": "image_gen.imagegen",
+      "exactSubmittedPrompt": "Use case: background-extraction / precise-object-edit. Production asset for an editable layered historical scene. Exact edit target is the supplied image. Extract only the pale folded and draped cloth on the left windowsill as a transparent cutout. Preserve its folds, warm illumination and hanging fabric. No window, wall, sill, vessel or woman. Minimal transparent padding. Remove the bottom review timestamp label and any UI/text. Do not change the photographic style.",
+      "status": "implemented for user visual review",
+      "sha256": "641437288b815b4154b47d6dcd01b931b1df3357eab8aa117fc2dc172311ad49",
+      "originalToolOutput": "exec-edda2e22-2c4f-454a-87d5-fd3ff2813f3d.png"
+    }
+  ],
+  "selectedReferenceSHA256": "3275d41f851593d3310c04210cc95ab69c264e8730bc7430405b97bfd3570565"
+}

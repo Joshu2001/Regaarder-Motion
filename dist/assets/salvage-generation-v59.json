@@ -1,0 +1,36 @@
+{
+  "schema": "motion-generation-v59",
+  "method": "image_gen.imagegen",
+  "assets": [
+    {
+      "kind": "rubble",
+      "ref": "focus-022.jpg",
+      "prompt": "Use case: historical-scene. Production photographic compositing asset, actual transparent background. Reference image supplies rubble style only. Create a wide isolated foreground mound of broken gray masonry, irregular concrete slabs, crushed stones, broken timbers, dust, a few projecting bent metal rods. Low eye-level oblique camera, jagged uneven silhouette at upper edge, large convincing stone blocks nearer bottom, layered depth and cavities. Full mound spans canvas width, fills bottom three quarters, real alpha above and around silhouette. Neutral soft overcast side light, grayscale documentary photorealism. No people, shoes, helmet, buildings, sky, red, text, rectangular background plate or drop shadow. This is a separate near-ground occluding cutout for perspective scene, not a top-down texture.",
+      "transparentBackground": true,
+      "output": "assets/salvage-rubble-v59.png",
+      "sha256": "f0e5da59a276dcabf85f8eecfb47e3a86d99673fb6236431f934712f04d26df5",
+      "referenceBundled": "assets/salvage-reference-rubble-v59.jpg",
+      "referenceSHA256": "39a7bb6238cc141cbafedeb4b52302415e8af8056da589dd210d7e4bbf454ff7"
+    },
+    {
+      "kind": "gray-leg",
+      "ref": "focus-040.jpg",
+      "prompt": "Use case: historical-scene. One production photographic cutout on genuine transparent background. Reference image gives vintage trouser, footwear and collage style only. Single complete human LOWER LEG from above the knee down to an attached black worn leather lace-up running shoe with five short metal spikes visible beneath the forefoot. Trouser is charcoal gray 1920s wool, realistically broad fabric folds, hem naturally overlaps sock and shoe collar. Shoe side profile pointing LEFT, planted horizontal, knee at top right, heel at bottom right, toe left. Photorealistic natural cloth/leather, neutral side lighting, softly aged desaturated appearance. Entire one leg and shoe visible with clear alpha margins. No second leg, body, face, cropped shoe, detached ankle, floor, shadows on backdrop, props, text, labels or watermark. Vertical composition. Make shoe about half total image width; leg proportional and not a narrow stick.",
+      "transparentBackground": true,
+      "output": "assets/salvage-gray-leg-v59.png",
+      "sha256": "7f2df66c3626ad1d66df31a0be5de7999f2843d8e41156565cb83a7d538d4f18",
+      "referenceBundled": "assets/salvage-reference-gray-leg-v59.jpg",
+      "referenceSHA256": "3a368be118f901e484d327ee91379ed490d96480e4e8fc3e9d0c4077be1bd8a6"
+    },
+    {
+      "kind": "pink-leg",
+      "ref": "focus-043.jpg",
+      "prompt": "Use case: historical-scene. Single photographic production cutout, genuine transparent background. Use reference only for the pastel pink trouser leg with black vintage spiked running shoe. Create ONE full lower leg from above knee through ankle and shoe, side profile facing LEFT, in a slight walking swing with toe a little raised. Broad pale dusty rose wool trousers, hem naturally overlaps black sock, worn black 1920s leather lace-up athletic shoe with small metal sole spikes under forefoot. Accurate foot/ankle anatomy and continuous attachment, fabric folds and leather detail, muted cinematic photographic light. Whole one leg and shoe in frame with alpha margin. No torso, face, second leg, ground, background, labels, text or watermark. Vertical composition; shoe and trouser volume substantial, not thin.",
+      "transparentBackground": true,
+      "output": "assets/salvage-pink-leg-v59.png",
+      "sha256": "4f043939dfeea29c08c44f7c68f41dc0494f2bb06066f45620fe677c04a3decc",
+      "referenceBundled": "assets/salvage-reference-pink-leg-v59.jpg",
+      "referenceSHA256": "5f12816e826c3168ae0a86473f4c5a6c3543227369d5e8f6c6508219646b92de"
+    }
+  ]
+}

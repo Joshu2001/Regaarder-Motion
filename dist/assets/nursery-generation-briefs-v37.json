@@ -1,0 +1,37 @@
+{
+  "created": "2026-10-28",
+  "tool": "Built-in image_gen.imagegen",
+  "modelVersion": "Not exposed by the tool",
+  "intent": "Generated fictional historical illustrations guided by user-provided reference composition; not archival photographs.",
+  "approval": "Joshua approved the reference interpretation and implementation by saying go ahead.",
+  "sourceVideo": "Nazi_Brothers_cut_01-14_to_01-45.mp4",
+  "sourceAttachmentId": "libfile_e2923217708481918f6fcfecfaa839ea",
+  "originalOffsetSeconds": 74,
+  "permission": "User-authorized motion-template task; source/reference rights beyond this task are unverified.",
+  "assets": [
+    {
+      "file": "assets/nursery-mother-v37.png",
+      "referenceFrame": "06-original-01-30.50.jpg",
+      "sourceOriginalTime": 90.5,
+      "prompt": "Use case: historical-scene. Asset type: cinematic motion-template background plate, 16:9 wide, 1920x1080 or larger. Generate a new photorealistic period domestic interior inspired by the reference composition, not a screenshot reproduction. Late 1890s modest German timber room. A seated young adult mother in a simple long olive-brown dress, dark hair in a bun, sits just right of centre, leaning tenderly over a fully swaddled newborn in her arms. Both faces and hands anatomically coherent, full dress and stool visible. Large old multi-pane window occupies upper right behind her, cold diffuse daylight and gentle edge highlights; deep brown timber shadows on left, pottery and small household vessels on window sill, aged linen and wood. Cinematic documentary still, soft peripheral lens falloff, subdued neutral earthy palette, warm skin, very dark natural room, no artificial amber glow, no text or date, no modern objects, no watermark. Match reference viewpoint at seated chest height and calm intimate mood. Keep heads and baby fully in frame. This is a fictional illustrative scene.",
+      "modifications": "Copied original generated PNG byte-for-byte; runtime applies canvas transforms, colour grading and blur. No visual pixel editing.",
+      "transparent": false
+    },
+    {
+      "file": "assets/nursery-cradle-v37.png",
+      "referenceFrame": "08-original-01-36.00.jpg",
+      "sourceOriginalTime": 96,
+      "prompt": "Use case: historical-scene. Asset type: cinematic 16:9 photographic background plate for editable motion documentary. New fictional late-1890s German timber interior guided by reference 1, with the dark timber, earthy palette and soft cold window light matching reference 2. Close-wide view of a fully swaddled sleeping newborn resting on an aged off-white linen mattress in a low wooden cot/bed, head at lower right and feet toward lower left. Baby is safe on its back, mouth relaxed, coherent natural anatomy. The bed fills the bottom third. A very large tall multi-pane timber window is centred, from x=30% to65% of the image, pale linen curtains at both sides and deep shadows on left; small dark ceramic jug on sill. Outside only softly defocused blue sky, white clouds, vague distant timber buildings, no people or silhouettes. Cool blue daylight, warm subtle skin and brown wood, subdued saturation, natural dim room, soft focus falloff and cinematic grain, photographic rather than painting. No mother, adult, lettering, labels, watermark or modern furnishings. Preserve open window area for a future camera push. Entire head and baby in frame.",
+      "modifications": "Copied original generated PNG byte-for-byte; runtime applies canvas transforms, colour grading and blur. No visual pixel editing.",
+      "transparent": false
+    },
+    {
+      "file": "assets/nursery-passer-v37.png",
+      "referenceFrame": "07-original-01-33.50.jpg",
+      "sourceOriginalTime": 93.5,
+      "prompt": "Use case: historical-scene. Asset type: genuinely transparent PNG cutout for cinematic foreground occlusion. Generate ONE close-cropped adult working man's torso, from back of neck/upper shoulder to below waist, turned three-quarter away with right shoulder nearest viewer. Late 1890s European plain off-white wrinkled linen shirt with rolled sleeves and a dark brown almost black work apron with broad straps, no symbols. Head fully outside top of frame, legs outside bottom. His torso and near sleeve fill most of a vertical image, natural weighty cloth folds. Muted shadowy lighting, soft cool rim from a window on viewer's left, deep dark apron, no black backdrop: transparent alpha around the outer body silhouette. The shoulder curves organically, solid opaque cloth inside the body, no translucent torso, no floating disconnected parts. Photorealistic, soft peripheral focus but retain real cloth texture. Reference is composition/wardrobe guidance only; create a new fictional figure. No room, window, furniture, text, watermark, baby, visible face or hands.",
+      "modifications": "Copied original generated PNG byte-for-byte; runtime applies canvas transforms, colour grading and blur. No visual pixel editing.",
+      "transparent": true
+    }
+  ]
+}

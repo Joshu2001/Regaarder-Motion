@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-02",
+  "tool": "built-in imagegen",
+  "originalsPreserved": true,
+  "historicalEvidence": false,
+  "assets": [
+    {
+      "key": "boots",
+      "transparent_background": true,
+      "prompt": "Use case: historical-scene. Two independent realistic vintage leather FOOTBALL BOOT cutouts, exact two-column one-row atlas, wide landscape high resolution, genuinely transparent background with wide transparent gutters. LEFT CELL: complete black low-cut 1940s leather football boot, exact side profile, TOE POINTING RIGHT, black laces, thin cream sole, six short pale ivory screw-in studs visibly attached to the outsole. Plain dark leather side with NO STRIPES and NO LOGO; its side will receive separate animated stripes later. RIGHT CELL: different complete black low-cut 1950s leather football boot, exact side profile, TOE POINTING LEFT, black laces, black studded outsole, one prominent curved cream-colored sweeping side panel running from heel along side toward toe, vintage Puma-like formstrip, no lettering. Both shown at same scale with soles level, cinematic photographic leather texture and slight vintage wear, modest highlights, all toes/heels/studs complete. No background, floor, separate supports, display stands or shadows outside objects. Actual alpha transparency, no checkerboard.",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-1b958d97-72e2-4f98-af48-256772116be8.png",
+      "projectFile": "dist/assets/opportunity-boots-v86.png",
+      "sha256": "77f1f7e834246ba434d141255bb6145438ec14fd843fbdca4ef0462b85fa0d53",
+      "bytes": 1521232,
+      "usageLabel": "generated-recorded",
+      "reviewStatus": "selected-with-limits"
+    },
+    {
+      "key": "inspector",
+      "transparent_background": true,
+      "prompt": "Use case: historical-scene. Standalone archival-style black-and-white photographic cutout of a fictional middle-aged European shoe innovator in a dark zip-up athletics jacket, short slicked dark hair, standing waist-up and holding a black studded football boot up near his face with BOTH HANDS, carefully inspecting it. Boot is held UPSIDE DOWN so pale outsole and several studs point UPWARD, toe toward IMAGE RIGHT; three pale stripes are visible on its dark leather side. One hand supports the heel from below and other hand supports the toe. Man looks thoughtfully at the boot; hands, fingers and entire boot fully visible. Upper torso and both elbows complete within transparent margins. Natural realistic face, hands and fabric, detailed silver-gelatin photographic contrast. This is an illustrative historical reconstruction, not archival evidence. Genuinely transparent background; no room, sky, floor, badge, text or cast shadows outside subject. Portrait high resolution.",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-d76a8644-7fd3-4df1-90da-1bd762e2e35a.png",
+      "projectFile": "dist/assets/opportunity-inspector-v86.png",
+      "sha256": "80061cfbc9f12a6bd885f65f76e9c853a93d9101d586b7db53ad14190f352c15",
+      "bytes": 2168483,
+      "usageLabel": "generated-recorded",
+      "reviewStatus": "selected-with-limits"
+    },
+    {
+      "key": "trophy-ball",
+      "transparent_background": true,
+      "prompt": "Use case: historical-scene. Two independent photographic cutouts on genuinely transparent background, precise two-column one-row atlas, high resolution. LEFT CELL: complete vintage gold football trophy in the visual style of an old winged female figurine supporting an angular octagonal cup above her head, tall slender gold stem and dark green-black square pedestal with small blank gold plaques. Entire cup and base visible, detailed warm metallic reflections. RIGHT CELL: complete old brown leather football, spherical stitched rectangular leather panels, aged golden-brown material, frontal readable black stamped label in three lines: 'SWISS WORLD' / 'CHAMPION' / 'MATCH-BALL'. Each text line exactly spelled. Tiny monochrome Swiss cross emblem above lettering, subtle seams and leather texture. These are illustrative props; no claim of historical authenticity. Keep props separated with clear transparent gutters, trophy about1.4times ball height. No surrounding scene, no floor, no drop shadow outside props, no framing, no extra objects. Actual alpha transparency.",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-2bd90680-d6e2-47de-8610-f0da4d4b85db.png",
+      "projectFile": "dist/assets/opportunity-trophy-ball-v86.png",
+      "sha256": "b1c8b49b278aba4793e9172d23b69dfedae180953c456a93ff477c4afaa5c2c6",
+      "bytes": 2180173,
+      "usageLabel": "generated-recorded",
+      "reviewStatus": "selected-with-limits"
+    },
+    {
+      "key": "coach-portrait",
+      "transparent_background": false,
+      "prompt": "Use case: historical-scene. Standalone rectangular portrait photograph, vertical4:5, a fictional older 1950s European football coach wearing a dark felt fedora with a modest brim, jacket and collared shirt. Head and upper shoulders, turned slightly toward image-left, calm serious expression, lined face, outdoors softly defocused background. Black-and-white silver-gelatin photograph with restrained grain and authentic material detail, soft frontal lighting. Educational illustrative reconstruction rather than an actual archival photograph or an exact real person's likeness. No frame, lettering, logos, insignia or watermark. It will be placed within a separate editable picture frame in a modelled office.",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-de691dd4-e965-4aa0-8c8e-49e6a9a36f47.png",
+      "projectFile": "dist/assets/opportunity-coach-portrait-v86.png",
+      "sha256": "4a907ac3493bed36c1fb07a754b95ab8f9c6c4268cdd9584024c8793d6ace1d5",
+      "bytes": 2425846,
+      "usageLabel": "generated-recorded",
+      "reviewStatus": "selected-with-limits"
+    },
+    {
+      "prompt": "Create a transparent-background two-cell horizontal atlas, two separate fictional mid-century German male sports-shoe company founders as photorealistic monochrome documentary cutout illustrations. LEFT CELL: middle-aged clean-shaven man with wavy dark hair, black V-neck sweater over white shirt; RIGHT CELL: middle-aged clean-shaven man with slick dark hair, round black spectacles, charcoal suit, white shirt and dark tie. Both shown waist up, facing mostly toward camera with a slight turn inward, visibly competitive and stern, elbows bent, BOTH hands raised beside chest with clenched fists. Hands clearly separated from torso, natural anatomy, all fingers folded convincingly, no boxing gloves. Entire heads, forearms, fists and waists inside their own cells with a generous transparent margin. No text, no frames, no scenery, no shoes. Gray photographic lighting, crisp details. These are fictional illustrative people, not archival photographs or likenesses of identified real people.",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-a4fad453-ea76-4a03-a86e-d2a543d57f89.png",
+      "key": "founders",
+      "transparent_background": true,
+      "projectFile": "dist/assets/opportunity-founders-v86.png",
+      "sha256": "406c9f1c8c0a9862d69aa93ef1c5165c5a189432fa202422d9464f2a7132d80b",
+      "bytes": 2310135,
+      "usageLabel": "generated-recorded",
+      "reviewStatus": "selected-with-limits"
+    },
+    {
+      "key": "clouds",
+      "prompt": "Seamless cinematic grayscale cloud sky texture for an editable documentary animation, very wide 16:9 landscape, photographic mid-altitude scattered altocumulus and wispy cirrus seen from below, rich small cloud detail, irregular luminous white and gray wisps over deep almost black sky, brighter broad cloud bank across the lower half and thin cloud streaks near the top, no horizon, no ground, no buildings, no sun, no colored sunset, no stars, no text. Neutral monochrome luminance texture only, intended to be tinted blue, red, purple or green in code. High contrast but preserve cloud detail, realistic atmospheric depth, edge-to-edge cloud texture.",
+      "transparent_background": false,
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-a317f4c9-c4a7-41ae-a596-011ab6a69827.png",
+      "projectFile": "dist/assets/opportunity-clouds-v86.png",
+      "sha256": "500f5c1fbe851e1c5e065999c8ab826f0333f3901d14117a6957ac5021548a6f",
+      "bytes": 2535002,
+      "usageLabel": "generated-recorded",
+      "reviewStatus": "selected-with-limits"
+    }
+  ]
+}

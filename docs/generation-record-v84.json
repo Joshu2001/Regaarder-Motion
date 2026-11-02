@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "tool": "built-in imagegen",
+  "requests": [
+    {
+      "prompt": "Use case: historical-scene. Asset type: FOUR ORIGINAL PHOTOGRAPHIC BACKGROUND PLATES, 2x2 regular atlas, square high resolution 2048x2048 or greater. Each quadrant equally sized, no dividers or text. TOP LEFT: empty 1940s German shoemaker's dark workshop, desk foreground lower edge, gridded tall dark windows on back left, wooden shelf on right, warm desk light, camera frontal slightly angled. NO people. TOP RIGHT: empty austere 1940s executive office, large bright white rectangular window with thin dark grid centered on rear wall, dark teal grey room, wooden desk foreground, high contrast noir light. NO people. BOTTOM LEFT: extreme detailed frontal red-and-white half-timbered Bavarian house facade, white plaster, deep red wooden beams, white sash windows, camera close and slightly oblique; complete house roof visible so it can be pulled back. No signage. BOTTOM RIGHT: cinematic top-down aerial map-like photographic illustration of an old Bavarian town, dense red/orange tiled roofs, dark teal grading, winding dark river from upper left across center toward lower right; NO colored route lines or labels, no map UI, no lettering. Original illustrative geography, not exact cartography. Consistent realistic photographic texture, no drawings, no watermarks. Entire atlas opaque.",
+      "transparent_background": false
+    },
+    {
+      "prompt": "Use case: historical-scene. Asset type: SIX SEPARATE PHOTOGRAPHIC CUTOUTS in precise regular 3-column x 2-row grid on GENUINELY TRANSPARENT background. Each equally sized cell includes complete subject with transparent gutters. High-resolution square cells. TOP LEFT: fictional 1940s middle-aged European shoemaker with wavy dark hair, dark sweater and pale suspenders, seated writing with right hand holding pen over small white paper, left hand supporting his temple, upper body and hands visible, no chair/table/environment. TOP CENTER: different older European industrialist with dark spectacles, slicked hair and dark suit with burgundy tie, seated upright writing, upper body, both hands and small paper visible, no desk/window. TOP RIGHT: 1940s factory worker seen entirely FROM BEHIND, pale shirt, dark suspenders, flat cap, waist-up, no face visible. BOTTOM LEFT: fictional Black male athlete in simple vintage white running singlet and shorts, crouching in a sprint starting pose facing camera, full body with both hands and feet complete, generic clothing, no numbers/logos. BOTTOM CENTER: giant realistic puma/cougar HEAD frontal symmetrical face with pointed ears, closed mouth, natural grey-brown fur, both eyes clear, no neck/body/environment, no glowing effects. BOTTOM RIGHT: second different rear-view factory worker, pale shirt, suspenders, dark cap, waist-up entirely from behind. Crisp realistic photographic details, cinematic 1940s illustrative reconstruction. Do not add scenery, backgrounds, panels, frames, words or shadows outside subjects. Never overlap cell gutters.",
+      "transparent_background": true
+    }
+  ],
+  "files": [
+    "assets/division-environments-v84.png",
+    "assets/division-people-v84.png"
+  ],
+  "status": "selected-with-limits",
+  "originalsPreserved": true,
+  "historicalEvidence": false
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "regaarder-generation-record-v1",
+  "selectedReference": "assets/shoe-paper-selected-reference-v56.png",
+  "tool": "image_gen.imagegen",
+  "originalToolOutput": "exec-43eb9226-cf9c-4ad0-a656-f5761eeed518.png",
+  "output": "assets/shoe-paper-texture-v56.png",
+  "exactSubmittedPrompt": "Use case: precise-object-edit. Edit target: supplied reference image of black shoes on gray aged paper. Remove all shoes, colored and white outlines, subscription UI and any text. Reconstruct ONLY the flat uninterrupted aged gray-beige paper background, matching the reference fine grain, sparse scratches, dark flecks, faint horizontal crease across middle and a few subtle vertical sheet seams. Preserve muted cool gray-beige color and even flat lighting; no dramatic vignette. Wide landscape opaque clean texture plate, no objects, no torn edges, no folds protruding, no logos, no new text. Production background texture for a separately animated editable paper surface.",
+  "status": "implemented for user visual review",
+  "selectedReferenceSHA256": "7f1d100b156a91eeda5262050948820273137829f2930d359c2bf81f6de2d8b7",
+  "sha256": "dad409bf61a8c369c7ffaef1a25e07d9dc2e5ce6a099bb610dc184ee5330046f"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "actual viewport drag changes sparse vertex offsets",
+    "one Undo removes whole stroke"
+  ],
+  "editedVertices": 204,
+  "pageErrors": []
+}

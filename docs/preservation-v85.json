@@ -1,0 +1,12 @@
+{
+  "hashes": {
+    "dist/shelter-sequence.js": "6e55eccff601ebf8b17bfc85c530daa489f861668e6496ec570cf9f679137353",
+    "dist/shelter-director.js": "e88f007f5a2915459708aa0eabc9c64a6a1775b658fe0b2c7cfca9789442d57c",
+    "dist/trial-sequence.js": "070eb1bca46f24d591d34f3405f0ae26896bc540562d92c03b369fc9246dacd5",
+    "dist/trial-director.js": "1bdf3d72f6639c15fdaf1b7eda832d62a6be773189ef2b6ab3fe4ba4d720146d",
+    "dist/feud-sequence.js": "ca10a523ceced6e85bcd703fa932a83acc8eb460d5e3b3a76205db23740f43a4",
+    "dist/feud-director.js": "1e5719f6d7940d101a7fa54cc2b91f95c4e6f1a5c40dac93460ea9f135c37b5a",
+    "dist/division-sequence.js": "57ce8126c4ef4768c8ceb13987c9bd2802bf95e2cd3e290f8cee0138f0b361f3",
+    "dist/division-director.js": "1ba541e5b658d9cc988533baecbb08ff0313093ea99840dc152e7acefa068f2f"
+  }
+}

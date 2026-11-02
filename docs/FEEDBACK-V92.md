@@ -1,0 +1,3 @@
+# Feedback ledger — V92
+User approved review of orientation, red light/shadow balance and rim, cream shading, mottled blue highlights, contact shadows, shoulders/neck/chest, waist gap, pelvis/crotch, arms/cuffs/hands, stance, seated pose, head, hat, chair/smoke/framing.
+Implemented: changes listed in IMPLEMENTATION-V92.md. Major new finding was that light layers alone did not provide per-object illumination; corrected with depth-sharing passes and a pixel-isolation regression. Silhouette and clothing remain illustrative approximations. Final visual acceptance remains with Joshua; functional passes do not certify source parity.

@@ -1,0 +1,7 @@
+# V84 — visual review
+
+V84 implements original 11:55–12:55 (715–775 seconds), local 0–60, default template 725–785. The next interval 12:55–13:55 is not implemented. Joshua authorized this minute; earlier cutout integration, tree wind/blur and house zoom/parallax remain deferred until approximately original 15:00.
+
+Reviewed 62 staged samples in ordered contact sheets, then all 120 encoded samples at 0.5-second spacing in four ordered sheets and 23 original/reconstruction matched pairs. Corrected a duplicated RUDA label, replaced an inappropriate workshop background in the athlete scene with the registered athletics environment, and fixed compressed letter spacing during morph transitions. Automated verification covers stage timing/inversion at 0.05/0.1/1/2 rates, exact incoming join and black, object visibility, isolated source replacement, deterministic rendering and native director duration/playhead migration. See validation-v84.json.
+
+The prior analysis retains all 1,800 original frames, ordered frame sheets, native-resolution samples and a genuine silent 0.05× export. Continuous audiovisual playback viewing cannot be performed here and is not claimed. Reconstruction exports run at 24fps; source is 30fps. Original narration is carried in the previews but was not listened to. Numerical passing checks do not establish pixel-perfect reconstruction. Visual approximations are listed in FEEDBACK-V84.md.

@@ -1,0 +1,920 @@
+{
+  "defaults": {
+    "wartimeEnabled": true,
+    "wartimeGaitSpeed": 2.6,
+    "wartimeTrafficSpeed": 0.62,
+    "wartimeMotionShutter": 0.12,
+    "wartimeCrowdBlur": 8,
+    "wartimeMoneySpeed": 2.1,
+    "wartimeRevealBlue": 0.32,
+    "wartimeCharacterMono": 1,
+    "wartimeChapterSettings": {},
+    "wartimeHallAmbient": 0.72,
+    "wartimeFloorExposure": 0.32,
+    "wartimeGroundExposure": 0.3,
+    "wartimeMoneyBurst": 1,
+    "wartimeMoneyLaunchSpeed": 700,
+    "wartimeMoneyGravity": 380,
+    "wartimePropellerRPM": 1037,
+    "wartimeAircraftBank": 7,
+    "wartimeAircraftYaw": 11,
+    "wartimeAircraftFlash": 1,
+    "wartimeFactoryZoom": 0.22,
+    "wartimeWorkerEntryDuration": 1.5,
+    "wartimeChapterFlash": 1,
+    "wartimeChapterLogoOpacity": 0.07,
+    "wartimeRate": 1,
+    "wartimeSceneDurations": {},
+    "wartimeLayerEdits": {},
+    "wartimeSourceBindings": {},
+    "wartimeFullSources": {},
+    "wartimeCameraX": 0,
+    "wartimeCameraY": 0,
+    "wartimeCameraZoom": 0,
+    "wartimeFire": 1,
+    "wartimeSmoke": 1,
+    "wartimeNoteCount": 48,
+    "wartimeCloudSpeed": 10,
+    "wartimeEyeX": 0.418,
+    "wartimeEyeY": 0.364,
+    "wartimeSeed": 78,
+    "wartimeShoeCount": 6,
+    "wartimeSilhouetteCount": 16,
+    "wartimeSilhouetteOpacity": 0.94,
+    "wartimeFireMotionRate": 1,
+    "wartimeBlastExposure": 1,
+    "wartimeFamilyDepth": 1,
+    "wartimeEyeReflection": 1,
+    "wartimeTitle": "THE BETRAYAL",
+    "wartimeChapter": "CHAPTER 3",
+    "wartimeLetterbox": 0
+  },
+  "sources": {
+    "wartHall": "workshop-depth-v76.png",
+    "wartStadium": "wartime-bleachers-v75.png",
+    "wartStadiumSky": "mystery-sky.png",
+    "wartSky": "wartime-plates-v75.png",
+    "wartHouse": "family-house-v76.png",
+    "wartChapterShoes": "chapter-sneakers-v76.png",
+    "wartSilhouettes": "human-silhouettes-v76.png",
+    "wartBrotherA": "brother-poses-v76.png",
+    "wartBrotherB": "brother-poses-v76.png",
+    "wartGround": "training-ground-v74.png",
+    "wartBrothers": "wartime-people-v75.png",
+    "wartSuccess": "brother-poses-v76.png",
+    "wartWorker": "worker-portrait-v76.png",
+    "wartFamily": "wartime-people-v75.png",
+    "wartAircraft": "factory-aircraft-v76.png",
+    "wartBuilding": "factory-aircraft-v76.png",
+    "wartSeated": "brother-poses-v76.png",
+    "wartPortrait": "worker-portrait-v76.png",
+    "wartExplosion": "explosion-smoke-v61.png",
+    "wartFlame": "fire.png",
+    "wartFamilyRear": "family-layers-v76.png",
+    "wartFamilyTeen": "family-layers-v76.png",
+    "wartFamilyMother": "family-layers-v76.png",
+    "wartFamilyOlder": "family-layers-v76.png",
+    "wartFamilyBoy": "family-layers-v76.png",
+    "wartFamilyBoy2": "family-layers-v76.png",
+    "wartFireFrame0": "flame-motion-v76-00.png",
+    "wartBlastFrame0": "blast-motion-v76-00.png",
+    "wartFireFrame1": "flame-motion-v76-01.png",
+    "wartBlastFrame1": "blast-motion-v76-01.png",
+    "wartFireFrame2": "flame-motion-v76-02.png",
+    "wartBlastFrame2": "blast-motion-v76-02.png",
+    "wartFireFrame3": "flame-motion-v76-03.png",
+    "wartBlastFrame3": "blast-motion-v76-03.png",
+    "wartFireFrame4": "flame-motion-v76-04.png",
+    "wartBlastFrame4": "blast-motion-v76-04.png",
+    "wartFireFrame5": "flame-motion-v76-05.png",
+    "wartBlastFrame5": "blast-motion-v76-05.png"
+  },
+  "layers": [
+    {
+      "id": "wartHall",
+      "label": "Hall",
+      "slot": "wartHall",
+      "depth": 6
+    },
+    {
+      "id": "wartStadium",
+      "label": "Stadium",
+      "slot": "wartStadium",
+      "depth": 6
+    },
+    {
+      "id": "wartStadiumSky",
+      "label": "StadiumSky",
+      "slot": "wartStadiumSky",
+      "depth": 6
+    },
+    {
+      "id": "wartSky",
+      "label": "Sky",
+      "slot": "wartSky",
+      "depth": 6
+    },
+    {
+      "id": "wartHouse",
+      "label": "House",
+      "slot": "wartHouse",
+      "depth": 6
+    },
+    {
+      "id": "wartChapterShoes",
+      "label": "ChapterShoes",
+      "slot": "wartChapterShoes",
+      "depth": 2
+    },
+    {
+      "id": "wartSilhouettes",
+      "label": "Silhouettes",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "wartBrotherA",
+      "label": "BrotherA",
+      "slot": "wartBrotherA",
+      "depth": 2
+    },
+    {
+      "id": "wartBrotherB",
+      "label": "BrotherB",
+      "slot": "wartBrotherB",
+      "depth": 2
+    },
+    {
+      "id": "wartGround",
+      "label": "Ground",
+      "slot": "wartGround",
+      "depth": 2
+    },
+    {
+      "id": "wartBrothers",
+      "label": "Brothers",
+      "slot": "wartBrothers",
+      "depth": 2
+    },
+    {
+      "id": "wartSuccess",
+      "label": "Success",
+      "slot": "wartSuccess",
+      "depth": 2
+    },
+    {
+      "id": "wartWorker",
+      "label": "Worker",
+      "slot": "wartWorker",
+      "depth": 2
+    },
+    {
+      "id": "wartFamily",
+      "label": "Family",
+      "slot": "wartFamily",
+      "depth": 2
+    },
+    {
+      "id": "wartAircraft",
+      "label": "Aircraft",
+      "slot": "wartAircraft",
+      "depth": 2
+    },
+    {
+      "id": "wartBuilding",
+      "label": "Building",
+      "slot": "wartBuilding",
+      "depth": 2
+    },
+    {
+      "id": "wartSeated",
+      "label": "Seated",
+      "slot": "wartSeated",
+      "depth": 2
+    },
+    {
+      "id": "wartPortrait",
+      "label": "Portrait",
+      "slot": "wartPortrait",
+      "depth": 2
+    },
+    {
+      "id": "wartExplosion",
+      "label": "Explosion",
+      "slot": "wartExplosion",
+      "depth": 2
+    },
+    {
+      "id": "wartFlame",
+      "label": "Flame",
+      "slot": "wartFlame",
+      "depth": 2
+    },
+    {
+      "id": "wartFamilyRear",
+      "label": "FamilyRear",
+      "slot": "wartFamilyRear",
+      "depth": 2
+    },
+    {
+      "id": "wartFamilyTeen",
+      "label": "FamilyTeen",
+      "slot": "wartFamilyTeen",
+      "depth": 2
+    },
+    {
+      "id": "wartFamilyMother",
+      "label": "FamilyMother",
+      "slot": "wartFamilyMother",
+      "depth": 2
+    },
+    {
+      "id": "wartFamilyOlder",
+      "label": "FamilyOlder",
+      "slot": "wartFamilyOlder",
+      "depth": 2
+    },
+    {
+      "id": "wartFamilyBoy",
+      "label": "FamilyBoy",
+      "slot": "wartFamilyBoy",
+      "depth": 2
+    },
+    {
+      "id": "wartFamilyBoy2",
+      "label": "FamilyBoy2",
+      "slot": "wartFamilyBoy2",
+      "depth": 2
+    },
+    {
+      "id": "shoe-0",
+      "label": "Sneaker 1",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-1",
+      "label": "Sneaker 2",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-2",
+      "label": "Sneaker 3",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-3",
+      "label": "Sneaker 4",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-4",
+      "label": "Sneaker 5",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-5",
+      "label": "Sneaker 6",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-6",
+      "label": "Sneaker 7",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-7",
+      "label": "Sneaker 8",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-8",
+      "label": "Sneaker 9",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-9",
+      "label": "Sneaker 10",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-10",
+      "label": "Sneaker 11",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-11",
+      "label": "Sneaker 12",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-12",
+      "label": "Sneaker 13",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-13",
+      "label": "Sneaker 14",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-14",
+      "label": "Sneaker 15",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-15",
+      "label": "Sneaker 16",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-16",
+      "label": "Sneaker 17",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-17",
+      "label": "Sneaker 18",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-18",
+      "label": "Sneaker 19",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-19",
+      "label": "Sneaker 20",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-20",
+      "label": "Sneaker 21",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-21",
+      "label": "Sneaker 22",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-22",
+      "label": "Sneaker 23",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-23",
+      "label": "Sneaker 24",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-24",
+      "label": "Sneaker 25",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-25",
+      "label": "Sneaker 26",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-26",
+      "label": "Sneaker 27",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-27",
+      "label": "Sneaker 28",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-28",
+      "label": "Sneaker 29",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-29",
+      "label": "Sneaker 30",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-30",
+      "label": "Sneaker 31",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-31",
+      "label": "Sneaker 32",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-32",
+      "label": "Sneaker 33",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-33",
+      "label": "Sneaker 34",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-34",
+      "label": "Sneaker 35",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-35",
+      "label": "Sneaker 36",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-36",
+      "label": "Sneaker 37",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-37",
+      "label": "Sneaker 38",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-38",
+      "label": "Sneaker 39",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shoe-39",
+      "label": "Sneaker 40",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "silhouette-0",
+      "label": "Human silhouette 1",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-1",
+      "label": "Human silhouette 2",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-2",
+      "label": "Human silhouette 3",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-3",
+      "label": "Human silhouette 4",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-4",
+      "label": "Human silhouette 5",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-5",
+      "label": "Human silhouette 6",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-6",
+      "label": "Human silhouette 7",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-7",
+      "label": "Human silhouette 8",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-8",
+      "label": "Human silhouette 9",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-9",
+      "label": "Human silhouette 10",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-10",
+      "label": "Human silhouette 11",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-11",
+      "label": "Human silhouette 12",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-12",
+      "label": "Human silhouette 13",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-13",
+      "label": "Human silhouette 14",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-14",
+      "label": "Human silhouette 15",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-15",
+      "label": "Human silhouette 16",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-16",
+      "label": "Human silhouette 17",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-17",
+      "label": "Human silhouette 18",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-18",
+      "label": "Human silhouette 19",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "silhouette-19",
+      "label": "Human silhouette 20",
+      "slot": "wartSilhouettes",
+      "depth": 2
+    },
+    {
+      "id": "chapter-atmosphere",
+      "label": "chapter-atmosphere",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "floor-shade",
+      "label": "floor-shade",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "ground-shade",
+      "label": "ground-shade",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "aircraft-glow",
+      "label": "aircraft-glow",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "factory-camera",
+      "label": "factory-camera",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "reveal-blue",
+      "label": "reveal-blue",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "house-smoke",
+      "label": "house-smoke",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "burning-house",
+      "label": "burning-house",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "chapter",
+      "label": "chapter",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "shards",
+      "label": "shards",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "silhouettes",
+      "label": "silhouettes",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "banknotes",
+      "label": "banknotes",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "explosion",
+      "label": "explosion",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "smoke",
+      "label": "smoke",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "propeller",
+      "label": "propeller",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "emblem",
+      "label": "emblem",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "eye-reflection",
+      "label": "eye-reflection",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "fire-back",
+      "label": "fire-back",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "fire-front",
+      "label": "fire-front",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "embers",
+      "label": "embers",
+      "slot": null,
+      "depth": 2
+    },
+    {
+      "id": "light",
+      "label": "light",
+      "slot": null,
+      "depth": 2
+    }
+  ],
+  "stages": [
+    {
+      "id": "wartime-chapter-hold",
+      "from": 475,
+      "to": 480.5,
+      "duration": 5.5,
+      "label": "Chapter title retreats"
+    },
+    {
+      "id": "wartime-chapter-fade",
+      "from": 480.5,
+      "to": 482.3,
+      "duration": 1.8,
+      "label": "Title fades to black"
+    },
+    {
+      "id": "wartime-black-pause",
+      "from": 482.3,
+      "to": 483.5,
+      "duration": 1.2,
+      "label": "Black pause"
+    },
+    {
+      "id": "wartime-hall-entry",
+      "from": 483.5,
+      "to": 488.1,
+      "duration": 4.6,
+      "label": "Shadow hall and silhouettes"
+    },
+    {
+      "id": "wartime-brothers-entry",
+      "from": 488.1,
+      "to": 490.2,
+      "duration": 2.1,
+      "label": "Brothers enter foreground"
+    },
+    {
+      "id": "wartime-brothers-hold",
+      "from": 490.2,
+      "to": 494.5,
+      "duration": 4.3,
+      "label": "Brothers in hall"
+    },
+    {
+      "id": "wartime-stadium-reveal",
+      "from": 494.5,
+      "to": 496,
+      "duration": 1.5,
+      "label": "Foreground passage to stadium"
+    },
+    {
+      "id": "wartime-money",
+      "from": 496,
+      "to": 499.3,
+      "duration": 3.3,
+      "label": "Arms open and falling money"
+    },
+    {
+      "id": "wartime-seated-reveal",
+      "from": 499.3,
+      "to": 500.5,
+      "duration": 1.2,
+      "label": "Pass smiling man to seated brother"
+    },
+    {
+      "id": "wartime-seated-hold",
+      "from": 500.5,
+      "to": 503.4,
+      "duration": 2.9,
+      "label": "Seated brother holds"
+    },
+    {
+      "id": "wartime-blast-entry",
+      "from": 503.4,
+      "to": 504.4,
+      "duration": 1,
+      "label": "Explosion expands"
+    },
+    {
+      "id": "wartime-blast-smoke",
+      "from": 504.4,
+      "to": 506.4,
+      "duration": 2,
+      "label": "Smoke covers scene"
+    },
+    {
+      "id": "wartime-aircraft-entry",
+      "from": 506.4,
+      "to": 507.5,
+      "duration": 1.1,
+      "label": "Aircraft emerges from smoke"
+    },
+    {
+      "id": "wartime-aircraft-hold",
+      "from": 507.5,
+      "to": 509.4,
+      "duration": 1.9,
+      "label": "Aircraft over red storm"
+    },
+    {
+      "id": "wartime-aircraft-exit",
+      "from": 509.4,
+      "to": 510.4,
+      "duration": 1,
+      "label": "Aircraft leaves above frame"
+    },
+    {
+      "id": "wartime-building-entry",
+      "from": 510.4,
+      "to": 512.6,
+      "duration": 2.2,
+      "label": "Factory building rises"
+    },
+    {
+      "id": "wartime-emblem",
+      "from": 512.6,
+      "to": 514,
+      "duration": 1.4,
+      "label": "Historical emblem emerges"
+    },
+    {
+      "id": "wartime-building-hold",
+      "from": 514,
+      "to": 518.1,
+      "duration": 4.1,
+      "label": "Factory exterior and red sky"
+    },
+    {
+      "id": "wartime-interior-wipe",
+      "from": 518.1,
+      "to": 519.8,
+      "duration": 1.7,
+      "label": "Building lifts to reveal factory"
+    },
+    {
+      "id": "wartime-worker",
+      "from": 519.8,
+      "to": 523,
+      "duration": 3.2,
+      "label": "Factory worker foreground"
+    },
+    {
+      "id": "wartime-eye-reflection",
+      "from": 523,
+      "to": 524,
+      "duration": 1,
+      "label": "Worker contracts into eye reflection"
+    },
+    {
+      "id": "wartime-portrait-reveal",
+      "from": 524,
+      "to": 525.7,
+      "duration": 1.7,
+      "label": "Pull back from eye to portrait"
+    },
+    {
+      "id": "wartime-fire-build",
+      "from": 525.7,
+      "to": 529.5,
+      "duration": 3.8,
+      "label": "Flames and reflected warm light"
+    },
+    {
+      "id": "wartime-house-dissolve",
+      "from": 529.5,
+      "to": 530.5,
+      "duration": 1,
+      "label": "Portrait dissolves to house"
+    },
+    {
+      "id": "wartime-family-entry",
+      "from": 530.5,
+      "to": 531.6,
+      "duration": 1.1,
+      "label": "Foreground head reveals family"
+    },
+    {
+      "id": "wartime-family-pullback",
+      "from": 531.6,
+      "to": 535,
+      "duration": 3.4,
+      "label": "Family group pullback"
+    }
+  ]
+}

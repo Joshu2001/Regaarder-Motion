@@ -1,0 +1,327 @@
+{
+  "defaults": {
+    "trialEnabled": true,
+    "trialRate": 1,
+    "trialSceneDurations": {},
+    "trialLayerEdits": {},
+    "trialSourceBindings": {},
+    "trialCameraX": 0,
+    "trialCameraY": 0,
+    "trialCameraZoom": 0,
+    "trialLight": 1,
+    "trialHaze": 0.18,
+    "trialPaperCurve": 14,
+    "trialFireStrength": 1,
+    "trialNewsTitle": "WAR ENDS",
+    "trialNewsSecond": "AMERICANS TOOK\nGERMAN PEOPLE",
+    "trialNewsMasthead": "THE DAILY REPORT",
+    "trialStamp": "TIP-OFF",
+    "trialIllustrationLabel": true
+  },
+  "stages": [
+    {
+      "id": "trial-letter-continuation",
+      "from": 595,
+      "to": 596.1,
+      "duration": 1.1000000000000227,
+      "label": "letter continuation"
+    },
+    {
+      "id": "trial-paper-fire",
+      "from": 596.1,
+      "to": 597.9,
+      "duration": 1.7999999999999545,
+      "label": "paper fire"
+    },
+    {
+      "id": "trial-interrogation",
+      "from": 597.9,
+      "to": 607.2,
+      "duration": 9.300000000000068,
+      "label": "interrogation"
+    },
+    {
+      "id": "trial-shoulder-passage",
+      "from": 607.2,
+      "to": 609,
+      "duration": 1.7999999999999545,
+      "label": "shoulder passage"
+    },
+    {
+      "id": "trial-frontal-questioning",
+      "from": 609,
+      "to": 610.8,
+      "duration": 1.7999999999999545,
+      "label": "frontal questioning"
+    },
+    {
+      "id": "trial-newspaper-entry",
+      "from": 610.8,
+      "to": 616.1,
+      "duration": 5.300000000000068,
+      "label": "newspaper entry"
+    },
+    {
+      "id": "trial-newspaper-scroll",
+      "from": 616.1,
+      "to": 621.8,
+      "duration": 5.699999999999932,
+      "label": "newspaper scroll"
+    },
+    {
+      "id": "trial-paper-cell-passage",
+      "from": 621.8,
+      "to": 623,
+      "duration": 1.2000000000000455,
+      "label": "paper cell passage"
+    },
+    {
+      "id": "trial-prison",
+      "from": 623,
+      "to": 629.1,
+      "duration": 6.100000000000023,
+      "label": "prison"
+    },
+    {
+      "id": "trial-bars-camp-passage",
+      "from": 629.1,
+      "to": 631.6,
+      "duration": 2.5,
+      "label": "bars camp passage"
+    },
+    {
+      "id": "trial-camp",
+      "from": 631.6,
+      "to": 635.35,
+      "duration": 3.75,
+      "label": "camp"
+    },
+    {
+      "id": "trial-photo-folder",
+      "from": 635.35,
+      "to": 639,
+      "duration": 3.6499999999999773,
+      "label": "photo folder"
+    },
+    {
+      "id": "trial-folder-hold",
+      "from": 639,
+      "to": 641.45,
+      "duration": 2.4500000000000455,
+      "label": "folder hold"
+    },
+    {
+      "id": "trial-desk-tilt-writing",
+      "from": 641.45,
+      "to": 644.8,
+      "duration": 3.349999999999909,
+      "label": "desk tilt writing"
+    },
+    {
+      "id": "trial-writing-hold",
+      "from": 644.8,
+      "to": 647.5,
+      "duration": 2.7000000000000455,
+      "label": "writing hold"
+    },
+    {
+      "id": "trial-table-court-passage",
+      "from": 647.5,
+      "to": 649.2,
+      "duration": 1.7000000000000455,
+      "label": "table court passage"
+    },
+    {
+      "id": "trial-courtroom",
+      "from": 649.2,
+      "to": 653.5,
+      "duration": 4.2999999999999545,
+      "label": "courtroom"
+    },
+    {
+      "id": "trial-witness-exchange",
+      "from": 653.5,
+      "to": 655,
+      "duration": 1.5,
+      "label": "witness exchange"
+    }
+  ],
+  "layers": [
+    {
+      "id": "trialRoom",
+      "slot": "trialRoom",
+      "label": "trialRoom"
+    },
+    {
+      "id": "trialCell",
+      "slot": "trialCell",
+      "label": "trialCell"
+    },
+    {
+      "id": "trialCamp",
+      "slot": "trialCamp",
+      "label": "trialCamp"
+    },
+    {
+      "id": "trialCourt",
+      "slot": "trialCourt",
+      "label": "trialCourt"
+    },
+    {
+      "id": "trialRear",
+      "slot": "trialRear",
+      "label": "trialRear"
+    },
+    {
+      "id": "trialWriter",
+      "slot": "trialWriter",
+      "label": "trialWriter"
+    },
+    {
+      "id": "trialPrisoner",
+      "slot": "trialPrisoner",
+      "label": "trialPrisoner"
+    },
+    {
+      "id": "trialOfficials",
+      "slot": "trialOfficials",
+      "label": "trialOfficials"
+    },
+    {
+      "id": "trialCampMan",
+      "slot": "trialCampMan",
+      "label": "trialCampMan"
+    },
+    {
+      "id": "trialWitnessA",
+      "slot": "trialWitnessA",
+      "label": "trialWitnessA"
+    },
+    {
+      "id": "trialWitnessB",
+      "slot": "trialWitnessB",
+      "label": "trialWitnessB"
+    },
+    {
+      "id": "trialNewsPhoto",
+      "slot": "trialNewsPhoto",
+      "label": "trialNewsPhoto"
+    },
+    {
+      "id": "trialFire",
+      "slot": "trialFire",
+      "label": "trialFire"
+    },
+    {
+      "id": "trialNewsWar",
+      "slot": "trialNewsWar",
+      "label": "trialNewsWar"
+    },
+    {
+      "id": "paper",
+      "slot": null,
+      "label": "paper"
+    },
+    {
+      "id": "lens",
+      "slot": null,
+      "label": "lens"
+    },
+    {
+      "id": "paper-fragments",
+      "slot": null,
+      "label": "paper-fragments"
+    },
+    {
+      "id": "fire",
+      "slot": null,
+      "label": "fire"
+    },
+    {
+      "id": "embers",
+      "slot": null,
+      "label": "embers"
+    },
+    {
+      "id": "table",
+      "slot": null,
+      "label": "table"
+    },
+    {
+      "id": "lamp-light",
+      "slot": null,
+      "label": "lamp-light"
+    },
+    {
+      "id": "bars",
+      "slot": null,
+      "label": "bars"
+    },
+    {
+      "id": "crossbar",
+      "slot": null,
+      "label": "crossbar"
+    },
+    {
+      "id": "foreground-upright",
+      "slot": null,
+      "label": "foreground-upright"
+    },
+    {
+      "id": "newspaper",
+      "slot": null,
+      "label": "newspaper"
+    },
+    {
+      "id": "folder-back",
+      "slot": null,
+      "label": "folder-back"
+    },
+    {
+      "id": "folder-front",
+      "slot": null,
+      "label": "folder-front"
+    },
+    {
+      "id": "photo",
+      "slot": null,
+      "label": "photo"
+    },
+    {
+      "id": "stamp",
+      "slot": null,
+      "label": "stamp"
+    },
+    {
+      "id": "table-edge",
+      "slot": null,
+      "label": "table-edge"
+    },
+    {
+      "id": "witness-rail",
+      "slot": null,
+      "label": "witness-rail"
+    },
+    {
+      "id": "illustration-label",
+      "slot": null,
+      "label": "illustration-label"
+    }
+  ],
+  "sources": {
+    "trialRoom": "trial-environments-v82.png",
+    "trialCell": "trial-environments-v82.png",
+    "trialCamp": "trial-environments-v82.png",
+    "trialCourt": "trial-environments-audience-v82.png",
+    "trialRear": "trial-people-a-v82.png",
+    "trialWriter": "trial-people-a-v82.png",
+    "trialPrisoner": "trial-people-a-v82.png",
+    "trialOfficials": "trial-people-a-v82.png",
+    "trialCampMan": "trial-people-b-v82.png",
+    "trialWitnessA": "trial-people-b-v82.png",
+    "trialWitnessB": "trial-people-b-v82.png",
+    "trialNewsPhoto": "trial-people-b-v82.png",
+    "trialFire": "trial-fire-v82.png",
+    "trialNewsWar": "shelter-plates-v80.png"
+  }
+}

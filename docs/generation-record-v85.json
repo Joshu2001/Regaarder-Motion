@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-01",
+  "tool": "built-in imagegen",
+  "assets": [
+    {
+      "key": "families",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-0937783d-bb89-4268-8a76-0a62327cbea6.png",
+      "prompt": "Use case: historical-scene. Create an educational documentary asset sheet: six separate upright FULL LENGTH photographic portraits arranged as a regular three-column, two-row grid on a genuinely transparent background. Every person has a complete head and both shoes, with a clear transparent margin in their own cell. Top left: a middle-aged man in a black buttoned sweater and pale suspenders, short grey hair, hands resting on his hips, facing slightly right. Top middle: older man in a black suit, glasses and burgundy tie, hands in his trouser pockets, facing slightly left. Top right: a father in a 1940s black suit and tie, calm expression, both hands down at his sides. Bottom left: his schoolboy son in a white shirt, dark waistcoat and trousers, standing calmly with hands at his sides. Bottom middle: a different father wearing a 1940s black suit and bow tie, carrying a brown briefcase. Bottom right: his son wearing a white shirt, dark waistcoat and trousers, standing calmly. These are wholesome, neutral family portraits and business portraits for a historical illustration. Realistic desaturated photographic lighting, detailed clothing, no scenery, no lettering, no symbols, no ground shadows. Actual alpha transparency. Square high-resolution canvas.",
+      "transparent": true,
+      "projectPath": "dist/assets/communities-families-v85.png",
+      "sha256": "d901ad455d9eb8b7209b32ef819190fa34f1751fd3bb2c7fc2c3ac6b2b0e76c7",
+      "nativeDimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "key": "couple",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-495b8378-e463-4edb-ae42-f7125b89f995.png",
+      "prompt": "Use case: historical-scene. Asset type: FOUR separate full-body photographic people cutouts in precise equal 2x2 atlas, 2048 square or larger, genuinely transparent. TOP LEFT: fictional 1940s young European woman short wavy bob hair, modest pale knee-length dress, side profile facing RIGHT, hands clasped lightly near chest, looking gently toward absent partner, entire head and shoes visible. TOP RIGHT: young 1940s European man slicked dark hair in oversized dark coat and trousers, side profile facing LEFT with head bowed, entire head and shoes visible. BOTTOM LEFT: different 1940s European man in long dark coat and tie, side profile facing RIGHT, head bent downward clearly looking at ground, standing straight except neck, full body complete. BOTTOM RIGHT: second distinct 1940s man in black suit and long coat, side profile facing LEFT, head bent down, full body complete. Real photographic cutouts, black-and-white silver-gelatin archival aesthetic, crisp realistic edges. Keep each isolated in own cell with generous transparent margins, no backgrounds, no ground shadows, no text, no white fill.",
+      "transparent": true,
+      "projectPath": "dist/assets/communities-couple-v85.png",
+      "sha256": "3c03559b4c682ffdb920ed82027726ba44846c680a2e986a881266529604a733",
+      "nativeDimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "key": "gangs",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-aaf8720c-d8ea-4476-8327-e7a466af1619.png",
+      "prompt": "Use case: historical-scene. SIX individual realistic black-and-white photographic leather-jacket young men cutouts, regular 3-column x 2-row atlas, genuinely transparent background, 2048 square or larger. Complete head through mid thigh with generous transparent gutters. TOP ROW each man faces image RIGHT, separate different faces: (1) tall short-haired young man black leather jacket hands in pockets; (2) wavy-haired man white shirt black leather jacket hands in pockets; (3) man in dark flat cap and black leather jacket one hand near chin. BOTTOM ROW each man faces image LEFT: (1) crew-cut blond stern young man black leather jacket ARMS CROSSED; (2) short-haired man black leather jacket white undershirt hands in pockets; (3) man in patch-covered black leather jacket slightly angled left hands in pockets. Reserved portrait expressions, 1950s European archival illustrative photography, hard silver-gelatin contrast, realistic clothing, faces and hands. No scenery, no panels, no text, no cast shadows outside figures. Actual transparent alpha, retain fine edges.",
+      "transparent": true,
+      "projectPath": "dist/assets/communities-gangs-v85.png",
+      "sha256": "9420ed6b4ac3a407627417fb9c7df73696acb29d173c02b0eccc6359491e759a",
+      "nativeDimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "key": "room",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-1a7caeba-e017-4e7b-85ae-841d22836c46.png",
+      "prompt": "Use case: historical-scene. Asset type: standalone high-resolution cinematic background plate, landscape 2048x1152 or larger. EMPTY shadowy 1940s European mayor's office, dark teal-black carved wooden panel walls, tall paneled wall and door on LEFT, broad shadowy rear wall and low dark sideboard on RIGHT, pale desaturated green-grey floor visible in lower 45 percent. Strong cool window light from high right casts broad diagonal window-bar shadows on the floor, cinematic vignette and subtle dust. Camera at seated-person eye height, medium-wide room, floor perspective converges near x55percent y42percent, no extreme wide angle. Empty center-left floor for a separate chair and person, no chair, NO PEOPLE, no writing, no desk obstructing the middle. Detailed photographic material with restrained archival grain, bright lit floor patches but rich black walls.",
+      "transparent": false,
+      "projectPath": "dist/assets/communities-room-v85.png",
+      "sha256": "bd9b2ec244be1ebce9f3dd526c2724bbd4c0a451f0b43b876efe4701b2e086b1",
+      "nativeDimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "mayor",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-cd27ad9c-6a17-44a3-9b4d-719e2c8007d4.png",
+      "prompt": "Use case: historical-scene. Standalone full-body isolated cutout of a fictional 1940s European mayor, middle-aged balding man with a neat small dark mustache, black three-piece suit, white shirt, patterned dark tie. He sits relaxed in a dark carved wooden chair with four legs, RIGHT ANKLE resting across LEFT KNEE; one hand rests on chair arm, other near knee, faces camera with mild reserved smile. Entire head, BOTH FEET, entire chair and all legs complete within margins. Crossed upper foot extends toward IMAGE RIGHT, lower foot reaches forward/down near IMAGE CENTER. Plain black unbranded leather shoes, white socks visible. Photograph in cool desaturated teal monochrome with window light from image-right, realistic suit folds, sharp face. Genuine transparent alpha background, no floor, no environment, no shadows outside chair, no writing. Tall portrait high-resolution 1536x2048 or larger, enough detail for close face and full seated pullback.",
+      "transparent": true,
+      "projectPath": "dist/assets/communities-mayor-v85.png",
+      "sha256": "25322918b4c2409b42819a85a24ac67ed877e4b488df661c94b1e826166b1b4c",
+      "nativeDimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "objects",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-c6dbd89e-066f-41c1-a16f-db16cdb3fa26.png",
+      "prompt": "Use case: historical-scene. SIX independent photographic asset cutouts in exact 3-column by 2-row atlas, 2048 square or larger, genuinely transparent background and generous gutters. TOP LEFT: complete old Bavarian SCHOOL facade, white plaster stepped-gable roof, five rows dark rectangular windows with dark green shutters, straight-on view, whole building from roof to ground, NO TEXT. TOP MIDDLE: old pale cream three-story shoe factory with many small windows and dark gabled roof, three-quarter front perspective with long front face receding toward IMAGE RIGHT, complete footprint. TOP RIGHT: DIFFERENT long two-story dark brick shoe factory, many tall grid windows, three-quarter perspective with long face receding toward IMAGE LEFT, complete footprint. BOTTOM LEFT: tan brown vintage low-cut running shoe with THREE pale narrow leather side stripes, profile view toe pointing RIGHT, cream laces. BOTTOM MIDDLE: vintage black leather low ankle football boot with pale yellow laces, studded sole and pale piping, profile view toe pointing RIGHT. BOTTOM RIGHT: plain black 1940s leather low-cut sports shoe with black laces and thin cream outsole, side profile toe pointing RIGHT, no stripes or branding. Real photographic detail, slightly desaturated historical illustrative assets. Do not let roof/feet/toes intersect cell margins, no ground planes, no background, no text or checkerboard.",
+      "transparent": true,
+      "projectPath": "dist/assets/communities-objects-v85.png",
+      "sha256": "cd957f01bab11ab4d144328d040b6f8db38839f69d8018deb911149199c0dc98",
+      "nativeDimensions": [
+        1774,
+        887
+      ]
+    },
+    {
+      "key": "street",
+      "path": "/workspace/scratch/605d5867e7b5/generated_images/exec-913e85ae-6f18-4c98-adc5-3e8f42379505.png",
+      "prompt": "Use case: historical-scene. Standalone high-resolution landscape photographic background plate 2048x1152 or larger, view FROM INSIDE a 1940s European shoe shop looking OUT through a large window into an old city shopping street. Street faces recede toward a central bright vanishing point at x55percent, pedestrians distant and deliberately defocused, warm glowing shop windows at left and right, old pale multi-story stone facades. Cinematic cool teal shadows and warm tungsten lights, shallow depth of field so entire street is blurry but architecturally plausible. Leave foreground entirely EMPTY for separate shoes on ledge, no products, no shoes, no foreground furniture, no window bars across center. Thin very dark interior window jamb only at far LEFT EDGE, empty lower 12percent softly darkened. No readable signage, no modern cars or modern clothing, no logos.",
+      "transparent": false,
+      "projectPath": "dist/assets/communities-street-v85.png",
+      "sha256": "cc66fc955e8ac90ceabb1e25ed8f5048779df762c1c2c40dbf8e781e74258fe0",
+      "nativeDimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "failedRequests": "First concurrent attempt failed before any result was retrieved; a later families generation was rejected; neutral family-portrait request succeeded. No inaccessible output bytes claimed retained.",
+  "originalsPreserved": true,
+  "historicalEvidence": false
+}

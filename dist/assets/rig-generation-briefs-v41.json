@@ -1,0 +1,17 @@
+{
+  "version": 41,
+  "date": "2026-10-28",
+  "source": "precision-seamstress-v39.png",
+  "tool": "image_gen.imagegen",
+  "transparent_background": false,
+  "prompts": {
+    "room": "Use case: precise-object-edit. Edit target: the provided generated woman/blouse room plate, used only as a background reconstruction for editable compositing. Remove the entire woman, both arms/hands, the hanger and the blouse she holds. Reconstruct the hidden timber sewing-room wall, shelves, folded fabrics and floor naturally. Preserve the original 16:9 camera view, left window, flowers, wicker basket, table, left curtain, warm diffuse window light, muted palette, right background hanging garments and soft depth of field as closely as possible. The final image must be an EMPTY ROOM background with no foreground people, body fragments, held blouse or hanger in the central area. No new objects, no letters, no watermark. Do not crop or reframe.",
+    "underpaint": "Use case: precise-object-edit. Edit target: this generated woman/blouse room plate. Produce an UNDERPAINT repair plate for editable animation. Preserve the woman's face, hair, torso shape, dark apron texture, left upper sleeve, room, camera framing and light as closely as possible. Remove ONLY the lower foreground forearm and hand that extend across her waist toward the blouse hem; reconstruct the dark apron and lower torso behind that forearm with natural uninterrupted vertical folds, preserving a full rounded waist, not a flattened abdomen. Also remove the hanging blouse, hanger and her raised hand/forearm at upper right; reconstruct the previously hidden apron/upper sleeve and room there naturally. Keep her main head/upper body and dark skirt intact in the original position, with the missing arm areas cleanly filled for later compositing of the original arms. No new hand poses are needed. No text, no watermark, 16:9, no reframing. This plate will ONLY supply small concealed patches; the visible face, blouse and arms will come from the untouched original."
+  },
+  "permission": "Generated illustrative assets for this authorized project; no archival authenticity or broader clearance is asserted.",
+  "modifications": "Generated edits copied byte-for-byte; runtime masks select concealed reconstruction patches. Original source retained.",
+  "outputs": {
+    "rig-room-clean-v41.png": "generated_images/exec-acf247bd-2fbc-4fef-862e-d3e11b8187fb.png",
+    "rig-underpaint-v41.png": "generated_images/exec-db61ca8a-a875-4b11-b639-a41775d78446.png"
+  }
+}

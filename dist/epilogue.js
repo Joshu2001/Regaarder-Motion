@@ -1,5 +1,5 @@
 function peopleCameraRig(age,f){const cam=motionEase(age/f.parallaxTime,f.cameraEase),dolly=motionEase((age-f.dollyStart)/f.dollyTime,'smooth'),atStart=motionEase(f.dollyStart/f.parallaxTime,f.cameraEase),exit=motionEase((age-f.dollyStart-f.dollyTime)/3,'smooth');return {cam,dolly,backScale:Math.max(1.08+dolly*.08,(1.08+Math.min(cam,atStart)*f.depth/100*3)*(1-dolly*f.dollyBack/100)),backY:dolly*20,personScale:1+(f.cameraZoom-1)*cam+dolly*f.dollyFront/100,rise:cam*330*f.cameraRise/100+dolly*f.dollyDrop+exit*220}}
-let heritageBrand=null;import('./brand-marks.js?v=depot-v20').then(m=>{heritageBrand=m});
+let heritageBrand=null;import('./brand-marks.js?v=motion-v70').then(m=>{heritageBrand=m});
 function formatClipTime(n){n=Math.round(n);return Math.floor(n/60)+':'+String(n%60).padStart(2,'0')}
 /* Layered camera continuation and directly manipulable fire layers. */
 const epiCanvases={};for(const key of ['sky','back','portraits','final','pull']){const c=document.createElement('canvas');c.width=960;c.height=540;epiCanvases[key]=c}

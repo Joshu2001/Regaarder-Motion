@@ -1,0 +1,60 @@
+[
+  {
+    "output": "room-color-v62.png",
+    "original": "generated_images/exec-d0bf04c3-292b-41a4-be2d-ac13d60e1ef6.png",
+    "sha256": "ca7bbc0b2ed9c8da7b0f6b43deb4529148530bddcd703bbc49b9d93eb6646a01",
+    "tool": "built-in image_gen",
+    "date": "2026-10-29",
+    "promptSummary": "Edit the existing portrait-room-room-v53.png only: naturally colored warm aged brown wood window at left 35%, muted green daylight, mottled olive ochre warm-gray wall, dark wood floor. No people, basin, cloth or shelf; separate layers. Preserve eye-level photographic perspective. Wide 16:9.",
+    "parent": "portrait-room-room-v53.png",
+    "parentSHA256": "a3978525054160b8d2bf61fa2848b6a224c070a8838ec1e4f8df3bda4d1aafa7",
+    "modifications": "Source PNG copied unchanged. Runtime alpha threshold/crop and interior-closure material operation are documented separately.",
+    "prompt": "Edit target: supplied empty historic room photograph. Make a natural full-color version and repair its composition for a cinematic documentary portrait background. Keep photographic texture and eye-level perspective, window on left, wall on right. The window occupies roughly left 35 percent, with warm aged brown wood frame, muted pale green trees/daylight outside, pale yellow-gray plaster around it. A mottled olive ochre warm-gray plaster back wall is clearly visible on the right, darker toward right edge but not featureless black. Lower 15 percent shows dark brown wood floor. Window sill at 58 percent image height. Natural strong soft daylight from left, deep but readable right shadow. No people, no basin, no cloth, no shelf or furniture; these are separate editable layers. No text or overlays. Wide 16:9 framing. Do not make it sepia or grayscale: natural restrained greens, wood browns, ochre plaster.",
+    "transparent_background": false
+  },
+  {
+    "output": "wooden-shelf-v62.png",
+    "original": "generated_images/exec-6e747b20-ce17-4e5d-a398-8f7285c62580.png",
+    "sha256": "55d4aac0e8c0549e0eeee87642575dc9f72e8a86d978f0171300e2d870fa1c7d",
+    "tool": "built-in image_gen",
+    "date": "2026-10-29",
+    "promptSummary": "Photorealistic isolated narrow rough honey-brown three-tier wooden laundry shelf, slightly turned front view, clay cup and gray folded cloth top, shallow wicker basket middle, folded fabric lower. Aged wood, light from left, true transparent background/gaps. No wall/floor/people/text.",
+    "parent": null,
+    "parentSHA256": null,
+    "modifications": "Source PNG copied unchanged. Runtime alpha threshold/crop and interior-closure material operation are documented separately.",
+    "prompt": "Asset: photorealistic isolated wooden shelf rack for a 1920s poor German laundry room. One narrow rough honey-brown wooden three-tier shelf, upright front view slightly turned so its left side is visible. A dull small clay cup and gray folded cloth on top shelf, a shallow wicker basket on middle shelf, muted folded fabric on lower shelf. Aged imperfect wood with warm brown highlights on left and deep soft shadows to right. Entire object visible from top to feet, no crop. Actual transparent background, transparent gaps between shelves. No wall, no floor, no people, no room, no text. Restrained naturally colored historical documentary photographic style, not illustration, not glossy furniture render. Vertical object with clear silhouette.",
+    "transparent_background": true
+  },
+  {
+    "output": "war-street-v62.png",
+    "original": "generated_images/exec-414ff738-173d-4b46-8b5e-50b6d050f5a0.png",
+    "sha256": "42b8f7273ca97aeef309d1fa6fa7580e5eae53d2e0f239dc546e267162b922a1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-29",
+    "promptSummary": "Use only left reference half of image(20261029-114505).png. Clean monochrome bomb-devastated European street, no person/explosion/smoke/electrical poles/wires. Different irregular multi-storey shells each side, black interiors, exposed side walls, flat dark dirt road, rubble mostly at edges. Vanishing point x50%, y45%. Transparent sky only, opaque ground/windows, no red/text.",
+    "parent": null,
+    "parentSHA256": null,
+    "modifications": "Source PNG copied unchanged. Runtime alpha threshold/crop and interior-closure material operation are documented separately.",
+    "prompt": "Use case historical-scene. Reference is a side-by-side annotated comparison: use ONLY THE LEFT HALF as composition reference; ignore right half and all arrows, captions, overlays. Generate a clean photorealistic black-and-white bomb-devastated early 20th-century European street environment plate, no person, no explosion, no smoke, no overhead electrical poles or wires (all separate layers). Match the left reference: narrow dark dirt road in the middle leading to a broken distant building near center-right; irregular bombed multi-storey shells flank left and right, broken floors and deep side walls, damaged window openings have BLACK INTERIORS, asymmetrical masses, substantially different buildings on each side, exposed beams, jagged rooflines. Clear relatively flat DARK DIRT ROAD down center, rubble heaped mostly at edges, scattered large chunks; do not cover road uniformly with gravel. Low eye-level viewpoint, road vanishing point at x=50%,y=45%, foreground road fills bottom half. Real archival photographic textures, directional diffuse light, black cavities and nuanced gray surfaces. Wide 16:9. Keep full ground opaque edge-to-edge, no border. Replace ONLY visible SKY ABOVE/BEHIND THE RUIN SILHOUETTES with genuine transparent alpha. Window holes should stay opaque near black, NOT sky-transparent. No red anywhere. No people, no fire, no text. It must be an environment plate for parallax, not a montage or side-by-side.",
+    "transparent_background": true,
+    "reference": {
+      "path": "upload/image(20261029-114505).png",
+      "sha256": "7338574cc7fb7a0d94d7dc627abf06f2c330e0f564d8adbfebf313abeee9bb23",
+      "role": "Left half composition reference only; annotations/right half excluded by prompt.",
+      "library_file_id": "libfile_633ed63a234081919fcdc33c3b0c4f7f"
+    }
+  },
+  {
+    "output": "street-figure-v62.png",
+    "original": "generated_images/exec-27428c85-c889-4c57-8183-29a584c6dc5f.png",
+    "sha256": "b05d2e8a4915b703e461e449f4b9bac24afd13b25a44d4d2d1e2fe41ae07db86",
+    "tool": "built-in image_gen",
+    "date": "2026-10-29",
+    "promptSummary": "Photorealistic monochrome full-body rear-view young man standing solemnly, short worn dark leather work jacket, knee breeches, knee-high boots, pale short hair, hands by sides. Early 1920s German worker, not modern suit/long coat. Transparent background, entire body visible, no ground/environment/weapon/text.",
+    "parent": null,
+    "parentSHA256": null,
+    "modifications": "Source PNG copied unchanged. Runtime alpha threshold/crop and interior-closure material operation are documented separately.",
+    "prompt": "Photorealistic monochrome archival documentary cutout, full body rear view of a young adult European man standing still, looking straight ahead away from camera. Early 1920s working class German clothing: short dark worn waist-length leather work jacket, dark knee breeches and dark knee-high boots. Pale light gray short combed hair, arms hanging naturally slightly bent, hands by sides, feet shoulder-width apart grounded on same horizontal line. Quiet solemn posture. Not a modern suit, no long coat, no modern trousers, no helmet, no weapons. Gentle diffuse light from upper left, realistic cloth/leather detail. Entire body visible with transparent space around head and boots. Truly transparent background, no floor or cast shadow, no environment, no text. Neutral rear view for compositing into an eye-level ruined street.",
+    "transparent_background": true
+  }
+]

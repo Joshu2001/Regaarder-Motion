@@ -1,0 +1,3 @@
+# V82 feedback and review
+
+Joshua approved assets and implementation of09:55–10:55. Earlier cutout/tree blur/house transition corrections deferred. First draft review found small camp/prison poses, hand/bar misalignment, hidden writing pose and clipped folder stamp; those were corrected before final export. First generated courtroom omitted audience; original retained and corrected quadrant selected. Fire was switched from old static art to retained photographed clip atlas, cropping/feathering the source log. Character performances remain held poses. User visual acceptance pending. No publication.

@@ -1,0 +1,1467 @@
+{
+  "review_id": "reference-0355-0447-analysis-01",
+  "version": 1,
+  "source": {
+    "filename": "The Nazi Brothers Who Started Rival Shoe Companies - MagnatesMedia (1080p, h264)_03-55.0_to_04-47.0.webm",
+    "library_file_id": "libfile_2b56a733ccc081918a0099e97004717b",
+    "sha256": "4f00686819255043508782a1d0e041ffee35471a1653698aee36b5559c859da6",
+    "width": 1920,
+    "height": 1080,
+    "time_base": "decoded clip PTS",
+    "nominal_master_start": 235,
+    "master_mapping": "provisional filename offset; not native-master synchronized",
+    "last_video_pts": 52.902,
+    "decoded_frames": 992,
+    "max_frame_interval": 0.30400000000000027
+  },
+  "method": {
+    "skill": "review-motion-like-joshua",
+    "direct_native_playback_claimed": false,
+    "frame_sequences": true,
+    "selected_samples": 197,
+    "slow_replay_rate": 0.25,
+    "new_audio_transcription": false,
+    "narration_context": "existing supplied timestamp transcript"
+  },
+  "samples": [
+    {
+      "file": "exact/0001.jpg",
+      "source_frame": 0,
+      "clip_pts": 0.0,
+      "nominal_original_seconds": 235.0
+    },
+    {
+      "file": "exact/0002.jpg",
+      "source_frame": 24,
+      "clip_pts": 1.002,
+      "nominal_original_seconds": 236.002
+    },
+    {
+      "file": "exact/0003.jpg",
+      "source_frame": 45,
+      "clip_pts": 2.013,
+      "nominal_original_seconds": 237.013
+    },
+    {
+      "file": "exact/0004.jpg",
+      "source_frame": 54,
+      "clip_pts": 2.468,
+      "nominal_original_seconds": 237.468
+    },
+    {
+      "file": "exact/0005.jpg",
+      "source_frame": 58,
+      "clip_pts": 2.743,
+      "nominal_original_seconds": 237.743
+    },
+    {
+      "file": "exact/0006.jpg",
+      "source_frame": 61,
+      "clip_pts": 2.904,
+      "nominal_original_seconds": 237.904
+    },
+    {
+      "file": "exact/0007.jpg",
+      "source_frame": 62,
+      "clip_pts": 2.972,
+      "nominal_original_seconds": 237.972
+    },
+    {
+      "file": "exact/0008.jpg",
+      "source_frame": 63,
+      "clip_pts": 3.136,
+      "nominal_original_seconds": 238.136
+    },
+    {
+      "file": "exact/0009.jpg",
+      "source_frame": 64,
+      "clip_pts": 3.267,
+      "nominal_original_seconds": 238.267
+    },
+    {
+      "file": "exact/0010.jpg",
+      "source_frame": 65,
+      "clip_pts": 3.571,
+      "nominal_original_seconds": 238.571
+    },
+    {
+      "file": "exact/0011.jpg",
+      "source_frame": 66,
+      "clip_pts": 3.733,
+      "nominal_original_seconds": 238.733
+    },
+    {
+      "file": "exact/0012.jpg",
+      "source_frame": 67,
+      "clip_pts": 3.866,
+      "nominal_original_seconds": 238.866
+    },
+    {
+      "file": "exact/0013.jpg",
+      "source_frame": 69,
+      "clip_pts": 4.021,
+      "nominal_original_seconds": 239.021
+    },
+    {
+      "file": "exact/0014.jpg",
+      "source_frame": 70,
+      "clip_pts": 4.072,
+      "nominal_original_seconds": 239.072
+    },
+    {
+      "file": "exact/0015.jpg",
+      "source_frame": 73,
+      "clip_pts": 4.303,
+      "nominal_original_seconds": 239.303
+    },
+    {
+      "file": "exact/0016.jpg",
+      "source_frame": 75,
+      "clip_pts": 4.501,
+      "nominal_original_seconds": 239.501
+    },
+    {
+      "file": "exact/0017.jpg",
+      "source_frame": 82,
+      "clip_pts": 5.004,
+      "nominal_original_seconds": 240.004
+    },
+    {
+      "file": "exact/0018.jpg",
+      "source_frame": 100,
+      "clip_pts": 6.004,
+      "nominal_original_seconds": 241.004
+    },
+    {
+      "file": "exact/0019.jpg",
+      "source_frame": 111,
+      "clip_pts": 6.505,
+      "nominal_original_seconds": 241.505
+    },
+    {
+      "file": "exact/0020.jpg",
+      "source_frame": 123,
+      "clip_pts": 7.005,
+      "nominal_original_seconds": 242.005
+    },
+    {
+      "file": "exact/0021.jpg",
+      "source_frame": 145,
+      "clip_pts": 7.972,
+      "nominal_original_seconds": 242.972
+    },
+    {
+      "file": "exact/0022.jpg",
+      "source_frame": 169,
+      "clip_pts": 9.012,
+      "nominal_original_seconds": 244.012
+    },
+    {
+      "file": "exact/0023.jpg",
+      "source_frame": 191,
+      "clip_pts": 10.005,
+      "nominal_original_seconds": 245.005
+    },
+    {
+      "file": "exact/0024.jpg",
+      "source_frame": 202,
+      "clip_pts": 10.47,
+      "nominal_original_seconds": 245.47
+    },
+    {
+      "file": "exact/0025.jpg",
+      "source_frame": 205,
+      "clip_pts": 10.702,
+      "nominal_original_seconds": 245.702
+    },
+    {
+      "file": "exact/0026.jpg",
+      "source_frame": 209,
+      "clip_pts": 10.906,
+      "nominal_original_seconds": 245.906
+    },
+    {
+      "file": "exact/0027.jpg",
+      "source_frame": 211,
+      "clip_pts": 11.0,
+      "nominal_original_seconds": 246.0
+    },
+    {
+      "file": "exact/0028.jpg",
+      "source_frame": 213,
+      "clip_pts": 11.103,
+      "nominal_original_seconds": 246.103
+    },
+    {
+      "file": "exact/0029.jpg",
+      "source_frame": 216,
+      "clip_pts": 11.302,
+      "nominal_original_seconds": 246.302
+    },
+    {
+      "file": "exact/0030.jpg",
+      "source_frame": 219,
+      "clip_pts": 11.47,
+      "nominal_original_seconds": 246.47
+    },
+    {
+      "file": "exact/0031.jpg",
+      "source_frame": 222,
+      "clip_pts": 11.704,
+      "nominal_original_seconds": 246.704
+    },
+    {
+      "file": "exact/0032.jpg",
+      "source_frame": 225,
+      "clip_pts": 11.866,
+      "nominal_original_seconds": 246.86599999999999
+    },
+    {
+      "file": "exact/0033.jpg",
+      "source_frame": 227,
+      "clip_pts": 12.012,
+      "nominal_original_seconds": 247.012
+    },
+    {
+      "file": "exact/0034.jpg",
+      "source_frame": 228,
+      "clip_pts": 12.067,
+      "nominal_original_seconds": 247.067
+    },
+    {
+      "file": "exact/0035.jpg",
+      "source_frame": 232,
+      "clip_pts": 12.305,
+      "nominal_original_seconds": 247.305
+    },
+    {
+      "file": "exact/0036.jpg",
+      "source_frame": 235,
+      "clip_pts": 12.467,
+      "nominal_original_seconds": 247.467
+    },
+    {
+      "file": "exact/0037.jpg",
+      "source_frame": 238,
+      "clip_pts": 12.672,
+      "nominal_original_seconds": 247.672
+    },
+    {
+      "file": "exact/0038.jpg",
+      "source_frame": 242,
+      "clip_pts": 12.9,
+      "nominal_original_seconds": 247.9
+    },
+    {
+      "file": "exact/0039.jpg",
+      "source_frame": 244,
+      "clip_pts": 13.0,
+      "nominal_original_seconds": 248.0
+    },
+    {
+      "file": "exact/0040.jpg",
+      "source_frame": 245,
+      "clip_pts": 13.076,
+      "nominal_original_seconds": 248.076
+    },
+    {
+      "file": "exact/0041.jpg",
+      "source_frame": 249,
+      "clip_pts": 13.274,
+      "nominal_original_seconds": 248.274
+    },
+    {
+      "file": "exact/0042.jpg",
+      "source_frame": 254,
+      "clip_pts": 13.52,
+      "nominal_original_seconds": 248.52
+    },
+    {
+      "file": "exact/0043.jpg",
+      "source_frame": 257,
+      "clip_pts": 13.702,
+      "nominal_original_seconds": 248.702
+    },
+    {
+      "file": "exact/0044.jpg",
+      "source_frame": 262,
+      "clip_pts": 13.91,
+      "nominal_original_seconds": 248.91
+    },
+    {
+      "file": "exact/0045.jpg",
+      "source_frame": 263,
+      "clip_pts": 14.012,
+      "nominal_original_seconds": 249.012
+    },
+    {
+      "file": "exact/0046.jpg",
+      "source_frame": 264,
+      "clip_pts": 14.113,
+      "nominal_original_seconds": 249.113
+    },
+    {
+      "file": "exact/0047.jpg",
+      "source_frame": 268,
+      "clip_pts": 14.313,
+      "nominal_original_seconds": 249.313
+    },
+    {
+      "file": "exact/0048.jpg",
+      "source_frame": 272,
+      "clip_pts": 14.514,
+      "nominal_original_seconds": 249.514
+    },
+    {
+      "file": "exact/0049.jpg",
+      "source_frame": 275,
+      "clip_pts": 14.722,
+      "nominal_original_seconds": 249.722
+    },
+    {
+      "file": "exact/0050.jpg",
+      "source_frame": 278,
+      "clip_pts": 14.894,
+      "nominal_original_seconds": 249.894
+    },
+    {
+      "file": "exact/0051.jpg",
+      "source_frame": 280,
+      "clip_pts": 15.022,
+      "nominal_original_seconds": 250.022
+    },
+    {
+      "file": "exact/0052.jpg",
+      "source_frame": 282,
+      "clip_pts": 15.116,
+      "nominal_original_seconds": 250.11599999999999
+    },
+    {
+      "file": "exact/0053.jpg",
+      "source_frame": 286,
+      "clip_pts": 15.313,
+      "nominal_original_seconds": 250.313
+    },
+    {
+      "file": "exact/0054.jpg",
+      "source_frame": 290,
+      "clip_pts": 15.524,
+      "nominal_original_seconds": 250.524
+    },
+    {
+      "file": "exact/0055.jpg",
+      "source_frame": 293,
+      "clip_pts": 15.713,
+      "nominal_original_seconds": 250.713
+    },
+    {
+      "file": "exact/0056.jpg",
+      "source_frame": 295,
+      "clip_pts": 15.925,
+      "nominal_original_seconds": 250.925
+    },
+    {
+      "file": "exact/0057.jpg",
+      "source_frame": 296,
+      "clip_pts": 16.018,
+      "nominal_original_seconds": 251.018
+    },
+    {
+      "file": "exact/0058.jpg",
+      "source_frame": 298,
+      "clip_pts": 16.147,
+      "nominal_original_seconds": 251.147
+    },
+    {
+      "file": "exact/0059.jpg",
+      "source_frame": 300,
+      "clip_pts": 16.25,
+      "nominal_original_seconds": 251.25
+    },
+    {
+      "file": "exact/0060.jpg",
+      "source_frame": 304,
+      "clip_pts": 16.519,
+      "nominal_original_seconds": 251.519
+    },
+    {
+      "file": "exact/0061.jpg",
+      "source_frame": 306,
+      "clip_pts": 16.746,
+      "nominal_original_seconds": 251.746
+    },
+    {
+      "file": "exact/0062.jpg",
+      "source_frame": 308,
+      "clip_pts": 16.849,
+      "nominal_original_seconds": 251.849
+    },
+    {
+      "file": "exact/0063.jpg",
+      "source_frame": 309,
+      "clip_pts": 16.952,
+      "nominal_original_seconds": 251.952
+    },
+    {
+      "file": "exact/0064.jpg",
+      "source_frame": 311,
+      "clip_pts": 17.081,
+      "nominal_original_seconds": 252.081
+    },
+    {
+      "file": "exact/0065.jpg",
+      "source_frame": 312,
+      "clip_pts": 17.19,
+      "nominal_original_seconds": 252.19
+    },
+    {
+      "file": "exact/0066.jpg",
+      "source_frame": 313,
+      "clip_pts": 17.253,
+      "nominal_original_seconds": 252.253
+    },
+    {
+      "file": "exact/0067.jpg",
+      "source_frame": 320,
+      "clip_pts": 17.952,
+      "nominal_original_seconds": 252.952
+    },
+    {
+      "file": "exact/0068.jpg",
+      "source_frame": 333,
+      "clip_pts": 19.012,
+      "nominal_original_seconds": 254.012
+    },
+    {
+      "file": "exact/0069.jpg",
+      "source_frame": 341,
+      "clip_pts": 19.416,
+      "nominal_original_seconds": 254.416
+    },
+    {
+      "file": "exact/0070.jpg",
+      "source_frame": 346,
+      "clip_pts": 19.692,
+      "nominal_original_seconds": 254.692
+    },
+    {
+      "file": "exact/0071.jpg",
+      "source_frame": 351,
+      "clip_pts": 19.917,
+      "nominal_original_seconds": 254.917
+    },
+    {
+      "file": "exact/0072.jpg",
+      "source_frame": 352,
+      "clip_pts": 19.99,
+      "nominal_original_seconds": 254.99
+    },
+    {
+      "file": "exact/0073.jpg",
+      "source_frame": 355,
+      "clip_pts": 20.117,
+      "nominal_original_seconds": 255.117
+    },
+    {
+      "file": "exact/0074.jpg",
+      "source_frame": 359,
+      "clip_pts": 20.291,
+      "nominal_original_seconds": 255.291
+    },
+    {
+      "file": "exact/0075.jpg",
+      "source_frame": 363,
+      "clip_pts": 20.482,
+      "nominal_original_seconds": 255.482
+    },
+    {
+      "file": "exact/0076.jpg",
+      "source_frame": 366,
+      "clip_pts": 20.653,
+      "nominal_original_seconds": 255.653
+    },
+    {
+      "file": "exact/0077.jpg",
+      "source_frame": 369,
+      "clip_pts": 20.892,
+      "nominal_original_seconds": 255.892
+    },
+    {
+      "file": "exact/0078.jpg",
+      "source_frame": 371,
+      "clip_pts": 20.984,
+      "nominal_original_seconds": 255.984
+    },
+    {
+      "file": "exact/0079.jpg",
+      "source_frame": 373,
+      "clip_pts": 21.091,
+      "nominal_original_seconds": 256.091
+    },
+    {
+      "file": "exact/0080.jpg",
+      "source_frame": 376,
+      "clip_pts": 21.249,
+      "nominal_original_seconds": 256.249
+    },
+    {
+      "file": "exact/0081.jpg",
+      "source_frame": 380,
+      "clip_pts": 21.491,
+      "nominal_original_seconds": 256.491
+    },
+    {
+      "file": "exact/0082.jpg",
+      "source_frame": 383,
+      "clip_pts": 21.693,
+      "nominal_original_seconds": 256.693
+    },
+    {
+      "file": "exact/0083.jpg",
+      "source_frame": 387,
+      "clip_pts": 21.881,
+      "nominal_original_seconds": 256.881
+    },
+    {
+      "file": "exact/0084.jpg",
+      "source_frame": 389,
+      "clip_pts": 21.981,
+      "nominal_original_seconds": 256.981
+    },
+    {
+      "file": "exact/0085.jpg",
+      "source_frame": 391,
+      "clip_pts": 22.115,
+      "nominal_original_seconds": 257.115
+    },
+    {
+      "file": "exact/0086.jpg",
+      "source_frame": 394,
+      "clip_pts": 22.281,
+      "nominal_original_seconds": 257.281
+    },
+    {
+      "file": "exact/0087.jpg",
+      "source_frame": 397,
+      "clip_pts": 22.48,
+      "nominal_original_seconds": 257.48
+    },
+    {
+      "file": "exact/0088.jpg",
+      "source_frame": 400,
+      "clip_pts": 22.715,
+      "nominal_original_seconds": 257.715
+    },
+    {
+      "file": "exact/0089.jpg",
+      "source_frame": 402,
+      "clip_pts": 22.879,
+      "nominal_original_seconds": 257.879
+    },
+    {
+      "file": "exact/0090.jpg",
+      "source_frame": 404,
+      "clip_pts": 22.98,
+      "nominal_original_seconds": 257.98
+    },
+    {
+      "file": "exact/0091.jpg",
+      "source_frame": 405,
+      "clip_pts": 23.092,
+      "nominal_original_seconds": 258.092
+    },
+    {
+      "file": "exact/0092.jpg",
+      "source_frame": 418,
+      "clip_pts": 23.997,
+      "nominal_original_seconds": 258.997
+    },
+    {
+      "file": "exact/0093.jpg",
+      "source_frame": 436,
+      "clip_pts": 24.992,
+      "nominal_original_seconds": 259.992
+    },
+    {
+      "file": "exact/0094.jpg",
+      "source_frame": 454,
+      "clip_pts": 26.026,
+      "nominal_original_seconds": 261.026
+    },
+    {
+      "file": "exact/0095.jpg",
+      "source_frame": 471,
+      "clip_pts": 27.031,
+      "nominal_original_seconds": 262.031
+    },
+    {
+      "file": "exact/0096.jpg",
+      "source_frame": 480,
+      "clip_pts": 27.498,
+      "nominal_original_seconds": 262.498
+    },
+    {
+      "file": "exact/0097.jpg",
+      "source_frame": 487,
+      "clip_pts": 28.016,
+      "nominal_original_seconds": 263.016
+    },
+    {
+      "file": "exact/0098.jpg",
+      "source_frame": 494,
+      "clip_pts": 28.429,
+      "nominal_original_seconds": 263.429
+    },
+    {
+      "file": "exact/0099.jpg",
+      "source_frame": 497,
+      "clip_pts": 28.664,
+      "nominal_original_seconds": 263.664
+    },
+    {
+      "file": "exact/0100.jpg",
+      "source_frame": 499,
+      "clip_pts": 28.835,
+      "nominal_original_seconds": 263.835
+    },
+    {
+      "file": "exact/0101.jpg",
+      "source_frame": 504,
+      "clip_pts": 28.998,
+      "nominal_original_seconds": 263.998
+    },
+    {
+      "file": "exact/0102.jpg",
+      "source_frame": 510,
+      "clip_pts": 29.213,
+      "nominal_original_seconds": 264.213
+    },
+    {
+      "file": "exact/0103.jpg",
+      "source_frame": 516,
+      "clip_pts": 29.401,
+      "nominal_original_seconds": 264.401
+    },
+    {
+      "file": "exact/0104.jpg",
+      "source_frame": 522,
+      "clip_pts": 29.594,
+      "nominal_original_seconds": 264.594
+    },
+    {
+      "file": "exact/0105.jpg",
+      "source_frame": 525,
+      "clip_pts": 29.811,
+      "nominal_original_seconds": 264.811
+    },
+    {
+      "file": "exact/0106.jpg",
+      "source_frame": 529,
+      "clip_pts": 30.011,
+      "nominal_original_seconds": 265.011
+    },
+    {
+      "file": "exact/0107.jpg",
+      "source_frame": 533,
+      "clip_pts": 30.196,
+      "nominal_original_seconds": 265.196
+    },
+    {
+      "file": "exact/0108.jpg",
+      "source_frame": 537,
+      "clip_pts": 30.371,
+      "nominal_original_seconds": 265.371
+    },
+    {
+      "file": "exact/0109.jpg",
+      "source_frame": 542,
+      "clip_pts": 30.62,
+      "nominal_original_seconds": 265.62
+    },
+    {
+      "file": "exact/0110.jpg",
+      "source_frame": 548,
+      "clip_pts": 30.795,
+      "nominal_original_seconds": 265.795
+    },
+    {
+      "file": "exact/0111.jpg",
+      "source_frame": 554,
+      "clip_pts": 30.994,
+      "nominal_original_seconds": 265.994
+    },
+    {
+      "file": "exact/0112.jpg",
+      "source_frame": 560,
+      "clip_pts": 31.204,
+      "nominal_original_seconds": 266.204
+    },
+    {
+      "file": "exact/0113.jpg",
+      "source_frame": 566,
+      "clip_pts": 31.411,
+      "nominal_original_seconds": 266.411
+    },
+    {
+      "file": "exact/0114.jpg",
+      "source_frame": 572,
+      "clip_pts": 31.596,
+      "nominal_original_seconds": 266.596
+    },
+    {
+      "file": "exact/0115.jpg",
+      "source_frame": 578,
+      "clip_pts": 31.803,
+      "nominal_original_seconds": 266.803
+    },
+    {
+      "file": "exact/0116.jpg",
+      "source_frame": 584,
+      "clip_pts": 32.011,
+      "nominal_original_seconds": 267.011
+    },
+    {
+      "file": "exact/0117.jpg",
+      "source_frame": 590,
+      "clip_pts": 32.198,
+      "nominal_original_seconds": 267.198
+    },
+    {
+      "file": "exact/0118.jpg",
+      "source_frame": 596,
+      "clip_pts": 32.401,
+      "nominal_original_seconds": 267.401
+    },
+    {
+      "file": "exact/0119.jpg",
+      "source_frame": 602,
+      "clip_pts": 32.595,
+      "nominal_original_seconds": 267.595
+    },
+    {
+      "file": "exact/0120.jpg",
+      "source_frame": 608,
+      "clip_pts": 32.811,
+      "nominal_original_seconds": 267.811
+    },
+    {
+      "file": "exact/0121.jpg",
+      "source_frame": 614,
+      "clip_pts": 32.999,
+      "nominal_original_seconds": 267.999
+    },
+    {
+      "file": "exact/0122.jpg",
+      "source_frame": 620,
+      "clip_pts": 33.196,
+      "nominal_original_seconds": 268.196
+    },
+    {
+      "file": "exact/0123.jpg",
+      "source_frame": 626,
+      "clip_pts": 33.412,
+      "nominal_original_seconds": 268.412
+    },
+    {
+      "file": "exact/0124.jpg",
+      "source_frame": 631,
+      "clip_pts": 33.562,
+      "nominal_original_seconds": 268.562
+    },
+    {
+      "file": "exact/0125.jpg",
+      "source_frame": 633,
+      "clip_pts": 33.798,
+      "nominal_original_seconds": 268.798
+    },
+    {
+      "file": "exact/0126.jpg",
+      "source_frame": 635,
+      "clip_pts": 33.997,
+      "nominal_original_seconds": 268.997
+    },
+    {
+      "file": "exact/0127.jpg",
+      "source_frame": 638,
+      "clip_pts": 34.233,
+      "nominal_original_seconds": 269.233
+    },
+    {
+      "file": "exact/0128.jpg",
+      "source_frame": 652,
+      "clip_pts": 35.011,
+      "nominal_original_seconds": 270.011
+    },
+    {
+      "file": "exact/0129.jpg",
+      "source_frame": 678,
+      "clip_pts": 36.002,
+      "nominal_original_seconds": 271.002
+    },
+    {
+      "file": "exact/0130.jpg",
+      "source_frame": 703,
+      "clip_pts": 36.996,
+      "nominal_original_seconds": 271.996
+    },
+    {
+      "file": "exact/0131.jpg",
+      "source_frame": 727,
+      "clip_pts": 37.996,
+      "nominal_original_seconds": 272.996
+    },
+    {
+      "file": "exact/0132.jpg",
+      "source_frame": 740,
+      "clip_pts": 38.497,
+      "nominal_original_seconds": 273.497
+    },
+    {
+      "file": "exact/0133.jpg",
+      "source_frame": 751,
+      "clip_pts": 38.998,
+      "nominal_original_seconds": 273.998
+    },
+    {
+      "file": "exact/0134.jpg",
+      "source_frame": 756,
+      "clip_pts": 39.203,
+      "nominal_original_seconds": 274.203
+    },
+    {
+      "file": "exact/0135.jpg",
+      "source_frame": 761,
+      "clip_pts": 39.429,
+      "nominal_original_seconds": 274.429
+    },
+    {
+      "file": "exact/0136.jpg",
+      "source_frame": 766,
+      "clip_pts": 39.597,
+      "nominal_original_seconds": 274.597
+    },
+    {
+      "file": "exact/0137.jpg",
+      "source_frame": 769,
+      "clip_pts": 39.797,
+      "nominal_original_seconds": 274.797
+    },
+    {
+      "file": "exact/0138.jpg",
+      "source_frame": 775,
+      "clip_pts": 39.998,
+      "nominal_original_seconds": 274.998
+    },
+    {
+      "file": "exact/0139.jpg",
+      "source_frame": 780,
+      "clip_pts": 40.211,
+      "nominal_original_seconds": 275.211
+    },
+    {
+      "file": "exact/0140.jpg",
+      "source_frame": 786,
+      "clip_pts": 40.398,
+      "nominal_original_seconds": 275.398
+    },
+    {
+      "file": "exact/0141.jpg",
+      "source_frame": 792,
+      "clip_pts": 40.595,
+      "nominal_original_seconds": 275.595
+    },
+    {
+      "file": "exact/0142.jpg",
+      "source_frame": 797,
+      "clip_pts": 40.798,
+      "nominal_original_seconds": 275.798
+    },
+    {
+      "file": "exact/0143.jpg",
+      "source_frame": 802,
+      "clip_pts": 41.003,
+      "nominal_original_seconds": 276.003
+    },
+    {
+      "file": "exact/0144.jpg",
+      "source_frame": 805,
+      "clip_pts": 41.177,
+      "nominal_original_seconds": 276.177
+    },
+    {
+      "file": "exact/0145.jpg",
+      "source_frame": 810,
+      "clip_pts": 41.398,
+      "nominal_original_seconds": 276.398
+    },
+    {
+      "file": "exact/0146.jpg",
+      "source_frame": 815,
+      "clip_pts": 41.595,
+      "nominal_original_seconds": 276.595
+    },
+    {
+      "file": "exact/0147.jpg",
+      "source_frame": 821,
+      "clip_pts": 41.812,
+      "nominal_original_seconds": 276.812
+    },
+    {
+      "file": "exact/0148.jpg",
+      "source_frame": 827,
+      "clip_pts": 42.003,
+      "nominal_original_seconds": 277.003
+    },
+    {
+      "file": "exact/0149.jpg",
+      "source_frame": 833,
+      "clip_pts": 42.196,
+      "nominal_original_seconds": 277.196
+    },
+    {
+      "file": "exact/0150.jpg",
+      "source_frame": 839,
+      "clip_pts": 42.4,
+      "nominal_original_seconds": 277.4
+    },
+    {
+      "file": "exact/0151.jpg",
+      "source_frame": 845,
+      "clip_pts": 42.606,
+      "nominal_original_seconds": 277.606
+    },
+    {
+      "file": "exact/0152.jpg",
+      "source_frame": 849,
+      "clip_pts": 42.827,
+      "nominal_original_seconds": 277.827
+    },
+    {
+      "file": "exact/0153.jpg",
+      "source_frame": 852,
+      "clip_pts": 42.997,
+      "nominal_original_seconds": 277.997
+    },
+    {
+      "file": "exact/0154.jpg",
+      "source_frame": 854,
+      "clip_pts": 43.203,
+      "nominal_original_seconds": 278.203
+    },
+    {
+      "file": "exact/0155.jpg",
+      "source_frame": 857,
+      "clip_pts": 43.435,
+      "nominal_original_seconds": 278.435
+    },
+    {
+      "file": "exact/0156.jpg",
+      "source_frame": 858,
+      "clip_pts": 43.508,
+      "nominal_original_seconds": 278.508
+    },
+    {
+      "file": "exact/0157.jpg",
+      "source_frame": 859,
+      "clip_pts": 43.634,
+      "nominal_original_seconds": 278.634
+    },
+    {
+      "file": "exact/0158.jpg",
+      "source_frame": 860,
+      "clip_pts": 43.772,
+      "nominal_original_seconds": 278.772
+    },
+    {
+      "file": "exact/0159.jpg",
+      "source_frame": 863,
+      "clip_pts": 43.995,
+      "nominal_original_seconds": 278.995
+    },
+    {
+      "file": "exact/0160.jpg",
+      "source_frame": 866,
+      "clip_pts": 44.197,
+      "nominal_original_seconds": 279.197
+    },
+    {
+      "file": "exact/0161.jpg",
+      "source_frame": 869,
+      "clip_pts": 44.366,
+      "nominal_original_seconds": 279.366
+    },
+    {
+      "file": "exact/0162.jpg",
+      "source_frame": 879,
+      "clip_pts": 45.012,
+      "nominal_original_seconds": 280.012
+    },
+    {
+      "file": "exact/0163.jpg",
+      "source_frame": 896,
+      "clip_pts": 46.033,
+      "nominal_original_seconds": 281.033
+    },
+    {
+      "file": "exact/0164.jpg",
+      "source_frame": 909,
+      "clip_pts": 46.772,
+      "nominal_original_seconds": 281.772
+    },
+    {
+      "file": "exact/0165.jpg",
+      "source_frame": 912,
+      "clip_pts": 47.011,
+      "nominal_original_seconds": 282.011
+    },
+    {
+      "file": "exact/0166.jpg",
+      "source_frame": 920,
+      "clip_pts": 47.5,
+      "nominal_original_seconds": 282.5
+    },
+    {
+      "file": "exact/0167.jpg",
+      "source_frame": 924,
+      "clip_pts": 47.727,
+      "nominal_original_seconds": 282.727
+    },
+    {
+      "file": "exact/0168.jpg",
+      "source_frame": 927,
+      "clip_pts": 47.932,
+      "nominal_original_seconds": 282.932
+    },
+    {
+      "file": "exact/0169.jpg",
+      "source_frame": 928,
+      "clip_pts": 48.03,
+      "nominal_original_seconds": 283.03
+    },
+    {
+      "file": "exact/0170.jpg",
+      "source_frame": 929,
+      "clip_pts": 48.06,
+      "nominal_original_seconds": 283.06
+    },
+    {
+      "file": "exact/0171.jpg",
+      "source_frame": 932,
+      "clip_pts": 48.34,
+      "nominal_original_seconds": 283.34000000000003
+    },
+    {
+      "file": "exact/0172.jpg",
+      "source_frame": 935,
+      "clip_pts": 48.532,
+      "nominal_original_seconds": 283.532
+    },
+    {
+      "file": "exact/0173.jpg",
+      "source_frame": 938,
+      "clip_pts": 48.71,
+      "nominal_original_seconds": 283.71
+    },
+    {
+      "file": "exact/0174.jpg",
+      "source_frame": 940,
+      "clip_pts": 48.906,
+      "nominal_original_seconds": 283.906
+    },
+    {
+      "file": "exact/0175.jpg",
+      "source_frame": 941,
+      "clip_pts": 48.995,
+      "nominal_original_seconds": 283.995
+    },
+    {
+      "file": "exact/0176.jpg",
+      "source_frame": 942,
+      "clip_pts": 49.135,
+      "nominal_original_seconds": 284.135
+    },
+    {
+      "file": "exact/0177.jpg",
+      "source_frame": 944,
+      "clip_pts": 49.294,
+      "nominal_original_seconds": 284.294
+    },
+    {
+      "file": "exact/0178.jpg",
+      "source_frame": 947,
+      "clip_pts": 49.532,
+      "nominal_original_seconds": 284.532
+    },
+    {
+      "file": "exact/0179.jpg",
+      "source_frame": 949,
+      "clip_pts": 49.727,
+      "nominal_original_seconds": 284.727
+    },
+    {
+      "file": "exact/0180.jpg",
+      "source_frame": 950,
+      "clip_pts": 49.973,
+      "nominal_original_seconds": 284.973
+    },
+    {
+      "file": "exact/0181.jpg",
+      "source_frame": 951,
+      "clip_pts": 49.999,
+      "nominal_original_seconds": 284.999
+    },
+    {
+      "file": "exact/0182.jpg",
+      "source_frame": 952,
+      "clip_pts": 50.165,
+      "nominal_original_seconds": 285.165
+    },
+    {
+      "file": "exact/0183.jpg",
+      "source_frame": 953,
+      "clip_pts": 50.265,
+      "nominal_original_seconds": 285.265
+    },
+    {
+      "file": "exact/0184.jpg",
+      "source_frame": 956,
+      "clip_pts": 50.528,
+      "nominal_original_seconds": 285.528
+    },
+    {
+      "file": "exact/0185.jpg",
+      "source_frame": 959,
+      "clip_pts": 50.731,
+      "nominal_original_seconds": 285.731
+    },
+    {
+      "file": "exact/0186.jpg",
+      "source_frame": 961,
+      "clip_pts": 50.895,
+      "nominal_original_seconds": 285.895
+    },
+    {
+      "file": "exact/0187.jpg",
+      "source_frame": 963,
+      "clip_pts": 50.972,
+      "nominal_original_seconds": 285.972
+    },
+    {
+      "file": "exact/0188.jpg",
+      "source_frame": 965,
+      "clip_pts": 51.095,
+      "nominal_original_seconds": 286.095
+    },
+    {
+      "file": "exact/0189.jpg",
+      "source_frame": 967,
+      "clip_pts": 51.229,
+      "nominal_original_seconds": 286.229
+    },
+    {
+      "file": "exact/0190.jpg",
+      "source_frame": 971,
+      "clip_pts": 51.528,
+      "nominal_original_seconds": 286.528
+    },
+    {
+      "file": "exact/0191.jpg",
+      "source_frame": 975,
+      "clip_pts": 51.73,
+      "nominal_original_seconds": 286.73
+    },
+    {
+      "file": "exact/0192.jpg",
+      "source_frame": 977,
+      "clip_pts": 51.9,
+      "nominal_original_seconds": 286.9
+    },
+    {
+      "file": "exact/0193.jpg",
+      "source_frame": 978,
+      "clip_pts": 51.964,
+      "nominal_original_seconds": 286.964
+    },
+    {
+      "file": "exact/0194.jpg",
+      "source_frame": 980,
+      "clip_pts": 52.103,
+      "nominal_original_seconds": 287.103
+    },
+    {
+      "file": "exact/0195.jpg",
+      "source_frame": 984,
+      "clip_pts": 52.328,
+      "nominal_original_seconds": 287.328
+    },
+    {
+      "file": "exact/0196.jpg",
+      "source_frame": 987,
+      "clip_pts": 52.531,
+      "nominal_original_seconds": 287.531
+    },
+    {
+      "file": "exact/0197.jpg",
+      "source_frame": 989,
+      "clip_pts": 52.699,
+      "nominal_original_seconds": 287.699
+    }
+  ],
+  "measurements": [
+    {
+      "from": 4.501,
+      "to": 6.505,
+      "source_box_480": [
+        125,
+        50,
+        70,
+        45
+      ],
+      "scale": 0.84,
+      "ncc": 0.9930614829063416,
+      "target_box_480": [
+        185,
+        67,
+        59,
+        38
+      ],
+      "method": "Exhaustive multiscale normalized cross-correlation of a fixed textured patch; 480x270 working image, scale grid .01. Measures image patch appearance, not physical 3D distance.",
+      "label": "portrait-eyes"
+    },
+    {
+      "from": 17.19,
+      "to": 19.416,
+      "source_box_480": [
+        260,
+        10,
+        150,
+        110
+      ],
+      "scale": 0.43,
+      "ncc": 0.8358924984931946,
+      "target_box_480": [
+        249,
+        131,
+        65,
+        47
+      ],
+      "method": "Exhaustive multiscale normalized cross-correlation of a fixed textured patch; 480x270 working image, scale grid .01. Measures image patch appearance, not physical 3D distance.",
+      "label": "factory"
+    },
+    {
+      "from": 33.997,
+      "to": 38.497,
+      "source_box_480": [
+        82,
+        98,
+        305,
+        44
+      ],
+      "scale": 0.7,
+      "ncc": 0.9561946988105774,
+      "target_box_480": [
+        129,
+        107,
+        214,
+        31
+      ],
+      "method": "Exhaustive multiscale normalized cross-correlation of a fixed textured patch; 480x270 working image, scale grid .01. Measures image patch appearance, not physical 3D distance.",
+      "label": "chapter-title"
+    },
+    {
+      "from": 43.508,
+      "to": 46.772,
+      "source_box_480": [
+        45,
+        158,
+        110,
+        105
+      ],
+      "scale": 0.82,
+      "ncc": 0.9136267900466919,
+      "target_box_480": [
+        78,
+        139,
+        90,
+        86
+      ],
+      "method": "Exhaustive multiscale normalized cross-correlation of a fixed textured patch; 480x270 working image, scale grid .01. Measures image patch appearance, not physical 3D distance.",
+      "label": "athletes-left"
+    },
+    {
+      "from": 4.501,
+      "to": 6.505,
+      "source_box_480": [
+        5,
+        10,
+        75,
+        145
+      ],
+      "scale": 0.88,
+      "ncc": 0.9828624129295349,
+      "target_box_480": [
+        60,
+        28,
+        66,
+        128
+      ],
+      "method": "Exhaustive multiscale normalized cross-correlation of a fixed textured patch; 480x270 working image, scale grid .01. Measures image patch appearance, not physical 3D distance.",
+      "label": "window"
+    },
+    {
+      "from": 17.19,
+      "to": 19.416,
+      "source_box_480": [
+        140,
+        120,
+        95,
+        100
+      ],
+      "scale": 0.44,
+      "ncc": 0.982138454914093,
+      "target_box_480": [
+        196,
+        179,
+        42,
+        44
+      ],
+      "method": "Exhaustive multiscale normalized cross-correlation of a fixed textured patch; 480x270 working image, scale grid .01. Measures image patch appearance, not physical 3D distance.",
+      "label": "factory-brace"
+    },
+    {
+      "from": 43.508,
+      "to": 46.772,
+      "source_box_480": [
+        45,
+        42,
+        80,
+        115
+      ],
+      "scale": 0.85,
+      "ncc": 0.958343505859375,
+      "target_box_480": [
+        66,
+        44,
+        68,
+        98
+      ],
+      "method": "Exhaustive multiscale normalized cross-correlation of a fixed textured patch; 480x270 working image, scale grid .01. Measures image patch appearance, not physical 3D distance.",
+      "label": "athletics-background"
+    }
+  ],
+  "issues": [
+    {
+      "id": "N01",
+      "name": "room-relative-motion",
+      "verdict": "confirmed",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N02",
+      "name": "textured-glyph-reveal",
+      "verdict": "confirmed",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N03",
+      "name": "barbed-line-marker",
+      "verdict": "qualified",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N04",
+      "name": "factory-pullback",
+      "verdict": "confirmed",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N05",
+      "name": "opposed-faces-and-local-fire",
+      "verdict": "qualified",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N06",
+      "name": "black-intervals",
+      "verdict": "confirmed",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N07",
+      "name": "chapter-assembly-and-retreat",
+      "verdict": "confirmed",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N08",
+      "name": "team-and-salesman-depth",
+      "verdict": "confirmed",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N09",
+      "name": "tree-occlusion",
+      "verdict": "confirmed",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N10",
+      "name": "older-character-pose-identity",
+      "verdict": "qualified",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N11",
+      "name": "destination-hold",
+      "verdict": "unresolved",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    },
+    {
+      "id": "N12",
+      "name": "opening-bridge",
+      "verdict": "qualified",
+      "details": "See matching row in REFERENCE-ANALYSIS-03m55-04m47.md"
+    }
+  ],
+  "unresolved": [
+    "opening diagram-to-room bridge",
+    "all chapter prop identities",
+    "true original 3D geometry",
+    "final destination hold",
+    "native master/audio sync",
+    "whether the blue outlined marker is intended motion graphics or a captured overlay"
+  ],
+  "proposed_effect_ids": [
+    "role-portrait-parallax",
+    "textured-word-write-on",
+    "barbed-path-marker",
+    "factory-photo-pullback",
+    "opposed-rivalry-reveal",
+    "scatter-chapter-title",
+    "team-depth-introduction",
+    "tree-occlusion-pass",
+    "factory-pose-handoff"
+  ],
+  "authorization": {
+    "analysis": "authorized",
+    "implementation": "authorized after report; not performed in this analysis delivery",
+    "additional_approval_required": false,
+    "opening_join_requires": "missing overlap reference, preferably nominal 03:40\u201304:00"
+  },
+  "unchanged_artifacts": [
+    "V64 production renderers",
+    "V64 visual defaults",
+    "V64 source assets",
+    "uploaded reference bytes"
+  ],
+  "acceptance_checks": [
+    "layer crossings match beginning/middle/end",
+    "factory starts on ground/bicycle detail before wide view",
+    "eye fire remains attached to head masks",
+    "letters assemble separately then recede centrally",
+    "salesman enters separately from group without invented gait",
+    "tree hides old/new scene boundary",
+    "black intervals preserved",
+    "opening bridge verified before continuous final join"
+  ]
+}

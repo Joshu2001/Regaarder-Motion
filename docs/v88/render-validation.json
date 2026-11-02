@@ -1,0 +1,28 @@
+{
+  "sampledFrames": [
+    {
+      "frame": 0,
+      "rawPixelSha256": "4e1b71a19e7fc531787302db21b768590733831e55b3bfd254fa7612af891a1a"
+    },
+    {
+      "frame": 20,
+      "rawPixelSha256": "fb4fcc4f8a8c69e22bd2db2312a73d951e2f831a7f3a53d7e618b55e4823984d"
+    },
+    {
+      "frame": 80,
+      "rawPixelSha256": "879e9f5ba324e4b64ed3dbf1b1e2db561eadf6d228db8eda1b7519800110f941"
+    },
+    {
+      "frame": 147,
+      "rawPixelSha256": "22d6a7d2ff0d6fb37dc7e601e36e3d378f22b074e2f61a712b174e6fbd703473"
+    }
+  ],
+  "checks": [
+    "exact final raw-pixel parity for four rendered frames",
+    "five independent visibility controls",
+    "per-object transform",
+    "world yaw",
+    "skeletal offset",
+    "no input mutation"
+  ]
+}

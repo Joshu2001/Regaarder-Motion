@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "female body and regional shape affect mesh",
+    "mirror sculpt affects vertices",
+    "skin weights normalized",
+    "corrective half strength at driver midpoint",
+    "local joint limit",
+    "invalid imports rejected",
+    "surface pin transforms"
+  ],
+  "maxVertexDelta": 0.10183101892471313,
+  "sculptVertices": 442,
+  "correctiveRatio": 0.5
+}

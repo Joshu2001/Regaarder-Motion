@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "comparisonRightMatchesMinute": [
+    {
+      "frame": 0,
+      "meanRGBError": 0.46490547839506174
+    },
+    {
+      "frame": 27,
+      "meanRGBError": 0.34179526748971195
+    },
+    {
+      "frame": 115,
+      "meanRGBError": 0.5007651748971194
+    },
+    {
+      "frame": 116,
+      "meanRGBError": 0.5246939300411523
+    },
+    {
+      "frame": 149,
+      "meanRGBError": 0.4345736882716049
+    }
+  ]
+}

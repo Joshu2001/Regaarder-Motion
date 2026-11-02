@@ -1,0 +1,27 @@
+[
+  {
+    "asset": "portrait-room-person-v53.png",
+    "sha256": "e4a23de5afe53b15d0f1b0e3814d4a05e003ae355eed1501b808bb9c6740d5d3",
+    "unchanged": true
+  },
+  {
+    "asset": "portrait-room-room-v53.png",
+    "sha256": "a3978525054160b8d2bf61fa2848b6a224c070a8838ec1e4f8df3bda4d1aafa7",
+    "unchanged": true
+  },
+  {
+    "asset": "portrait-room-vase-v53.png",
+    "sha256": "4f3ddcdffdac580e8c9a5c7d3777922b8079a4dc8fa32226f913494552565adc",
+    "unchanged": true
+  },
+  {
+    "asset": "portrait-room-cloth-v53.png",
+    "sha256": "f5f6f333b2ad4abd3cf83365f3d6bd2f04515d963da55fe63c7c4561f8413de8",
+    "unchanged": true
+  },
+  {
+    "asset": "shoe-restored-preview-v57.png",
+    "sha256": "5793a8a2cdc909b2275588ca7d1b46311be1d84a316da168a8a181651e4a2e73",
+    "unchanged": true
+  }
+]

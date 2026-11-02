@@ -1,0 +1,52 @@
+{
+  "schema": "motion-model-scene-v1",
+  "camera": {
+    "position": [
+      4,
+      3,
+      7
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ],
+    "fov": 42
+  },
+  "lights": {
+    "ambient": 0.45,
+    "direction": [
+      -0.3,
+      0.8,
+      0.6
+    ],
+    "intensity": 0.65
+  },
+  "nodes": [
+    {
+      "id": "object-1",
+      "name": "object-1",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "material": {
+        "color": "#999999"
+      }
+    }
+  ]
+}

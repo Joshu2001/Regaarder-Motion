@@ -1,0 +1,32 @@
+{
+  "schema": "regaarder-ruined-window-settings-v1",
+  "defaults": {
+    "historyWindowEnabled": true,
+    "historyWindowStart": 11.758,
+    "historyWindowEnd": 20,
+    "historyWindowSpeed": 1,
+    "historyWindowDirection": "right",
+    "historyWindowPullback": 260,
+    "historyWindowPersonDepth": 950,
+    "historyWindowCityDepth": 2800,
+    "historyWindowWallDepth": 750,
+    "historyWindowPersonX": -240,
+    "historyWindowPersonY": -45,
+    "historyWindowPersonWidth": 730,
+    "historyWindowPersonTravel": 240,
+    "historyWindowCityTravel": -55,
+    "historyWindowWallTravel": 145,
+    "historyWindowCityScale": 1.26,
+    "historyWindowCityX": 0,
+    "historyWindowCityY": 0,
+    "historyWindowWallX": -600,
+    "historyWindowWallY": -60,
+    "historyWindowWallWidth": 2400,
+    "historyWindowCityBlur": 1.6,
+    "historyWindowPersonBlur": 0,
+    "historyWindowWallBlur": 0.5,
+    "historyWindowPersonBrightness": 0.84,
+    "historyWindowCityBrightness": 0.83,
+    "historyWindowWallBrightness": 0.65
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "schema": "motion-model-scene-v1",
+  "camera": {
+    "position": [
+      4,
+      3,
+      7
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ],
+    "fov": 42
+  },
+  "lights": {
+    "ambient": 0.45,
+    "direction": [
+      -0.3,
+      0.8,
+      0.6
+    ],
+    "intensity": 0.65
+  },
+  "nodes": [
+    {
+      "id": "ruin",
+      "name": "Editable ruined building blockout",
+      "children": [
+        {
+          "id": "ruin/left-pier",
+          "name": "left-pier",
+          "geometry": {
+            "kind": "box"
+          },
+          "position": [
+            -1.2,
+            1.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.5,
+            3,
+            0.5
+          ],
+          "material": {
+            "color": "#66686a"
+          }
+        },
+        {
+          "id": "ruin/right-pier",
+          "name": "right-pier",
+          "geometry": {
+            "kind": "box"
+          },
+          "position": [
+            1.2,
+            1.4,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.5,
+            2.8,
+            0.5
+          ],
+          "material": {
+            "color": "#707274"
+          }
+        },
+        {
+          "id": "ruin/lintel",
+          "name": "lintel",
+          "geometry": {
+            "kind": "box"
+          },
+          "position": [
+            0,
+            2.6,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.3,
+            0.4,
+            0.5
+          ],
+          "material": {
+            "color": "#606265"
+          }
+        },
+        {
+          "id": "ruin/lower-wall",
+          "name": "lower-wall",
+          "geometry": {
+            "kind": "extrusion",
+            "polygon": [
+              [
+                -1.4,
+                0
+              ],
+              [
+                1.4,
+                0
+              ],
+              [
+                1.4,
+                0.8
+              ],
+              [
+                0.6,
+                0.65
+              ],
+              [
+                0.2,
+                1
+              ],
+              [
+                -0.8,
+                0.7
+              ],
+              [
+                -1.4,
+                1.2
+              ]
+            ],
+            "depth": 0.4
+          },
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "material": {
+            "color": "#77797a"
+          }
+        }
+      ]
+    }
+  ]
+}

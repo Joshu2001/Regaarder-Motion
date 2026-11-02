@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "thresholdMeanRGB": 5,
+  "note": "Checks current source versus encoded output, not source-reference image fidelity",
+  "samples": [
+    {
+      "frame": 0,
+      "source": 835,
+      "meanRGBError": 1.7515387088477365
+    },
+    {
+      "frame": 228,
+      "source": 844.5,
+      "meanRGBError": 1.528892103909465
+    },
+    {
+      "frame": 324,
+      "source": 848.5,
+      "meanRGBError": 1.6405632716049383
+    },
+    {
+      "frame": 408,
+      "source": 852,
+      "meanRGBError": 1.4359336419753086
+    },
+    {
+      "frame": 744,
+      "source": 866,
+      "meanRGBError": 2.1605497685185187
+    },
+    {
+      "frame": 888,
+      "source": 872,
+      "meanRGBError": 1.8467676183127573
+    },
+    {
+      "frame": 1020,
+      "source": 877.5,
+      "meanRGBError": 1.7187262088477366
+    },
+    {
+      "frame": 1080,
+      "source": 880,
+      "meanRGBError": 0.3805934927983539
+    },
+    {
+      "frame": 1248,
+      "source": 887,
+      "meanRGBError": 1.5934297839506173
+    },
+    {
+      "frame": 1439,
+      "source": 894.9583333333334,
+      "meanRGBError": 1.6769720936213992
+    }
+  ]
+}

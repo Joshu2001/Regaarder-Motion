@@ -1,0 +1,23 @@
+[
+  {
+    "file": "Motionclone-v78-continuation.mp4",
+    "seconds": 60,
+    "frames": 1440,
+    "fullDecode": "passed",
+    "sha256": "d32ced542bb7b8b6c43844f352de957ff2c284d2738249ab4b2a7ffea4872381"
+  },
+  {
+    "file": "Motionclone-v78-comparison.mp4",
+    "seconds": 60,
+    "frames": 1440,
+    "fullDecode": "passed",
+    "sha256": "a510f5f8076c2ef9f4e1a41d79a7359e7ab1a0719bf5de7b41dcb04c0dbf4c49"
+  },
+  {
+    "file": "Motionclone-v78-comparison-0p05x.mp4",
+    "seconds": 1200,
+    "frames": 7200,
+    "fullDecode": "passed",
+    "sha256": "7fdc080ff08d25cd98f539cfaaa9b9407dce8a9fb4e7cd38b1fd582314eabfc3"
+  }
+]

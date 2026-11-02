@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "notes": "JPEG plus H264 compression differences; not fidelity versus original",
+  "samples": [
+    {
+      "frame": 0,
+      "source": 775.0,
+      "meanAbsoluteRGBError": 1.0706024948559671
+    },
+    {
+      "frame": 312,
+      "source": 788.0,
+      "meanAbsoluteRGBError": 2.03609375
+    },
+    {
+      "frame": 492,
+      "source": 795.5,
+      "meanAbsoluteRGBError": 1.2174453446502058
+    },
+    {
+      "frame": 744,
+      "source": 806.0,
+      "meanAbsoluteRGBError": 1.1916261574074074
+    },
+    {
+      "frame": 912,
+      "source": 813.0,
+      "meanAbsoluteRGBError": 2.0581314300411524
+    },
+    {
+      "frame": 1140,
+      "source": 822.5,
+      "meanAbsoluteRGBError": 2.1178227880658436
+    },
+    {
+      "frame": 1344,
+      "source": 831.0,
+      "meanAbsoluteRGBError": 2.3426440329218106
+    },
+    {
+      "frame": 1439,
+      "source": 834.9583333333334,
+      "meanAbsoluteRGBError": 1.4196926440329218
+    }
+  ]
+}

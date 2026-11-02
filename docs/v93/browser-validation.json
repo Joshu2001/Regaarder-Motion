@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "regional shape UI",
+    "undo",
+    "sculpt button actual scene edits",
+    "auto-fit UI",
+    "female variant render",
+    "physical cloth bump and environment",
+    "JSON round trip"
+  ],
+  "physical": true,
+  "bump": true,
+  "environment": true,
+  "equal": true,
+  "pageErrors": []
+}

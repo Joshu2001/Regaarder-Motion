@@ -1,0 +1,71 @@
+{
+  "assets": [
+    {
+      "path": "assets/humanoid-v93/female-generated.json",
+      "sha256": "b0223992430597ec46b9b0b1ebe7f8f9193a80714e7584652c50488300fa8c45",
+      "active": false
+    },
+    {
+      "path": "assets/humanoid-v93/caucasian-female-young.target",
+      "sha256": "118379f6e8ba9266247fdb8788a20e1df40a239f97ced0b9905bcbcc74f6e820",
+      "active": true
+    },
+    {
+      "path": "assets/humanoid-v93/shape-targets.json",
+      "sha256": "184cbb1874e29c526232405f274a80da00c7f259c6dae4fbbbc708055a9d2684",
+      "active": true
+    }
+  ],
+  "runtime": "Bundled Three.js MIT; project-authored JS workshop, cloth/wood procedural bump and studio PMREM; no external authoring application required",
+  "reference": "User original immutable; diagnostic use only, no reference texture baked into characters",
+  "modules": [
+    {
+      "path": "dist/native3d/lab.js",
+      "sha256": "fe6ef44372154c2301b3a3e0effc46571cc64567b15319268b293312e142ee67"
+    },
+    {
+      "path": "dist/native3d/wardrobe.js",
+      "sha256": "b53f769d092a1413fda507ff622319146fe0450f26d9502838e6bc809e6ec75e"
+    },
+    {
+      "path": "dist/native3d/finishes.js",
+      "sha256": "a89b7bb626c2d0e5211610b110b86cbf88f8c4b45cc35e6dc984e660afed30f6"
+    },
+    {
+      "path": "dist/native3d/export.js",
+      "sha256": "3fabe815dd9619dbd5a4c7d742c5f6042c6982e4f8ceedce89af7a3205d6d5f5"
+    },
+    {
+      "path": "dist/native3d/rig-names.js",
+      "sha256": "9e3f359a819fc5db1cc8a5c35e231985327fb2cf53d704a0dd2882ce2ee0dde7"
+    },
+    {
+      "path": "dist/native3d/scene.js",
+      "sha256": "f02b7fafde894ffad47bb4a308c4f78171d1de66580fef29f0948aabdd465108"
+    },
+    {
+      "path": "dist/native3d/checkpoint.js",
+      "sha256": "e06598a6f1b203fb1f8054f66576cef905f335ac0e83cf547a1d6750058a8368"
+    },
+    {
+      "path": "dist/native3d/workshop.js",
+      "sha256": "ae08d7df89322d5cccc6906a6e869498619cc2a31b621e8edc77bd660ce3030a"
+    },
+    {
+      "path": "dist/native3d/editor.js",
+      "sha256": "54240e1e41cb4359a023c0c2129c6a913ab881beaffae3de8f3a1ee4620f53a3"
+    },
+    {
+      "path": "dist/native3d/workshop-ui.js",
+      "sha256": "19dd3f2c8a12e7d5db21440ca9f5ca4d22f50075448d5ce36c780111ebea1bd7"
+    },
+    {
+      "path": "dist/native3d/engine.js",
+      "sha256": "aefbf0204cae9950b0cadafd2267f08a192b379af80ab5e3809cad1fbfb602fd"
+    },
+    {
+      "path": "dist/native3d/atmosphere.js",
+      "sha256": "914e9c9591d249b7d56d2d9650480de4b21b5482c10ed467e2582ec1e1c5b79b"
+    }
+  ]
+}

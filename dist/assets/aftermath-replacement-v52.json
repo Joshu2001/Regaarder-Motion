@@ -1,0 +1,71 @@
+{
+  "schema": "regaarder-aftermath-replacement-v1",
+  "originalUploads": [
+    {
+      "assetId": "war-aftermath-battlefield-v52",
+      "sourceUpload": "gemini_generated_video_4f9f3231.mp4",
+      "libraryFileId": "libfile_d69c05c1e140819184faf998d0690338",
+      "originalPath": "assets/war-aftermath-battlefield-original-v52.mp4",
+      "sourceSHA256": "371d4662ffb0f3cbd5c1112c8968c7ae6ce47f5c34822e314aab7be104d2e44b",
+      "retainedSHA256": "371d4662ffb0f3cbd5c1112c8968c7ae6ce47f5c34822e314aab7be104d2e44b",
+      "slot": "historyAftermathA",
+      "sourceStartSeconds": 1,
+      "sourceAudio": "retained; template muted"
+    },
+    {
+      "assetId": "war-aftermath-convoy-v52",
+      "sourceUpload": "gemini_generated_video_a2ae86aa.mp4",
+      "libraryFileId": "libfile_ec3df8a86f2081919628d0d6fcd4ce28",
+      "originalPath": "assets/war-aftermath-convoy-original-v52.mp4",
+      "sourceSHA256": "1eabcba8992c06b79f2e494f6718f95088f17332800da4da6e9077d816d989e3",
+      "retainedSHA256": "1eabcba8992c06b79f2e494f6718f95088f17332800da4da6e9077d816d989e3",
+      "slot": "historyAftermathB",
+      "sourceStartSeconds": 1,
+      "sourceAudio": "retained; template muted"
+    }
+  ],
+  "replacedViews": [
+    {
+      "stage": "ruins-wide",
+      "source": "assets/history-street-v46.png",
+      "zoom": 1.05,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "stage": "ruins-close",
+      "source": "assets/history-street-v46.png",
+      "zoom": 1.7,
+      "x": -100,
+      "y": 65
+    }
+  ],
+  "retainedStillSHA256": "a752650457d78808087b49c0db388a38140e8f8ed719ffc473f63eebb589c933",
+  "restore": "Set historyAftermathMode to stills. Original still file is unchanged.",
+  "cropA": {
+    "pixelsAt1280x720": [
+      0,
+      8,
+      1184,
+      666
+    ],
+    "normalized": [
+      0,
+      0.011111111111111112,
+      0.925,
+      0.925
+    ],
+    "reversible": true
+  },
+  "timing": {
+    "ruinsWideSourceRange": [
+      7.383,
+      9.415
+    ],
+    "ruinsCloseSourceRange": [
+      9.415,
+      11.758
+    ],
+    "otherStages": "unchanged"
+  }
+}

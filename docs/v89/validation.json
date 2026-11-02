@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "checks": [
+    "four factory scenes and source5second template validate",
+    "ordered transform key interpolation",
+    "malformed scene rejection",
+    "163bone hierarchy and four normalized skin influences",
+    "four pose finite transforms and geometry",
+    "validation does not mutate input"
+  ],
+  "poses": [
+    {
+      "pose": "standing",
+      "bounds": [
+        [
+          -0.28632929207150165,
+          0.0006099999291449797,
+          -0.13422700762748718
+        ],
+        [
+          0.28632929207150165,
+          1.9257765137541203,
+          0.23052300557070757
+        ]
+      ]
+    },
+    {
+      "pose": "seated",
+      "bounds": [
+        [
+          -0.28632929207150165,
+          0.0006099999291449797,
+          -0.13422700762748718
+        ],
+        [
+          0.28632929207150165,
+          1.8491096930551032,
+          0.4371644470659827
+        ]
+      ]
+    },
+    {
+      "pose": "lean",
+      "bounds": [
+        [
+          -0.28632929207150165,
+          0.0006099999291449797,
+          -0.13422700762748718
+        ],
+        [
+          0.28632929207150165,
+          1.8491096930551032,
+          0.6556602111150132
+        ]
+      ]
+    },
+    {
+      "pose": "folded",
+      "bounds": [
+        [
+          -0.28632929207150165,
+          0.0006099999291449797,
+          -0.13422700762748718
+        ],
+        [
+          0.28632929207150165,
+          1.9257765137541203,
+          0.2779677383885999
+        ]
+      ]
+    }
+  ]
+}

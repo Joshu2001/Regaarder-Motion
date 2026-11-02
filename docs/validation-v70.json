@@ -1,0 +1,27 @@
+{
+  "version": 70,
+  "date": "2026-10-30",
+  "passed": [
+    "check-globe-v70.mjs (renderer/controls/director clock and paused-render cache)",
+    "check-globe-drama-v70.mjs (poses/pulses/C1 radius/sound/playback)",
+    "check-globe-v69.mjs (archived prior implementation)",
+    "check-animation-library.mjs (catalog insertion, presets, media/timing)",
+    "build-animation-registry.mjs --check",
+    "check-asset-register.mjs",
+    "check-asset-catalog.mjs",
+    "check-commerce-v67.mjs",
+    "check-path-integration-v68.mjs",
+    "check-chapter-v65.mjs",
+    "Full final-media decode/stream checks"
+  ],
+  "preserved": {
+    "originalV69AssetFiles": 238,
+    "missing": [],
+    "changed": []
+  },
+  "limits": [
+    "Native browser layout, real-time performance, listening and device latency unverified.",
+    "User creative acceptance pending.",
+    "No remote push/publication."
+  ]
+}

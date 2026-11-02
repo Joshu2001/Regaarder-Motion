@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "sourceRange": [
+    355,
+    415
+  ],
+  "templateRange": [
+    365,
+    425
+  ],
+  "stages": 24,
+  "clockInverseSamples": 9000,
+  "checks": [
+    "custom duration/rate inverses",
+    "finite/motion/import validation",
+    "all stage-center opaque renders and determinism",
+    "exact V72 join frame",
+    "runner presence, active/inactive layer isolation, editable text",
+    "canvas/settings nonmutation",
+    "actual V72 then V73 director stack, duration, playhead, disable and finally restoration",
+    "page script wiring and order"
+  ],
+  "nativeBrowser": "Not verified; CPU Canvas and actual-code VM checks only"
+}

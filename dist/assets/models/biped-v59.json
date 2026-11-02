@@ -1,0 +1,391 @@
+{
+  "schema": "motion-model-scene-v1",
+  "camera": {
+    "position": [
+      4,
+      3,
+      7
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ],
+    "fov": 42
+  },
+  "lights": {
+    "ambient": 0.45,
+    "direction": [
+      -0.3,
+      0.8,
+      0.6
+    ],
+    "intensity": 0.65
+  },
+  "nodes": [
+    {
+      "id": "biped",
+      "name": "Articulated blockout biped",
+      "children": [
+        {
+          "id": "biped/coat",
+          "name": "coat",
+          "geometry": {
+            "kind": "box"
+          },
+          "position": [
+            0,
+            1.65,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.62,
+            0.88,
+            0.32
+          ],
+          "material": {
+            "color": "#383a3b"
+          }
+        },
+        {
+          "id": "biped/head",
+          "name": "head",
+          "geometry": {
+            "kind": "sphere"
+          },
+          "position": [
+            0,
+            2.35,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.35,
+            0.43,
+            0.34
+          ],
+          "material": {
+            "color": "#8b8680"
+          }
+        },
+        {
+          "id": "biped/leg--1",
+          "position": [
+            -0.18,
+            1.25,
+            0
+          ],
+          "animation": {
+            "swing": {
+              "axis": 0,
+              "rate": 1,
+              "amplitude": 26,
+              "phase": 3.141592653589793
+            }
+          },
+          "children": [
+            {
+              "id": "biped/leg--1/thigh",
+              "name": "thigh",
+              "geometry": {
+                "kind": "box"
+              },
+              "position": [
+                0,
+                -0.28,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                0.2,
+                0.6,
+                0.22
+              ],
+              "material": {
+                "color": "#333537"
+              }
+            },
+            {
+              "id": "biped/leg--1/knee",
+              "position": [
+                0,
+                -0.57,
+                0
+              ],
+              "animation": {
+                "swing": {
+                  "axis": 0,
+                  "rate": 1,
+                  "amplitude": 20,
+                  "phase": 3.8415926535897933
+                }
+              },
+              "children": [
+                {
+                  "id": "biped/leg--1/knee/shin",
+                  "name": "shin",
+                  "geometry": {
+                    "kind": "box"
+                  },
+                  "position": [
+                    0,
+                    -0.25,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "scale": [
+                    0.18,
+                    0.53,
+                    0.2
+                  ],
+                  "material": {
+                    "color": "#2c2e30"
+                  }
+                },
+                {
+                  "id": "biped/leg--1/knee/boot",
+                  "name": "boot",
+                  "geometry": {
+                    "kind": "box"
+                  },
+                  "position": [
+                    0,
+                    -0.53,
+                    0.11
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "scale": [
+                    0.22,
+                    0.17,
+                    0.44
+                  ],
+                  "material": {
+                    "color": "#202123"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biped/arm--1",
+          "position": [
+            -0.42,
+            1.94,
+            0
+          ],
+          "animation": {
+            "swing": {
+              "axis": 0,
+              "rate": 1,
+              "amplitude": 15,
+              "phase": 0
+            }
+          },
+          "children": [
+            {
+              "id": "biped/arm--1/sleeve",
+              "name": "sleeve",
+              "geometry": {
+                "kind": "box"
+              },
+              "position": [
+                0,
+                -0.38,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                0.18,
+                0.78,
+                0.22
+              ],
+              "material": {
+                "color": "#393b3d"
+              }
+            }
+          ]
+        },
+        {
+          "id": "biped/leg-1",
+          "position": [
+            0.18,
+            1.25,
+            0
+          ],
+          "animation": {
+            "swing": {
+              "axis": 0,
+              "rate": 1,
+              "amplitude": 26,
+              "phase": 0
+            }
+          },
+          "children": [
+            {
+              "id": "biped/leg-1/thigh",
+              "name": "thigh",
+              "geometry": {
+                "kind": "box"
+              },
+              "position": [
+                0,
+                -0.28,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                0.2,
+                0.6,
+                0.22
+              ],
+              "material": {
+                "color": "#333537"
+              }
+            },
+            {
+              "id": "biped/leg-1/knee",
+              "position": [
+                0,
+                -0.57,
+                0
+              ],
+              "animation": {
+                "swing": {
+                  "axis": 0,
+                  "rate": 1,
+                  "amplitude": 20,
+                  "phase": 0.7
+                }
+              },
+              "children": [
+                {
+                  "id": "biped/leg-1/knee/shin",
+                  "name": "shin",
+                  "geometry": {
+                    "kind": "box"
+                  },
+                  "position": [
+                    0,
+                    -0.25,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "scale": [
+                    0.18,
+                    0.53,
+                    0.2
+                  ],
+                  "material": {
+                    "color": "#2c2e30"
+                  }
+                },
+                {
+                  "id": "biped/leg-1/knee/boot",
+                  "name": "boot",
+                  "geometry": {
+                    "kind": "box"
+                  },
+                  "position": [
+                    0,
+                    -0.53,
+                    0.11
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "scale": [
+                    0.22,
+                    0.17,
+                    0.44
+                  ],
+                  "material": {
+                    "color": "#202123"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biped/arm-1",
+          "position": [
+            0.42,
+            1.94,
+            0
+          ],
+          "animation": {
+            "swing": {
+              "axis": 0,
+              "rate": 1,
+              "amplitude": 15,
+              "phase": 3.141592653589793
+            }
+          },
+          "children": [
+            {
+              "id": "biped/arm-1/sleeve",
+              "name": "sleeve",
+              "geometry": {
+                "kind": "box"
+              },
+              "position": [
+                0,
+                -0.38,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                0.18,
+                0.78,
+                0.22
+              ],
+              "material": {
+                "color": "#393b3d"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

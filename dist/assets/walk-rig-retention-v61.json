@@ -1,0 +1,16 @@
+{
+  "schema": "walking-retention-v61",
+  "originalEngine": "assets/archive/cutout-walk-original-v60.js",
+  "originalEngineSHA256": "2e0be1621439ccd0759a66dba049dfd0bdca9bcd364ee632e6df93e1b985843a",
+  "originalArtwork": "assets/salvage-searcher-v58.png",
+  "originalArtworkSHA256": "f3573d95a760905e4eca5fc3c8afbb48921f94bb641494e59d9d4a11df33bc72",
+  "enhancedEngine": "cutout-walk.js",
+  "enhancedEngineSHA256": "62f0014cb47c19b5326b9f9e13428aca90ca15ee10bfdc75bf9c811a76d1e8c1",
+  "originalEffectId": "rigged-cutout-walk",
+  "enhancedEffectId": "classic-walk-with-hands",
+  "alternativeEffectId": "natural-mesh-walk",
+  "historicalRecord": "assets/walk-rig-retention-v60.json",
+  "historicalRecordNote": "Describes V60 paths/hashes at that release; original engine moved into archive for V61.",
+  "defaultSequenceEngine": "classic",
+  "armsEnabled": true
+}

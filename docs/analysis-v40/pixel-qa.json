@@ -1,0 +1,8 @@
+{
+  "windowPresence": {
+    "changedBoysSilhouettePixelsWithGlareDisabled": 20046,
+    "changedPixelsOutsidePaneRegion": 0
+  },
+  "incomingBoundaryMaxDifference": 0,
+  "laundryBoundaryMaxDifference": 0
+}

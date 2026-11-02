@@ -1,0 +1,150 @@
+{
+  "schema": "regaarder-animation-instance-v1",
+  "effectId": "rigged-cutout-walk",
+  "parameters": {
+    "walkRate": 0.85,
+    "walkStride": 12,
+    "walkKnee": 10,
+    "walkPhase": 0,
+    "walkBob": 3,
+    "walkEdgeThreshold": 100,
+    "walkRig": {
+      "width": 1024,
+      "height": 1536,
+      "hip": [
+        520,
+        930
+      ],
+      "backKnee": [
+        310,
+        1160
+      ],
+      "frontKnee": [
+        700,
+        1170
+      ],
+      "flashlight": [
+        850,
+        690
+      ],
+      "parts": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            1024,
+            0
+          ],
+          [
+            1024,
+            960
+          ],
+          [
+            0,
+            960
+          ]
+        ],
+        "backThigh": [
+          [
+            350,
+            890
+          ],
+          [
+            550,
+            940
+          ],
+          [
+            390,
+            1195
+          ],
+          [
+            220,
+            1160
+          ]
+        ],
+        "backShin": [
+          [
+            235,
+            1120
+          ],
+          [
+            405,
+            1160
+          ],
+          [
+            370,
+            1475
+          ],
+          [
+            45,
+            1475
+          ],
+          [
+            45,
+            1320
+          ]
+        ],
+        "frontThigh": [
+          [
+            500,
+            890
+          ],
+          [
+            740,
+            900
+          ],
+          [
+            810,
+            1200
+          ],
+          [
+            600,
+            1210
+          ]
+        ],
+        "frontShin": [
+          [
+            600,
+            1130
+          ],
+          [
+            805,
+            1120
+          ],
+          [
+            860,
+            1290
+          ],
+          [
+            980,
+            1370
+          ],
+          [
+            965,
+            1490
+          ],
+          [
+            620,
+            1490
+          ]
+        ]
+      }
+    }
+  },
+  "playback": {
+    "speed": 1,
+    "reverse": false,
+    "delay": 0,
+    "pauseAt": 0.5,
+    "pauseFor": 0,
+    "ease": "linear",
+    "slowFast": false,
+    "slowStart": 0.3,
+    "slowEnd": 0.65,
+    "slowSpeed": 0.35,
+    "fastSpeed": 2
+  },
+  "duration": 8
+}

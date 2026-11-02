@@ -1,0 +1,3 @@
+# V83 feedback ledger
+Joshua authorized implementation and side-by-side comparison after10:55–11:55 analysis. Continue minute by minute toward15:00, then pause for refinement. Existing backlog: cutout edges/integration, tree wind/blur and continuous house zoom/parallax; left deferred.
+Internal review corrected circular crop (initially allowed a shrinking rectangle), undersized foreground collage people, eye effects above eye line, factory bottom clipping, flame log-edge feathering and title-shoe proportions. Current reconstruction still differs in likenesses, multi-view blending, shot-specific shadows, historical logo variants, factory foreground and flame texture. Visual acceptance pending. No publication.

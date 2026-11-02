@@ -1,0 +1,128 @@
+{
+  "assets": [
+    {
+      "path": "assets/models/mannequin-scene-v88-blue.gltf",
+      "bytes": 80344,
+      "sha256": "f71e6aee9c8427dfdc4f2adfb501e03cb34f9bf1f6023ba9d23fadb8498ececf",
+      "active": true
+    },
+    {
+      "path": "assets/models/mannequin-scene-v88-crimson.gltf",
+      "bytes": 95620,
+      "sha256": "00d15e25483facd106d3e6a2f46602d5dab15f29baf4b506e02863b8281ed192",
+      "active": true
+    },
+    {
+      "path": "assets/models/mannequin-v88.json",
+      "bytes": 2768542,
+      "sha256": "8b6af62b7701436e48005cd906c147b35366c20004aedc30f3996e9f639321dd",
+      "active": true
+    },
+    {
+      "path": "assets/models/mannequin-scene-v88-crimson.bin",
+      "bytes": 1681240,
+      "sha256": "ebf638521e0dc7211f585d95942784e96fe13bbaaaf3f666e5c96d73e1a89aa1",
+      "active": true
+    },
+    {
+      "path": "assets/models/mannequin-scene-v88-blue.bin",
+      "bytes": 1424552,
+      "sha256": "448924eb62724ee17ef1b5fce124408811e61fcc9a94d5d9c581c5608a0129a3",
+      "active": true
+    },
+    {
+      "path": "assets/archive/v88-before-camera-review/comparison.mp4",
+      "bytes": 1231125,
+      "sha256": "acfc56c06d8f2958bfe02a159943a47f8629951bf2c69d8507b6ae9ad4daffdb",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-before-camera-review/comparison-slow.mp4",
+      "bytes": 3143898,
+      "sha256": "b41b6316a05abc6d2e019f4f1139278183a4c0a97c271abd4ff6e7e502f75275",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-before-camera-review/preview.mp4",
+      "bytes": 400889,
+      "sha256": "2b1045334a8ce54c1b0e4d651ebd7635d3d2de49688bb736666cc32104fb56a9",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-distance-skin/diagnostic.jpg",
+      "bytes": 37372,
+      "sha256": "debdb23e1c744c4ddec493ea0ae1593d0348878423e48b8432f57e5bc87530c1",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-distance-skin/mannequin.json",
+      "bytes": 2781924,
+      "sha256": "c00a475d82d3138c5e159317717be03877ad2e3ca50570786df5bbce27355f48",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-high-resolution/mannequin-v88.json",
+      "bytes": 9587067,
+      "sha256": "bcc98cb9863119f24bcacc2f1c48956b18e2bbbffcfb4bb0d9d582e38dec2e21",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-high-resolution/validation.json",
+      "bytes": 342,
+      "sha256": "743f36850e50a235cdd911e1a07892266141da85db9a3ef879ccf8c06235f0c2",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-first-scene/skin.txt",
+      "bytes": 3541,
+      "sha256": "e948b5f07ae3828c2196a032054e258982be5a662b79bcf587dae0b17a0588ab",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-first-scene/blue-diagnostic.jpg",
+      "bytes": 33811,
+      "sha256": "eae8debdba3b0f73992540bc3bfe3075c63163717bccb4158ca14dc022422b18",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-first-scene/crimson-diagnostic.jpg",
+      "bytes": 36508,
+      "sha256": "e1a54fa664face8e798ab6278ebd5c3783caea0e7315b08340a8ceaf5b89e12e",
+      "active": false
+    },
+    {
+      "path": "assets/archive/v88-first-scene/sequence.txt",
+      "bytes": 4317,
+      "sha256": "69ce82f8cdcff31785e389a5e88de293e90653aac372ac07ee577956fecf1a48",
+      "active": false
+    }
+  ],
+  "modules": [
+    {
+      "path": "dist/v88/skin.js",
+      "sha256": "9c460c69c09cc81362621532b4685dd7d5fd42bf2036563923d6a37ba01a5736"
+    },
+    {
+      "path": "dist/v88/sequence.js",
+      "sha256": "bb346d33c375a25a62fdcf32bddc2a8ee48846992e4654d8ecf2916f9e1b9568"
+    },
+    {
+      "path": "dist/v88/mesh-data.js",
+      "sha256": "58976423ddde7b95e4b7aa443d48a47877937079aa0e16d1e2349d02f0ade146"
+    },
+    {
+      "path": "dist/v88/camera-keys.js",
+      "sha256": "7225d6671e71e16e242ddcbe914cf77ddafcf8870b703e62047c675bf2c68b62"
+    },
+    {
+      "path": "dist/v88/checkpoint-v87-preserved.txt",
+      "sha256": "2715839cdcf962db36ec603303a03ccca86f0b0f91cad36abbb6c312e19a0535"
+    },
+    {
+      "path": "dist/v88/render.js",
+      "sha256": "4066c417c7543f3c93071e89c8849a41a2c276d760779146ffd285b96df4c0af"
+    }
+  ],
+  "referenceSource": "User supplied original Nazi Brothers documentary; diagnostics only, no pixels used in production scene",
+  "priorInterruption": "Unfinished prior transient V88 files were lost before this rebuild; saved V87 is preserved. Retained candidates here are from the current rebuild."
+}

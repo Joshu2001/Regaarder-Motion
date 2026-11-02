@@ -1,0 +1,61 @@
+{
+  "source": "The Nazi Brothers Who Started Rival Shoe Companies - MagnatesMedia (1080p, h264)_01-54.0_to_02-06.0(1).webm",
+  "sha256": "8d2897ab4fd683282bb893b466e0356ee05e84347338eac2c904f056dac61504",
+  "decodedFrames": 212,
+  "firstPTS": 0.033,
+  "lastPTS": 14.533,
+  "medianFrameInterval": 0.05299999999999905,
+  "timestampedSamples": [
+    {
+      "timestampSeconds": 0.101,
+      "frameIndex": 2,
+      "thumbnail": "reference-00.101.jpg",
+      "cyanBlueThresholdPixels": 0
+    },
+    {
+      "timestampSeconds": 0.933,
+      "frameIndex": 15,
+      "thumbnail": "reference-00.933.jpg",
+      "cyanBlueThresholdPixels": 39
+    },
+    {
+      "timestampSeconds": 1.502,
+      "frameIndex": 21,
+      "thumbnail": "reference-01.502.jpg",
+      "cyanBlueThresholdPixels": 0
+    },
+    {
+      "timestampSeconds": 2.92,
+      "frameIndex": 31,
+      "thumbnail": "reference-02.920.jpg",
+      "cyanBlueThresholdPixels": 523
+    },
+    {
+      "timestampSeconds": 5.003,
+      "frameIndex": 56,
+      "thumbnail": "reference-05.003.jpg",
+      "cyanBlueThresholdPixels": 1803
+    },
+    {
+      "timestampSeconds": 8.808,
+      "frameIndex": 109,
+      "thumbnail": "reference-08.808.jpg",
+      "cyanBlueThresholdPixels": 15581
+    },
+    {
+      "timestampSeconds": 12.806,
+      "frameIndex": 195,
+      "thumbnail": "reference-12.806.jpg",
+      "cyanBlueThresholdPixels": 0
+    },
+    {
+      "timestampSeconds": 14.27,
+      "frameIndex": 209,
+      "thumbnail": "reference-14.270.jpg",
+      "cyanBlueThresholdPixels": 0
+    }
+  ],
+  "method": "Use decoded presentation timestamps, not nominal 1000 fps metadata. HSV cyan/blue threshold is a diagnostic candidate count, not a route segmentation or ground-truth motion track.",
+  "observed": "Garment shrink, multiple copies on diverging blue routes, title hold, foreground cloud occlusion, dark band, warm sky and figures beginning at the end.",
+  "inferred": "Smooth editable paths and layered descending camera are reconstructed techniques. Full wartime hold and fire are not established by this upload."
+}

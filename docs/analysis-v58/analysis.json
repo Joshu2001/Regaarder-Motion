@@ -1,0 +1,429 @@
+{
+  "schema": "motion-reference-analysis-v1",
+  "status": "analysis_only_no_template_changes",
+  "source": {
+    "filename": "The Nazi Brothers Who Started Rival Shoe Companies - MagnatesMedia (1080p, h264)_02-45.0_to_03-45.0.webm",
+    "sha256": "232011ad55884c0db4ada5a3fbd0900432ba6cf3ddbe3d505f52040e03838a6a",
+    "first": 0.0,
+    "last": 71.242,
+    "frames": 1139,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "sourceOffsetSeconds": 165,
+    "sourceClockStatus": "nominal offset from user filename; not verified against full master"
+  },
+  "method": {
+    "coarseSamples": 72,
+    "focusedSamples": 52,
+    "nativeSpeedPlaybackReviewed": false,
+    "audioInterpreted": false,
+    "motionValues": "Qualitative observations; no exact pixel trajectories, recovered camera or physical depth claimed"
+  },
+  "scenes": [
+    {
+      "id": "paper-tumble-exit",
+      "clipStart": 0,
+      "clipEnd": 0.8,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Crumpled printed object changes orientation and exits right while incoming gray sheet overlaps.",
+      "inferenceAndLimits": "Independent bob/tumble path; exact circular orbit unconfirmed.",
+      "evidence": [
+        {
+          "file": "focus-001.jpg",
+          "clip": 0.0
+        },
+        {
+          "file": "focus-002.jpg",
+          "clip": 0.334
+        },
+        {
+          "file": "focus-003.jpg",
+          "clip": 0.812
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "paper-unfurl-reveal",
+      "clipStart": 0.8,
+      "clipEnd": 3.5,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Gray reverse face opens toward right, revealing the woman room inside an irregular paper border.",
+      "inferenceAndLimits": "Deformable sheet, shadow and shared paper texture; exact topology unknown.",
+      "evidence": [
+        {
+          "file": "focus-003.jpg",
+          "clip": 0.812
+        },
+        {
+          "file": "focus-004.jpg",
+          "clip": 1.402
+        },
+        {
+          "file": "focus-005.jpg",
+          "clip": 3.494
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "room-picture-overlap",
+      "clipStart": 3.5,
+      "clipEnd": 5.1,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Bright incoming window and colored boy coexist with grayscale woman.",
+      "inferenceAndLimits": "Align two internally layered room groups; separate flash and physical vase depth swap not established.",
+      "evidence": [
+        {
+          "file": "focus-005.jpg",
+          "clip": 3.494
+        },
+        {
+          "file": "focus-006.jpg",
+          "clip": 3.962
+        },
+        {
+          "file": "focus-007.jpg",
+          "clip": 4.462
+        },
+        {
+          "file": "focus-008.jpg",
+          "clip": 5.004
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "portrait-push-black",
+      "clipStart": 5.1,
+      "clipEnd": 13.3,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Boy face enlarges; black first sampled at12.054s, dim street visible by13.393s.",
+      "inferenceAndLimits": "Depth push with preserved artwork; dark-exit ramp needs adjacent-frame matching.",
+      "evidence": [
+        {
+          "file": "focus-008.jpg",
+          "clip": 5.004
+        },
+        {
+          "file": "focus-009.jpg",
+          "clip": 5.99
+        },
+        {
+          "file": "focus-010.jpg",
+          "clip": 11.824
+        },
+        {
+          "file": "focus-011.jpg",
+          "clip": 12.054
+        },
+        {
+          "file": "focus-012.jpg",
+          "clip": 12.487
+        },
+        {
+          "file": "focus-013.jpg",
+          "clip": 13.393
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "red-sky-street-approach",
+      "clipStart": 13.3,
+      "clipEnd": 25.4,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Explosion/fire, dark smoke, grayscale street and rear figure under red sky; forward approach.",
+      "inferenceAndLimits": "Separate camera/environment/figure/fire/smoke; full3D method unproven.",
+      "evidence": [
+        {
+          "file": "focus-013.jpg",
+          "clip": 13.393
+        },
+        {
+          "file": "focus-014.jpg",
+          "clip": 14.226
+        },
+        {
+          "file": "focus-015.jpg",
+          "clip": 16.402
+        },
+        {
+          "file": "focus-016.jpg",
+          "clip": 24.603
+        },
+        {
+          "file": "focus-017.jpg",
+          "clip": 25.364
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "architecture-occlusion",
+      "clipStart": 25.4,
+      "clipEnd": 27.5,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Close facade covers and uncovers views with shared red sky.",
+      "inferenceAndLimits": "Reuse textured opaque spatial passage.",
+      "evidence": [
+        {
+          "file": "focus-017.jpg",
+          "clip": 25.364
+        },
+        {
+          "file": "focus-018.jpg",
+          "clip": 25.821
+        },
+        {
+          "file": "focus-019.jpg",
+          "clip": 26.384
+        },
+        {
+          "file": "focus-020.jpg",
+          "clip": 27.526
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "salvage-walk-callouts",
+      "clipStart": 27.5,
+      "clipEnd": 45.2,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Articulated side-view walk and triangular beam; helmet/cables/materials receive yellow highlights.",
+      "inferenceAndLimits": "Animated source or rig needed; rapid reframe near36.282 may be cut or fast motion.",
+      "evidence": [
+        {
+          "file": "focus-020.jpg",
+          "clip": 27.526
+        },
+        {
+          "file": "focus-021.jpg",
+          "clip": 28.164
+        },
+        {
+          "file": "focus-022.jpg",
+          "clip": 33.023
+        },
+        {
+          "file": "focus-023.jpg",
+          "clip": 34.393
+        },
+        {
+          "file": "focus-024.jpg",
+          "clip": 35.787
+        },
+        {
+          "file": "focus-025.jpg",
+          "clip": 36.282
+        },
+        {
+          "file": "focus-026.jpg",
+          "clip": 37.017
+        },
+        {
+          "file": "focus-027.jpg",
+          "clip": 38.387
+        },
+        {
+          "file": "focus-028.jpg",
+          "clip": 39.459
+        },
+        {
+          "file": "focus-029.jpg",
+          "clip": 40.122
+        },
+        {
+          "file": "focus-030.jpg",
+          "clip": 45.243
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "vertical-ground-passage",
+      "clipStart": 45.2,
+      "clipEnd": 46.8,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Rubble moves upward; bicycle enters from below through dark bridge.",
+      "inferenceAndLimits": "Reuse vertical spatial passage; avoid whole-scene fade.",
+      "evidence": [
+        {
+          "file": "focus-030.jpg",
+          "clip": 45.243
+        },
+        {
+          "file": "focus-031.jpg",
+          "clip": 45.598
+        },
+        {
+          "file": "focus-032.jpg",
+          "clip": 46.203
+        },
+        {
+          "file": "focus-033.jpg",
+          "clip": 46.766
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "wheel-label-shoe",
+      "clipStart": 46.8,
+      "clipEnd": 55.3,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Rotating wheel, leather-trimmer label/leader, brown shoe enters and enlarges.",
+      "inferenceAndLimits": "Cutting linkage incomplete; avoid invented gears; preserve shoe source appearance.",
+      "evidence": [
+        {
+          "file": "focus-033.jpg",
+          "clip": 46.766
+        },
+        {
+          "file": "focus-034.jpg",
+          "clip": 48.987
+        },
+        {
+          "file": "focus-035.jpg",
+          "clip": 51.049
+        },
+        {
+          "file": "focus-036.jpg",
+          "clip": 52.52
+        },
+        {
+          "file": "focus-037.jpg",
+          "clip": 54.486
+        },
+        {
+          "file": "focus-038.jpg",
+          "clip": 55.218
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "walking-feet-handoff",
+      "clipStart": 55.3,
+      "clipEnd": 61.2,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Brown-to-dark shoe handoff, foreground boot/leg occlusion, several articulated feet.",
+      "inferenceAndLimits": "Match-position transition; physical morph not established.",
+      "evidence": [
+        {
+          "file": "focus-038.jpg",
+          "clip": 55.218
+        },
+        {
+          "file": "focus-039.jpg",
+          "clip": 55.788
+        },
+        {
+          "file": "focus-040.jpg",
+          "clip": 56.384
+        },
+        {
+          "file": "focus-041.jpg",
+          "clip": 58.849
+        },
+        {
+          "file": "focus-042.jpg",
+          "clip": 60.522
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "moving-magnifier",
+      "clipStart": 61.2,
+      "clipEnd": 65.963,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Lens contains a larger synchronized view of moving shoe/leg scene.",
+      "inferenceAndLimits": "Sample shared scene buffer through moving lens; exact optical distortion unmeasured.",
+      "evidence": [
+        {
+          "file": "focus-043.jpg",
+          "clip": 61.402
+        },
+        {
+          "file": "focus-044.jpg",
+          "clip": 62.217
+        },
+        {
+          "file": "focus-045.jpg",
+          "clip": 63.403
+        },
+        {
+          "file": "focus-046.jpg",
+          "clip": 64.563
+        },
+        {
+          "file": "focus-047.jpg",
+          "clip": 65.523
+        },
+        {
+          "file": "focus-048.jpg",
+          "clip": 65.963
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "shoe-evolution-route",
+      "clipStart": 65.963,
+      "clipEnd": 70.7,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Separate shoe designs appear along white dashed curved path on paper.",
+      "inferenceAndLimits": "Editable path, node assets and staggered entrances.",
+      "evidence": [
+        {
+          "file": "focus-048.jpg",
+          "clip": 65.963
+        },
+        {
+          "file": "focus-049.jpg",
+          "clip": 66.489
+        },
+        {
+          "file": "focus-050.jpg",
+          "clip": 67.466
+        },
+        {
+          "file": "focus-051.jpg",
+          "clip": 70.707
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    },
+    {
+      "id": "incomplete-next-transition",
+      "clipStart": 70.7,
+      "clipEnd": 71.242,
+      "timingStatus": "approximate visually inspected range",
+      "observed": "Blurred frame-like foreground forms cross shoe diagram as file ends.",
+      "inferenceAndLimits": "Destination unresolved; do not invent next scene.",
+      "evidence": [
+        {
+          "file": "focus-051.jpg",
+          "clip": 70.707
+        },
+        {
+          "file": "focus-052.jpg",
+          "clip": 71.242
+        }
+      ],
+      "implementationStatus": "proposal only; user approval required"
+    }
+  ],
+  "globalUncertainties": [
+    "Filename source clock differs from decoded span; do not assume transcript alignment.",
+    "Original 3D topology/software/camera are unproven.",
+    "Side-view gait needs animated source or rig, not rigid still alone.",
+    "Vase ordering must distinguish outgoing and incoming rooms.",
+    "Final destination not supplied."
+  ],
+  "approvalBoundary": "Report and evidence only; no production asset generation, registration or template implementation."
+}

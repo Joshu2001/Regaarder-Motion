@@ -1,0 +1,70 @@
+{
+  "version": 65,
+  "checks": {
+    "chapterCore": "passed",
+    "historyStages": "passed after updating intentional 52.95s extension expectation",
+    "animationLibrary": "passed",
+    "assetRegister": "passed",
+    "registryParity": "passed",
+    "sharedEffectsMedia": "passed",
+    "syntax": "passed",
+    "localServer": "passed"
+  },
+  "priorAssetDifferences": [],
+  "browserInteraction": "not verified",
+  "visualQA": "Decoded exports sampled; side-by-side tree crossing corrected and re-rendered. Artwork remains approximate.",
+  "fullVideoDecode": "Passed strict ffmpeg decoding for all three final video files",
+  "finalVideoMetadata": [
+    {
+      "file": "Motionclone-v65-new-sequence.mp4",
+      "sha256": "90940ccc8c6552595e91614d363584aca12ceb32b2813dba4f7b5656e7ce75e7",
+      "audio": "silent",
+      "programs": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 540,
+          "r_frame_rate": "30/1",
+          "nb_frames": "1589"
+        }
+      ],
+      "format": {
+        "duration": "52.966667"
+      }
+    },
+    {
+      "file": "Motionclone-v65-full-review.mp4",
+      "sha256": "3b3b45cb23219222e09d06a4f4e2ff8ec6c58bffe752f4f2f8e564a63d97ed14",
+      "audio": "silent",
+      "programs": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 540,
+          "r_frame_rate": "30/1",
+          "nb_frames": "5709"
+        }
+      ],
+      "format": {
+        "duration": "190.300000"
+      }
+    },
+    {
+      "file": "Motionclone-v65-reference-comparison.mp4",
+      "sha256": "331447ac0ff6b67bdbe2473ec9dea8dcd1c98ad32d03e419bc8ab3f36b36a246",
+      "audio": "silent",
+      "programs": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 392,
+          "r_frame_rate": "30/1",
+          "nb_frames": "1589"
+        }
+      ],
+      "format": {
+        "duration": "52.966667"
+      }
+    }
+  ]
+}

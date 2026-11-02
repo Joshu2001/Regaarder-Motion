@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "27contiguous deterministic stages",
+    "four-rate custom-duration clock inverse",
+    "exact V84 incoming frame",
+    "24independent visible object controls",
+    "invalid input rejection and settings nonmutation",
+    "changing water/clouds",
+    "river-aware map bank boundary",
+    "native director845seconds, preserved playhead/settings, disables to785",
+    "five actual library media replacement instances isolated and restored",
+    "classic browser script parses",
+    "eight earlier sequence/director hashes preserved"
+  ],
+  "nativeBrowser": "not verified"
+}

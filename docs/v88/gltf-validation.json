@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "shot": "crimson",
+      "skins": 2,
+      "animations": 1,
+      "channels": 208,
+      "bufferBounds": "passed",
+      "skinParity": "passed"
+    },
+    {
+      "shot": "blue",
+      "skins": 2,
+      "animations": 1,
+      "channels": 206,
+      "bufferBounds": "passed",
+      "skinParity": "passed"
+    }
+  ],
+  "maxSampledSkinErrorMeters": 1.4031940640815918e-7,
+  "validation": "structural buffers/hierarchy and three sampled poses per shot; not official Khronos validator or Godot import test"
+}

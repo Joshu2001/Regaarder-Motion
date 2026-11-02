@@ -1,0 +1,26 @@
+{
+  "version": 69,
+  "date": "2026-10-30",
+  "passed": [
+    "check-globe-v69.mjs",
+    "check-animation-library.mjs",
+    "check-asset-register.mjs",
+    "check-asset-catalog.mjs",
+    "build-animation-registry.mjs --check",
+    "check-commerce-v67.mjs",
+    "check-path-integration-v68.mjs",
+    "check-path-controls-v68.mjs",
+    "check-path-v68.mjs",
+    "check-chapter-v65.mjs"
+  ],
+  "preservation": {
+    "originalV66VisualFiles": 226,
+    "missing": 0,
+    "changed": 0
+  },
+  "limits": [
+    "Offline Canvas and DOM/VM harness verification; native browser layout/performance unverified.",
+    "User visual acceptance pending; reference-perfect fidelity not claimed.",
+    "No deployment, push or remote commit."
+  ]
+}

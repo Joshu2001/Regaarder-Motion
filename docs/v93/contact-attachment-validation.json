@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "actual bone parent attachment",
+    "plane normal target conversion",
+    "deleting parent preserves detached prop world transform"
+  ],
+  "parent": "head",
+  "planeNormalTarget": [
+    0,
+    0.068,
+    1.7763568394002505e-17
+  ],
+  "pageErrors": []
+}

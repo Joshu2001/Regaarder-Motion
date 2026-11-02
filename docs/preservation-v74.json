@@ -1,0 +1,1146 @@
+{
+  "previousAssets": 285,
+  "allUnchanged": true,
+  "files": [
+    {
+      "path": "dist/assets/ARCHIVE-CREDITS-V72.md",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/ARCHIVE-CREDITS-V73.md",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/adidas-bars.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/adidas-wordmark.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/aftermath-replacement-v52.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/cutout-walk-original-v60.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/cutout-walk-v63.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/gesture-rejected-diagnostic-v40.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/linen-long-sleeve-rejected-v39-92e6631e.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/shoe-solid-v56.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v69-globe/globe-controls.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v69-globe/globe-director.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v69-globe/globe-opening.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v70-refinement/animation-library-director.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v70-refinement/chapter-sequence.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v70-refinement/city-engine.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v70-refinement/depot-finale.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v70-refinement/grounded-walk.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v70-refinement/sequence-expansion.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v71-continuation/animation-library-director.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v71-continuation/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v72-olympic/animation-library-director.js",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/archive/v72-olympic/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/athletics-horizon-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/athletics-team-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/audience-foreground-v73.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/battle-fireball.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/battle-ridge.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/berlin-parade-v73.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/brand-credits.txt",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/brothers-seated-v72.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/brothers-tv-meeting-v73.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/chapter-bike-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/chapter-generation-v65.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/chapter-props-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/city-aerial-v1-credit.txt",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/city-aerial-v1.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/classic-cutout-walk-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/clouds.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/club-salesman-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/commerce-generation-v67.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/commerce-money-v67.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/commerce-shoulder-v67.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/commerce-street-v67.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/commerce-suited-man-v67.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/conflict-fire-keyframe-v6.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/conflict-generation-briefs.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/continuation-boy-color-v61.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/continuation-generation-record-v72.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/dark-earth-v63.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-complete-figure-prompts-v9.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-crate.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-figures-reference.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-generation-briefs-v10.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-generation-briefs.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-head-reference.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-man-left.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-man-right.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-mountain-face-v10.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-person-left-v9.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-person-right-v9.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-room.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-soldier-left-v10.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-soldier-right-v10.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-uniformed-pair-v10.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/depot-uniformed-pair-v29.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/desk-lamp-v3.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/desk.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/explosion-generation-v61.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/explosion-smoke-v61.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/faces-v3.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/factory-front-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/factory-street-v72.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/fire-poster.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/fire.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/football-field-v72.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/football-kicker-v72.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/foreground-tree-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/generation-retention-v40.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-cloud-veil-v69.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-earth-day-nasa-v69.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-earth-night-8192-v69.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-earth-night-nasa-v69.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-electric-v70.wav",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-generation-v69.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-impact-v70.wav",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-nebula-v69.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-rumble-v70.wav",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-sound-design-v70.wav",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/globe-whoosh-v70.wav",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/history-figure-generation-v46.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/history-figure-v46.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/history-generation-v46.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/history-portrait-v46.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/history-shoulder-v46.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/history-street-v46.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/history-workshop-v46.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/history-workshop-woman-v48.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/lamp.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/leather-boot-v72.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/library-clean-v72.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/map.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/bicycle-v58.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/bicycle-v58.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/bicycle-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/bicycle-v59.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/bicycle-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/bicycle-v60.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/biped-v58.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/biped-v58.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/biped-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/biped-v59.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/biped-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/biped-v60.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/box-v58.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/box-v58.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/box-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/box-v59.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/box-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/box-v60.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/chapter-bike-v65.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/helmet-v58.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/helmet-v58.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/helmet-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/helmet-v59.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/helmet-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/helmet-v60.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/ruin-v58.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/ruin-v58.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/ruin-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/ruin-v59.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/ruin-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/ruin-v60.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/salvage-v58.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/salvage-v58.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/salvage-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/salvage-v59.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/salvage-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/salvage-v60.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/street-v58.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/street-v58.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/street-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/street-v59.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/street-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/models/street-v60.obj",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/mother-room-cloth-v54.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/mother-room-generation-v54.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/mother-room-person-v54.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/mother-room-room-v54.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/mother-room-selected-reference-v54.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/mother-room-vase-v54.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/mystery-men.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/mystery-sky.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/natural-mesh-walk-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/nursery-cradle-v37.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/nursery-generation-briefs-v37.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/nursery-mother-v37.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/nursery-passer-v37.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/older-brothers-poses-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/olympic-archive-credits-v73.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/olympic-entrance-v73.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/olympic-generation-record-v73.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/olympic-statue-v73.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/olympic-track-v73.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/outdoor.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/owens-poses-v73.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/owens-reference-v73.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/pair-v2.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/people.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/period-factory-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/period-television-v73.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/political-archive-credits-v72.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/political-frontal-v73.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/political-parade-v72.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/political-portrait-close-v72.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/political-portrait-v72.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/political-rally-v72.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/political-youth-v72.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/portrait-room-cloth-v53.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/portrait-room-generation-v53.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/portrait-room-person-v53.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/portrait-room-room-v53.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/portrait-room-selected-reference-v53.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/portrait-room-vase-v53.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/portrait.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/precision-aerial-v39.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/precision-architecture-v39.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/precision-clouds-v39.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/precision-face-v39.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/precision-generation-briefs-v39.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/precision-linen-v39.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/precision-masonry-v39.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/precision-seamstress-v39.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/puma-cat.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/puma-lockup.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/real-fire-credit.txt",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/real-fire.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/reference-generation-v62.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/reveal.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/rig-generation-briefs-v41.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/rig-room-clean-v41.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/rig-underpaint-v41.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/rivalry-heads-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/room-color-v62.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/ruined-cluster-v61.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/ruined-window-city-v55.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/ruined-window-generation-v55.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/ruined-window-person-v55.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/ruined-window-selected-reference-v55.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/ruined-window-wall-v55.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-brown-shoe-v58.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-cream-shoe-v58.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-facade-v58.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-generation-v58.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-generation-v59.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-gray-leg-v59.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-ground-v58.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-pink-leg-v59.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-reference-brown-shoe-v58.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-reference-cream-shoe-v58.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-reference-facade-v58.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-reference-gray-leg-v59.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-reference-ground-v58.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-reference-pink-leg-v59.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-reference-rubble-v59.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-reference-searcher-v58.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-rubble-v59.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/salvage-searcher-v58.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/shoe-paper-generation-v56.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/shoe-paper-selected-reference-v56.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/shoe-paper-texture-v56.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/shoe-restoration-v57.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/shoe-restored-preview-v57.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/shoe-solid-default-v56.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/shoulder-v3.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/shoulder.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/snow-material.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/soil-cross-section.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/soldier-1.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/soldier-2.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/soldier-3.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/soldier-4.svg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/soldiers-sheet.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/standing.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/street-figure-v62.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/television-room-v73.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/terrain-generation-v63.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/title-cloud-fill-v44.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/transition-cloud-generation-v44.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/transition-cloud-interior-v44.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/village-boys-v38.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/village-generation-briefs-v38.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/village-seamstress-v38.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/village-town-v38.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/village-workshop-v38.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/visual-generation-v61.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/walk-rig-retention-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/walk-rig-retention-v61.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/walker-generation-v60.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/walker-parts-atlas-v60.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-aftermath-battlefield-original-v52-preview.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-aftermath-battlefield-original-v52.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-aftermath-convoy-original-v52-preview.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-aftermath-convoy-original-v52.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-brothers-sunset-v43.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-front-boy-v43.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-generation-brief-v43.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-landscape-v43.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-layers-generation-v43.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-rear-boy-v43.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-sky-v43.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/war-street-v62.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/wisps.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/woman-blouse-hem-gesture-poster-v42.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/woman-blouse-hem-gesture-v42.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/woman-motion-track-v40.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/wooden-shelf-v62.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/workshop-clean-v72.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/workshop-woman-generation-v48.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/writing-desk-v72.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/young-man-v2.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/young-man.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/young-portraits-v65.png",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/young-searcher-generation-v64.json",
+      "unchanged": true
+    },
+    {
+      "path": "dist/assets/young-searcher-v64.png",
+      "unchanged": true
+    }
+  ]
+}

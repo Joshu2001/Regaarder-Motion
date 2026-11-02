@@ -1,0 +1,1523 @@
+{
+  "resolution": [
+    960,
+    540
+  ],
+  "framesSampled": 302,
+  "minimumAreaRatio": 0.20000249934586603,
+  "minimumAppliedStrength": 0.388916015625,
+  "requestedStrength": 1,
+  "limit": "Area ratio floor .20. Applied strength is intentionally reduced when retargeted curves would collapse the different artwork.",
+  "samples": [
+    {
+      "elapsedSeconds": 0,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.01,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.02,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.03,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.04,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.05,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.06,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.07,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.08,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.09,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.1,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.11,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.12,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.13,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.14,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.15,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.16,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.17,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.18,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.19,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.2,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.21,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.22,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.23,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.24,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.25,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.26,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.27,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.28,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.29,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.3,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.31,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.32,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.33,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.34,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.35,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.36,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.37,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.38,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.39,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.4,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.41,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.42,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.43,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.44,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.45,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.46,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.47,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.48,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.49,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.5,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.51,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.52,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.53,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.54,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.55,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.56,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.57,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.58,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.59,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.6,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.61,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.62,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.63,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.64,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.65,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.66,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.67,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.68,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.69,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.7,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.71,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.72,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.73,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.74,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.75,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.76,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.77,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.78,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.79,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.8,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.81,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.82,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.83,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.84,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.85,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.86,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.87,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.88,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.89,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.9,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.91,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.92,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.93,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.94,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.95,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.96,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.97,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.98,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 0.99,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.01,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.02,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.03,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.04,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.05,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.06,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.07,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.08,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.09,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.1,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.11,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.12,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.13,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.14,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.15,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.16,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.17,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.18,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.19,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.2,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.21,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.22,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.23,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.24,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.25,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.26,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.27,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.28,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.29,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.3,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.31,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 1
+    },
+    {
+      "elapsedSeconds": 1.32,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.9846651278483157
+    },
+    {
+      "elapsedSeconds": 1.33,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.9540713894998809
+    },
+    {
+      "elapsedSeconds": 1.34,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.9235789924246862
+    },
+    {
+      "elapsedSeconds": 1.35,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.8931879366227294
+    },
+    {
+      "elapsedSeconds": 1.36,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.8628982220940105
+    },
+    {
+      "elapsedSeconds": 1.37,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.832709848838533
+    },
+    {
+      "elapsedSeconds": 1.38,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.8026228168562923
+    },
+    {
+      "elapsedSeconds": 1.39,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.772637126147292
+    },
+    {
+      "elapsedSeconds": 1.4,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.7427527767115301
+    },
+    {
+      "elapsedSeconds": 1.41,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.7129697685490086
+    },
+    {
+      "elapsedSeconds": 1.42,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.6832881016597254
+    },
+    {
+      "elapsedSeconds": 1.43,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.6537077760436811
+    },
+    {
+      "elapsedSeconds": 1.44,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.624228791700876
+    },
+    {
+      "elapsedSeconds": 1.45,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.5948511486313086
+    },
+    {
+      "elapsedSeconds": 1.46,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.5655748468349812
+    },
+    {
+      "elapsedSeconds": 1.47,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.5363998863118931
+    },
+    {
+      "elapsedSeconds": 1.48,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.5073262670620435
+    },
+    {
+      "elapsedSeconds": 1.49,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.48506798898793124
+    },
+    {
+      "elapsedSeconds": 1.5,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.4645021558237923
+    },
+    {
+      "elapsedSeconds": 1.51,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.44394055688968226
+    },
+    {
+      "elapsedSeconds": 1.52,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.4233831921856024
+    },
+    {
+      "elapsedSeconds": 1.53,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.402830061711552
+    },
+    {
+      "elapsedSeconds": 1.54,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.3822811654675318
+    },
+    {
+      "elapsedSeconds": 1.55,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.36173650345354164
+    },
+    {
+      "elapsedSeconds": 1.56,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.34119607566958227
+    },
+    {
+      "elapsedSeconds": 1.57,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.32065988211564983
+    },
+    {
+      "elapsedSeconds": 1.58,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.3001279227917501
+    },
+    {
+      "elapsedSeconds": 1.59,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.2796001976978778
+    },
+    {
+      "elapsedSeconds": 1.6,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.2590767068340369
+    },
+    {
+      "elapsedSeconds": 1.61,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.23855745020022417
+    },
+    {
+      "elapsedSeconds": 1.62,
+      "appliedStrength": 1,
+      "minimumAreaRatio": 0.21804242779644226
+    },
+    {
+      "elapsedSeconds": 1.63,
+      "appliedStrength": 0.996826171875,
+      "minimumAreaRatio": 0.20000249934586603
+    },
+    {
+      "elapsedSeconds": 1.64,
+      "appliedStrength": 0.97119140625,
+      "minimumAreaRatio": 0.20004174770996624
+    },
+    {
+      "elapsedSeconds": 1.65,
+      "appliedStrength": 0.94677734375,
+      "minimumAreaRatio": 0.20013279022025002
+    },
+    {
+      "elapsedSeconds": 1.66,
+      "appliedStrength": 0.923583984375,
+      "minimumAreaRatio": 0.20020036979847522
+    },
+    {
+      "elapsedSeconds": 1.67,
+      "appliedStrength": 0.901611328125,
+      "minimumAreaRatio": 0.20016905010489264
+    },
+    {
+      "elapsedSeconds": 1.68,
+      "appliedStrength": 0.880615234375,
+      "minimumAreaRatio": 0.20017904840350623
+    },
+    {
+      "elapsedSeconds": 1.69,
+      "appliedStrength": 0.860595703125,
+      "minimumAreaRatio": 0.2001700646463638
+    },
+    {
+      "elapsedSeconds": 1.7,
+      "appliedStrength": 0.841552734375,
+      "minimumAreaRatio": 0.20008167494963874
+    },
+    {
+      "elapsedSeconds": 1.71,
+      "appliedStrength": 0.8232421875,
+      "minimumAreaRatio": 0.2000845845201061
+    },
+    {
+      "elapsedSeconds": 1.72,
+      "appliedStrength": 0.8076171875,
+      "minimumAreaRatio": 0.2001002530214626
+    },
+    {
+      "elapsedSeconds": 1.73,
+      "appliedStrength": 0.79443359375,
+      "minimumAreaRatio": 0.20011382112103768
+    },
+    {
+      "elapsedSeconds": 1.74,
+      "appliedStrength": 0.78173828125,
+      "minimumAreaRatio": 0.20006359240715063
+    },
+    {
+      "elapsedSeconds": 1.75,
+      "appliedStrength": 0.769287109375,
+      "minimumAreaRatio": 0.20017360808666387
+    },
+    {
+      "elapsedSeconds": 1.76,
+      "appliedStrength": 0.75732421875,
+      "minimumAreaRatio": 0.20018048595143945
+    },
+    {
+      "elapsedSeconds": 1.77,
+      "appliedStrength": 0.745849609375,
+      "minimumAreaRatio": 0.20006059276702023
+    },
+    {
+      "elapsedSeconds": 1.78,
+      "appliedStrength": 0.734619140625,
+      "minimumAreaRatio": 0.2000498320439643
+    },
+    {
+      "elapsedSeconds": 1.79,
+      "appliedStrength": 0.7236328125,
+      "minimumAreaRatio": 0.2001364338066349
+    },
+    {
+      "elapsedSeconds": 1.8,
+      "appliedStrength": 0.713134765625,
+      "minimumAreaRatio": 0.2000411762438539
+    },
+    {
+      "elapsedSeconds": 1.81,
+      "appliedStrength": 0.702880859375,
+      "minimumAreaRatio": 0.2000118205468033
+    },
+    {
+      "elapsedSeconds": 1.82,
+      "appliedStrength": 0.69287109375,
+      "minimumAreaRatio": 0.20003658624681694
+    },
+    {
+      "elapsedSeconds": 1.83,
+      "appliedStrength": 0.68310546875,
+      "minimumAreaRatio": 0.20010369016341947
+    },
+    {
+      "elapsedSeconds": 1.84,
+      "appliedStrength": 0.673583984375,
+      "minimumAreaRatio": 0.20020134641147772
+    },
+    {
+      "elapsedSeconds": 1.85,
+      "appliedStrength": 0.66455078125,
+      "minimumAreaRatio": 0.20003055250211726
+    },
+    {
+      "elapsedSeconds": 1.86,
+      "appliedStrength": 0.655517578125,
+      "minimumAreaRatio": 0.20014999174103487
+    },
+    {
+      "elapsedSeconds": 1.87,
+      "appliedStrength": 0.646728515625,
+      "minimumAreaRatio": 0.20026461084349306
+    },
+    {
+      "elapsedSeconds": 1.88,
+      "appliedStrength": 0.638427734375,
+      "minimumAreaRatio": 0.2000635467756366
+    },
+    {
+      "elapsedSeconds": 1.89,
+      "appliedStrength": 0.630126953125,
+      "minimumAreaRatio": 0.20012918642890937
+    },
+    {
+      "elapsedSeconds": 1.9,
+      "appliedStrength": 0.62158203125,
+      "minimumAreaRatio": 0.20015779415497534
+    },
+    {
+      "elapsedSeconds": 1.91,
+      "appliedStrength": 0.61328125,
+      "minimumAreaRatio": 0.20009799287093233
+    },
+    {
+      "elapsedSeconds": 1.92,
+      "appliedStrength": 0.605224609375,
+      "minimumAreaRatio": 0.20000606836012524
+    },
+    {
+      "elapsedSeconds": 1.93,
+      "appliedStrength": 0.59716796875,
+      "minimumAreaRatio": 0.20018880276739023
+    },
+    {
+      "elapsedSeconds": 1.94,
+      "appliedStrength": 0.58935546875,
+      "minimumAreaRatio": 0.200322704161064
+    },
+    {
+      "elapsedSeconds": 1.95,
+      "appliedStrength": 0.58203125,
+      "minimumAreaRatio": 0.2000680925836171
+    },
+    {
+      "elapsedSeconds": 1.96,
+      "appliedStrength": 0.57470703125,
+      "minimumAreaRatio": 0.20006312638169182
+    },
+    {
+      "elapsedSeconds": 1.97,
+      "appliedStrength": 0.5673828125,
+      "minimumAreaRatio": 0.20030758783735783
+    },
+    {
+      "elapsedSeconds": 1.98,
+      "appliedStrength": 0.560546875,
+      "minimumAreaRatio": 0.20012238348203043
+    },
+    {
+      "elapsedSeconds": 1.99,
+      "appliedStrength": 0.5537109375,
+      "minimumAreaRatio": 0.20016999990394485
+    },
+    {
+      "elapsedSeconds": 2,
+      "appliedStrength": 0.547119140625,
+      "minimumAreaRatio": 0.20010270168658367
+    },
+    {
+      "elapsedSeconds": 2.01,
+      "appliedStrength": 0.54052734375,
+      "minimumAreaRatio": 0.2002597535116549
+    },
+    {
+      "elapsedSeconds": 2.02,
+      "appliedStrength": 0.5341796875,
+      "minimumAreaRatio": 0.20028533107456695
+    },
+    {
+      "elapsedSeconds": 2.03,
+      "appliedStrength": 0.528076171875,
+      "minimumAreaRatio": 0.20016711033095913
+    },
+    {
+      "elapsedSeconds": 2.04,
+      "appliedStrength": 0.52197265625,
+      "minimumAreaRatio": 0.20025653903995883
+    },
+    {
+      "elapsedSeconds": 2.05,
+      "appliedStrength": 0.51611328125,
+      "minimumAreaRatio": 0.2001856487613887
+    },
+    {
+      "elapsedSeconds": 2.06,
+      "appliedStrength": 0.51025390625,
+      "minimumAreaRatio": 0.20031400949323783
+    },
+    {
+      "elapsedSeconds": 2.07,
+      "appliedStrength": 0.504638671875,
+      "minimumAreaRatio": 0.2002655524953634
+    },
+    {
+      "elapsedSeconds": 2.08,
+      "appliedStrength": 0.499267578125,
+      "minimumAreaRatio": 0.20002798159111337
+    },
+    {
+      "elapsedSeconds": 2.09,
+      "appliedStrength": 0.49365234375,
+      "minimumAreaRatio": 0.20035709467706492
+    },
+    {
+      "elapsedSeconds": 2.1,
+      "appliedStrength": 0.488525390625,
+      "minimumAreaRatio": 0.20010063187160038
+    },
+    {
+      "elapsedSeconds": 2.11,
+      "appliedStrength": 0.4833984375,
+      "minimumAreaRatio": 0.2000184616494369
+    },
+    {
+      "elapsedSeconds": 2.12,
+      "appliedStrength": 0.48095703125,
+      "minimumAreaRatio": 0.20001895922998453
+    },
+    {
+      "elapsedSeconds": 2.13,
+      "appliedStrength": 0.480224609375,
+      "minimumAreaRatio": 0.20012683982444118
+    },
+    {
+      "elapsedSeconds": 2.14,
+      "appliedStrength": 0.4794921875,
+      "minimumAreaRatio": 0.20023760454272999
+    },
+    {
+      "elapsedSeconds": 2.15,
+      "appliedStrength": 0.478759765625,
+      "minimumAreaRatio": 0.20035125659433667
+    },
+    {
+      "elapsedSeconds": 2.16,
+      "appliedStrength": 0.478271484375,
+      "minimumAreaRatio": 0.20007157660836913
+    },
+    {
+      "elapsedSeconds": 2.17,
+      "appliedStrength": 0.4775390625,
+      "minimumAreaRatio": 0.20019047908619095
+    },
+    {
+      "elapsedSeconds": 2.18,
+      "appliedStrength": 0.476806640625,
+      "minimumAreaRatio": 0.2003122779841099
+    },
+    {
+      "elapsedSeconds": 2.19,
+      "appliedStrength": 0.476318359375,
+      "minimumAreaRatio": 0.2000391633771523
+    },
+    {
+      "elapsedSeconds": 2.2,
+      "appliedStrength": 0.4755859375,
+      "minimumAreaRatio": 0.20016622935629452
+    },
+    {
+      "elapsedSeconds": 2.21,
+      "appliedStrength": 0.474853515625,
+      "minimumAreaRatio": 0.20029620079789753
+    },
+    {
+      "elapsedSeconds": 2.22,
+      "appliedStrength": 0.474365234375,
+      "minimumAreaRatio": 0.2000296729693429
+    },
+    {
+      "elapsedSeconds": 2.23,
+      "appliedStrength": 0.4736328125,
+      "minimumAreaRatio": 0.20016492806604075
+    },
+    {
+      "elapsedSeconds": 2.24,
+      "appliedStrength": 0.472900390625,
+      "minimumAreaRatio": 0.20030309762315388
+    },
+    {
+      "elapsedSeconds": 2.25,
+      "appliedStrength": 0.472412109375,
+      "minimumAreaRatio": 0.20004317786899778
+    },
+    {
+      "elapsedSeconds": 2.26,
+      "appliedStrength": 0.468994140625,
+      "minimumAreaRatio": 0.20013338311268183
+    },
+    {
+      "elapsedSeconds": 2.27,
+      "appliedStrength": 0.46533203125,
+      "minimumAreaRatio": 0.20020719130898745
+    },
+    {
+      "elapsedSeconds": 2.28,
+      "appliedStrength": 0.461669921875,
+      "minimumAreaRatio": 0.2003637032379259
+    },
+    {
+      "elapsedSeconds": 2.29,
+      "appliedStrength": 0.458251953125,
+      "minimumAreaRatio": 0.20019222544112755
+    },
+    {
+      "elapsedSeconds": 2.3,
+      "appliedStrength": 0.454833984375,
+      "minimumAreaRatio": 0.2000985808541968
+    },
+    {
+      "elapsedSeconds": 2.31,
+      "appliedStrength": 0.451416015625,
+      "minimumAreaRatio": 0.20008282476804642
+    },
+    {
+      "elapsedSeconds": 2.32,
+      "appliedStrength": 0.447998046875,
+      "minimumAreaRatio": 0.20014501970083598
+    },
+    {
+      "elapsedSeconds": 2.33,
+      "appliedStrength": 0.444580078125,
+      "minimumAreaRatio": 0.2002852353979791
+    },
+    {
+      "elapsedSeconds": 2.34,
+      "appliedStrength": 0.44140625,
+      "minimumAreaRatio": 0.20008007190523958
+    },
+    {
+      "elapsedSeconds": 2.35,
+      "appliedStrength": 0.43798828125,
+      "minimumAreaRatio": 0.20037397934161233
+    },
+    {
+      "elapsedSeconds": 2.36,
+      "appliedStrength": 0.434814453125,
+      "minimumAreaRatio": 0.20031749914099894
+    },
+    {
+      "elapsedSeconds": 2.37,
+      "appliedStrength": 0.431640625,
+      "minimumAreaRatio": 0.20033416235882082
+    },
+    {
+      "elapsedSeconds": 2.38,
+      "appliedStrength": 0.428466796875,
+      "minimumAreaRatio": 0.20042402935526069
+    },
+    {
+      "elapsedSeconds": 2.39,
+      "appliedStrength": 0.425537109375,
+      "minimumAreaRatio": 0.20015072097791764
+    },
+    {
+      "elapsedSeconds": 2.4,
+      "appliedStrength": 0.42236328125,
+      "minimumAreaRatio": 0.200384564943262
+    },
+    {
+      "elapsedSeconds": 2.41,
+      "appliedStrength": 0.41943359375,
+      "minimumAreaRatio": 0.20025011027913991
+    },
+    {
+      "elapsedSeconds": 2.42,
+      "appliedStrength": 0.41650390625,
+      "minimumAreaRatio": 0.20018384575375164
+    },
+    {
+      "elapsedSeconds": 2.43,
+      "appliedStrength": 0.41357421875,
+      "minimumAreaRatio": 0.20018581970086607
+    },
+    {
+      "elapsedSeconds": 2.44,
+      "appliedStrength": 0.41064453125,
+      "minimumAreaRatio": 0.20025608576407095
+    },
+    {
+      "elapsedSeconds": 2.45,
+      "appliedStrength": 0.40771484375,
+      "minimumAreaRatio": 0.2003947028967681
+    },
+    {
+      "elapsedSeconds": 2.46,
+      "appliedStrength": 0.40771484375,
+      "minimumAreaRatio": 0.20028700629315968
+    },
+    {
+      "elapsedSeconds": 2.47,
+      "appliedStrength": 0.408447265625,
+      "minimumAreaRatio": 0.20011129998753863
+    },
+    {
+      "elapsedSeconds": 2.48,
+      "appliedStrength": 0.408935546875,
+      "minimumAreaRatio": 0.2003900417540016
+    },
+    {
+      "elapsedSeconds": 2.49,
+      "appliedStrength": 0.40966796875,
+      "minimumAreaRatio": 0.20022186762068125
+    },
+    {
+      "elapsedSeconds": 2.5,
+      "appliedStrength": 0.410400390625,
+      "minimumAreaRatio": 0.20005792445642484
+    },
+    {
+      "elapsedSeconds": 2.51,
+      "appliedStrength": 0.410888671875,
+      "minimumAreaRatio": 0.20034558163467342
+    },
+    {
+      "elapsedSeconds": 2.52,
+      "appliedStrength": 0.41162109375,
+      "minimumAreaRatio": 0.20018912495243774
+    },
+    {
+      "elapsedSeconds": 2.53,
+      "appliedStrength": 0.412353515625,
+      "minimumAreaRatio": 0.200036875606389
+    },
+    {
+      "elapsedSeconds": 2.54,
+      "appliedStrength": 0.412841796875,
+      "minimumAreaRatio": 0.20033338279585022
+    },
+    {
+      "elapsedSeconds": 2.55,
+      "appliedStrength": 0.41357421875,
+      "minimumAreaRatio": 0.20018857357257394
+    },
+    {
+      "elapsedSeconds": 2.56,
+      "appliedStrength": 0.414306640625,
+      "minimumAreaRatio": 0.20004794768640896
+    },
+    {
+      "elapsedSeconds": 2.57,
+      "appliedStrength": 0.414794921875,
+      "minimumAreaRatio": 0.20035323863402207
+    },
+    {
+      "elapsedSeconds": 2.58,
+      "appliedStrength": 0.41552734375,
+      "minimumAreaRatio": 0.2002200058424124
+    },
+    {
+      "elapsedSeconds": 2.59,
+      "appliedStrength": 0.416259765625,
+      "minimumAreaRatio": 0.20009093202263692
+    },
+    {
+      "elapsedSeconds": 2.6,
+      "appliedStrength": 0.416748046875,
+      "minimumAreaRatio": 0.20040493962284897
+    },
+    {
+      "elapsedSeconds": 2.61,
+      "appliedStrength": 0.41748046875,
+      "minimumAreaRatio": 0.200283211200447
+    },
+    {
+      "elapsedSeconds": 2.62,
+      "appliedStrength": 0.418212890625,
+      "minimumAreaRatio": 0.20016561701840127
+    },
+    {
+      "elapsedSeconds": 2.63,
+      "appliedStrength": 0.4189453125,
+      "minimumAreaRatio": 0.20005214860526235
+    },
+    {
+      "elapsedSeconds": 2.64,
+      "appliedStrength": 0.41943359375,
+      "minimumAreaRatio": 0.20037797616234848
+    },
+    {
+      "elapsedSeconds": 2.65,
+      "appliedStrength": 0.420166015625,
+      "minimumAreaRatio": 0.20027178815420765
+    },
+    {
+      "elapsedSeconds": 2.66,
+      "appliedStrength": 0.4208984375,
+      "minimumAreaRatio": 0.20016970068790485
+    },
+    {
+      "elapsedSeconds": 2.67,
+      "appliedStrength": 0.421630859375,
+      "minimumAreaRatio": 0.20007170511691902
+    },
+    {
+      "elapsedSeconds": 2.68,
+      "appliedStrength": 0.422119140625,
+      "minimumAreaRatio": 0.20040922798773128
+    },
+    {
+      "elapsedSeconds": 2.69,
+      "appliedStrength": 0.421142578125,
+      "minimumAreaRatio": 0.20037502314881225
+    },
+    {
+      "elapsedSeconds": 2.7,
+      "appliedStrength": 0.419189453125,
+      "minimumAreaRatio": 0.20011722368533885
+    },
+    {
+      "elapsedSeconds": 2.71,
+      "appliedStrength": 0.4169921875,
+      "minimumAreaRatio": 0.20032724472452176
+    },
+    {
+      "elapsedSeconds": 2.72,
+      "appliedStrength": 0.4150390625,
+      "minimumAreaRatio": 0.200134681285642
+    },
+    {
+      "elapsedSeconds": 2.73,
+      "appliedStrength": 0.412841796875,
+      "minimumAreaRatio": 0.20041401606047787
+    },
+    {
+      "elapsedSeconds": 2.74,
+      "appliedStrength": 0.410888671875,
+      "minimumAreaRatio": 0.2002868762269138
+    },
+    {
+      "elapsedSeconds": 2.75,
+      "appliedStrength": 0.408935546875,
+      "minimumAreaRatio": 0.20019152369186555
+    },
+    {
+      "elapsedSeconds": 2.76,
+      "appliedStrength": 0.406982421875,
+      "minimumAreaRatio": 0.20012800092140398
+    },
+    {
+      "elapsedSeconds": 2.77,
+      "appliedStrength": 0.405029296875,
+      "minimumAreaRatio": 0.20009635104719872
+    },
+    {
+      "elapsedSeconds": 2.78,
+      "appliedStrength": 0.403076171875,
+      "minimumAreaRatio": 0.20009661786651495
+    },
+    {
+      "elapsedSeconds": 2.79,
+      "appliedStrength": 0.401123046875,
+      "minimumAreaRatio": 0.20012884584221344
+    },
+    {
+      "elapsedSeconds": 2.8,
+      "appliedStrength": 0.399169921875,
+      "minimumAreaRatio": 0.20019308010275588
+    },
+    {
+      "elapsedSeconds": 2.81,
+      "appliedStrength": 0.397216796875,
+      "minimumAreaRatio": 0.20028936644219889
+    },
+    {
+      "elapsedSeconds": 2.82,
+      "appliedStrength": 0.395263671875,
+      "minimumAreaRatio": 0.20041775132019382
+    },
+    {
+      "elapsedSeconds": 2.83,
+      "appliedStrength": 0.3935546875,
+      "minimumAreaRatio": 0.20011792269939813
+    },
+    {
+      "elapsedSeconds": 2.84,
+      "appliedStrength": 0.3916015625,
+      "minimumAreaRatio": 0.20030859407542959
+    },
+    {
+      "elapsedSeconds": 2.85,
+      "appliedStrength": 0.390380859375,
+      "minimumAreaRatio": 0.20010222581101522
+    },
+    {
+      "elapsedSeconds": 2.86,
+      "appliedStrength": 0.39013671875,
+      "minimumAreaRatio": 0.20030482605369854
+    },
+    {
+      "elapsedSeconds": 2.87,
+      "appliedStrength": 0.39013671875,
+      "minimumAreaRatio": 0.20005671138978337
+    },
+    {
+      "elapsedSeconds": 2.88,
+      "appliedStrength": 0.389892578125,
+      "minimumAreaRatio": 0.20028390567959906
+    },
+    {
+      "elapsedSeconds": 2.89,
+      "appliedStrength": 0.389892578125,
+      "minimumAreaRatio": 0.20006124475462142
+    },
+    {
+      "elapsedSeconds": 2.9,
+      "appliedStrength": 0.3896484375,
+      "minimumAreaRatio": 0.20031290715349234
+    },
+    {
+      "elapsedSeconds": 2.91,
+      "appliedStrength": 0.3896484375,
+      "minimumAreaRatio": 0.20011563584104497
+    },
+    {
+      "elapsedSeconds": 2.92,
+      "appliedStrength": 0.389404296875,
+      "minimumAreaRatio": 0.20039164059385461
+    },
+    {
+      "elapsedSeconds": 2.93,
+      "appliedStrength": 0.389404296875,
+      "minimumAreaRatio": 0.20021969482850885
+    },
+    {
+      "elapsedSeconds": 2.94,
+      "appliedStrength": 0.389404296875,
+      "minimumAreaRatio": 0.20006067796840254
+    },
+    {
+      "elapsedSeconds": 2.95,
+      "appliedStrength": 0.38916015625,
+      "minimumAreaRatio": 0.20037323214040642
+    },
+    {
+      "elapsedSeconds": 2.96,
+      "appliedStrength": 0.38916015625,
+      "minimumAreaRatio": 0.20023946061624948
+    },
+    {
+      "elapsedSeconds": 2.97,
+      "appliedStrength": 0.38916015625,
+      "minimumAreaRatio": 0.20011860179062171
+    },
+    {
+      "elapsedSeconds": 2.98,
+      "appliedStrength": 0.38916015625,
+      "minimumAreaRatio": 0.2000106556635254
+    },
+    {
+      "elapsedSeconds": 2.99,
+      "appliedStrength": 0.388916015625,
+      "minimumAreaRatio": 0.20037177470305328
+    },
+    {
+      "elapsedSeconds": 3,
+      "appliedStrength": 0.388916015625,
+      "minimumAreaRatio": 0.2002889775855176
+    },
+    {
+      "elapsedSeconds": 3.01,
+      "appliedStrength": 0.388916015625,
+      "minimumAreaRatio": 0.20028897758551706
+    }
+  ]
+}

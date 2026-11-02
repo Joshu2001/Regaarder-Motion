@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "browser": "Chrome headless131 / SwiftShader WebGL2",
+  "checks": [
+    "numeric world transform",
+    "undo and redo",
+    "individual finger rotation and two bone keyframes",
+    "bone scale and multi-axis edits preserve previous components",
+    "independent garment material",
+    "reachable hand IK target",
+    "multiple worlds reuse a single renderer and preserve cached character instances",
+    "scene round trip",
+    "430px responsive editor"
+  ],
+  "handTargetErrorMeters": 4.494775313252277e-16,
+  "pageErrors": []
+}

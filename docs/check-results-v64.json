@@ -1,0 +1,320 @@
+[
+  {
+    "check": "check-aftermath-video.mjs",
+    "passed": true,
+    "seconds": 0.72,
+    "output": "Aftermath replacement passed: byte-exact original uploads and still retained; actual two-shot video dispatch; unchanged stage timing; source trim/speed; reversible crop removes badge/top border; still recovery.\nHistory editor: initialization, source replacement routing, speed/duration persistence and plain-language search passed in a DOM harness.\nAftermath editor: replacement routing, still/video toggle, full-frame recovery and approved-crop recovery passed.\n(node:89) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  },
+  {
+    "check": "check-asset-catalog.mjs",
+    "passed": true,
+    "seconds": 0.16,
+    "output": "Asset catalog passed: recovered rejected output hashes, filename/tag/status filtering, image fingerprints/exact ranking, actual gallery rendering and archive-before-replacement order.\n"
+  },
+  {
+    "check": "check-asset-register.mjs",
+    "passed": true,
+    "seconds": 0.36,
+    "output": "Asset provenance passed: complete inventory, exact hashes, explicit usage labels, current opening logos and official Adidas geometry.\n"
+  },
+  {
+    "check": "check-asset-tools.mjs",
+    "passed": true,
+    "seconds": 1.04,
+    "output": "Asset tools passed: rotated/translated alpha picking, nonmutating keyframe interpolation, head-only layering schema, whole-glyph ink, raster-free SVG tracing, evolving deterministic flame pixels.\n"
+  },
+  {
+    "check": "check-authoring.mjs",
+    "passed": true,
+    "seconds": 0.09,
+    "output": "Authoring checks passed: movable divisions, polygon transforms, continuous pen-path reveal, inverse parallax and structured-input validation.\n"
+  },
+  {
+    "check": "check-battle-motion.mjs",
+    "passed": true,
+    "seconds": 0.06,
+    "output": "Conflict motion passed: deterministic paths, density-independent flow, staggered firing, flash envelopes, glide endpoints and progressive blast/fog growth.\n"
+  },
+  {
+    "check": "check-chapter-migrations.mjs",
+    "passed": true,
+    "seconds": 0.08,
+    "output": "Chapter migration passed: editor loads, custom settings and keys survive, matching defaults update, depth is continuous, and the portal turns before disappearing.\n"
+  },
+  {
+    "check": "check-chapter-motion.mjs",
+    "passed": true,
+    "seconds": 0.28,
+    "output": "Chapter passed: black separation, staggered assembly, continuous 3D tumbling, reversible speeds, retreat, environment-first dimming, fade, detached shards and finite rendering.\n"
+  },
+  {
+    "check": "check-chess-motion.mjs",
+    "passed": true,
+    "seconds": 0.07,
+    "output": "Chess choreography checks passed: lifts, landings, capture, turns, retiming and camera path.\n"
+  },
+  {
+    "check": "check-city-motion.mjs",
+    "passed": true,
+    "seconds": 0.06,
+    "output": "City motion checks passed: descent, flyover, focus, roll, logo timing, and held continuation.\n"
+  },
+  {
+    "check": "check-cloud-continuity.mjs",
+    "passed": true,
+    "seconds": 0.6,
+    "output": "Continuous cloud pass: no interior stop, reversal or stage velocity jump for default and custom timings.\n"
+  },
+  {
+    "check": "check-composition.mjs",
+    "passed": true,
+    "seconds": 0.08,
+    "output": "Composition checks passed: all words overlap parallax at short/default/long durations; source assets and semantic references resolve; module order is valid.\n"
+  },
+  {
+    "check": "check-cutout-depth-v64.mjs",
+    "passed": true,
+    "seconds": 0.07,
+    "output": "V64 cutout-depth: ruin fringe samples retain ground; accepted samples opaque; other material alpha unchanged.\n"
+  },
+  {
+    "check": "check-depot-assets.mjs",
+    "passed": true,
+    "seconds": 0.07,
+    "output": "Depot asset recovery passed: partial readiness, failed status, bounded bundled recovery and repaint on success/failure.\n"
+  },
+  {
+    "check": "check-depot-director.mjs",
+    "passed": true,
+    "seconds": 0.09,
+    "output": "Director passed: nonmutating surface keyframes, interpolation, selectable title directions and movable fracture origin.\n"
+  },
+  {
+    "check": "check-depot-finale.mjs",
+    "passed": true,
+    "seconds": 0.4,
+    "output": "Depot finale passed: continuous frame pullback, progressive cracks, independently reversible rotation and perspective tilt.\nReflective glass renderer passed: finite fracture coordinates and perspective transforms at every milestone.\n"
+  },
+  {
+    "check": "check-depot-motion.mjs",
+    "passed": true,
+    "seconds": 0.08,
+    "output": "Depot camera passed: shared continuous retreat, cropped close cargo, initial vertical descent, opaque shoulder reveal, physical foreground entry and perspective frame projection.\n"
+  },
+  {
+    "check": "check-depot-portal.mjs",
+    "passed": true,
+    "seconds": 0.09,
+    "output": "Portal sequence passed: widening shards \u2192 dark hold \u2192 beam \u2192 absorption \u2192 beam clears \u2192 title, with nonoverlapping timing and continuous retreat.\n"
+  },
+  {
+    "check": "check-eye-editor.mjs",
+    "passed": true,
+    "seconds": 0.92,
+    "output": "History editor: initialization, source replacement routing, speed/duration persistence and plain-language search passed in a DOM harness.\nEye editor: source/destination replacement routing, one-duration control and normalized tap-to-focus calibration passed in a DOM harness.\n(node:257) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  },
+  {
+    "check": "check-eye-journey.mjs",
+    "passed": true,
+    "seconds": 0.46,
+    "output": "Eye journey: depth separation, rear clearance, iris confinement/eye-white preservation, delayed reflection, full-mask exit, continuous custom timing, source preservation and woman default passed.\n"
+  },
+  {
+    "check": "check-focus-reveal.mjs",
+    "passed": true,
+    "seconds": 0.42,
+    "output": "Generic focus reveal: early onset, editable finish, standalone duration, three mask shapes and continuous slow/fast time warp passed.\n"
+  },
+  {
+    "check": "check-gesture-window.mjs",
+    "passed": true,
+    "seconds": 1.45,
+    "output": "Gesture/window passed: measured curve interpolation, reference/fit timing, dense no-fold/continuity checks, pane silhouettes with bars, unchanged artwork and held-out source-model comparison.\n"
+  },
+  {
+    "check": "check-glass-shards.mjs",
+    "passed": true,
+    "seconds": 0.13,
+    "output": "Glass shards passed: deterministic closed polygons tile the whole pane without holes/overlap; independent facet normals and adjustable impact position/branch density.\n"
+  },
+  {
+    "check": "check-history-editor.mjs",
+    "passed": true,
+    "seconds": 0.52,
+    "output": "History editor: initialization, source replacement routing, speed/duration persistence and plain-language search passed in a DOM harness.\n(node:333) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  },
+  {
+    "check": "check-history-sequence.mjs",
+    "passed": true,
+    "seconds": 4.37,
+    "output": "History sequence: stage timings, rate, first-frame handoff, source replacement, all stage renderers, real spikes, shared recipe catalog and runtime dispatch passed.\n"
+  },
+  {
+    "check": "check-layer-motion.mjs",
+    "passed": true,
+    "seconds": 0.09,
+    "output": "Reusable layers passed: dense contact constraints, rigid body, source swaps, text, disabled content, key interpolation and arbitrary 3D transforms.\n"
+  },
+  {
+    "check": "check-living-atmosphere.mjs",
+    "passed": true,
+    "seconds": 1.77,
+    "output": "Atmosphere: moving and independently evolving clouds, stopped-state determinism, temporal continuity, fixed cable endpoints, sag, wind and segment controls passed.\n"
+  },
+  {
+    "check": "check-local-server.mjs",
+    "passed": true,
+    "seconds": 0.25,
+    "output": "Dependency-free local server: editor, byte ranges, HEAD and errors passed.\n"
+  },
+  {
+    "check": "check-model-expansion.mjs",
+    "passed": true,
+    "seconds": 0.77,
+    "output": "V58 geometry, OBJ roundtrip, transforms, tracks, render fallback, timeline migration, black interval, native editor and sequence binding passed.\n(node:429) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  },
+  {
+    "check": "check-mother-room.mjs",
+    "passed": true,
+    "seconds": 2.09,
+    "output": "History editor: initialization, source replacement routing, speed/duration persistence and plain-language search passed in a DOM harness.\nMother room: real alpha layers, independent removal/replacement, separate controls, flat fallback, grayscale, camera continuity and exact provenance passed.\n(node:445) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  },
+  {
+    "check": "check-natural-walk.mjs",
+    "passed": true,
+    "seconds": 0.58,
+    "output": "Natural walk: IK lengths, matched stance/root, sole contact, continuous foot curves, pose hierarchy, denser mesh, preset validation, classic retention, slider/facing and actual joint dragging passed.\n"
+  },
+  {
+    "check": "check-noir-anchor.mjs",
+    "passed": true,
+    "seconds": 0.08,
+    "output": "Secrets anchor passed: constant text/head position and size through early writing, full reveal, sideways motion, short/long parallax and transformed cutouts.\n"
+  },
+  {
+    "check": "check-nursery-motion.mjs",
+    "passed": true,
+    "seconds": 0.12,
+    "output": "Nursery passed: ordered post-chapter timing, held/faded ending, continuous lateral passage, director initialization, preserved settings/keys and finite rendering at stage boundaries.\n"
+  },
+  {
+    "check": "check-player-layout.mjs",
+    "passed": true,
+    "seconds": 0.07,
+    "output": "Player layout passed: picture preserves 16:9 and reserves tabs plus measured transport height at short and narrow sizes.\n"
+  },
+  {
+    "check": "check-portrait-room.mjs",
+    "passed": true,
+    "seconds": 1.77,
+    "output": "History editor: initialization, source replacement routing, speed/duration persistence and plain-language search passed in a DOM harness.\nPerspective room: actual alpha assets, three geometric room surfaces, near/far parallax, continuous focus camera, opaque coverage, exact asset hashes, flat recovery, and editor replacement/toggle passed.\nPerspective mesh: uniform-texture render remains seamless throughout camera travel.\nCustom room surfaces round-trip without cross-instance mutation.\n(node:509) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  },
+  {
+    "check": "check-precision-motion.mjs",
+    "passed": true,
+    "seconds": 0.34,
+    "output": "Precision passed: phased glass transmission/light, pale-to-solid names, masonry depth, delayed title, sideways exit, sequential laundry clocks, fade/disable behavior, preserved tracks/settings, stage-specific failures and finite rendering.\n"
+  },
+  {
+    "check": "check-reference-staging.mjs",
+    "passed": true,
+    "seconds": 0.9,
+    "output": "Reference staging: color/mother/boy timing, dark interior closure with open sky, grayscale road material, finite particles and actual quick-edit source/slider/scene/preview controls passed.\n"
+  },
+  {
+    "check": "check-route-parallax.mjs",
+    "passed": true,
+    "seconds": 1.14,
+    "output": "Route endpoints, delayed visibility, shrink, independent parallax, image replacement and rejected-asset exclusion passed.\n"
+  },
+  {
+    "check": "check-ruined-window.mjs",
+    "passed": true,
+    "seconds": 2.41,
+    "output": "History editor: initialization, source replacement routing, speed/duration persistence and plain-language search passed in a DOM harness.\nRuined window: alpha layers, opposite continuous motion, depth pullback, default overscan, bottom-edge protection, scoped replacements, native dispatch, original recovery and exact source provenance passed.\n(node:577) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  },
+  {
+    "check": "check-scene-framing.mjs",
+    "passed": true,
+    "seconds": 0.06,
+    "output": "Scene framing checks passed: panel remains behind board; foreground and background move oppositely; faces remain visible before exiting.\n"
+  },
+  {
+    "check": "check-shared-effects-media.mjs",
+    "passed": true,
+    "seconds": 0.07,
+    "output": "Shared effects/media passed: isolated reusable presets, compatible media, general prompt constraints, video trim/play/scrub/hold and calibrated pane geometry.\n"
+  },
+  {
+    "check": "check-shoe-paper.mjs",
+    "passed": true,
+    "seconds": 3.59,
+    "output": "History editor: initialization, source replacement routing, speed/duration persistence and plain-language search passed in a DOM harness.\nShoe/paper: depth visibility, sealed join, large zoom, continuous pose, exact print handoff, actual folding, cache replacement, timeline edits, recovery and native controls passed.\n(node:613) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  },
+  {
+    "check": "check-shoe-restoration.mjs",
+    "passed": true,
+    "seconds": 0.12,
+    "output": "Shoe restoration: exact original face prefix/materials, 60 local seals, no source mutation, original spike proportions, unchanged pose/fold/exit and retained rejected implementation passed.\n"
+  },
+  {
+    "check": "check-spatial-passage.mjs",
+    "passed": true,
+    "seconds": 0.62,
+    "output": "Spatial passage: continuous monotonic camera, zero-speed endpoints, no legacy-stage velocity reset, full opaque coverage and no scene crossfade passed.\n"
+  },
+  {
+    "check": "check-texture-cloud-fire.mjs",
+    "passed": true,
+    "seconds": 0.45,
+    "output": "Texture replacement, solid color, alpha confinement, fire aspect ratio, textured full cloud coverage, moving sky reveal and asset descriptions passed.\n"
+  },
+  {
+    "check": "check-transcript-context.mjs",
+    "passed": true,
+    "seconds": 0.14,
+    "output": "Transcript context passed: unchanged DOCX hash;667 ordered source segments;33 valid scene/effect/asset cue mappings; raw text preserved; existing user narration retained; empty contexts receive attached transcript; repeat load is idempotent.\nV52 source-context migration retains previous scene metadata and custom narration.\nV59 continuation source-context migration replaces flat-boy evidence and preserves custom narration/intent.\n"
+  },
+  {
+    "check": "check-v59-fidelity.mjs",
+    "passed": true,
+    "seconds": 18.76,
+    "output": "{\"village\":{\"start\":99.2,\"age\":-99.2,\"end\":119.2,\"previousEnd\":99.2,\"windowTime\":2.3,\"boysAt\":2.3,\"boysExitAt\":4.8,\"townAt\":6,\"craftAt\":8.8,\"craftHoldAt\":10.5,\"clothAt\":15,\"seamstressAt\":17,\"exitAt\":20,\"window\":0,\"boysExit\":0,\"town\":0,\"craft\":0,\"cloth\":0,\"craftHold\":0,\"seamstressHold\":0,\"alpha\":0},\"laundry\":{\"start\":119.2,\"previousEnd\":119.2,\"age\":-119.2,\"pull\":0,\"titleAt\":7,\"exitAt\":11,\"recede\":0,\"end\":130.2,\"title\":0,\"alpha\":0,\"mapScale\":2.7}}\nV59 fidelity integration: 10 exact shared-render comparisons, linked retiming/inverse, flat-boy bypass prevention, reversible vase overlap and new sources passed.\n"
+  },
+  {
+    "check": "check-v61-corrections.mjs",
+    "passed": true,
+    "seconds": 0.75,
+    "output": "V61 correction checks passed: cue timings, delayed collapse, persistent smoke, varied facades/road, shared projection, animated torch, original-arm mode and preserved engine.\n"
+  },
+  {
+    "check": "check-village-motion.mjs",
+    "passed": true,
+    "seconds": 0.31,
+    "output": "Village passed: post-nursery timing, ordered boundaries, extension/disable behavior, custom settings and keyframe preservation, director/renderer parity, stage-specific missing assets and finite rendering.\n"
+  },
+  {
+    "check": "check-visibility.mjs",
+    "passed": true,
+    "seconds": 0.1,
+    "output": "Visibility regressions passed: missing master, ready individual sheets, bundled fallback, quadrant layout and foreground contrast settings.\nStandalone cutout delivery passed: four unique viewports with embedded original pixels and no external image dependencies.\n"
+  },
+  {
+    "check": "check-walking-v64.mjs",
+    "passed": true,
+    "seconds": 0.39,
+    "output": "V64: young source binding, adult retention, both hand trajectories and opaque masonry attachment passed.\n"
+  },
+  {
+    "check": "check-hybrid-v64.mjs",
+    "passed": true,
+    "seconds": 0.79,
+    "output": "V64 hybrid: shared projection, persistent support-bound failure, 2.5x character approach with visible head, wall progression, transform-bound masonry mounts, foot bounds and tap controls passed.\n"
+  },
+  {
+    "check": "check-animation-library.mjs",
+    "passed": true,
+    "seconds": 1.14,
+    "output": "Animation library passed: exact catalog/default/hash parity; isolated presets; speed/pause/reverse/slow-fast clock; continuous cloud velocity; four opaque passage directions; actual UI search/add/import/export; future-action clock and scoped content bindings.\n(node:63) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  }
+]

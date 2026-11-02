@@ -1,0 +1,2399 @@
+{
+  "schema": "motion-model-scene-v1",
+  "camera": {
+    "position": [
+      0,
+      1.3,
+      8
+    ],
+    "target": [
+      1.5,
+      1.8,
+      -4
+    ],
+    "fov": 48
+  },
+  "lights": {
+    "ambient": 0.4,
+    "direction": [
+      -0.3,
+      0.8,
+      0.5
+    ],
+    "intensity": 0.38
+  },
+  "nodes": [
+    {
+      "id": "ground",
+      "name": "ground",
+      "geometry": {
+        "kind": "heightfield",
+        "columns": 32,
+        "rows": 64,
+        "amplitude": 0.08,
+        "repeatX": 6,
+        "repeatY": 16
+      },
+      "position": [
+        0,
+        -0.16,
+        -35
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        38,
+        125,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-0",
+      "name": "rubble-0",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.6,
+        0.1,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.25,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-1",
+      "name": "rubble-1",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.7537795958248292,
+        0.22,
+        3.05
+      ],
+      "rotation": [
+        17,
+        31,
+        7
+      ],
+      "scale": [
+        0.65,
+        0.45,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-2",
+      "name": "rubble-2",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.501788347648809,
+        0.33999999999999997,
+        2.1
+      ],
+      "rotation": [
+        34,
+        62,
+        14
+      ],
+      "scale": [
+        0.9,
+        0.65,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-3",
+      "name": "rubble-3",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.485215186216813,
+        0.1,
+        1.1500000000000004
+      ],
+      "rotation": [
+        51,
+        93,
+        21
+      ],
+      "scale": [
+        1.15,
+        0.25,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-4",
+      "name": "rubble-4",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.8205339303841956,
+        0.22,
+        0.20000000000000018
+      ],
+      "rotation": [
+        68,
+        124,
+        28
+      ],
+      "scale": [
+        1.4,
+        0.45,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-5",
+      "name": "rubble-5",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.54543533402477,
+        0.33999999999999997,
+        -0.75
+      ],
+      "rotation": [
+        85,
+        155,
+        35
+      ],
+      "scale": [
+        0.4,
+        0.65,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-6",
+      "name": "rubble-6",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.371947740499139,
+        0.1,
+        -1.6999999999999993
+      ],
+      "rotation": [
+        102,
+        186,
+        42
+      ],
+      "scale": [
+        0.65,
+        0.25,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-7",
+      "name": "rubble-7",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.897592214422629,
+        0.22,
+        -2.6499999999999995
+      ],
+      "rotation": [
+        119,
+        217,
+        49
+      ],
+      "scale": [
+        0.9,
+        0.45,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-8",
+      "name": "rubble-8",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.57658438329063,
+        0.33999999999999997,
+        -3.5999999999999996
+      ],
+      "rotation": [
+        136,
+        248,
+        56
+      ],
+      "scale": [
+        1.15,
+        0.65,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-9",
+      "name": "rubble-9",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.261694972459022,
+        0.1,
+        -4.549999999999999
+      ],
+      "rotation": [
+        153,
+        279,
+        63
+      ],
+      "scale": [
+        1.4,
+        0.25,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-10",
+      "name": "rubble-10",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.9839357959466355,
+        0.22,
+        -5.5
+      ],
+      "rotation": [
+        170,
+        310,
+        70
+      ],
+      "scale": [
+        0.4,
+        0.45,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-11",
+      "name": "rubble-11",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.594823728671067,
+        0.33999999999999997,
+        -6.449999999999999
+      ],
+      "rotation": [
+        187,
+        341,
+        77
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-12",
+      "name": "rubble-12",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.1559143399590903,
+        0.1,
+        -7.399999999999999
+      ],
+      "rotation": [
+        204,
+        372,
+        84
+      ],
+      "scale": [
+        0.9,
+        0.25,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-13",
+      "name": "rubble-13",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.0784232783816297,
+        0.22,
+        -8.35
+      ],
+      "rotation": [
+        221,
+        403,
+        91
+      ],
+      "scale": [
+        1.15,
+        0.45,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-14",
+      "name": "rubble-14",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.599912259871926,
+        0.33999999999999997,
+        -9.299999999999999
+      ],
+      "rotation": [
+        238,
+        434,
+        98
+      ],
+      "scale": [
+        1.4,
+        0.65,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-15",
+      "name": "rubble-15",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.056004182626468,
+        0.1,
+        -10.25
+      ],
+      "rotation": [
+        255,
+        465,
+        105
+      ],
+      "scale": [
+        0.4,
+        0.25,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-16",
+      "name": "rubble-16",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.1798056089678233,
+        0.22,
+        -11.2
+      ],
+      "rotation": [
+        272,
+        496,
+        112
+      ],
+      "scale": [
+        0.65,
+        0.45,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-17",
+      "name": "rubble-17",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.591782710375187,
+        0.33999999999999997,
+        -12.149999999999999
+      ],
+      "rotation": [
+        289,
+        527,
+        119
+      ],
+      "scale": [
+        0.9,
+        0.65,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-18",
+      "name": "rubble-18",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.963285236864868,
+        0.1,
+        -13.099999999999998
+      ],
+      "rotation": [
+        306,
+        558,
+        126
+      ],
+      "scale": [
+        1.15,
+        0.25,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-19",
+      "name": "rubble-19",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.286742590289125,
+        0.22,
+        -14.05
+      ],
+      "rotation": [
+        323,
+        589,
+        133
+      ],
+      "scale": [
+        1.4,
+        0.45,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-20",
+      "name": "rubble-20",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.570542546651256,
+        0.33999999999999997,
+        -15
+      ],
+      "rotation": [
+        340,
+        620,
+        140
+      ],
+      "scale": [
+        0.4,
+        0.65,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-21",
+      "name": "rubble-21",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.878983176722363,
+        0.1,
+        -15.95
+      ],
+      "rotation": [
+        357,
+        651,
+        147
+      ],
+      "scale": [
+        0.65,
+        0.25,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-22",
+      "name": "rubble-22",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.397820596665174,
+        0.22,
+        -16.9
+      ],
+      "rotation": [
+        374,
+        682,
+        154
+      ],
+      "scale": [
+        0.9,
+        0.45,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-23",
+      "name": "rubble-23",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.536472547533837,
+        0.33999999999999997,
+        -17.849999999999998
+      ],
+      "rotation": [
+        391,
+        713,
+        161
+      ],
+      "scale": [
+        1.15,
+        0.65,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-24",
+      "name": "rubble-24",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.804212411411296,
+        0.1,
+        -18.799999999999997
+      ],
+      "rotation": [
+        408,
+        744,
+        168
+      ],
+      "scale": [
+        1.4,
+        0.25,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-25",
+      "name": "rubble-25",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.511571261209265,
+        0.22,
+        -19.75
+      ],
+      "rotation": [
+        425,
+        775,
+        175
+      ],
+      "scale": [
+        0.4,
+        0.45,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-26",
+      "name": "rubble-26",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.490023092536985,
+        0.33999999999999997,
+        -20.7
+      ],
+      "rotation": [
+        442,
+        806,
+        182
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-27",
+      "name": "rubble-27",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.7399613536648295,
+        0.1,
+        -21.65
+      ],
+      "rotation": [
+        459,
+        837,
+        189
+      ],
+      "scale": [
+        0.9,
+        0.25,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-28",
+      "name": "rubble-28",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.626490886523446,
+        0.22,
+        -22.599999999999998
+      ],
+      "rotation": [
+        476,
+        868,
+        196
+      ],
+      "scale": [
+        1.15,
+        0.45,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-29",
+      "name": "rubble-29",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.431808208179977,
+        0.33999999999999997,
+        -23.549999999999997
+      ],
+      "rotation": [
+        493,
+        899,
+        203
+      ],
+      "scale": [
+        1.4,
+        0.65,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-30",
+      "name": "rubble-30",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.687079353671257,
+        0.1,
+        -24.5
+      ],
+      "rotation": [
+        510,
+        930,
+        210
+      ],
+      "scale": [
+        0.4,
+        0.25,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-31",
+      "name": "rubble-31",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.7410603224361463,
+        0.22,
+        -25.45
+      ],
+      "rotation": [
+        527,
+        961,
+        217
+      ],
+      "scale": [
+        0.65,
+        0.45,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-32",
+      "name": "rubble-32",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.362597451023033,
+        0.33999999999999997,
+        -26.4
+      ],
+      "rotation": [
+        544,
+        992,
+        224
+      ],
+      "scale": [
+        0.9,
+        0.65,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-33",
+      "name": "rubble-33",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.6462654713095475,
+        0.1,
+        -27.349999999999998
+      ],
+      "rotation": [
+        561,
+        1023,
+        231
+      ],
+      "scale": [
+        1.15,
+        0.25,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-34",
+      "name": "rubble-34",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.853765048013733,
+        0.22,
+        -28.299999999999997
+      ],
+      "rotation": [
+        578,
+        1054,
+        238
+      ],
+      "scale": [
+        1.4,
+        0.45,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-35",
+      "name": "rubble-35",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.283305734714038,
+        0.33999999999999997,
+        -29.25
+      ],
+      "rotation": [
+        595,
+        1085,
+        245
+      ],
+      "scale": [
+        0.4,
+        0.65,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-36",
+      "name": "rubble-36",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.618059235108642,
+        0.1,
+        -30.199999999999996
+      ],
+      "rotation": [
+        612,
+        1116,
+        252
+      ],
+      "scale": [
+        0.65,
+        0.25,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-37",
+      "name": "rubble-37",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.9631151923770593,
+        0.22,
+        -31.15
+      ],
+      "rotation": [
+        629,
+        1147,
+        259
+      ],
+      "scale": [
+        0.9,
+        0.45,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-38",
+      "name": "rubble-38",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.194981235524936,
+        0.33999999999999997,
+        -32.1
+      ],
+      "rotation": [
+        646,
+        1178,
+        266
+      ],
+      "scale": [
+        1.15,
+        0.65,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-39",
+      "name": "rubble-39",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.602833510090045,
+        0.1,
+        -33.05
+      ],
+      "rotation": [
+        663,
+        1209,
+        273
+      ],
+      "scale": [
+        1.4,
+        0.25,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-40",
+      "name": "rubble-40",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.067665229663012,
+        0.22,
+        -34
+      ],
+      "rotation": [
+        680,
+        1240,
+        280
+      ],
+      "scale": [
+        0.4,
+        0.45,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-41",
+      "name": "rubble-41",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.098791536257446,
+        0.33999999999999997,
+        -34.949999999999996
+      ],
+      "rotation": [
+        697,
+        1271,
+        287
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-42",
+      "name": "rubble-42",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -2.600789568775408,
+        0.1,
+        -35.9
+      ],
+      "rotation": [
+        714,
+        1302,
+        294
+      ],
+      "scale": [
+        0.9,
+        0.25,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-43",
+      "name": "rubble-43",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        4.166033087778627,
+        0.22,
+        -36.85
+      ],
+      "rotation": [
+        731,
+        1333,
+        301
+      ],
+      "scale": [
+        1.15,
+        0.45,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-44",
+      "name": "rubble-44",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -3.996008191685143,
+        0.33999999999999997,
+        -37.8
+      ],
+      "rotation": [
+        748,
+        1364,
+        308
+      ],
+      "scale": [
+        1.4,
+        0.65,
+        0.6
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-45",
+      "name": "rubble-45",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        2.6119544305166498,
+        0.1,
+        -38.75
+      ],
+      "rotation": [
+        765,
+        1395,
+        315
+      ],
+      "scale": [
+        0.4,
+        0.25,
+        0.8
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-46",
+      "name": "rubble-46",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        -4.256918418344548,
+        0.22,
+        -39.699999999999996
+      ],
+      "rotation": [
+        782,
+        1426,
+        322
+      ],
+      "scale": [
+        0.65,
+        0.45,
+        1
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "rubble-47",
+      "name": "rubble-47",
+      "geometry": {
+        "kind": "sphere",
+        "segments": 8
+      },
+      "position": [
+        3.8879899195650225,
+        0.33999999999999997,
+        -40.65
+      ],
+      "rotation": [
+        799,
+        1457,
+        329
+      ],
+      "scale": [
+        0.9,
+        0.65,
+        1.2000000000000002
+      ],
+      "material": {
+        "color": "#666666",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "ruin-left",
+      "name": "ruin-left",
+      "geometry": {
+        "kind": "plane"
+      },
+      "position": [
+        2.3,
+        3.4,
+        -6
+      ],
+      "rotation": [
+        0,
+        -12,
+        0
+      ],
+      "scale": [
+        3.5,
+        7,
+        1
+      ],
+      "material": {
+        "textureSlot": "salvageFacade",
+        "color": "#999999"
+      }
+    },
+    {
+      "id": "ruin-right",
+      "name": "ruin-right",
+      "geometry": {
+        "kind": "plane"
+      },
+      "position": [
+        6,
+        3.6,
+        -5
+      ],
+      "rotation": [
+        0,
+        -8,
+        0
+      ],
+      "scale": [
+        4,
+        8,
+        1
+      ],
+      "material": {
+        "textureSlot": "salvageFacade",
+        "color": "#999999"
+      }
+    },
+    {
+      "id": "right-wall-depth",
+      "name": "right-wall-depth",
+      "geometry": {
+        "kind": "box"
+      },
+      "position": [
+        6.3,
+        3,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        6,
+        3
+      ],
+      "material": {
+        "color": "#37393b"
+      }
+    },
+    {
+      "id": "helmet",
+      "name": "Salvage helmet",
+      "children": [
+        {
+          "id": "dome",
+          "name": "dome",
+          "geometry": {
+            "kind": "hemisphere"
+          },
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            0.75,
+            1.1
+          ],
+          "material": {
+            "color": "#77764f"
+          }
+        },
+        {
+          "id": "brim",
+          "name": "brim",
+          "geometry": {
+            "kind": "torus",
+            "segments": 24,
+            "tube": 0.035
+          },
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            90,
+            0,
+            0
+          ],
+          "scale": [
+            1.16,
+            1.3,
+            0.8
+          ],
+          "material": {
+            "color": "#686741"
+          }
+        }
+      ],
+      "position": [
+        0.7,
+        0.14,
+        0.5
+      ],
+      "scale": [
+        0.66,
+        0.55,
+        0.66
+      ]
+    },
+    {
+      "id": "cable-0-0",
+      "name": "cable-0-0",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        2.645833333333333,
+        3.5585889527835968,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -105.8525033936928
+      ],
+      "scale": [
+        0.038,
+        0.3031978624111343,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-1",
+      "name": "cable-0-1",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        2.9375,
+        3.4785889527835967,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -104.8213438866929
+      ],
+      "scale": [
+        0.038,
+        0.30170494452723673,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-2",
+      "name": "cable-0-2",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.2291666666666665,
+        3.4068629150101524,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -102.80170531326517
+      ],
+      "scale": [
+        0.038,
+        0.2991015045949153,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-3",
+      "name": "cable-0-3",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.520833333333333,
+        3.3482988504046425,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -99.89046355356709
+      ],
+      "scale": [
+        0.038,
+        0.2960668330190764,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-4",
+      "name": "cable-0-4",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.8125,
+        3.306887803188239,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -96.25493824928641
+      ],
+      "scale": [
+        0.038,
+        0.2934133707122169,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-5",
+      "name": "cable-0-5",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.104166666666667,
+        3.285451867793749,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -92.14096194242039
+      ],
+      "scale": [
+        0.038,
+        0.29187040941864323,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-6",
+      "name": "cable-0-6",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.395833333333334,
+        3.285451867793749,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -87.85903805757964
+      ],
+      "scale": [
+        0.038,
+        0.2918704094186437,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-7",
+      "name": "cable-0-7",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.6875,
+        3.306887803188239,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -83.7450617507136
+      ],
+      "scale": [
+        0.038,
+        0.293413370712216,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-8",
+      "name": "cable-0-8",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.979166666666666,
+        3.3482988504046425,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -80.10953644643294
+      ],
+      "scale": [
+        0.038,
+        0.29606683301907677,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-9",
+      "name": "cable-0-9",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.270833333333334,
+        3.4068629150101524,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -77.19829468673484
+      ],
+      "scale": [
+        0.038,
+        0.2991015045949153,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-10",
+      "name": "cable-0-10",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.5625,
+        3.4785889527835967,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -75.1786561133071
+      ],
+      "scale": [
+        0.038,
+        0.30170494452723634,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-0-11",
+      "name": "cable-0-11",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.854166666666666,
+        3.5585889527835968,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -74.14749660630723
+      ],
+      "scale": [
+        0.038,
+        0.30319786241113467,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-0",
+      "name": "cable-1-0",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        2.645833333333333,
+        3.6885889527835967,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -105.8525033936928
+      ],
+      "scale": [
+        0.038,
+        0.3031978624111343,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-1",
+      "name": "cable-1-1",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        2.9375,
+        3.6085889527835966,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -104.8213438866929
+      ],
+      "scale": [
+        0.038,
+        0.30170494452723673,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-2",
+      "name": "cable-1-2",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.2291666666666665,
+        3.5368629150101523,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -102.80170531326517
+      ],
+      "scale": [
+        0.038,
+        0.2991015045949153,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-3",
+      "name": "cable-1-3",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.520833333333333,
+        3.4782988504046424,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -99.89046355356709
+      ],
+      "scale": [
+        0.038,
+        0.2960668330190764,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-4",
+      "name": "cable-1-4",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.8125,
+        3.436887803188239,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -96.25493824928641
+      ],
+      "scale": [
+        0.038,
+        0.2934133707122169,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-5",
+      "name": "cable-1-5",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.104166666666667,
+        3.415451867793749,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -92.14096194242039
+      ],
+      "scale": [
+        0.038,
+        0.29187040941864323,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-6",
+      "name": "cable-1-6",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.395833333333334,
+        3.415451867793749,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -87.85903805757964
+      ],
+      "scale": [
+        0.038,
+        0.2918704094186437,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-7",
+      "name": "cable-1-7",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.6875,
+        3.436887803188239,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -83.7450617507136
+      ],
+      "scale": [
+        0.038,
+        0.293413370712216,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-8",
+      "name": "cable-1-8",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.979166666666666,
+        3.4782988504046424,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -80.10953644643294
+      ],
+      "scale": [
+        0.038,
+        0.29606683301907677,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-9",
+      "name": "cable-1-9",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.270833333333334,
+        3.5368629150101523,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -77.19829468673484
+      ],
+      "scale": [
+        0.038,
+        0.2991015045949153,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-10",
+      "name": "cable-1-10",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.5625,
+        3.6085889527835966,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -75.1786561133071
+      ],
+      "scale": [
+        0.038,
+        0.30170494452723634,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-1-11",
+      "name": "cable-1-11",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.854166666666666,
+        3.6885889527835967,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -74.14749660630723
+      ],
+      "scale": [
+        0.038,
+        0.30319786241113467,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-0",
+      "name": "cable-2-0",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        2.645833333333333,
+        3.818588952783597,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -105.8525033936928
+      ],
+      "scale": [
+        0.038,
+        0.3031978624111343,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-1",
+      "name": "cable-2-1",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        2.9375,
+        3.738588952783597,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -104.8213438866929
+      ],
+      "scale": [
+        0.038,
+        0.30170494452723673,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-2",
+      "name": "cable-2-2",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.2291666666666665,
+        3.6668629150101526,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -102.80170531326517
+      ],
+      "scale": [
+        0.038,
+        0.2991015045949153,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-3",
+      "name": "cable-2-3",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.520833333333333,
+        3.6082988504046423,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -99.89046355356709
+      ],
+      "scale": [
+        0.038,
+        0.2960668330190764,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-4",
+      "name": "cable-2-4",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        3.8125,
+        3.566887803188239,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -96.25493824928641
+      ],
+      "scale": [
+        0.038,
+        0.2934133707122169,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-5",
+      "name": "cable-2-5",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.104166666666667,
+        3.5454518677937497,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -92.14096194242039
+      ],
+      "scale": [
+        0.038,
+        0.29187040941864323,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-6",
+      "name": "cable-2-6",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.395833333333334,
+        3.5454518677937497,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -87.85903805757964
+      ],
+      "scale": [
+        0.038,
+        0.2918704094186437,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-7",
+      "name": "cable-2-7",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.6875,
+        3.566887803188239,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -83.7450617507136
+      ],
+      "scale": [
+        0.038,
+        0.293413370712216,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-8",
+      "name": "cable-2-8",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        4.979166666666666,
+        3.6082988504046423,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -80.10953644643294
+      ],
+      "scale": [
+        0.038,
+        0.29606683301907677,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-9",
+      "name": "cable-2-9",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.270833333333334,
+        3.6668629150101526,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -77.19829468673484
+      ],
+      "scale": [
+        0.038,
+        0.2991015045949153,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-10",
+      "name": "cable-2-10",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.5625,
+        3.738588952783597,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -75.1786561133071
+      ],
+      "scale": [
+        0.038,
+        0.30170494452723634,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    },
+    {
+      "id": "cable-2-11",
+      "name": "cable-2-11",
+      "geometry": {
+        "kind": "cylinder"
+      },
+      "position": [
+        5.854166666666666,
+        3.818588952783597,
+        -5.9
+      ],
+      "rotation": [
+        0,
+        0,
+        -74.14749660630723
+      ],
+      "scale": [
+        0.038,
+        0.30319786241113467,
+        0.038
+      ],
+      "material": {
+        "color": "#989894"
+      }
+    }
+  ]
+}

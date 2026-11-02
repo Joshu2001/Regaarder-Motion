@@ -1,0 +1,11 @@
+# V72 feedback ledger
+
+Joshua approved the next analyzed minute and necessary asset creation/implementation with “Go ahead.” Earlier instructions remain: make the story more dramatic, expose reusable editable object/path animation, preserve earlier work, and show comparisons for feedback. The interpretation gate was satisfied by the preceding frame analysis and the current approval. No further approval requested for this implementation.
+
+Created eight raster assets using the built-in image generation tool: field, kicking player, library, workshop, seated brother atlas, desk, street and leather boot. Downloaded five original archival photographs with exact license/author metadata; one portrait is retained inactive. Existing imagery and fire remain intact. Full prompt summaries, hashes, retention/selection decisions and archive credits are distributed.
+
+Added the complete approved source interval plus lead-in as 24 editable stages, 25 library actions (whole sequence + stages), missing-only defaults and reversible endpoint extension. Each source, layer and effect remains separately adjustable; original assets and user settings are retained. Whole-object preset menu includes float, pulse, spin, shake, fade and follow-path. Existing dashed/dotted/solid/arrow animation is preserved and regression checked.
+
+The straight horizontal extended-arm pose was blocked by the image tool's safety filter. No output existed and no retry was made. Workshop figures use seated shoe-design/sales cutouts; street figures use retained open-arm cutouts. Those poses differ from the original. Other gaps: planar people do not perform an articulated kick/hand action; boot proxy/photo crossfade is not a full photographed 3D scan; rear political subject is an archive card; roundel/photo/rally imagery differs; the room and street are illustrative; the fire wipe is visually different. No exact-match claim.
+
+Preview is silent. No new score, narration recording or audio mix was created. Source audio is not included in the side-by-side. Native browser/GPU performance could not be verified; CPU Canvas and actual director/library VM checks passed. Review and acceptance of V72 are pending Joshua's feedback. No deployment or publication was performed.

@@ -1,0 +1,9 @@
+{
+  "inputPNG": "../Motionclone-v48/eye-frames/0089.png",
+  "encodedReview": "Motionclone-v48-eye-review.mp4",
+  "frame": 89,
+  "timeSeconds": 2.966666666666667,
+  "meanAbsoluteRGBError": 1.6837223508230452,
+  "psnrDB": 41.36517931843062,
+  "interpretation": "This isolates the old review encode from its already enlarged PNG. It does not reconstruct missing source eye detail or measure changes introduced by uploaded screenshots. V49 exports use CRF16 and high-quality image interpolation."
+}

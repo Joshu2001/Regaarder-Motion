@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "created": "2026-10-28",
+  "approval": "Joshua authorized the correction and new footage implementation, then approved a broad-to-fine, verify-and-repeat analysis approach and said go ahead.",
+  "referenceUse": "User-provided video frames and annotated screenshots informed observations. New assets generated from textual specifications. The linen and seamstress assets use generated project assets as edit targets; no original reference-video pixels are production assets.",
+  "observed": "Window brightens during forward approach; panes transmit progressively clearer boys; names fade from pale to solid; near masonry moves faster than buildings; clouds move; boys enlarge then accelerate to image-left; town title drops after clearance; close boy face overlaps workshop entrance. New clip shows blouse isolated during rapid pullback, repeated garments over red/black aerial, foreground clouds, then THE LAUNDRY BOYS written left to right.",
+  "inferred": "Layered image planes, masked pane transmission, independent image-space motion curves, foreground occlusion and garment-to-aerial compositing. Physical camera depth and original software cannot be uniquely recovered.",
+  "permission": "Generated illustrations for the user-authorized template. Source/video/reference owner and wider reuse rights not independently verified. Fictional illustrative characters and architecture, not archival evidence or a geographically accurate map.",
+  "assets": [
+    {
+      "file": "assets/precision-architecture-v39.png",
+      "prompt": "Use case: historical-scene. Asset type: 16:9 foreground architecture plate with genuine transparent sky for a cinematic documentary parallax animation. Empty early-1900s Bavarian town square inspired by Herzogenaurach, tall half-timbered plaster buildings strongly framing both sides, narrow stone gate tower with pointed roof centered in distance, central cobbled street to the archway. Perspective from low street level, mild wide-angle lens. Buildings at left and right tall and close, dramatic receding street, gate tower visible centered. Opaque detailed stone and timber and pavement fill bottom and side edges; all SKY above and between roof silhouettes must be genuinely transparent alpha so a separately animated blue sky/cloud layer can be placed behind. NO sky color, NO clouds, NO people, NO signage, NO lettering, NO labels, NO watermark. Realistic cinematic photographic illustration, cool diffuse daylight, muted charcoal timber and cream plaster, peripheral softness, period textures. Entire lower pavement opaque. Original illustrative architecture, no archival claim. Wide 16:9.",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackground": true,
+      "modelVersion": "Not exposed",
+      "sha256": "8a37d3b77769d7d10e90d958503ee5b27e213560339e302a28e798415cca6bfb",
+      "bytes": 2912854,
+      "generationOutput": "exec-14bb83c2-8cc6-4301-988e-076e89092d33.png",
+      "modifications": "Copied final generated PNG byte-for-byte; runtime canvas transforms and compositing only."
+    },
+    {
+      "file": "assets/precision-clouds-v39.png",
+      "prompt": "Use case: historical-scene. Asset type: genuinely transparent cloud sprite for cinematic parallax. A broad bank of soft natural white cumulus clouds, irregular billowing tops with pale blue-gray shaded undersides, fine wispy dissolving outer edges and transparent gaps, horizontal cloud cluster in wide 16:9 composition. Realistic photographic cloud texture, cool daylight, gentle volume, no horizon, no land, no sky background, no text or watermark. All empty space genuinely transparent alpha. Cloud interiors dense white; edges naturally translucent. Usable both over a blue sky and as low foreground mist at screen edges.",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackground": true,
+      "modelVersion": "Not exposed",
+      "sha256": "9adda31cd93ce578f5cefc23104c89f1d211066b9b15da8b572eb5d2085a898c",
+      "bytes": 1272249,
+      "generationOutput": "exec-2e122af5-610c-4694-bf11-ff1b428aa8bd.png",
+      "modifications": "Copied final generated PNG byte-for-byte; runtime canvas transforms and compositing only."
+    },
+    {
+      "file": "assets/precision-masonry-v39.png",
+      "prompt": "Use case: historical-scene. Asset type: genuine transparent foreground masonry cutout for a cinematic parallax window passage. One tall narrow ragged fragment of an old Bavarian plaster-and-stone wall, viewed close-up, left edge cropped straight vertically by image border, right edge irregular exposed gray-beige limestone and bricks with broken mortar, bits of dark aged timber, subtle worn cream plaster. It fills the left third of a wide image; the remaining right two-thirds must be empty genuine transparent alpha. Wall extends fully from top to bottom of image, opaque solid masonry, cool window daylight, realistic rough textures, softly dark edges. No rubble on ground, no whole building, no background, no sky, no people, no window frame, no text or watermark. It will slide left faster than a distant town; original illustrative period environment.",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackground": true,
+      "modelVersion": "Not exposed",
+      "sha256": "89de885d20bb31e2b8566297c651910a3b8cf53ac88a5e8e122739cd718aaab2",
+      "bytes": 1547862,
+      "generationOutput": "exec-6efd84de-a98b-49ac-82f4-68046710560c.png",
+      "modifications": "Copied final generated PNG byte-for-byte; runtime canvas transforms and compositing only."
+    },
+    {
+      "file": "assets/precision-face-v39.png",
+      "prompt": "Use case: historical-scene. Asset type: genuine transparent close foreground face/shoulder cutout for a cinematic passage between an old Bavarian town and a workshop. Fictional European boy about 9, pale skin, blue-gray eyes, light brown hair under a gray-brown wool flat cap, worn dark brown high-collar jacket. Tight portrait, head and shoulders, turned very slightly left, calm serious expression, realistic anatomy and skin, cinematic cool daylight from upper left, photographic period illustration around 1905. Face fully visible, head with cap and broad shoulders occupy central 75% of composition; leave transparent margins around head and outer shoulders. Transparent alpha background, opaque figure, no environment, no lettering, no logos, no watermark. Original illustrative identity, no archival claim. This is a moving near-camera foreground character, not a baby.",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackground": true,
+      "modelVersion": "Not exposed",
+      "sha256": "ff0edacca540c0c6c178ce4ceaf9c2f104211ef0dd3fd44226821ff5dcdb4a39",
+      "bytes": 2289868,
+      "generationOutput": "exec-f17879e8-04bf-4fc1-9d38-93069cb61871.png",
+      "modifications": "Copied final generated PNG byte-for-byte; runtime canvas transforms and compositing only."
+    },
+    {
+      "file": "assets/precision-aerial-v39.png",
+      "prompt": "Use case: stylized-concept. Asset type: widescreen 16:9 aerial town background plate for documentary motion graphics. Bird's-eye high oblique aerial view of a dense small Bavarian town, winding river diagonally through center, tightly packed rectangular roofs, narrow streets and squares, surrounding outskirts. Dark charcoal almost-black ground and buildings with rich brick red and burnt-orange roof edges, cinematic duotone red/black appearance, very detailed architectural texture, no text, no labels, no pins, no laundry, no people, no clouds, no watermark. Original illustrative map-like aerial town, not a geographically accurate map. Strong perspective depth and crisp central detail, subtly softer edges, fill the full frame with the town so it can recede in a slow camera pullback.",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackground": false,
+      "modelVersion": "Not exposed",
+      "sha256": "0096c88cfaf558ccf9c12a3cab2892e59bd00beb5b3be44803990a45c9c12c3c",
+      "bytes": 3407627,
+      "generationOutput": "exec-59a25c5d-05d9-4108-a91e-adc54b5efefd.png",
+      "modifications": "Copied final generated PNG byte-for-byte; runtime canvas transforms and compositing only."
+    },
+    {
+      "file": "assets/precision-linen-v39.png",
+      "prompt": "Use case: precise-object-edit. Edit target: this generated isolated linen shirt. Change garment into a woman's early-1900s cream blouse with SHORT PUFF SLEEVES, softly gathered shoulders, small high gathered collar, tiny front buttons and a lightly gathered waist, matching a period blouse held on a hanger. Preserve the realistic ivory linen fabric, wooden hanger, centered front view and genuine transparent alpha outside garment. Entire blouse and hanger contained with generous clear transparent margins. No person, hands, backdrop, text, labels or watermark. Output a fully isolated transparent cutout; no opaque gradient background. The short rounded puff sleeves must stop above the elbows, not long cuffs.",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackground": true,
+      "modelVersion": "Not exposed",
+      "sha256": "ad234a89586c7dbf8302b1f12409106d8b51bdba44540d05dc6f92204b29391a",
+      "bytes": 2234410,
+      "generationOutput": "exec-f079edb6-e426-4918-af0e-580c864619df.png",
+      "modifications": "Copied final generated PNG byte-for-byte; runtime canvas transforms and compositing only.",
+      "editParent": {
+        "generatedFile": "exec-f25f0367-f283-42db-9da5-0b767226234d.png",
+        "sha256": "92e6631e35ca849f14a0df1e5527e4f035939a118ae57d18b07736b0118af75a",
+        "exactPrompt": "Use case: historical-scene. Asset type: isolated genuinely transparent laundry cutout for a small documentary map marker. One early-1900s cream linen long-sleeved shirt hanging naturally from a simple wooden hanger, front view, fully contained centered in frame with generous transparent margins on all sides, crisp recognizable silhouette, slightly loose sleeves, little collar and small buttons, soft folds, neutral ivory cloth, natural photographic texture, diffuse soft daylight. Shirt fills central 65% of image height. No person, hands, washing line, peg, background, text, labels or watermark. Real transparent alpha surrounding the hanger and shirt. Original illustrative garment. Portrait composition.",
+        "status": "Intermediate generation; long-sleeve variant superseded before distribution."
+      }
+    },
+    {
+      "file": "assets/precision-seamstress-v39.png",
+      "prompt": "Use case: precise-object-edit. Edit target: this generated historical woman and blouse room plate. Keep the woman identity, face, hair, body, room, lighting, camera and hanger location unchanged. Change ONLY the garment hanging at the right: make it a cream linen early-1900s woman's blouse with SHORT PUFF SLEEVES ending above the elbows, small high gathered collar, fine vertical front buttons, softly gathered waist and a short flared hem. Remove its long hanging sleeves completely. The woman's hands should gently support the lower left side/hem of this short-sleeved blouse with coherent fingers, preserving the existing overall pose as closely as possible. This must visually connect to a separately isolated cream puff-sleeved blouse on a hanger. No text, watermark or new objects. Keep the full 16:9 image opaque.",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackground": false,
+      "modelVersion": "Not exposed",
+      "sha256": "df051bed25243bf7264dedf1ac92fcb864664bb881f66425ac66d53e7bc26a35",
+      "bytes": 2115785,
+      "generationOutput": "exec-8e7fdc9c-f980-429d-9a20-5bd62ee85e94.png",
+      "modifications": "Copied final generated PNG byte-for-byte; runtime canvas transforms and compositing only.",
+      "editParent": {
+        "file": "assets/village-seamstress-v38.png",
+        "sha256": "3efc3d1136061d665c94e0c3baa2b00328fbdf522c96c2ef8bac95436732cc9e",
+        "status": "Preserved v38 project asset. New sibling corrects garment shape; original retained."
+      }
+    }
+  ],
+  "modifications": "Final generated PNGs copied byte-for-byte. Runtime canvas transforms, masking, focus, grading, opacity and compositing only. All v38 production assets remain available.",
+  "limits": "Pixel tracking measures image changes rather than physical camera parameters. Fixed-region flow mixes layers. No exact source identities, anatomy animation, frame-perfect match or real-time browser performance claim.",
+  "sources": [
+    {
+      "filename": "Nazi_Brothers_cut_01-14_to_01-45.mp4",
+      "sha256": "9b32d3e63d0c7afa1b5ea1478a2c7b00b77e745fa1dcbe4be6d143d9a0159821",
+      "originalOffsetSeconds": 74,
+      "offsetStatus": "User supplied"
+    },
+    {
+      "filename": "The Nazi Brothers Who Started Rival Shoe Companies - MagnatesMedia (1080p, h264)_01-44.0_to_01-56.0.webm",
+      "sha256": "ac59f87218a7c8ce02bf7a05dacd86fa754c1ab241a61cc292ac373d7cdfd8f1",
+      "originalOffsetSeconds": 104,
+      "offsetStatus": "Nominal filename offset; unrelated opening fragment excluded"
+    },
+    {
+      "filename": "The Nazi Brothers Who Started Rival Shoe Companies - MagnatesMedia (1080p, h264)_01-50.0_to_02-06.0.webm",
+      "sha256": "6ab3ba4e73c4f593f92d1264bc595ec15a80b8e0f7315d05528e5730f7519108",
+      "originalOffsetSeconds": 110,
+      "offsetStatus": "Nominal filename offset; unrelated opening fragment excluded"
+    }
+  ]
+}

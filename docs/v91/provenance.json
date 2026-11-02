@@ -1,0 +1,105 @@
+{
+  "assets": [
+    {
+      "path": "assets/humanoid-v91/garments.json",
+      "sha256": "034b7be57cdd2747c24ff4821995ad6f081337c493267cb08f0b09548fdace79",
+      "active": true,
+      "bytes": 5220725
+    },
+    {
+      "path": "assets/humanoid-v91/candidates/4887bf3cee3c2e3b854f8e322eee26f923e479e059d8b9c738be94f5d3cf0668/garments.json",
+      "sha256": "4887bf3cee3c2e3b854f8e322eee26f923e479e059d8b9c738be94f5d3cf0668",
+      "active": false,
+      "bytes": 5254831
+    },
+    {
+      "path": "assets/humanoid-v91/candidates/30393cad28acbed3bda78f980e89f14e27fa7f97174de5aac3b790fd40125301/garments.json",
+      "sha256": "30393cad28acbed3bda78f980e89f14e27fa7f97174de5aac3b790fd40125301",
+      "active": false,
+      "bytes": 5290390
+    },
+    {
+      "path": "assets/archive/v91-ring-garment-candidate/study-60.png",
+      "sha256": "205cf18d0a69122e1f3a1bdecffc0ab90794a6cac1e861cf57334d3eb5df6110",
+      "active": false,
+      "bytes": 193319
+    },
+    {
+      "path": "assets/archive/v91-ring-garment-candidate/study-116.png",
+      "sha256": "3d9cb43e8608f1fdaa7447c8b5221ef234e5026d0ad114cd38dbdc8ddf659cfa",
+      "active": false,
+      "bytes": 238952
+    },
+    {
+      "path": "assets/archive/v91-ring-garment-candidate/study-132.png",
+      "sha256": "6aecd0b6b5c1cd2db9474024e64666e69cfd09ed2f70a166e28c7e54ff0abff9",
+      "active": false,
+      "bytes": 196044
+    },
+    {
+      "path": "assets/archive/v91-ring-garment-candidate/study-0.png",
+      "sha256": "cfb466c2d66595de736d29796cb08a00a51ec565be18c16cea3979d266c24f6a",
+      "active": false,
+      "bytes": 189369
+    },
+    {
+      "path": "assets/archive/v91-ring-garment-candidate/wardrobe.js",
+      "sha256": "03cf78626b4ed2d5d869e0e4bf649ee3ba067d9c5fa48873a55cfa2473f0bd5b",
+      "active": false,
+      "bytes": 3203
+    },
+    {
+      "path": "assets/archive/v91-ring-garment-candidate/study-115.png",
+      "sha256": "afca5b74be0f5e62c4060cbec08d4bd737b0f7ed12c16aa2267e3cf79027d84e",
+      "active": false,
+      "bytes": 206922
+    },
+    {
+      "path": "assets/archive/v91-ring-garment-candidate/study-147.png",
+      "sha256": "d247bef2bbd461a6e73b2e032da28685bc715e92ff53dad5ae748a88f969e61d",
+      "active": false,
+      "bytes": 183815
+    }
+  ],
+  "nativeModules": [
+    {
+      "path": "dist/native3d/checkpoint.js",
+      "sha256": "078223f84bfe98cf963549f84679caba32fba178e38be0d38e0f65cfe31cc31a"
+    },
+    {
+      "path": "dist/native3d/editor.js",
+      "sha256": "41fb16f82ef70742bea3f23dfb28b54ab8923033b61187005f17ac11eba43b23"
+    },
+    {
+      "path": "dist/native3d/engine.js",
+      "sha256": "e8ca9280dbda91b63f44db2e2877d4954e29b3d9f754914fb1d98b7d20eae348"
+    },
+    {
+      "path": "dist/native3d/export.js",
+      "sha256": "123ba20803d17068e6cbbbea7e7f2a048d81ba9de597bf13aa40462ee2aa5143"
+    },
+    {
+      "path": "dist/native3d/editor.css",
+      "sha256": "54d407fac9279684e093cc1163dd0871f77ef382ff7d6b98068298dda10fe498"
+    },
+    {
+      "path": "dist/native3d/wardrobe.js",
+      "sha256": "b53f769d092a1413fda507ff622319146fe0450f26d9502838e6bc809e6ec75e"
+    },
+    {
+      "path": "dist/native3d/atmosphere.js",
+      "sha256": "3eb69b99990b5b925a925aef8e8c93118982d0f121d2a48de895f0fabd25b1a4"
+    },
+    {
+      "path": "dist/native3d/lab.js",
+      "sha256": "fe6ef44372154c2301b3a3e0effc46571cc64567b15319268b293312e142ee67"
+    },
+    {
+      "path": "dist/native3d/scene.js",
+      "sha256": "a86dbdadcd2466c1060940ff0b6dc7eeaad7f861790d7f5e5fcfd743b9a80f6f"
+    }
+  ],
+  "originalModel": "Unmodified CC0 source assets and prior candidates retained under assets/humanoid-v89",
+  "runtime": "Local bundled Three.js r170 MIT; native JSON+mesh data; no external authoring app or API dependency",
+  "reference": "User supplied documentary only for diagnostic comparison; not a video texture"
+}

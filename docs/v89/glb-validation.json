@@ -1,0 +1,14 @@
+{
+  "bytes": 10208776,
+  "meshes": 12,
+  "skins": 4,
+  "nodes": 183,
+  "animations": 1,
+  "jointCounts": [
+    163,
+    163,
+    163,
+    163
+  ],
+  "sceneExtras": true
+}

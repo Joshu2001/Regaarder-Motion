@@ -1,0 +1,297 @@
+{
+  "schema": "regaarder-sequence-effects-v1",
+  "scope": "Reusable sequence recipes; integrated in the next-chapter editor. General effect-stack adapters are not yet implemented for every recipe.",
+  "effects": [
+    {
+      "id": "eye-portal-push",
+      "name": "Parallax approach through an iris",
+      "aliases": [
+        "eye zoom",
+        "go into eye",
+        "iris reveal",
+        "zoom through object",
+        "iris reflection",
+        "keep eye white",
+        "boys parallax",
+        "woman reveal"
+      ],
+      "description": "Separate depth layers reframe toward a foreground eye, then a feathered iris reflection expands to the replaceable destination without removing the source eye white.",
+      "parameters": [
+        "historyEyeX",
+        "historyEyeY",
+        "historyIrisRadius",
+        "historyIrisEndZoom",
+        "historyIrisRevealAt",
+        "historyIrisBlur",
+        "historyEyeRearDepth",
+        "historyEyeLandDepth",
+        "historyEyeSkyDepth"
+      ],
+      "instances": [
+        "war-hold",
+        "eye-portal"
+      ],
+      "sources": [
+        "warFront",
+        "warRear",
+        "warLandscape",
+        "warSky",
+        "historyWorkshop"
+      ]
+    },
+    {
+      "id": "number-reel-wipe",
+      "name": "Metal number wheels",
+      "aliases": [
+        "numbers",
+        "clock",
+        "date transition",
+        "spinning digits",
+        "chrome wipe"
+      ],
+      "description": "Reflective numbered reels cross between replaceable source and destination scenes. Both occurrences share one renderer.",
+      "parameters": [
+        "historyReelCount",
+        "historyReelColor"
+      ],
+      "instances": [
+        "number-reel-1",
+        "number-reel-2"
+      ],
+      "sources": [
+        "historyWorkshop",
+        "historyStreet",
+        "historyPortrait"
+      ]
+    },
+    {
+      "id": "portrait-push-in",
+      "name": "Move closer to a portrait",
+      "aliases": [
+        "face zoom",
+        "slow push",
+        "black and white portrait",
+        "color portrait"
+      ],
+      "description": "Keep source artwork intact while changing framing and optional monochrome grade.",
+      "parameters": [
+        "historyPush",
+        "historySourceTransforms"
+      ],
+      "instances": [
+        "portrait-mono",
+        "portrait-color"
+      ],
+      "sources": [
+        "historyPortrait"
+      ]
+    },
+    {
+      "id": "cutout-strip-scroll",
+      "name": "Scrolling shoe or image row",
+      "aliases": [
+        "shoes",
+        "repeated pictures",
+        "white border",
+        "blue selection",
+        "shoe row"
+      ],
+      "description": "Scroll reusable cutouts across a paper field and highlight the selected object.",
+      "parameters": [
+        "historyOutline",
+        "historySelectedOutline",
+        "historyOutlineWidth"
+      ],
+      "instances": [
+        "shoe-strip"
+      ],
+      "sources": [
+        "historyShoe"
+      ]
+    },
+    {
+      "id": "product-focus-turn",
+      "name": "Enlarge and turn a product",
+      "aliases": [
+        "3d shoe",
+        "spikes",
+        "rotate shoe",
+        "show underside"
+      ],
+      "description": "An editable procedural shoe mesh changes orientation and reveals spikes. An image replacement keeps framing but cannot reveal unseen geometry.",
+      "parameters": [
+        "historyShoeSize",
+        "historyShoeYaw",
+        "historyShoePitch",
+        "historyShoeRoll",
+        "historySpikeLength",
+        "historyShoeColor"
+      ],
+      "instances": [
+        "shoe-turn"
+      ],
+      "sources": [
+        "historyShoe"
+      ]
+    },
+    {
+      "id": "picture-card-flip",
+      "name": "Flip a picture card",
+      "aliases": [
+        "photo flip",
+        "paper frame",
+        "turn photograph",
+        "picture reveal"
+      ],
+      "description": "A framed card turns edge-on and reveals another image, followed by a camera push.",
+      "parameters": [
+        "historyShots"
+      ],
+      "instances": [
+        "photo-flip",
+        "photo-card"
+      ],
+      "sources": [
+        "historyShoe",
+        "historyWorkshop",
+        "historyPortrait"
+      ]
+    },
+    {
+      "id": "ruined-street-fire",
+      "name": "Street and fiery overlay",
+      "aliases": [
+        "war street",
+        "fire ending",
+        "dark transition",
+        "small figure"
+      ],
+      "description": "Separate ruined-street source, replaceable foreground figure and independently placed fiery overlay.",
+      "parameters": [
+        "historyFinalFire",
+        "historyFinalFireX",
+        "historyFinalFireY",
+        "historyFinalFireSize",
+        "historyFigureX",
+        "historyFigureY",
+        "historyFigureHeight"
+      ],
+      "instances": [
+        "ruined-street"
+      ],
+      "sources": [
+        "historyStreet",
+        "historyFigure",
+        "historyFinalOverlay"
+      ]
+    },
+    {
+      "id": "spatial-occlusion-pass",
+      "name": "Smooth sideways passage through a dark wall",
+      "aliases": [
+        "sideways camera",
+        "parallax room reveal",
+        "dark wall",
+        "no fade",
+        "continuous move",
+        "shoulder to boy"
+      ],
+      "description": "A single smooth camera track moves opaque source and destination scenes past a textured foreground wall. No scene crossfade. Legacy stage IDs remain compatible.",
+      "parameters": [
+        "historyPassageStart",
+        "historyPassageEnd",
+        "historyPassageWallWidth",
+        "historyPassageDepth",
+        "historyPassageWallLight",
+        "historyPassageSoftness"
+      ],
+      "instances": [
+        "over-shoulder",
+        "portrait-dissolve",
+        "portrait-mono"
+      ],
+      "sources": [
+        "historyShoulder",
+        "historyPortrait"
+      ]
+    },
+    {
+      "id": "focus-reveal",
+      "name": "Focus reveal \u00b7 any picture or area",
+      "aliases": [
+        "eye",
+        "hand",
+        "face",
+        "body part",
+        "object",
+        "portal",
+        "slow motion",
+        "speed ramp",
+        "earlier reflection"
+      ],
+      "description": "A content-independent picture-to-picture reveal. Tap a focus area, choose round/oval/box masking, set onset and completion, and optionally slow down then accelerate. The template iris is one preset, not a required subject.",
+      "parameters": [
+        "historyRevealSourceMode",
+        "historyEyeX",
+        "historyEyeY",
+        "historyRevealShape",
+        "historyIrisRadius",
+        "historyRevealStart",
+        "historyRevealFinish",
+        "historyRevealSlowEnabled",
+        "historyRevealSlowStart",
+        "historyRevealSlowEnd",
+        "historyRevealSlowSpeed",
+        "historyRevealFastSpeed",
+        "historyRevealContentX",
+        "historyRevealContentY",
+        "historyRevealContentScale"
+      ],
+      "instances": [
+        "war-hold",
+        "eye-portal"
+      ],
+      "sources": [
+        "focusRevealSource",
+        "historyWorkshop"
+      ],
+      "api": [
+        "focusRevealState",
+        "paintFocusReveal"
+      ]
+    },
+    {
+      "id": "aftermath-video-pair",
+      "name": "Two-shot aftermath footage",
+      "aliases": [
+        "battlefield",
+        "convoy",
+        "war footage",
+        "crop video",
+        "restore stills"
+      ],
+      "description": "Replaceable generated aftermath videos; reversible crop/trim/speed, original still fallback retained.",
+      "instances": [
+        "ruins-wide",
+        "ruins-close"
+      ],
+      "parameters": [
+        "historyAftermathMode",
+        "historyAftermathAIn",
+        "historyAftermathAOut",
+        "historyAftermathARate",
+        "historyAftermathAX",
+        "historyAftermathAY",
+        "historyAftermathAWidth",
+        "historyAftermathAHeight",
+        "historyAftermathBIn",
+        "historyAftermathBOut",
+        "historyAftermathBRate",
+        "historyAftermathBX",
+        "historyAftermathBY",
+        "historyAftermathBWidth",
+        "historyAftermathBHeight"
+      ]
+    }
+  ]
+}

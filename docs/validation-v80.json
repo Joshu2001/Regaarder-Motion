@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "stages": 17,
+  "checks": [
+    "source/local inverse and custom duration at four rates",
+    "deterministic all stage renders",
+    "exact535 incoming frame",
+    "independent layer visibility",
+    "lens inverse-sampling math and movement",
+    "foreground text growth",
+    "nonmutation",
+    "invalid settings rejection",
+    "actual director duration605, playhead/settings preserved, disabling restores545",
+    "all previous assets and opening core byte preservation"
+  ],
+  "nativeBrowser": "not verified"
+}

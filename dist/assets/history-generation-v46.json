@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-28",
+  "tool": "image_gen.imagegen",
+  "assets": [
+    {
+      "key": "workshop",
+      "prompt": "Use case: historical-scene. Asset: 16:9 cinematic documentary illustration, not archival evidence. Early twentieth century European workshop, older worker in a dark cap and apron seated center-right on a low stool, hands resting by knees, looking down. Strong large left window, folded pale cloth on sill, large dark round tub low left foreground, plain plaster wall, shelves at far right. Warm muted brown and cream, diagonal window light with restrained suspended dust. Wide composition, seated body visible. No text, logos, insignia or symbols.",
+      "output": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-9ce4f346-11cc-4158-a120-c048b333399e.png"
+    },
+    {
+      "key": "portrait",
+      "prompt": "Use case: historical-scene. Asset: 16:9 cinematic documentary portrait illustration, not archival evidence. A dusty blond adolescent European boy with short tousled hair, simple off-white open-collar shirt and dark brown work vest, seated center-right in an early twentieth century cobbler workshop. Looks directly toward camera, solemn quiet expression, chest and forearms visible. Face at x58 percent y43 percent. Bright left window, folded pale cloth on sill behind left shoulder, black round tub low left, indistinct brown shelves right. Warm natural sunlight on left side of face, soft deep shadow right. Photographic illustrated realism, subtle grain, no body deformation, no writing or emblems.",
+      "output": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-9a7a5ea5-7796-44c4-8ec1-11c4f82e7a68.png"
+    },
+    {
+      "key": "shoulder",
+      "prompt": "Use case: historical-scene. Asset: 16:9 cinematic monochrome documentary illustration, not archival footage. Close over-the-shoulder view of a young blond man occupying left third, seen from behind with only side cheek and ear visible, dark coat and soft hair detail. Looks toward devastated early twentieth century European city across middle and right. Damaged multistory masonry buildings, empty windows, rubble and hazy industrial chimneys, deep perspective. Foreground head dark and sharp, background lighter softer. No text, symbols, flags or logos.",
+      "output": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-c90a2ca0-414a-45f4-928e-1b8f06a4016d.png"
+    },
+    {
+      "key": "street",
+      "prompt": "Use case: historical-scene. Asset: 16:9 cinematic documentary background illustration, not archival evidence. Broad empty cobblestone street between tall damaged early twentieth century European masonry buildings, ruins and broken windows, distant smoke haze, centered vanishing point, eye-level wide camera. Buildings flank both sides, open central roadway for separate foreground character and fire effects. Neutral desaturated gray-brown daylight, photographic illustrated realism with subtle film texture. NO people, NO fire or explosion, no red light, no text, symbols or logos.",
+      "output": "/workspace/scratch/24b9f14cbd4b/generated_images/exec-dc27593f-0512-451e-9122-cc513b7d723e.png"
+    }
+  ],
+  "note": "Generated illustrations, not archival footage. Original files retained unchanged; reference interpretation approved in conversation."
+}

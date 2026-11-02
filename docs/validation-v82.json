@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "stages": 18,
+  "checks": [
+    "clock inverse at four speeds and custom durations",
+    "deterministic all-stage renders",
+    "exact595 incoming endpoint",
+    "17 independent object visibility controls",
+    "photo folder depth ordering and prisoner push",
+    "invalid imports and nonmutation",
+    "actual director665, playhead/custom settings and disabling605",
+    "actual library adapter isolated news/camp/writer source replacements",
+    "all V81 production assets, prior shelter and opening renderers preserved"
+  ],
+  "nativeBrowser": "not verified"
+}

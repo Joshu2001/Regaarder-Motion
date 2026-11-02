@@ -1,0 +1,142 @@
+[
+  {
+    "frame": 38,
+    "pts": 2.442,
+    "meanAbsoluteDifference": 30.72
+  },
+  {
+    "frame": 39,
+    "pts": 2.541,
+    "meanAbsoluteDifference": 40.61
+  },
+  {
+    "frame": 40,
+    "pts": 2.606,
+    "meanAbsoluteDifference": 28.41
+  },
+  {
+    "frame": 41,
+    "pts": 2.741,
+    "meanAbsoluteDifference": 24.11
+  },
+  {
+    "frame": 44,
+    "pts": 3.036,
+    "meanAbsoluteDifference": 32.05
+  },
+  {
+    "frame": 45,
+    "pts": 3.142,
+    "meanAbsoluteDifference": 40.93
+  },
+  {
+    "frame": 46,
+    "pts": 3.267,
+    "meanAbsoluteDifference": 33.49
+  },
+  {
+    "frame": 97,
+    "pts": 6.914,
+    "meanAbsoluteDifference": 34.46
+  },
+  {
+    "frame": 98,
+    "pts": 6.983,
+    "meanAbsoluteDifference": 49.48
+  },
+  {
+    "frame": 99,
+    "pts": 7.054,
+    "meanAbsoluteDifference": 51.18
+  },
+  {
+    "frame": 100,
+    "pts": 7.087,
+    "meanAbsoluteDifference": 45.89
+  },
+  {
+    "frame": 101,
+    "pts": 7.185,
+    "meanAbsoluteDifference": 45.01
+  },
+  {
+    "frame": 102,
+    "pts": 7.221,
+    "meanAbsoluteDifference": 29.7
+  },
+  {
+    "frame": 128,
+    "pts": 9.415,
+    "meanAbsoluteDifference": 40.97
+  },
+  {
+    "frame": 129,
+    "pts": 9.491,
+    "meanAbsoluteDifference": 26.37
+  },
+  {
+    "frame": 154,
+    "pts": 11.758,
+    "meanAbsoluteDifference": 45.38
+  },
+  {
+    "frame": 361,
+    "pts": 25.253,
+    "meanAbsoluteDifference": 28.35
+  },
+  {
+    "frame": 362,
+    "pts": 25.32,
+    "meanAbsoluteDifference": 46.68
+  },
+  {
+    "frame": 363,
+    "pts": 25.366,
+    "meanAbsoluteDifference": 23.35
+  },
+  {
+    "frame": 364,
+    "pts": 25.496,
+    "meanAbsoluteDifference": 56.71
+  },
+  {
+    "frame": 365,
+    "pts": 25.536,
+    "meanAbsoluteDifference": 44.99
+  },
+  {
+    "frame": 366,
+    "pts": 25.593,
+    "meanAbsoluteDifference": 49.77
+  },
+  {
+    "frame": 535,
+    "pts": 39.181,
+    "meanAbsoluteDifference": 23.94
+  },
+  {
+    "frame": 544,
+    "pts": 40.18,
+    "meanAbsoluteDifference": 22.98
+  },
+  {
+    "frame": 686,
+    "pts": 50.915,
+    "meanAbsoluteDifference": 74.49
+  },
+  {
+    "frame": 688,
+    "pts": 51.027,
+    "meanAbsoluteDifference": 23.06
+  },
+  {
+    "frame": 691,
+    "pts": 51.181,
+    "meanAbsoluteDifference": 40.2
+  },
+  {
+    "frame": 692,
+    "pts": 51.235,
+    "meanAbsoluteDifference": 45.67
+  }
+]

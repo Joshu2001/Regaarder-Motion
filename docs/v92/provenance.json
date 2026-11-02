@@ -1,0 +1,214 @@
+{
+  "assets": [
+    {
+      "path": "assets/humanoid-v91/garments.json",
+      "sha256": "ee0284b3905a323b1106a49e51d03d079c494c8d0bfb802460b18a907c84f1be",
+      "bytes": 6154117,
+      "active": true
+    },
+    {
+      "path": "assets/humanoid-v91/candidates/034b7be57cdd2747c24ff4821995ad6f081337c493267cb08f0b09548fdace79/garments.json",
+      "sha256": "034b7be57cdd2747c24ff4821995ad6f081337c493267cb08f0b09548fdace79",
+      "bytes": 5220725,
+      "active": false
+    },
+    {
+      "path": "assets/humanoid-v91/candidates/35f56986832235b87324513e62b12d079392ab51251b75c0152e341a2523e1dc/garments.json",
+      "sha256": "35f56986832235b87324513e62b12d079392ab51251b75c0152e341a2523e1dc",
+      "bytes": 6204267,
+      "active": false
+    },
+    {
+      "path": "assets/humanoid-v91/candidates/4887bf3cee3c2e3b854f8e322eee26f923e479e059d8b9c738be94f5d3cf0668/garments.json",
+      "sha256": "4887bf3cee3c2e3b854f8e322eee26f923e479e059d8b9c738be94f5d3cf0668",
+      "bytes": 5254831,
+      "active": false
+    },
+    {
+      "path": "assets/humanoid-v91/candidates/30393cad28acbed3bda78f980e89f14e27fa7f97174de5aac3b790fd40125301/garments.json",
+      "sha256": "30393cad28acbed3bda78f980e89f14e27fa7f97174de5aac3b790fd40125301",
+      "bytes": 5290390,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-initial-study/study-60.png",
+      "sha256": "5401c524bf97623eaf5293a4d58fc319e66f468be61ebde165aa80168e44bb0f",
+      "bytes": 262960,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-initial-study/study-116.png",
+      "sha256": "5f70b0ade4b20b0bc4cb0406e7beae9462b3832da627bdf8e30f4953a1dd2fd1",
+      "bytes": 292417,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-initial-study/study-80.png",
+      "sha256": "e4332f0c150442d7b41a73add87f4c9b37b088aaae2b9224cb6bdfd722714e2a",
+      "bytes": 265080,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-initial-study/study-132.png",
+      "sha256": "02ccd779c727d7b4b837914547b9a42ab9c9b9e4ccd3c2790e1c8e8ca73f50f6",
+      "bytes": 222286,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-initial-study/study-20.png",
+      "sha256": "e80d7e946d06b80de6d8714c3e07048c8a22d10f5a69eab7f950db096a87f94a",
+      "bytes": 259710,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-initial-study/study-0.png",
+      "sha256": "7b34541e72e86f7ded1a33d20cf3827e5572ab20371eef2d5a346550094071fb",
+      "bytes": 264710,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-initial-study/study-115.png",
+      "sha256": "3a0af95e5edf514c7190f13d5f0e14cf5bcf3a237ccd18aee571f224977db10e",
+      "bytes": 278188,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-initial-study/study-147.png",
+      "sha256": "2357e512b75f1562cc6e10667301f473eabedd5f3d489cdeafae2a417d4df1dd",
+      "bytes": 201056,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-light-layer-test/study-20.png",
+      "sha256": "1e2b25f4ec410841619ed14b98acd04df186787d427eda7be986f0d63cca61f9",
+      "bytes": 237488,
+      "active": false
+    },
+    {
+      "path": "assets/archive/v92-light-layer-test/study-147.png",
+      "sha256": "7d367d4e501698f290e776505d19e5e156651d25f6c68bb8ee7cf84b9b5c2f78",
+      "bytes": 199268,
+      "active": false
+    }
+  ],
+  "nativeModules": [
+    {
+      "path": "dist/native3d/checkpoint.js",
+      "sha256": "8a215f6a3258eed7589d3392b04e429c55a413bbc044c152fffe34ad0de17964"
+    },
+    {
+      "path": "dist/native3d/editor.js",
+      "sha256": "de4cd2424dc7ed530ab8b36f98cf53d85cee0ea3be0c7a1e5a4d2f18ff3f6d5d"
+    },
+    {
+      "path": "dist/native3d/engine.js",
+      "sha256": "90498472dbce37bc205f56af7f1542f89ce086952095a98ad819012c86e5f20a"
+    },
+    {
+      "path": "dist/native3d/export.js",
+      "sha256": "3fabe815dd9619dbd5a4c7d742c5f6042c6982e4f8ceedce89af7a3205d6d5f5"
+    },
+    {
+      "path": "dist/native3d/editor.css",
+      "sha256": "54d407fac9279684e093cc1163dd0871f77ef382ff7d6b98068298dda10fe498"
+    },
+    {
+      "path": "dist/native3d/wardrobe.js",
+      "sha256": "b53f769d092a1413fda507ff622319146fe0450f26d9502838e6bc809e6ec75e"
+    },
+    {
+      "path": "dist/native3d/atmosphere.js",
+      "sha256": "914e9c9591d249b7d56d2d9650480de4b21b5482c10ed467e2582ec1e1c5b79b"
+    },
+    {
+      "path": "dist/native3d/lab.js",
+      "sha256": "fe6ef44372154c2301b3a3e0effc46571cc64567b15319268b293312e142ee67"
+    },
+    {
+      "path": "dist/native3d/scene.js",
+      "sha256": "8891b39006fecb4aa71a5774becf37b2b534a924816d3e2a571e4e1efc01e4eb"
+    }
+  ],
+  "reference": "User documentary retained unchanged; used for diagnostic comparison only, never as a character texture",
+  "originalSources": "See docs/v89/provenance.json for exact MakeHuman graphical sources and licenses; original bytes retained.",
+  "runtime": "Bundled Three.js r170 MIT and project-authored JS/geometry; no external authoring application dependency",
+  "sourceAssetRecords": [
+    {
+      "path": "assets/humanoid-v89/base-original.obj",
+      "bytes": 1749303,
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/3dobjs/base.obj"
+    },
+    {
+      "path": "assets/humanoid-v89/caucasian-male-young.target",
+      "bytes": 396479,
+      "sha256": "70e228ba7164737dae664454394536fc5935fa48d333c1a97d77e2dc6eacc5f5",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/targets/macrodetails/caucasian-male-young.target"
+    },
+    {
+      "path": "assets/humanoid-v89/LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/LICENSE.ASSETS.md"
+    },
+    {
+      "path": "assets/humanoid-v89/default.mhskel",
+      "bytes": 117790,
+      "sha256": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/rigs/default.mhskel"
+    },
+    {
+      "path": "assets/humanoid-v89/LICENSE.md",
+      "bytes": 3598,
+      "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/LICENSE.md"
+    },
+    {
+      "path": "assets/humanoid-v89/humanoid.json",
+      "bytes": 10591470,
+      "sha256": "0ed1eeafb1ed3b15c8c249a37fe704d205bab3c8d4baaedb6ee8e84dad2d2ad5",
+      "active": true,
+      "source": "Project source scripts/v89/build_humanoid.py and dist/native3d"
+    },
+    {
+      "path": "assets/humanoid-v89/default_weights.mhw",
+      "bytes": 897521,
+      "sha256": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/rigs/default_weights.mhw"
+    },
+    {
+      "path": "assets/humanoid-v89/vendor-originals/GLTFExporter.js",
+      "bytes": 81884,
+      "sha256": "76526d2be01c3fdf17c8efcf7c1c67dfd1ef30ede3196865eb69fa49196f80aa",
+      "active": false,
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r170/examples/jsm/exporters/GLTFExporter.js"
+    },
+    {
+      "path": "assets/humanoid-v89/vendor-originals/BufferGeometryUtils.js",
+      "bytes": 31768,
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6",
+      "active": false,
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r170/examples/jsm/utils/BufferGeometryUtils.js"
+    },
+    {
+      "path": "assets/humanoid-v89/candidates/100169ac1394/humanoid.json",
+      "bytes": 10591470,
+      "sha256": "100169ac13945881cc16eee7943d8922f8aa719da3cf8354f369a914632a1515",
+      "active": false,
+      "source": "Project source scripts/v89/build_humanoid.py and dist/native3d"
+    },
+    {
+      "path": "assets/humanoid-v89/candidates/127b55537268/humanoid.json",
+      "bytes": 10591970,
+      "sha256": "127b555372681673ef7558a6f7848e4853b204e689251aea12fba0f6d08d1779",
+      "active": false,
+      "source": "Project source scripts/v89/build_humanoid.py and dist/native3d"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "note": "Head positions sampled from factory pose. Times use original source seconds; positions use world XYZ. Other joints retain authored poses.",
+  "checkpointJointKeys": {
+    "red": {
+      "head": [
+        {
+          "time": 895,
+          "position": [
+            0.857070714025747,
+            1.8100000000000003,
+            0.2452817715289119
+          ],
+          "ease": "smooth"
+        },
+        {
+          "time": 895.9,
+          "position": [
+            1.6022331755437196,
+            1.81,
+            -0.135223989666933
+          ],
+          "ease": "smooth"
+        },
+        {
+          "time": 898.3,
+          "position": [
+            1.6022331755437196,
+            1.81,
+            -0.135223989666933
+          ],
+          "ease": "smooth"
+        }
+      ]
+    },
+    "coach": {},
+    "blue": {}
+  }
+}

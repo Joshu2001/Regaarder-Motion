@@ -1,0 +1,16 @@
+[
+  {
+    "file": "Motionclone-v80-08m55-09m55.mp4",
+    "frames": 1440,
+    "seconds": 60,
+    "fullDecode": "passed",
+    "sha256": "d6d90cad410ea1c4aaacfe01a4fe55551208f79c42f47e132e68035e888f0175"
+  },
+  {
+    "file": "Motionclone-v80-comparison.mp4",
+    "frames": 1440,
+    "seconds": 60,
+    "fullDecode": "passed",
+    "sha256": "17e8cd3b6aedfeb839681a651cddbca8f6a5d8031bb2a5c8530e60b3535ab256"
+  }
+]

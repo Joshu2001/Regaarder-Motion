@@ -1,0 +1,572 @@
+{
+  "schema": "motion-factory-v72",
+  "defaults": {
+    "continuationEnabled": true,
+    "continuationRate": 1,
+    "continuationSceneDurations": {},
+    "continuationSourceBindings": {},
+    "continuationFullSources": {},
+    "continuationLayerEdits": {},
+    "continuationCameraX": 0,
+    "continuationCameraY": 0,
+    "continuationCameraZoom": 0,
+    "continuationCloudWind": 13,
+    "continuationDust": 0.25,
+    "continuationTeamCount": 10,
+    "continuationForegroundBlur": 9,
+    "continuationFocusStrength": 1,
+    "continuationBallSpin": 0.45,
+    "continuationBallColor": "#714731",
+    "continuationBootColor": "#795337",
+    "continuationBootSpin": 1,
+    "continuationCoinCount": 48,
+    "continuationFireStrength": 0.72,
+    "continuationMaskSeed": 37,
+    "continuationMaskEdge": 6,
+    "continuationRed": "#a50b25",
+    "continuationEyeWidth": 4,
+    "continuationVignette": 0.2,
+    "continuationLetterbox": 16,
+    "continuationClipSource": 286.35
+  },
+  "sources": {
+    "contBoot": "leather-boot-v72.png",
+    "contField": "football-field-v72.png",
+    "contKicker": "football-kicker-v72.png",
+    "contLibrary": "library-clean-v72.png",
+    "contWorkshop": "workshop-clean-v72.png",
+    "contSeatedA": "brothers-seated-v72.png",
+    "contSeatedB": "brothers-seated-v72.png",
+    "contDeskA": "writing-desk-v72.png",
+    "contDeskB": "writing-desk-v72.png",
+    "contStreet": "factory-street-v72.png",
+    "contTeam": "athletics-team-v65.png",
+    "contOpenA": "older-brothers-poses-v65.png",
+    "contOpenB": "older-brothers-poses-v65.png",
+    "contSky": "war-sky-v43.png",
+    "contPortrait": "political-portrait-close-v72.jpg",
+    "contRally": "political-rally-v72.jpg",
+    "contParade": "political-parade-v72.jpg",
+    "contYouth": "political-youth-v72.jpg",
+    "contMoneyPaper": "commerce-money-v67.png"
+  },
+  "layers": [
+    {
+      "id": "contBoot",
+      "slot": "contBoot",
+      "file": "leather-boot-v72.png",
+      "label": "Boot",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contField",
+      "slot": "contField",
+      "file": "football-field-v72.png",
+      "label": "Field",
+      "depth": 5,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contKicker",
+      "slot": "contKicker",
+      "file": "football-kicker-v72.png",
+      "label": "Kicker",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contLibrary",
+      "slot": "contLibrary",
+      "file": "library-clean-v72.png",
+      "label": "Library",
+      "depth": 5,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contWorkshop",
+      "slot": "contWorkshop",
+      "file": "workshop-clean-v72.png",
+      "label": "Workshop",
+      "depth": 5,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contSeatedA",
+      "slot": "contSeatedA",
+      "file": "brothers-seated-v72.png",
+      "label": "Seated A",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contSeatedB",
+      "slot": "contSeatedB",
+      "file": "brothers-seated-v72.png",
+      "label": "Seated B",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contDeskA",
+      "slot": "contDeskA",
+      "file": "writing-desk-v72.png",
+      "label": "Desk A",
+      "depth": 1.3,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contDeskB",
+      "slot": "contDeskB",
+      "file": "writing-desk-v72.png",
+      "label": "Desk B",
+      "depth": 1.3,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contStreet",
+      "slot": "contStreet",
+      "file": "factory-street-v72.png",
+      "label": "Street",
+      "depth": 5,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contTeam",
+      "slot": "contTeam",
+      "file": "athletics-team-v65.png",
+      "label": "Team",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contOpenA",
+      "slot": "contOpenA",
+      "file": "older-brothers-poses-v65.png",
+      "label": "Open A",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contOpenB",
+      "slot": "contOpenB",
+      "file": "older-brothers-poses-v65.png",
+      "label": "Open B",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contSky",
+      "slot": "contSky",
+      "file": "war-sky-v43.png",
+      "label": "Sky",
+      "depth": 5,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contPortrait",
+      "slot": "contPortrait",
+      "file": "political-portrait-close-v72.jpg",
+      "label": "Portrait",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contRally",
+      "slot": "contRally",
+      "file": "political-rally-v72.jpg",
+      "label": "Rally",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contParade",
+      "slot": "contParade",
+      "file": "political-parade-v72.jpg",
+      "label": "Parade",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contYouth",
+      "slot": "contYouth",
+      "file": "political-youth-v72.jpg",
+      "label": "Youth",
+      "depth": 2,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "contMoneyPaper",
+      "slot": "contMoneyPaper",
+      "file": "commerce-money-v67.png",
+      "label": "Money Paper",
+      "depth": 1.3,
+      "units": "Position: stage pixels; rotation: degrees; scale and opacity: scalar; depth: relative plane distance"
+    },
+    {
+      "id": "boot",
+      "slot": null,
+      "label": "boot",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "ball",
+      "slot": null,
+      "label": "ball",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "coins",
+      "slot": null,
+      "label": "coins",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "eye",
+      "slot": null,
+      "label": "eye",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "emblem",
+      "slot": null,
+      "label": "emblem",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "holes",
+      "slot": null,
+      "label": "holes",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "money-left",
+      "slot": null,
+      "label": "money-left",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "money-right",
+      "slot": null,
+      "label": "money-right",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-0",
+      "slot": null,
+      "label": "team-0",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-1",
+      "slot": null,
+      "label": "team-1",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-2",
+      "slot": null,
+      "label": "team-2",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-3",
+      "slot": null,
+      "label": "team-3",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-4",
+      "slot": null,
+      "label": "team-4",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-5",
+      "slot": null,
+      "label": "team-5",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-6",
+      "slot": null,
+      "label": "team-6",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-7",
+      "slot": null,
+      "label": "team-7",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-8",
+      "slot": null,
+      "label": "team-8",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-9",
+      "slot": null,
+      "label": "team-9",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-10",
+      "slot": null,
+      "label": "team-10",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "team-11",
+      "slot": null,
+      "label": "team-11",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "foreground-0",
+      "slot": null,
+      "label": "foreground-0",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "foreground-1",
+      "slot": null,
+      "label": "foreground-1",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "foreground-2",
+      "slot": null,
+      "label": "foreground-2",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "foreground-3",
+      "slot": null,
+      "label": "foreground-3",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "foreground-4",
+      "slot": null,
+      "label": "foreground-4",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "foreground-5",
+      "slot": null,
+      "label": "foreground-5",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    },
+    {
+      "id": "foreground-6",
+      "slot": null,
+      "label": "foreground-6",
+      "depth": 1.5,
+      "units": "Procedural object; native stage pixels and degrees, with editable whole-object motion"
+    }
+  ],
+  "stages": [
+    {
+      "id": "continuation-pose",
+      "from": 286.35,
+      "to": 287.65,
+      "duration": 1.2999999999999545,
+      "label": "Factory pose"
+    },
+    {
+      "id": "continuation-questions",
+      "from": 287.65,
+      "to": 288.65,
+      "duration": 1,
+      "label": "Questions into workshop"
+    },
+    {
+      "id": "continuation-workshop",
+      "from": 288.65,
+      "to": 290.25,
+      "duration": 1.6000000000000227,
+      "label": "Expanded workshop"
+    },
+    {
+      "id": "continuation-boot",
+      "from": 290.25,
+      "to": 292.75,
+      "duration": 2.5,
+      "label": "Leather boot turn"
+    },
+    {
+      "id": "continuation-boot-field",
+      "from": 292.75,
+      "to": 294.7,
+      "duration": 1.9499999999999886,
+      "label": "Boot into football"
+    },
+    {
+      "id": "continuation-football",
+      "from": 294.7,
+      "to": 299.933,
+      "duration": 5.233000000000004,
+      "label": "Football and approaching ball"
+    },
+    {
+      "id": "continuation-lineup",
+      "from": 299.933,
+      "to": 304.333,
+      "duration": 4.400000000000034,
+      "label": "Lineup and foreground depth"
+    },
+    {
+      "id": "continuation-library-wipe",
+      "from": 304.333,
+      "to": 305.133,
+      "duration": 0.7999999999999545,
+      "label": "Foreground wipe into library"
+    },
+    {
+      "id": "continuation-library",
+      "from": 305.133,
+      "to": 309.8,
+      "duration": 4.66700000000003,
+      "label": "Shoe design and sales"
+    },
+    {
+      "id": "continuation-library-out",
+      "from": 309.8,
+      "to": 310.1,
+      "duration": 0.30000000000001137,
+      "label": "Library departure"
+    },
+    {
+      "id": "continuation-black-a",
+      "from": 310.1,
+      "to": 311.367,
+      "duration": 1.266999999999996,
+      "label": "Black separator"
+    },
+    {
+      "id": "continuation-political-focus",
+      "from": 311.367,
+      "to": 315.833,
+      "duration": 4.466000000000008,
+      "label": "Red sky and focus pull"
+    },
+    {
+      "id": "continuation-black-b",
+      "from": 315.833,
+      "to": 316.3,
+      "duration": 0.46699999999998454,
+      "label": "Short black separator"
+    },
+    {
+      "id": "continuation-roundel",
+      "from": 316.3,
+      "to": 323.4,
+      "duration": 7.099999999999966,
+      "label": "Curved emblem to photograph"
+    },
+    {
+      "id": "continuation-holes",
+      "from": 323.4,
+      "to": 324.7,
+      "duration": 1.3000000000000114,
+      "label": "Irregular reveal into rally"
+    },
+    {
+      "id": "continuation-fire-wipe",
+      "from": 324.7,
+      "to": 326.5,
+      "duration": 1.8000000000000114,
+      "label": "Rally and fire into factory"
+    },
+    {
+      "id": "continuation-factory-money",
+      "from": 326.5,
+      "to": 333.3,
+      "duration": 6.800000000000011,
+      "label": "Factory, desks and money"
+    },
+    {
+      "id": "continuation-symbol-eye",
+      "from": 333.3,
+      "to": 336.6,
+      "duration": 3.3000000000000114,
+      "label": "Political symbol and eye reveal"
+    },
+    {
+      "id": "continuation-eye",
+      "from": 336.6,
+      "to": 341.333,
+      "duration": 4.733000000000004,
+      "label": "Eye above commercial scene"
+    },
+    {
+      "id": "continuation-vertical-street",
+      "from": 341.333,
+      "to": 341.967,
+      "duration": 0.6339999999999577,
+      "label": "Vertical camera into street"
+    },
+    {
+      "id": "continuation-street",
+      "from": 341.967,
+      "to": 345.1,
+      "duration": 3.133000000000038,
+      "label": "Two figures in street"
+    },
+    {
+      "id": "continuation-photo-tear",
+      "from": 345.1,
+      "to": 351,
+      "duration": 5.899999999999977,
+      "label": "Red photo reveal behind figure"
+    },
+    {
+      "id": "continuation-foreground-swap",
+      "from": 351,
+      "to": 352.1,
+      "duration": 1.1000000000000227,
+      "label": "Foreground character exchange"
+    },
+    {
+      "id": "continuation-crowd-tear",
+      "from": 352.1,
+      "to": 355,
+      "duration": 2.8999999999999773,
+      "label": "Red crowd reveal"
+    }
+  ],
+  "sourceStart": 286.35,
+  "sourceEnd": 355,
+  "templateStart": 296.35,
+  "templateEnd": 365,
+  "duration": 68.64999999999998,
+  "note": "Factory values, not export of a user live instance; previous settings preserved."
+}

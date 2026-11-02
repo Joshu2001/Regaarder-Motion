@@ -1,0 +1,32 @@
+[
+  {
+    "programs": [],
+    "streams": [
+      {
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_frames": "1648"
+      }
+    ],
+    "format": {
+      "duration": "68.666667"
+    },
+    "file": "Motionclone-v72-continuation.mp4"
+  },
+  {
+    "programs": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_frames": "1648"
+      }
+    ],
+    "format": {
+      "duration": "68.666667"
+    },
+    "file": "Motionclone-v72-side-by-side.mp4"
+  }
+]

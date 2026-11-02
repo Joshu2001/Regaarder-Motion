@@ -1,0 +1,62 @@
+[
+  {
+    "id": "track-spike-views-v74",
+    "file": "track-spike-views-v74.png",
+    "prompt": "Use case: product-mockup. Asset type: transparent photographic running-shoe atlas for an editable 1936 documentary animation. Generate TWO clearly separated views of the SAME unbranded black low-cut 1930s leather track sprint spike, not a football boot. Upper has aged smooth black leather, thin leather sole, black laces with small metal eyelets, six short dark conical forefoot spikes. No modern foam, stripes, logos or text. Wide landscape atlas, ample transparent gap between shoes: LEFT HALF a large three-quarter side view toe pointing LEFT, opening visible, sole spikes visible below; RIGHT HALF the identical shoe from opposite three-quarter side, toe pointing RIGHT, also sole spikes below. Each shoe complete and detached with generous transparent padding, no cast background shadow, no overlap. Crisp realistic leather detail and neutral studio lighting. Actual transparent background.",
+    "sha256": "3300cd86a3979f226428d1b884dcbf687a54a999b45de2004e948c304d3194f3",
+    "tool": "built-in image_gen",
+    "reference": null,
+    "status": "implemented-awaiting-user-review",
+    "active": true
+  },
+  {
+    "id": "owens-product-pose-v74",
+    "file": "owens-product-pose-v74.png",
+    "prompt": "Use case: historical-scene. Asset type: transparent photographic cutout for a documentary reconstruction, explicitly a newly generated illustrative reconstruction not an archival photograph. Subject: Jesse Owens circa 1936, smiling naturally, athletic lean African-American man age 23 with close short hair, wearing plain white 1930s athletics singlet. Waist-up frontal view, both bent forearms extended forward toward the viewer and hands open as a product presentation grip at lower chest height: two hands spaced about 32 cm apart, palms supporting an INVISIBLE horizontal running shoe, fingers gently curved upward. Leave empty transparent space between the hands at lower chest so a separately animated shoe can be composited there. No shoe, no props, no text, no medals, no logos, no extra fingers, no gesture of salute. Complete head, shoulders, arms and hands with padding. Photorealistic monochrome warm-neutral skin photography, soft frontal studio light, crisp matte edges, actual transparent background. Landscape composition single person fills frame.",
+    "sha256": "01bf3469273fd375dcc9b598f551a4a10e7dd6d19aa7e13db513e3a41f760f55",
+    "tool": "built-in image_gen",
+    "reference": null,
+    "status": "implemented-awaiting-user-review",
+    "active": true
+  },
+  {
+    "id": "seated-athletes-v74",
+    "file": "seated-athletes-v74.png",
+    "prompt": "Use case: historical-scene. Asset type: transparent photographic cutout, illustrative newly generated recreation of two unidentified 1930s American male athletes seated resting after training. TWO men together as one grouped cutout, complete figures, relaxed on the ground, no ground background. Front man African American age 25 smiling subtly, neat dark short hair, pale gray 1930s tracksuit jacket and loose athletic trousers, seated with one knee raised and other leg extended toward lower right, dark leather running shoes, right arm resting on knee. Rear man at left African American age 24, darker plain college-style sweatshirt with no text or logos, loose gray trousers, seated with both legs angled to front left, one hand on ground. No historical identity asserted. Photorealistic monochrome editorial photography, natural proportions, no medals or political gestures. Wide landscape, separate clear silhouettes within group, full heads and feet padded away from image edges, actual transparent background.",
+    "sha256": "3c888d98c8ad8ed03232a094cfa3d8a7649bfae53afc8e3cf82e521e0a073e25",
+    "tool": "built-in image_gen",
+    "reference": null,
+    "status": "implemented-awaiting-user-review",
+    "active": true
+  },
+  {
+    "id": "training-ground-v74",
+    "file": "training-ground-v74.png",
+    "prompt": "Use case: historical-scene. Asset type: wide landscape photographic environment plate for layered 1930s athletics documentary. Empty flat gray cinder training ground in foreground, subtle converging pale running-track lines and rough dusty texture; dark distant treeline across frame at about top 30 percent, soft overcast pale gray sky above. No people, shoes, buildings, text or objects. Camera low seated-person eye level, horizon high so ground takes lower 70 percent. Photorealistic monochrome, soft natural light, detailed foreground texture, restrained depth blur only far treeline. 16:9 wide composition. This is a newly generated illustrative environment.",
+    "sha256": "974af8a4e5eab83077895fb9a2ddd8eebdec30c4908817321faa2a1b5374fdbb",
+    "tool": "built-in image_gen",
+    "reference": null,
+    "status": "implemented-awaiting-user-review",
+    "active": true
+  },
+  {
+    "id": "medalists-v74",
+    "file": "medalists-v74.png",
+    "prompt": "Use case: historical-scene. Asset type: transparent full-body athlete cutout atlas for an explicitly illustrative 1936 sports documentary reconstruction, not an archival photograph. Three separated full-length male medalists standing upright with BOTH ARMS RELAXED DOWN beside their bodies, natural small smiles. CENTER Jesse Owens, African American lean sprinter age23, short hair, plain dark tracksuit and dark athletic shoes, one small gold medal on ribbon. LEFT unidentified European young athletic man, short light hair, plain pale tracksuit; RIGHT unidentified European young athletic man, short dark hair, plain pale tracksuit. No salute, no raised or extended arms, no flags, no logos, no lettering, no podium; transparent background. All heads and feet fully visible with padding, three separate columns with generous transparent gutters. Photorealistic monochrome newspaper-style tonal detail, crisp natural silhouettes, soft frontal light. Landscape atlas.",
+    "sha256": "baa4213f82def57cfa19ff52d70bb93d118ef5f901a6480c75ec8adbc4c6ce3a",
+    "tool": "built-in image_gen",
+    "reference": null,
+    "status": "implemented-awaiting-user-review",
+    "active": true
+  },
+  {
+    "id": "facing-brothers-v74",
+    "file": "facing-brothers-v74.png",
+    "prompt": "Use case: identity-preserve. Reference image role: fictional character identity and costume reference for two brothers in a historical documentary reconstruction. Create a NEW transparent photographic atlas with TWO separated waist-up figures, matching the curly brown-haired man and the bespectacled dark-haired man of the reference. Left half: curly-haired man, dark charcoal cardigan over white collar, body three-quarter profile toward RIGHT, concerned restrained expression, arms relaxed down. Right half: bespectacled man in dark suit, white shirt and dark red tie, body three-quarter profile toward LEFT, concerned serious expression, arms down. They face toward each other but remain separate with a large transparent gutter. No smiles, props, medals, symbols, text or raised arms. Natural 1930s studio photography, accurate skin texture and clean alpha edges, complete heads and torsos with padding. Preserve identities/costumes but change expressions and orientation only. Actual transparent background.",
+    "sha256": "8e0ccc8e08fe65c484cda1879796f337b4cca939567d813bbb009028082c4f32",
+    "tool": "built-in image_gen",
+    "reference": "assets/brothers-tv-meeting-v73.png",
+    "status": "implemented-awaiting-user-review",
+    "active": true
+  }
+]

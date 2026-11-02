@@ -1,0 +1,640 @@
+[
+  {
+    "id": "v76-blast-keyframes-v76",
+    "label": "blast keyframes v76 \u00b7 illustrative",
+    "src": "assets/blast-keyframes-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": false,
+    "editable": true,
+    "slots": [],
+    "reviewStatus": "retained-derivation-input",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "69ed5a80846eead466e50d03fd8c9c84c78f61433f9e7a5042b239ea461e5b9e",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_0ea654d704308191a1f889bd72cf6b23",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case historical-scene VFX production sprite atlas EXACTLY4columns x4rows, sixteen equal cells reading left-to-right top-to-bottom showing a single continuously evolving cinematic orange fuel explosion cooling into gray smoke. FIRSTROW frames1-4 compact white-hot ignition behind dense low black smoke, then broad orange fireball with rolling detailed billows. SECONDROW5-8 large roiling orange and black plume expanding upward with intricate turbulent filaments, hot orange remains prominent. THIRDROW9-12 fire cools to orange patches embedded in dense charcoal and gray mushrooming clouds. FOURTHROW13-16 smoke widens and billows upward with remaining muted orange fading, final soft medium-gray smoky cloud. Each frame SAME scale and centered base to enable temporal interpolation, complete plume within cell with transparent margins, no black matte, no floor or scenery or people or text. High-detail cinematic physically plausible smoke photographs style. Real alpha transparency. NO labels, grid lines or arrows.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-blast-motion-v76-00",
+    "label": "blast-motion-v76-00",
+    "src": "assets/blast-motion-v76-00.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartBlastFrame0"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "5678122ca4065efbbe5729877e8ca023b7e0418ed564fe328e16158df8a71ca5",
+    "method": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "assets/blast-keyframes-v76.png",
+      "owner": "Project AI generation and authored optical flow",
+      "permission": "Illustrative project VFX, no original-footage pixels.",
+      "detail": "Use case historical-scene VFX production sprite atlas EXACTLY4columns x4rows, sixteen equal cells reading left-to-right top-to-bottom showing a single continuously evolving cinematic orange fuel explosion cooling into gray smoke. FIRSTROW frames1-4 compact white-hot ignition behind dense low black smoke, then broad orange fireball with rolling detailed billows. SECONDROW5-8 large roiling orange and black plume expanding upward with intricate turbulent filaments, hot orange remains prominent. THIRDROW9-12 fire cools to orange patches embedded in dense charcoal and gray mushrooming clouds. FOURTHROW13-16 smoke widens and billows upward with remaining muted orange fading, final soft medium-gray smoky cloud. Each frame SAME scale and centered base to enable temporal interpolation, complete plume within cell with transparent margins, no black matte, no floor or scenery or people or text. High-detail cinematic physically plausible smoke photographs style. Real alpha transparency. NO labels, grid lines or arrows.",
+      "modifications": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-blast-motion-v76-01",
+    "label": "blast-motion-v76-01",
+    "src": "assets/blast-motion-v76-01.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartBlastFrame1"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "83534ce2d8e9a285900cacd296ae9e5ff127049741d30b42e12ea28d0063cf42",
+    "method": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "assets/blast-keyframes-v76.png",
+      "owner": "Project AI generation and authored optical flow",
+      "permission": "Illustrative project VFX, no original-footage pixels.",
+      "detail": "Use case historical-scene VFX production sprite atlas EXACTLY4columns x4rows, sixteen equal cells reading left-to-right top-to-bottom showing a single continuously evolving cinematic orange fuel explosion cooling into gray smoke. FIRSTROW frames1-4 compact white-hot ignition behind dense low black smoke, then broad orange fireball with rolling detailed billows. SECONDROW5-8 large roiling orange and black plume expanding upward with intricate turbulent filaments, hot orange remains prominent. THIRDROW9-12 fire cools to orange patches embedded in dense charcoal and gray mushrooming clouds. FOURTHROW13-16 smoke widens and billows upward with remaining muted orange fading, final soft medium-gray smoky cloud. Each frame SAME scale and centered base to enable temporal interpolation, complete plume within cell with transparent margins, no black matte, no floor or scenery or people or text. High-detail cinematic physically plausible smoke photographs style. Real alpha transparency. NO labels, grid lines or arrows.",
+      "modifications": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-blast-motion-v76-02",
+    "label": "blast-motion-v76-02",
+    "src": "assets/blast-motion-v76-02.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartBlastFrame2"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "babec36cf84176a8f0445799cf1cc5fa00e0c88da4fa0414b1e3d24986dfce3e",
+    "method": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "assets/blast-keyframes-v76.png",
+      "owner": "Project AI generation and authored optical flow",
+      "permission": "Illustrative project VFX, no original-footage pixels.",
+      "detail": "Use case historical-scene VFX production sprite atlas EXACTLY4columns x4rows, sixteen equal cells reading left-to-right top-to-bottom showing a single continuously evolving cinematic orange fuel explosion cooling into gray smoke. FIRSTROW frames1-4 compact white-hot ignition behind dense low black smoke, then broad orange fireball with rolling detailed billows. SECONDROW5-8 large roiling orange and black plume expanding upward with intricate turbulent filaments, hot orange remains prominent. THIRDROW9-12 fire cools to orange patches embedded in dense charcoal and gray mushrooming clouds. FOURTHROW13-16 smoke widens and billows upward with remaining muted orange fading, final soft medium-gray smoky cloud. Each frame SAME scale and centered base to enable temporal interpolation, complete plume within cell with transparent margins, no black matte, no floor or scenery or people or text. High-detail cinematic physically plausible smoke photographs style. Real alpha transparency. NO labels, grid lines or arrows.",
+      "modifications": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-blast-motion-v76-03",
+    "label": "blast-motion-v76-03",
+    "src": "assets/blast-motion-v76-03.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartBlastFrame3"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "fcf29e6622ca2f7cb622bf36838f50f5d8967c3dfa35c8654a2481213b069eae",
+    "method": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "assets/blast-keyframes-v76.png",
+      "owner": "Project AI generation and authored optical flow",
+      "permission": "Illustrative project VFX, no original-footage pixels.",
+      "detail": "Use case historical-scene VFX production sprite atlas EXACTLY4columns x4rows, sixteen equal cells reading left-to-right top-to-bottom showing a single continuously evolving cinematic orange fuel explosion cooling into gray smoke. FIRSTROW frames1-4 compact white-hot ignition behind dense low black smoke, then broad orange fireball with rolling detailed billows. SECONDROW5-8 large roiling orange and black plume expanding upward with intricate turbulent filaments, hot orange remains prominent. THIRDROW9-12 fire cools to orange patches embedded in dense charcoal and gray mushrooming clouds. FOURTHROW13-16 smoke widens and billows upward with remaining muted orange fading, final soft medium-gray smoky cloud. Each frame SAME scale and centered base to enable temporal interpolation, complete plume within cell with transparent margins, no black matte, no floor or scenery or people or text. High-detail cinematic physically plausible smoke photographs style. Real alpha transparency. NO labels, grid lines or arrows.",
+      "modifications": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-blast-motion-v76-04",
+    "label": "blast-motion-v76-04",
+    "src": "assets/blast-motion-v76-04.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartBlastFrame4"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "068561c2b17b5311feb4dca24af2619037517b13eb9513a38dc07fa7b4518605",
+    "method": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "assets/blast-keyframes-v76.png",
+      "owner": "Project AI generation and authored optical flow",
+      "permission": "Illustrative project VFX, no original-footage pixels.",
+      "detail": "Use case historical-scene VFX production sprite atlas EXACTLY4columns x4rows, sixteen equal cells reading left-to-right top-to-bottom showing a single continuously evolving cinematic orange fuel explosion cooling into gray smoke. FIRSTROW frames1-4 compact white-hot ignition behind dense low black smoke, then broad orange fireball with rolling detailed billows. SECONDROW5-8 large roiling orange and black plume expanding upward with intricate turbulent filaments, hot orange remains prominent. THIRDROW9-12 fire cools to orange patches embedded in dense charcoal and gray mushrooming clouds. FOURTHROW13-16 smoke widens and billows upward with remaining muted orange fading, final soft medium-gray smoky cloud. Each frame SAME scale and centered base to enable temporal interpolation, complete plume within cell with transparent margins, no black matte, no floor or scenery or people or text. High-detail cinematic physically plausible smoke photographs style. Real alpha transparency. NO labels, grid lines or arrows.",
+      "modifications": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-blast-motion-v76-05",
+    "label": "blast-motion-v76-05",
+    "src": "assets/blast-motion-v76-05.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartBlastFrame5"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "63b75d12a1acd2c0626431002b9e067caeb408cfb9df902899a8baeb5ccf6d79",
+    "method": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "assets/blast-keyframes-v76.png",
+      "owner": "Project AI generation and authored optical flow",
+      "permission": "Illustrative project VFX, no original-footage pixels.",
+      "detail": "Use case historical-scene VFX production sprite atlas EXACTLY4columns x4rows, sixteen equal cells reading left-to-right top-to-bottom showing a single continuously evolving cinematic orange fuel explosion cooling into gray smoke. FIRSTROW frames1-4 compact white-hot ignition behind dense low black smoke, then broad orange fireball with rolling detailed billows. SECONDROW5-8 large roiling orange and black plume expanding upward with intricate turbulent filaments, hot orange remains prominent. THIRDROW9-12 fire cools to orange patches embedded in dense charcoal and gray mushrooming clouds. FOURTHROW13-16 smoke widens and billows upward with remaining muted orange fading, final soft medium-gray smoky cloud. Each frame SAME scale and centered base to enable temporal interpolation, complete plume within cell with transparent margins, no black matte, no floor or scenery or people or text. High-detail cinematic physically plausible smoke photographs style. Real alpha transparency. NO labels, grid lines or arrows.",
+      "modifications": "96 premultiplied-alpha24fps frames, bidirectional optical-flow interpolation; not fluid physics.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-brother-poses-v76",
+    "label": "brother poses v76 \u00b7 illustrative",
+    "src": "assets/brother-poses-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartBrotherA",
+      "wartBrotherB",
+      "wartSuccess",
+      "wartSeated"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "4be45743a98b7b471867c0c344006b61beff070bbf92c1b103afb3ab810f9e1c",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_caebbc9ab16881918f0599f2f35f525d",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case: historical-scene. Transparent photographic character sprite atlas 2 columns x 2 rows, each fully separated with large empty transparent margins. Consistent fictional European brothers circa 1940, dramatic restrained documentary color, no text. TOP LEFT: waist-up man aged 50 with swept-back light hair, rectangular black glasses, clean shaven, dark brown suit white shirt turquoise tie, mild smile, looking forward. TOP RIGHT: SAME glasses man now smiling broadly and opening both arms to sides, all hands fully within his cell. BOTTOM LEFT: other brother age 45, swept-back darker hair, clean shaven, NO glasses, stern, black button-up sports cardigan, waist up facing camera. BOTTOM RIGHT: same non-glasses man full body seated on simple bench, leaning forward holding a plain black sports shoe in his hands, tired thoughtful expression. Pure transparent background. No rooms, no colored matte, no box borders, no floor; illustrative people not authentic historical photographs.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-chapter-sneakers-v76",
+    "label": "chapter sneakers v76 \u00b7 illustrative",
+    "src": "assets/chapter-sneakers-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartChapterShoes"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "3df47fb71b1760a7de44ef9bf62315366fcad56de4c51e3aa8787e22b8448b16",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_55e70b6aefc881918626430256522429",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case: product-mockup. Production transparent sprite atlas, landscape 3 columns by 2 rows, six isolated views of a realistic unbranded 1930s-inspired leather sports sneaker, cream upper, red heel and sole accents, charcoal sole. Each cell contains exactly one complete shoe with generous transparent margin, no clipping, clean studio photography with fine leather stitching. Views: lateral left, lateral right, three-quarter front, three-quarter rear, underside tilted, toe toward camera. Consistent same shoe. No lettering, logos, props, floor or cast shadow. Used as independently tumbling shoes in cinematic documentary chapter animation. Actual transparent background.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-factory-aircraft-v76",
+    "label": "factory aircraft v76 \u00b7 illustrative",
+    "src": "assets/factory-aircraft-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartAircraft",
+      "wartBuilding"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "6c0f8d1ad37f4b0eb6c68c8482c29c36c08c42d7b78d99741a80602a5c68e80a",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_5ccab755e618819182a4a7c8fb47ff80",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case historical-scene. Transparent production sprite atlas two clearly separated equal horizontal cells, left and right. LEFT: complete modest two-story 1930s German shoe factory, dark brick gray masonry, simple stepped-gabled front, pitched roof, side facade visible in three-quarter view facing toward right, small rectangular windows, front short outdoor stair and modest door, full building base visible with tiny ground strip, perspective eye level. RIGHT: complete gray 1940s single-engine propeller plane seen from side slightly above, nose facing LEFT, LANDING GEAR FULLY RETRACTED no wheels hanging, no propeller blades baked in, no markings no insignia. Each object fully within its half, isolated with large transparent margins, no background sky no text. Gray documentary photographic realism, not a diagram.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-family-house-v76",
+    "label": "family house v76 \u00b7 illustrative",
+    "src": "assets/family-house-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartHouse"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "de2ec1366d83aabed3fdc659744ba50fc232fa622bdf403fe77fbedb280b0bb4",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_e804f4fb1aac819188cd92e91e560918",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case historical-scene. Wide16:9 cinematic photorealistic exterior plate, modest 1930s German half-timbered house, entire structure visible and roof fully in frame, light plaster with dark timber beams and weathered tiled gabled roof, house centered slightly left with clear foreground cobblestone road and yard, few autumn trees at edges, softly pink salmon sunset sky. Eye-level camera for compositing family standing in foreground. Restrained warm light, brighter readable house facade, no people, no vehicles, no fire, no smoke, no signage, no text. Authentic materials, historical illustration.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-family-layers-v76",
+    "label": "family layers v76 \u00b7 illustrative",
+    "src": "assets/family-layers-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartFamilyRear",
+      "wartFamilyTeen",
+      "wartFamilyMother",
+      "wartFamilyOlder",
+      "wartFamilyBoy",
+      "wartFamilyBoy2"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "8380d54b3ab607fa6b36c7f02535bace5d08f3e03bdf5439f47af0945897f0fb",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_059b20b8ac048191bdb35bd6b84cacca",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case historical-scene. Transparent photographic sprite atlas with exactly SIX separated cells in 2 columns by3 rows, equal cells with generous transparent margins, circa1940 European family, restrained warm cinematic color, photorealistic fictional people. TOP LEFT: rear family unit father standing beside woman holding small toddler, three people together. TOP RIGHT: one teenage boy standing, light beige shirt. MIDDLE LEFT: one middle-aged woman with wavy shoulder-length dark blond hair wearing burgundy blouse, head to mid thigh. MIDDLE RIGHT: one older man with rectangular dark glasses in gray suit, head to thigh. BOTTOM LEFT: one ten-year-old boy brown hair, olive-brown shirt, head to waist. BOTTOM RIGHT: one eight-year-old boy short light hair, gray green shirt, head to waist. Everyone faces camera with serious quiet expressions. Each cell entirely isolated on transparent background, no objects or background or borders or text; all heads and shoulders complete. Eight people total in six independently compositable groups. Not historical documentation.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-flame-motion-v76-00",
+    "label": "flame-motion-v76-00",
+    "src": "assets/flame-motion-v76-00.png",
+    "kind": "image",
+    "alpha": false,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartFireFrame0"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "26aa4537b561513faae175f00ba6e0cfa9c00af8f37ad12a8d3f7c5e1a052ee5",
+    "method": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+    "provenance": {
+      "usageLabel": "sourced-licensed",
+      "source": "https://www.pexels.com/video/fire-on-black-background-11977692/",
+      "owner": "Artur Szczubelek / Pexels",
+      "permission": "Existing credited project footage; https://www.pexels.com/license/",
+      "detail": "assets/real-fire.mp4 and its existing credit; originally downloaded2026-10-27.",
+      "modifications": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-flame-motion-v76-01",
+    "label": "flame-motion-v76-01",
+    "src": "assets/flame-motion-v76-01.png",
+    "kind": "image",
+    "alpha": false,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartFireFrame1"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "497da2a03765aaa88b465744b6681ebb11cf39638b7ec83828b7028c05dce4a7",
+    "method": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+    "provenance": {
+      "usageLabel": "sourced-licensed",
+      "source": "https://www.pexels.com/video/fire-on-black-background-11977692/",
+      "owner": "Artur Szczubelek / Pexels",
+      "permission": "Existing credited project footage; https://www.pexels.com/license/",
+      "detail": "assets/real-fire.mp4 and its existing credit; originally downloaded2026-10-27.",
+      "modifications": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-flame-motion-v76-02",
+    "label": "flame-motion-v76-02",
+    "src": "assets/flame-motion-v76-02.png",
+    "kind": "image",
+    "alpha": false,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartFireFrame2"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "db0cd907422ed0fa23e25bce6dc980f5ecc6f42d628788848bda34c148fb91e2",
+    "method": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+    "provenance": {
+      "usageLabel": "sourced-licensed",
+      "source": "https://www.pexels.com/video/fire-on-black-background-11977692/",
+      "owner": "Artur Szczubelek / Pexels",
+      "permission": "Existing credited project footage; https://www.pexels.com/license/",
+      "detail": "assets/real-fire.mp4 and its existing credit; originally downloaded2026-10-27.",
+      "modifications": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-flame-motion-v76-03",
+    "label": "flame-motion-v76-03",
+    "src": "assets/flame-motion-v76-03.png",
+    "kind": "image",
+    "alpha": false,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartFireFrame3"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "58b50130dc5ed84a01b84bd99f81bf48fd159c263a7a099fcb95e4f09cd3dc72",
+    "method": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+    "provenance": {
+      "usageLabel": "sourced-licensed",
+      "source": "https://www.pexels.com/video/fire-on-black-background-11977692/",
+      "owner": "Artur Szczubelek / Pexels",
+      "permission": "Existing credited project footage; https://www.pexels.com/license/",
+      "detail": "assets/real-fire.mp4 and its existing credit; originally downloaded2026-10-27.",
+      "modifications": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-flame-motion-v76-04",
+    "label": "flame-motion-v76-04",
+    "src": "assets/flame-motion-v76-04.png",
+    "kind": "image",
+    "alpha": false,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartFireFrame4"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "715aeacfb4445bf350f8d2adc436ebaaaa57c8eea8a6181425d1bbfbfc7f4b0b",
+    "method": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+    "provenance": {
+      "usageLabel": "sourced-licensed",
+      "source": "https://www.pexels.com/video/fire-on-black-background-11977692/",
+      "owner": "Artur Szczubelek / Pexels",
+      "permission": "Existing credited project footage; https://www.pexels.com/license/",
+      "detail": "assets/real-fire.mp4 and its existing credit; originally downloaded2026-10-27.",
+      "modifications": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-flame-motion-v76-05",
+    "label": "flame-motion-v76-05",
+    "src": "assets/flame-motion-v76-05.png",
+    "kind": "image",
+    "alpha": false,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartFireFrame5"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "frame-atlas"
+    ],
+    "sha256": "b0ae43758d08e425782606c663cf719e88e25c865f141e767ac277a701797dbd",
+    "method": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+    "provenance": {
+      "usageLabel": "sourced-licensed",
+      "source": "https://www.pexels.com/video/fire-on-black-background-11977692/",
+      "owner": "Artur Szczubelek / Pexels",
+      "permission": "Existing credited project footage; https://www.pexels.com/license/",
+      "detail": "assets/real-fire.mp4 and its existing credit; originally downloaded2026-10-27.",
+      "modifications": "Seconds3\u20139,24fps,480x270, six6x4 frame atlases; screen compositing.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-human-silhouettes-v76",
+    "label": "human silhouettes v76 \u00b7 illustrative",
+    "src": "assets/human-silhouettes-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartSilhouettes"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "41f304f97f41bc20d7fcfaee67c3a3013cda279cb26d13f1a7c3ea223ea540e4",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_547d0b12ede48191b251d06e6b0a2d0b",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case historical-scene. Production transparent photographic sprite sheet FOUR equal vertical columns, each containing ONE complete separate standing European factory man circa 1940, full body head to feet. Anatomically realistic opaque black silhouettes, not geometric icons. Four varied natural poses: man walking left, man walking right, man standing hands at sides, man in coat three-quarter back. Subtle rim light only, bodies solid nearly black, accurate hands feet shoulders and hair. All figures isolated with 12% empty transparent margin in each column. No floor, no background, no shadows baked behind, no scene, no text. Actual transparent background. For blurred near-camera passing human occluders and distant aisle silhouettes.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-worker-portrait-v76",
+    "label": "worker portrait v76 \u00b7 illustrative",
+    "src": "assets/worker-portrait-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartWorker",
+      "wartPortrait"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "e6183d12894c576b14aadb41981322837adfda98688009d8a700a9a223da51cb",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_99736627dba481918df319c6bad8a683",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case historical-scene. Transparent photographic sprite atlas TWO equal vertical columns with generous empty margins separating figures. LEFT: fictional European factory man age45, swept-back light brown hair, NO glasses, olive-brown open-collar workshirt with sleeves rolled up, standing hands on hips, stern expression, visible from head to mid thighs, circa1940. RIGHT: different fictional European businessman age55, short gray hair combed back, thick rectangular black glasses, clean-shaven strong jaw, dark brown suit jacket, seated leaning toward camera, close portrait head shoulders upper torso with both eyes clearly visible. Warm restrained cinematic lighting compatible with factory windows. Photorealistic individual cutouts on actual transparent background, no room or props, no text. Left person entirely in left half, right person entirely in right half. Fictional historical illustration, no claim of authentic identity.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  },
+  {
+    "id": "v76-workshop-depth-v76",
+    "label": "workshop depth v76 \u00b7 illustrative",
+    "src": "assets/workshop-depth-v76.png",
+    "kind": "image",
+    "alpha": true,
+    "active": true,
+    "editable": true,
+    "slots": [
+      "wartHall"
+    ],
+    "reviewStatus": "implemented-awaiting-feedback",
+    "tags": [
+      "v76",
+      "refinement",
+      "retained",
+      "generated"
+    ],
+    "sha256": "07df47b6781f9cd9bdb6aac35327579fec67968c8c836e9c6a6ae8f167f0e9a3",
+    "method": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+    "provenance": {
+      "usageLabel": "generated-recorded",
+      "source": "Built-in image_gen generation in this authorized conversation; saved original libfile_52d26b4e84248191b89e954a410d9ac3",
+      "owner": "Project AI generation",
+      "permission": "Generated fictional project illustration, not archival evidence.",
+      "detail": "Use case historical-scene. Cinematic photorealistic EMPTY 1930s German shoe workshop interior, wide 16:9, eye-level one-point perspective down a long low-ceiling industrial hall. Repeated big arched windows on RIGHT wall admitting cool pale daylight, heavy timber ceiling beams and narrow metal columns in straight perspective toward distant central doorway. Long low orange-brown wooden workbenches and leather work surfaces on both sides, clear central floor aisle. Quiet smoky atmosphere, dark left side, desaturated blue-gray shadows and subtly warm wood, moderate low contrast, background slightly soft. Entire room empty of people, no portraits, no silhouettes, no fire, no text or symbols. Architectural plate for separately composited foreground people. Camera horizontal, no fisheye.",
+      "modifications": "Original bytes retained; runtime calibrated crops, alpha trim and2.5D transforms.",
+      "date": "2026-11-01"
+    }
+  }
+]

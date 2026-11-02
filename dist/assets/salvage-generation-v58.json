@@ -1,0 +1,61 @@
+{
+  "schema": "regaarder-generation-record-v1",
+  "tool": "image_gen.imagegen",
+  "assets": [
+    {
+      "kind": "facade",
+      "transparentBackground": true,
+      "reference": "analysis-0245-0345/focus-019.jpg",
+      "exactSubmittedPrompt": "Production asset: historical ruined facade, genuine transparent background. Use supplied frame as STYLE/architecture reference, not a whole-scene copy. Isolate/reconstruct a complete front-facing ruined three-storey gray European plaster/masonry facade with arched lower windows, dark empty window openings, broken jagged roofline and exposed chipped wall edges. Flat frontal elevation suitable as a textured wall in a 3D editor. Grayscale photographic texture, soft overcast light, no perspective camera tilt, no red sky, floor, people, text, UI or shadows on background. Window holes should be transparent; interiors may have dark reveals. Include entire facade with small clear margins. Do not make a miniature or cartoon.",
+      "originalToolOutput": "exec-1ae02ce1-d308-46a4-a12d-5cb7043bd7f4.png",
+      "output": "assets/salvage-facade-v58.png",
+      "sha256": "0d647b53999fef63bc38c14d9e31c6fe8c893330572924487cf63b6b1f8dd51e",
+      "referenceSHA256": "8dbf0e61cca7849d250dd7b894649e315adce41a28e9dd535f0ee4b924c3210a",
+      "referenceBundled": "assets/salvage-reference-facade-v58.jpg"
+    },
+    {
+      "kind": "ground",
+      "transparentBackground": false,
+      "reference": "analysis-0245-0345/focus-022.jpg",
+      "exactSubmittedPrompt": "Production asset: gray rubble ground material. Use supplied image as photographic STYLE reference. Create only a flat top-down material texture of fine WWII-era masonry rubble, broken stone, dust and small timber fragments, evenly scattered in gray tones. No people, legs, helmet, buildings, sky, light beam, large recognizable props, text or UI. Orthographic near-overhead, even diffuse lighting, seamless-looking edges suitable for repeating on editable 3D ground. Photographic detail, no scene perspective or horizon.",
+      "originalToolOutput": "exec-8e3183c9-1ee4-4215-be6e-1dec031bd755.png",
+      "output": "assets/salvage-ground-v58.png",
+      "sha256": "80314b516062180cbf3b44906d21489b95a7270cfe71ea32ca9efd7c87040d92",
+      "referenceSHA256": "39a7bb6238cc141cbafedeb4b52302415e8af8056da589dd210d7e4bbf454ff7",
+      "referenceBundled": "assets/salvage-reference-ground-v58.jpg"
+    },
+    {
+      "kind": "searcher",
+      "transparentBackground": true,
+      "reference": "analysis-0245-0345/focus-022.jpg",
+      "exactSubmittedPrompt": "Production asset: isolated full-body historical man for an editable articulated side-view walking puppet. Match the period and grayscale photographic style of the reference. Adult European man in a dark gray knee-length wool coat, trousers and sturdy boots, side profile facing RIGHT, head slightly bowed searching rubble, one arm held forward near waist holding a small flashlight angled down-right; other arm relaxed. Full head, torso, hands, thighs, shins and both boots visible. Legs moderately separated in a walking stride with clear silhouettes and enough overlapping cloth at joints for animation. Genuine transparent background, no rubble, no beam, no shadows on ground, no red sky, no text/UI. Photorealistic cutout, realistic anatomy, not an illustration or 3D toy. Complete body with small margins.",
+      "originalToolOutput": "exec-20f72fe6-6c90-4c9f-abd9-8bb5b6883081.png",
+      "output": "assets/salvage-searcher-v58.png",
+      "sha256": "f3573d95a760905e4eca5fc3c8afbb48921f94bb641494e59d9d4a11df33bc72",
+      "referenceSHA256": "39a7bb6238cc141cbafedeb4b52302415e8af8056da589dd210d7e4bbf454ff7",
+      "referenceBundled": "assets/salvage-reference-searcher-v58.jpg"
+    },
+    {
+      "kind": "brown-shoe",
+      "transparentBackground": true,
+      "reference": "analysis-0245-0345/focus-037.jpg",
+      "exactSubmittedPrompt": "Use case: background-extraction / identity-preserve. Extract and naturally reconstruct only the exact BROWN leather low spiked shoe shown in supplied reference. Preserve worn warm brown leather, cap-toe stitching, dark low sole, lacing and side-on silhouette, toe pointing LEFT, heel RIGHT. Complete any clipped shoe ends, include small underside metal spikes. Isolate entire shoe on genuine transparent background with small margins. Remove bicycle wheel, background and all other objects. No leg, no logo, no text, no checkerboard. Photographic historical product cutout, no redesign or cartoon.",
+      "originalToolOutput": "exec-c0e28efb-563a-4302-9589-0c3c99e6232d.png",
+      "output": "assets/salvage-brown-shoe-v58.png",
+      "sha256": "86f642282a6ecc088ab0d960bb95ab1174d71c3b4e512c90ca51c8c48348068b",
+      "referenceSHA256": "444c8fb423da63eca0139a18b4d8c4b760e4485ae11b21d7fb5682d780650f62",
+      "referenceBundled": "assets/salvage-reference-brown-shoe-v58.jpg"
+    },
+    {
+      "kind": "cream-shoe",
+      "transparentBackground": true,
+      "reference": "analysis-0245-0345/focus-050.jpg",
+      "exactSubmittedPrompt": "Production asset: one isolated vintage cream leather athletic running shoe inspired by the pale shoe in supplied diagram. Side profile, toe LEFT, heel RIGHT, low cream/off-white upper, burgundy reinforcement straps/panels, pale laces, thin dark sole and small underside metal running spikes. Entire single shoe, genuine transparent background, small margins. Photographic aged leather detail and realistic proportions. No letters, logos, surrounding paper, other shoes, dotted route, UI or text. This is an additional design asset; do not alter existing project shoe sources.",
+      "originalToolOutput": "exec-a477b19c-e280-4cb2-99e0-4db3aeb69a62.png",
+      "output": "assets/salvage-cream-shoe-v58.png",
+      "sha256": "81234824020dffcff7dea0b8d18cbeabea4b3e31ad3ad7bd9526e8e6efd14a9c",
+      "referenceSHA256": "93126e0272147fc0928154b09444c58b38c5c4bc6a0597cb2bf144e0d90ed71d",
+      "referenceBundled": "assets/salvage-reference-cream-shoe-v58.jpg"
+    }
+  ]
+}

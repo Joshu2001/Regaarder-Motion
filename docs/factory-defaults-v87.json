@@ -1,0 +1,141 @@
+{
+  "defaults": {
+    "checkpointEnabled": true,
+    "checkpointRate": 1,
+    "checkpointSceneDurations": {},
+    "checkpointLayerEdits": {},
+    "checkpointSourceBindings": {},
+    "checkpointJointOffsets": {
+      "coach": {},
+      "red": {},
+      "blue": {}
+    },
+    "checkpointCameraKeys": [],
+    "checkpointJointKeys": {
+      "coach": {},
+      "red": {},
+      "blue": {}
+    },
+    "checkpointCameraX": 0,
+    "checkpointCameraY": 0,
+    "checkpointCameraZoom": 0,
+    "checkpointSitStrength": 1,
+    "checkpointCoachTravel": 1,
+    "checkpointFocusStrength": 1,
+    "checkpointSmoke": 1,
+    "checkpointOrbit": 1,
+    "checkpointRed": "#d82c22",
+    "checkpointCream": "#d8d6bb",
+    "checkpointBlue": "#164a9c",
+    "checkpointChairPosition": [
+      1.65,
+      0,
+      -0.15
+    ],
+    "checkpointIllustrationLabel": true
+  },
+  "stages": [
+    {
+      "id": "checkpoint-sit-completion",
+      "from": 895,
+      "to": 895.9,
+      "duration": 0.8999999999999773,
+      "label": "sit completion"
+    },
+    {
+      "id": "checkpoint-seated-coach-drift",
+      "from": 895.9,
+      "to": 898.3,
+      "duration": 2.3999999999999773,
+      "label": "seated coach drift"
+    },
+    {
+      "id": "checkpoint-departure-defocus",
+      "from": 898.3,
+      "to": 898.8666666666667,
+      "duration": 0.5666666666667197,
+      "label": "departure defocus"
+    },
+    {
+      "id": "checkpoint-blue-pair-cut",
+      "from": 898.8666666666667,
+      "to": 899.0666666666667,
+      "duration": 0.20000000000004547,
+      "label": "blue pair cut"
+    },
+    {
+      "id": "checkpoint-foreground-crossing",
+      "from": 899.0666666666667,
+      "to": 899.3,
+      "duration": 0.2333333333332348,
+      "label": "foreground crossing"
+    },
+    {
+      "id": "checkpoint-blue-pair-settle",
+      "from": 899.3,
+      "to": 900,
+      "duration": 0.7000000000000455,
+      "label": "blue pair settle"
+    }
+  ],
+  "sources": {
+    "checkpointBoot": "opportunity-boots-v86.png"
+  },
+  "layers": [
+    {
+      "id": "checkpointBoot",
+      "slot": "checkpointBoot",
+      "label": "checkpointBoot"
+    },
+    {
+      "id": "coach",
+      "slot": null,
+      "label": "coach"
+    },
+    {
+      "id": "red-figure",
+      "slot": null,
+      "label": "red-figure"
+    },
+    {
+      "id": "blue-figure",
+      "slot": null,
+      "label": "blue-figure"
+    },
+    {
+      "id": "desk",
+      "slot": null,
+      "label": "desk"
+    },
+    {
+      "id": "chair",
+      "slot": null,
+      "label": "chair"
+    },
+    {
+      "id": "smoke",
+      "slot": null,
+      "label": "smoke"
+    },
+    {
+      "id": "defocus",
+      "slot": null,
+      "label": "defocus"
+    },
+    {
+      "id": "background",
+      "slot": null,
+      "label": "background"
+    },
+    {
+      "id": "shoe-in-hand",
+      "slot": null,
+      "label": "shoe-in-hand"
+    },
+    {
+      "id": "illustration-label",
+      "slot": null,
+      "label": "illustration-label"
+    }
+  ]
+}

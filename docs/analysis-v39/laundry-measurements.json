@@ -1,0 +1,2273 @@
+{
+  "source_filename": "The Nazi Brothers Who Started Rival Shoe Companies - MagnatesMedia (1080p, h264)_01-50.0_to_02-06.0.webm",
+  "sha256": "6ab3ba4e73c4f593f92d1264bc595ec15a80b8e0f7315d05528e5730f7519108",
+  "opencv_version": "5.0.0",
+  "analysis_resolution": [
+    640,
+    360
+  ],
+  "actual_decoded_frames": 246,
+  "actual_first_timestamp": 0.0,
+  "actual_last_timestamp": 15.973,
+  "regions_normalized": {
+    "whole": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sky": [
+      0.34,
+      0.03,
+      0.32,
+      0.28
+    ],
+    "left_building": [
+      0.02,
+      0.3,
+      0.22,
+      0.65
+    ],
+    "right_building": [
+      0.76,
+      0.3,
+      0.22,
+      0.65
+    ],
+    "central_foreground": [
+      0.26,
+      0.25,
+      0.45,
+      0.7
+    ],
+    "window": [
+      0.25,
+      0.02,
+      0.47,
+      0.6
+    ],
+    "title": [
+      0.2,
+      0.07,
+      0.6,
+      0.23
+    ]
+  },
+  "method": "Every decoded frame in selected range; Farneback flow; Shi-Tomasi/Lucas-Kanade forward-backward tracking; RANSAC 2D similarity; regional brightness/contrast/Laplacian sharpness. Seed=39, OpenCV threads=1. Values describe pixels, not physical camera motion.",
+  "limitations": [
+    "A fixed region can contain multiple moving layers.",
+    "Cuts, dissolves, blur and occlusion can invalidate motion estimates.",
+    "Sky flow includes camera and cloud movement; cannot uniquely separate their physical causes.",
+    "Do not integrate affine transforms across flagged transitions."
+  ],
+  "intervals": [
+    {
+      "from_seconds": 0.0,
+      "to_seconds": 0.5,
+      "regions": {
+        "whole": {
+          "samples": 13,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.5098,
+          "sharpness": 151.056,
+          "median_scale_per_frame": 1.000001
+        },
+        "sky": {
+          "samples": 13,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.6825,
+          "sharpness": 821.833,
+          "median_scale_per_frame": 0.999993
+        },
+        "left_building": {
+          "samples": 13,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2947,
+          "sharpness": 14.511,
+          "median_scale_per_frame": 1.000001
+        },
+        "right_building": {
+          "samples": 13,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.4617,
+          "sharpness": 106.553,
+          "median_scale_per_frame": 0.999988
+        },
+        "central_foreground": {
+          "samples": 13,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.009,
+          "median_y_px_s": -0.002,
+          "brightness": 0.466,
+          "sharpness": 140.843,
+          "median_scale_per_frame": 1.000006
+        },
+        "window": {
+          "samples": 13,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.6013,
+          "sharpness": 346.228,
+          "median_scale_per_frame": 1.000001
+        },
+        "title": {
+          "samples": 13,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.6672,
+          "sharpness": 531.917,
+          "median_scale_per_frame": 0.999989
+        }
+      }
+    },
+    {
+      "from_seconds": 0.5,
+      "to_seconds": 1.0,
+      "regions": {
+        "whole": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 21.146,
+          "median_y_px_s": -0.0,
+          "brightness": 0.452,
+          "sharpness": 455.967,
+          "median_scale_per_frame": 0.999517
+        },
+        "sky": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 14.465,
+          "median_y_px_s": -0.002,
+          "brightness": 0.4528,
+          "sharpness": 19.947,
+          "median_scale_per_frame": 1.00004
+        },
+        "left_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 30.084,
+          "median_y_px_s": -0.289,
+          "brightness": 0.4075,
+          "sharpness": 360.678,
+          "median_scale_per_frame": 0.99898
+        },
+        "right_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 17.533,
+          "median_y_px_s": 0.0,
+          "brightness": 0.3899,
+          "sharpness": 152.928,
+          "median_scale_per_frame": 1.000873
+        },
+        "central_foreground": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 21.056,
+          "median_y_px_s": -0.009,
+          "brightness": 0.4247,
+          "sharpness": 959.902,
+          "median_scale_per_frame": 0.999818
+        },
+        "window": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 18.692,
+          "median_y_px_s": -0.0,
+          "brightness": 0.4958,
+          "sharpness": 284.272,
+          "median_scale_per_frame": 0.999272
+        },
+        "title": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 18.418,
+          "median_y_px_s": 0.0,
+          "brightness": 0.5511,
+          "sharpness": 202.764,
+          "median_scale_per_frame": 0.999266
+        }
+      }
+    },
+    {
+      "from_seconds": 1.0,
+      "to_seconds": 1.5,
+      "regions": {
+        "whole": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 54.079,
+          "median_y_px_s": -0.0,
+          "brightness": 0.4349,
+          "sharpness": 477.41,
+          "median_scale_per_frame": 0.999029
+        },
+        "sky": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 35.809,
+          "median_y_px_s": 0.0,
+          "brightness": 0.4322,
+          "sharpness": 20.993,
+          "median_scale_per_frame": 0.998831
+        },
+        "left_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 73.196,
+          "median_y_px_s": -0.338,
+          "brightness": 0.3151,
+          "sharpness": 309.559,
+          "median_scale_per_frame": 0.997179
+        },
+        "right_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 51.735,
+          "median_y_px_s": 0.1,
+          "brightness": 0.406,
+          "sharpness": 222.137,
+          "median_scale_per_frame": 1.001941
+        },
+        "central_foreground": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 52.758,
+          "median_y_px_s": -0.034,
+          "brightness": 0.4261,
+          "sharpness": 1000.552,
+          "median_scale_per_frame": 0.99959
+        },
+        "window": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 48.341,
+          "median_y_px_s": -0.003,
+          "brightness": 0.4934,
+          "sharpness": 413.002,
+          "median_scale_per_frame": 0.997274
+        },
+        "title": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 48.164,
+          "median_y_px_s": 0.002,
+          "brightness": 0.5492,
+          "sharpness": 310.678,
+          "median_scale_per_frame": 0.996683
+        }
+      }
+    },
+    {
+      "from_seconds": 1.5,
+      "to_seconds": 2.0,
+      "regions": {
+        "whole": {
+          "samples": 5,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": 147.48,
+          "median_y_px_s": 0.069,
+          "brightness": 0.39,
+          "sharpness": 515.366,
+          "median_scale_per_frame": 0.99981
+        },
+        "sky": {
+          "samples": 5,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": 80.572,
+          "median_y_px_s": 0.168,
+          "brightness": 0.4239,
+          "sharpness": 550.33,
+          "median_scale_per_frame": 0.992428
+        },
+        "left_building": {
+          "samples": 5,
+          "reliable_affine_samples": 2,
+          "median_x_px_s": 20.263,
+          "median_y_px_s": 0.004,
+          "brightness": 0.1657,
+          "sharpness": 33.839,
+          "median_scale_per_frame": 0.992166
+        },
+        "right_building": {
+          "samples": 5,
+          "reliable_affine_samples": 2,
+          "median_x_px_s": 151.268,
+          "median_y_px_s": 3.661,
+          "brightness": 0.4038,
+          "sharpness": 403.392,
+          "median_scale_per_frame": 1.015096
+        },
+        "central_foreground": {
+          "samples": 5,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": 182.723,
+          "median_y_px_s": -0.012,
+          "brightness": 0.4174,
+          "sharpness": 890.595,
+          "median_scale_per_frame": 0.999558
+        },
+        "window": {
+          "samples": 5,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": 140.038,
+          "median_y_px_s": 0.114,
+          "brightness": 0.4964,
+          "sharpness": 770.992,
+          "median_scale_per_frame": 0.996523
+        },
+        "title": {
+          "samples": 5,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": 141.244,
+          "median_y_px_s": 0.198,
+          "brightness": 0.5348,
+          "sharpness": 611.533,
+          "median_scale_per_frame": 0.994963
+        }
+      }
+    },
+    {
+      "from_seconds": 2.0,
+      "to_seconds": 2.5,
+      "regions": {
+        "whole": {
+          "samples": 5,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 48.729,
+          "median_y_px_s": -0.039,
+          "brightness": 0.354,
+          "sharpness": 349.107,
+          "median_scale_per_frame": 1.005674
+        },
+        "sky": {
+          "samples": 5,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 395.498,
+          "median_y_px_s": -1.61,
+          "brightness": 0.4565,
+          "sharpness": 1137.006,
+          "median_scale_per_frame": 1.002173
+        },
+        "left_building": {
+          "samples": 5,
+          "reliable_affine_samples": 0,
+          "median_x_px_s": -0.012,
+          "median_y_px_s": -0.022,
+          "brightness": 0.3377,
+          "sharpness": 18.417,
+          "median_scale_per_frame": null
+        },
+        "right_building": {
+          "samples": 5,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 105.586,
+          "median_y_px_s": -19.473,
+          "brightness": 0.4046,
+          "sharpness": 368.766,
+          "median_scale_per_frame": 1.026598
+        },
+        "central_foreground": {
+          "samples": 5,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 124.845,
+          "median_y_px_s": -0.344,
+          "brightness": 0.3001,
+          "sharpness": 542.081,
+          "median_scale_per_frame": 1.000846
+        },
+        "window": {
+          "samples": 5,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 260.558,
+          "median_y_px_s": -0.608,
+          "brightness": 0.3887,
+          "sharpness": 686.468,
+          "median_scale_per_frame": 1.000943
+        },
+        "title": {
+          "samples": 5,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 316.169,
+          "median_y_px_s": 0.561,
+          "brightness": 0.4137,
+          "sharpness": 650.843,
+          "median_scale_per_frame": 0.998641
+        }
+      }
+    },
+    {
+      "from_seconds": 2.5,
+      "to_seconds": 3.0,
+      "regions": {
+        "whole": {
+          "samples": 3,
+          "reliable_affine_samples": 0,
+          "median_x_px_s": 17.291,
+          "median_y_px_s": -0.534,
+          "brightness": 0.4016,
+          "sharpness": 133.432,
+          "median_scale_per_frame": null
+        },
+        "sky": {
+          "samples": 3,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 21.865,
+          "median_y_px_s": -0.067,
+          "brightness": 0.2587,
+          "sharpness": 17.023,
+          "median_scale_per_frame": 1.002527
+        },
+        "left_building": {
+          "samples": 3,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 63.216,
+          "median_y_px_s": 23.879,
+          "brightness": 0.6505,
+          "sharpness": 192.296,
+          "median_scale_per_frame": 0.976162
+        },
+        "right_building": {
+          "samples": 3,
+          "reliable_affine_samples": 0,
+          "median_x_px_s": -15.981,
+          "median_y_px_s": -18.704,
+          "brightness": 0.327,
+          "sharpness": 192.711,
+          "median_scale_per_frame": null
+        },
+        "central_foreground": {
+          "samples": 3,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 2.457,
+          "median_y_px_s": -0.467,
+          "brightness": 0.356,
+          "sharpness": 141.99,
+          "median_scale_per_frame": 0.993677
+        },
+        "window": {
+          "samples": 3,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 26.051,
+          "median_y_px_s": -0.746,
+          "brightness": 0.3256,
+          "sharpness": 114.783,
+          "median_scale_per_frame": 0.990544
+        },
+        "title": {
+          "samples": 3,
+          "reliable_affine_samples": 0,
+          "median_x_px_s": 40.899,
+          "median_y_px_s": -0.458,
+          "brightness": 0.2961,
+          "sharpness": 75.22,
+          "median_scale_per_frame": null
+        }
+      }
+    },
+    {
+      "from_seconds": 3.0,
+      "to_seconds": 3.5,
+      "regions": {
+        "whole": {
+          "samples": 5,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 62.601,
+          "median_y_px_s": 0.002,
+          "brightness": 0.4161,
+          "sharpness": 178.088,
+          "median_scale_per_frame": 0.994929
+        },
+        "sky": {
+          "samples": 5,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": 35.261,
+          "median_y_px_s": -0.109,
+          "brightness": 0.2923,
+          "sharpness": 164.356,
+          "median_scale_per_frame": 0.999641
+        },
+        "left_building": {
+          "samples": 5,
+          "reliable_affine_samples": 2,
+          "median_x_px_s": 190.103,
+          "median_y_px_s": -0.079,
+          "brightness": 0.452,
+          "sharpness": 200.642,
+          "median_scale_per_frame": 0.977696
+        },
+        "right_building": {
+          "samples": 5,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 7.784,
+          "median_y_px_s": 0.017,
+          "brightness": 0.2241,
+          "sharpness": 18.649,
+          "median_scale_per_frame": 1.006306
+        },
+        "central_foreground": {
+          "samples": 5,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 169.23,
+          "median_y_px_s": -0.118,
+          "brightness": 0.5532,
+          "sharpness": 392.769,
+          "median_scale_per_frame": 0.998221
+        },
+        "window": {
+          "samples": 5,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 80.503,
+          "median_y_px_s": 0.001,
+          "brightness": 0.4164,
+          "sharpness": 310.081,
+          "median_scale_per_frame": 0.997825
+        },
+        "title": {
+          "samples": 5,
+          "reliable_affine_samples": 1,
+          "median_x_px_s": 16.574,
+          "median_y_px_s": -0.027,
+          "brightness": 0.2843,
+          "sharpness": 114.606,
+          "median_scale_per_frame": 0.988873
+        }
+      }
+    },
+    {
+      "from_seconds": 3.5,
+      "to_seconds": 4.0,
+      "regions": {
+        "whole": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 93.113,
+          "median_y_px_s": 0.001,
+          "brightness": 0.4543,
+          "sharpness": 298.913,
+          "median_scale_per_frame": 0.997379
+        },
+        "sky": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 25.072,
+          "median_y_px_s": -0.023,
+          "brightness": 0.3062,
+          "sharpness": 261.024,
+          "median_scale_per_frame": 0.984195
+        },
+        "left_building": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 135.368,
+          "median_y_px_s": -0.696,
+          "brightness": 0.4977,
+          "sharpness": 185.972,
+          "median_scale_per_frame": 0.981978
+        },
+        "right_building": {
+          "samples": 4,
+          "reliable_affine_samples": 2,
+          "median_x_px_s": 1.205,
+          "median_y_px_s": 0.005,
+          "brightness": 0.3978,
+          "sharpness": 5.772,
+          "median_scale_per_frame": 1.005455
+        },
+        "central_foreground": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 114.763,
+          "median_y_px_s": -0.027,
+          "brightness": 0.5765,
+          "sharpness": 758.006,
+          "median_scale_per_frame": 0.999824
+        },
+        "window": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 92.69,
+          "median_y_px_s": 0.007,
+          "brightness": 0.4367,
+          "sharpness": 590.499,
+          "median_scale_per_frame": 0.998992
+        },
+        "title": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 20.36,
+          "median_y_px_s": 0.008,
+          "brightness": 0.294,
+          "sharpness": 172.271,
+          "median_scale_per_frame": 0.989808
+        }
+      }
+    },
+    {
+      "from_seconds": 4.0,
+      "to_seconds": 4.5,
+      "regions": {
+        "whole": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 42.224,
+          "median_y_px_s": -0.341,
+          "brightness": 0.4729,
+          "sharpness": 353.301,
+          "median_scale_per_frame": 0.997298
+        },
+        "sky": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 19.452,
+          "median_y_px_s": -0.054,
+          "brightness": 0.3194,
+          "sharpness": 294.177,
+          "median_scale_per_frame": 0.994974
+        },
+        "left_building": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 58.102,
+          "median_y_px_s": -1.992,
+          "brightness": 0.5758,
+          "sharpness": 189.815,
+          "median_scale_per_frame": 0.990813
+        },
+        "right_building": {
+          "samples": 5,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 1.518,
+          "median_y_px_s": -0.01,
+          "brightness": 0.4339,
+          "sharpness": 60.575,
+          "median_scale_per_frame": 1.0042
+        },
+        "central_foreground": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 42.655,
+          "median_y_px_s": -5.677,
+          "brightness": 0.5605,
+          "sharpness": 821.563,
+          "median_scale_per_frame": 0.997337
+        },
+        "window": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 42.166,
+          "median_y_px_s": -0.781,
+          "brightness": 0.4404,
+          "sharpness": 677.038,
+          "median_scale_per_frame": 0.99663
+        },
+        "title": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 22.791,
+          "median_y_px_s": 0.0,
+          "brightness": 0.3318,
+          "sharpness": 197.358,
+          "median_scale_per_frame": 0.994392
+        }
+      }
+    },
+    {
+      "from_seconds": 4.5,
+      "to_seconds": 5.0,
+      "regions": {
+        "whole": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 0.181,
+          "median_y_px_s": -0.191,
+          "brightness": 0.4771,
+          "sharpness": 232.909,
+          "median_scale_per_frame": 0.992667
+        },
+        "sky": {
+          "samples": 5,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 3.997,
+          "median_y_px_s": -0.044,
+          "brightness": 0.3287,
+          "sharpness": 196.76,
+          "median_scale_per_frame": 0.980157
+        },
+        "left_building": {
+          "samples": 5,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 19.492,
+          "median_y_px_s": -4.782,
+          "brightness": 0.5987,
+          "sharpness": 146.258,
+          "median_scale_per_frame": 0.99393
+        },
+        "right_building": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 0.064,
+          "median_y_px_s": 0.0,
+          "brightness": 0.4262,
+          "sharpness": 61.223,
+          "median_scale_per_frame": 1.001746
+        },
+        "central_foreground": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": -14.945,
+          "median_y_px_s": -36.375,
+          "brightness": 0.5671,
+          "sharpness": 535.24,
+          "median_scale_per_frame": 0.995968
+        },
+        "window": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 0.601,
+          "median_y_px_s": -0.69,
+          "brightness": 0.4677,
+          "sharpness": 485.377,
+          "median_scale_per_frame": 0.990176
+        },
+        "title": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 5.491,
+          "median_y_px_s": 0.054,
+          "brightness": 0.3507,
+          "sharpness": 149.048,
+          "median_scale_per_frame": 0.99078
+        }
+      }
+    },
+    {
+      "from_seconds": 5.0,
+      "to_seconds": 5.5,
+      "regions": {
+        "whole": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.599,
+          "median_y_px_s": -0.317,
+          "brightness": 0.4644,
+          "sharpness": 280.988,
+          "median_scale_per_frame": 0.970771
+        },
+        "sky": {
+          "samples": 6,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": -2.746,
+          "median_y_px_s": 6.182,
+          "brightness": 0.3339,
+          "sharpness": 272.634,
+          "median_scale_per_frame": 0.956088
+        },
+        "left_building": {
+          "samples": 6,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 48.791,
+          "median_y_px_s": -20.991,
+          "brightness": 0.5489,
+          "sharpness": 128.997,
+          "median_scale_per_frame": 0.969161
+        },
+        "right_building": {
+          "samples": 6,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": -1.405,
+          "median_y_px_s": -0.002,
+          "brightness": 0.4184,
+          "sharpness": 5.41,
+          "median_scale_per_frame": 0.996775
+        },
+        "central_foreground": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -38.164,
+          "median_y_px_s": -38.374,
+          "brightness": 0.5856,
+          "sharpness": 716.287,
+          "median_scale_per_frame": 0.9723
+        },
+        "window": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -18.252,
+          "median_y_px_s": -4.028,
+          "brightness": 0.5026,
+          "sharpness": 658.748,
+          "median_scale_per_frame": 0.971595
+        },
+        "title": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.156,
+          "median_y_px_s": 9.597,
+          "brightness": 0.3478,
+          "sharpness": 192.372,
+          "median_scale_per_frame": 0.966847
+        }
+      }
+    },
+    {
+      "from_seconds": 5.5,
+      "to_seconds": 6.0,
+      "regions": {
+        "whole": {
+          "samples": 6,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": -0.798,
+          "median_y_px_s": -0.193,
+          "brightness": 0.3179,
+          "sharpness": 118.256,
+          "median_scale_per_frame": 0.90637
+        },
+        "sky": {
+          "samples": 6,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 0.626,
+          "median_y_px_s": 95.052,
+          "brightness": 0.2998,
+          "sharpness": 141.354,
+          "median_scale_per_frame": 0.916296
+        },
+        "left_building": {
+          "samples": 6,
+          "reliable_affine_samples": 3,
+          "median_x_px_s": 128.277,
+          "median_y_px_s": -33.478,
+          "brightness": 0.2974,
+          "sharpness": 24.99,
+          "median_scale_per_frame": 0.916459
+        },
+        "right_building": {
+          "samples": 6,
+          "reliable_affine_samples": 2,
+          "median_x_px_s": -155.636,
+          "median_y_px_s": -16.217,
+          "brightness": 0.2785,
+          "sharpness": 24.608,
+          "median_scale_per_frame": 0.908916
+        },
+        "central_foreground": {
+          "samples": 6,
+          "reliable_affine_samples": 2,
+          "median_x_px_s": 7.888,
+          "median_y_px_s": -30.408,
+          "brightness": 0.4001,
+          "sharpness": 298.433,
+          "median_scale_per_frame": 0.904145
+        },
+        "window": {
+          "samples": 6,
+          "reliable_affine_samples": 2,
+          "median_x_px_s": 10.4,
+          "median_y_px_s": 67.125,
+          "brightness": 0.3651,
+          "sharpness": 303.134,
+          "median_scale_per_frame": 0.919129
+        },
+        "title": {
+          "samples": 6,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": -0.411,
+          "median_y_px_s": 88.813,
+          "brightness": 0.2915,
+          "sharpness": 107.698,
+          "median_scale_per_frame": 0.915148
+        }
+      }
+    },
+    {
+      "from_seconds": 6.0,
+      "to_seconds": 6.5,
+      "regions": {
+        "whole": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": -0.439,
+          "median_y_px_s": -0.619,
+          "brightness": 0.2073,
+          "sharpness": 106.772,
+          "median_scale_per_frame": 0.923198
+        },
+        "sky": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 0.509,
+          "median_y_px_s": 75.134,
+          "brightness": 0.2247,
+          "sharpness": 175.204,
+          "median_scale_per_frame": 0.922744
+        },
+        "left_building": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 134.729,
+          "median_y_px_s": -12.135,
+          "brightness": 0.1701,
+          "sharpness": 25.372,
+          "median_scale_per_frame": 0.910988
+        },
+        "right_building": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": -123.723,
+          "median_y_px_s": -22.701,
+          "brightness": 0.1967,
+          "sharpness": 43.332,
+          "median_scale_per_frame": 0.91056
+        },
+        "central_foreground": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 7.141,
+          "median_y_px_s": -22.369,
+          "brightness": 0.2284,
+          "sharpness": 240.978,
+          "median_scale_per_frame": 0.923773
+        },
+        "window": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 7.757,
+          "median_y_px_s": 40.536,
+          "brightness": 0.2312,
+          "sharpness": 251.736,
+          "median_scale_per_frame": 0.923395
+        },
+        "title": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": -0.516,
+          "median_y_px_s": 72.466,
+          "brightness": 0.2205,
+          "sharpness": 127.421,
+          "median_scale_per_frame": 0.920892
+        }
+      }
+    },
+    {
+      "from_seconds": 6.5,
+      "to_seconds": 7.0,
+      "regions": {
+        "whole": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": -1.059,
+          "median_y_px_s": -0.004,
+          "brightness": 0.2111,
+          "sharpness": 244.458,
+          "median_scale_per_frame": 0.965922
+        },
+        "sky": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 0.445,
+          "median_y_px_s": 34.061,
+          "brightness": 0.2132,
+          "sharpness": 478.892,
+          "median_scale_per_frame": 0.966296
+        },
+        "left_building": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 74.843,
+          "median_y_px_s": -11.968,
+          "brightness": 0.1817,
+          "sharpness": 74.252,
+          "median_scale_per_frame": 0.955843
+        },
+        "right_building": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": -68.669,
+          "median_y_px_s": -13.26,
+          "brightness": 0.2092,
+          "sharpness": 90.491,
+          "median_scale_per_frame": 0.959855
+        },
+        "central_foreground": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 0.711,
+          "median_y_px_s": -9.718,
+          "brightness": 0.2223,
+          "sharpness": 504.688,
+          "median_scale_per_frame": 0.966856
+        },
+        "window": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 2.017,
+          "median_y_px_s": 19.42,
+          "brightness": 0.2208,
+          "sharpness": 516.743,
+          "median_scale_per_frame": 0.966891
+        },
+        "title": {
+          "samples": 4,
+          "reliable_affine_samples": 4,
+          "median_x_px_s": 0.281,
+          "median_y_px_s": 32.958,
+          "brightness": 0.2186,
+          "sharpness": 351.824,
+          "median_scale_per_frame": 0.965835
+        }
+      }
+    },
+    {
+      "from_seconds": 7.0,
+      "to_seconds": 7.5,
+      "regions": {
+        "whole": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.004,
+          "median_y_px_s": -0.006,
+          "brightness": 0.2126,
+          "sharpness": 366.506,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2135,
+          "sharpness": 752.162,
+          "median_scale_per_frame": 1.0
+        },
+        "left_building": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.021,
+          "brightness": 0.1863,
+          "sharpness": 116.004,
+          "median_scale_per_frame": 1.0
+        },
+        "right_building": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.021,
+          "median_y_px_s": -0.026,
+          "brightness": 0.2113,
+          "sharpness": 144.745,
+          "median_scale_per_frame": 0.999998
+        },
+        "central_foreground": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.001,
+          "median_y_px_s": -0.004,
+          "brightness": 0.2221,
+          "sharpness": 725.768,
+          "median_scale_per_frame": 1.0
+        },
+        "window": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.001,
+          "median_y_px_s": -0.001,
+          "brightness": 0.2198,
+          "sharpness": 741.679,
+          "median_scale_per_frame": 1.0
+        },
+        "title": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.002,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2189,
+          "sharpness": 561.029,
+          "median_scale_per_frame": 1.0
+        }
+      }
+    },
+    {
+      "from_seconds": 7.5,
+      "to_seconds": 8.0,
+      "regions": {
+        "whole": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2123,
+          "sharpness": 394.369,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2173,
+          "sharpness": 795.5,
+          "median_scale_per_frame": 1.0
+        },
+        "left_building": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.001,
+          "brightness": 0.19,
+          "sharpness": 128.727,
+          "median_scale_per_frame": 1.000001
+        },
+        "right_building": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2177,
+          "sharpness": 155.634,
+          "median_scale_per_frame": 0.999999
+        },
+        "central_foreground": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2221,
+          "sharpness": 774.597,
+          "median_scale_per_frame": 1.0
+        },
+        "window": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2207,
+          "sharpness": 778.711,
+          "median_scale_per_frame": 0.999999
+        },
+        "title": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2187,
+          "sharpness": 627.047,
+          "median_scale_per_frame": 1.0
+        }
+      }
+    },
+    {
+      "from_seconds": 8.0,
+      "to_seconds": 8.5,
+      "regions": {
+        "whole": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -1.244,
+          "median_y_px_s": 0.078,
+          "brightness": 0.2128,
+          "sharpness": 448.01,
+          "median_scale_per_frame": 0.995663
+        },
+        "sky": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.019,
+          "median_y_px_s": 16.039,
+          "brightness": 0.2234,
+          "sharpness": 894.991,
+          "median_scale_per_frame": 0.995211
+        },
+        "left_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 36.071,
+          "median_y_px_s": -5.662,
+          "brightness": 0.1924,
+          "sharpness": 143.296,
+          "median_scale_per_frame": 0.993882
+        },
+        "right_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -34.546,
+          "median_y_px_s": -6.182,
+          "brightness": 0.2211,
+          "sharpness": 179.712,
+          "median_scale_per_frame": 0.994141
+        },
+        "central_foreground": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.045,
+          "median_y_px_s": -3.754,
+          "brightness": 0.2229,
+          "sharpness": 881.842,
+          "median_scale_per_frame": 0.99598
+        },
+        "window": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.355,
+          "median_y_px_s": 8.637,
+          "brightness": 0.2212,
+          "sharpness": 876.051,
+          "median_scale_per_frame": 0.995713
+        },
+        "title": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.033,
+          "median_y_px_s": 15.584,
+          "brightness": 0.2217,
+          "sharpness": 711.44,
+          "median_scale_per_frame": 0.9953
+        }
+      }
+    },
+    {
+      "from_seconds": 8.5,
+      "to_seconds": 9.0,
+      "regions": {
+        "whole": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": -0.039,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2141,
+          "sharpness": 506.347,
+          "median_scale_per_frame": 0.999993
+        },
+        "sky": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 0.002,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2258,
+          "sharpness": 985.855,
+          "median_scale_per_frame": 1.000001
+        },
+        "left_building": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": -0.001,
+          "median_y_px_s": -0.53,
+          "brightness": 0.1957,
+          "sharpness": 181.713,
+          "median_scale_per_frame": 0.999745
+        },
+        "right_building": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": -0.041,
+          "median_y_px_s": -1.092,
+          "brightness": 0.2218,
+          "sharpness": 211.82,
+          "median_scale_per_frame": 0.999928
+        },
+        "central_foreground": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": -0.005,
+          "median_y_px_s": -0.416,
+          "brightness": 0.2243,
+          "sharpness": 977.64,
+          "median_scale_per_frame": 0.999947
+        },
+        "window": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 0.002,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2214,
+          "sharpness": 964.174,
+          "median_scale_per_frame": 0.999998
+        },
+        "title": {
+          "samples": 5,
+          "reliable_affine_samples": 5,
+          "median_x_px_s": 0.007,
+          "median_y_px_s": 0.001,
+          "brightness": 0.2213,
+          "sharpness": 799.727,
+          "median_scale_per_frame": 1.000002
+        }
+      }
+    },
+    {
+      "from_seconds": 9.0,
+      "to_seconds": 9.5,
+      "regions": {
+        "whole": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.005,
+          "median_y_px_s": -0.002,
+          "brightness": 0.2136,
+          "sharpness": 512.619,
+          "median_scale_per_frame": 0.99999
+        },
+        "sky": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": 0.005,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2222,
+          "sharpness": 1031.37,
+          "median_scale_per_frame": 0.999973
+        },
+        "left_building": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": 0.035,
+          "median_y_px_s": -0.073,
+          "brightness": 0.1945,
+          "sharpness": 188.888,
+          "median_scale_per_frame": 0.999986
+        },
+        "right_building": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.01,
+          "median_y_px_s": -0.043,
+          "brightness": 0.2227,
+          "sharpness": 211.4,
+          "median_scale_per_frame": 0.999974
+        },
+        "central_foreground": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.003,
+          "median_y_px_s": -0.01,
+          "brightness": 0.2239,
+          "sharpness": 996.622,
+          "median_scale_per_frame": 0.999992
+        },
+        "window": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": 0.004,
+          "median_y_px_s": -0.001,
+          "brightness": 0.221,
+          "sharpness": 970.467,
+          "median_scale_per_frame": 0.999992
+        },
+        "title": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": 0.004,
+          "median_y_px_s": 0.001,
+          "brightness": 0.2155,
+          "sharpness": 800.984,
+          "median_scale_per_frame": 0.999988
+        }
+      }
+    },
+    {
+      "from_seconds": 9.5,
+      "to_seconds": 10.0,
+      "regions": {
+        "whole": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2159,
+          "sharpness": 554.335,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2218,
+          "sharpness": 1103.638,
+          "median_scale_per_frame": 1.0
+        },
+        "left_building": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.195,
+          "sharpness": 214.831,
+          "median_scale_per_frame": 0.999999
+        },
+        "right_building": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2214,
+          "sharpness": 242.177,
+          "median_scale_per_frame": 1.0
+        },
+        "central_foreground": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2234,
+          "sharpness": 1055.372,
+          "median_scale_per_frame": 0.999999
+        },
+        "window": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.221,
+          "sharpness": 1027.954,
+          "median_scale_per_frame": 0.999999
+        },
+        "title": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2147,
+          "sharpness": 868.866,
+          "median_scale_per_frame": 1.0
+        }
+      }
+    },
+    {
+      "from_seconds": 10.0,
+      "to_seconds": 10.5,
+      "regions": {
+        "whole": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.032,
+          "median_y_px_s": -0.005,
+          "brightness": 0.2263,
+          "sharpness": 573.766,
+          "median_scale_per_frame": 0.99779
+        },
+        "sky": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.001,
+          "median_y_px_s": 9.23,
+          "brightness": 0.2248,
+          "sharpness": 1093.127,
+          "median_scale_per_frame": 0.996752
+        },
+        "left_building": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 18.855,
+          "median_y_px_s": -3.157,
+          "brightness": 0.1997,
+          "sharpness": 247.518,
+          "median_scale_per_frame": 0.996695
+        },
+        "right_building": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -18.53,
+          "median_y_px_s": -2.697,
+          "brightness": 0.217,
+          "sharpness": 249.671,
+          "median_scale_per_frame": 0.996586
+        },
+        "central_foreground": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.004,
+          "median_y_px_s": -2.974,
+          "brightness": 0.224,
+          "sharpness": 1112.946,
+          "median_scale_per_frame": 0.998381
+        },
+        "window": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.006,
+          "median_y_px_s": 5.018,
+          "brightness": 0.2241,
+          "sharpness": 1045.674,
+          "median_scale_per_frame": 0.997515
+        },
+        "title": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.002,
+          "median_y_px_s": 8.808,
+          "brightness": 0.219,
+          "sharpness": 857.495,
+          "median_scale_per_frame": 0.997132
+        }
+      }
+    },
+    {
+      "from_seconds": 10.5,
+      "to_seconds": 11.0,
+      "regions": {
+        "whole": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.251,
+          "median_y_px_s": -0.034,
+          "brightness": 0.2352,
+          "sharpness": 569.144,
+          "median_scale_per_frame": 0.994753
+        },
+        "sky": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.297,
+          "median_y_px_s": 3.724,
+          "brightness": 0.2263,
+          "sharpness": 1142.638,
+          "median_scale_per_frame": 0.994678
+        },
+        "left_building": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": 8.583,
+          "median_y_px_s": -1.528,
+          "brightness": 0.2009,
+          "sharpness": 239.028,
+          "median_scale_per_frame": 0.993377
+        },
+        "right_building": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -8.155,
+          "median_y_px_s": -1.475,
+          "brightness": 0.2148,
+          "sharpness": 233.968,
+          "median_scale_per_frame": 0.993267
+        },
+        "central_foreground": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.004,
+          "median_y_px_s": -1.363,
+          "brightness": 0.2231,
+          "sharpness": 1136.716,
+          "median_scale_per_frame": 0.99485
+        },
+        "window": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.09,
+          "median_y_px_s": 2.071,
+          "brightness": 0.2284,
+          "sharpness": 1049.665,
+          "median_scale_per_frame": 0.995099
+        },
+        "title": {
+          "samples": 6,
+          "reliable_affine_samples": 6,
+          "median_x_px_s": -0.348,
+          "median_y_px_s": 3.514,
+          "brightness": 0.2326,
+          "sharpness": 873.901,
+          "median_scale_per_frame": 0.994685
+        }
+      }
+    },
+    {
+      "from_seconds": 11.0,
+      "to_seconds": 11.5,
+      "regions": {
+        "whole": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2395,
+          "sharpness": 615.697,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2276,
+          "sharpness": 1200.784,
+          "median_scale_per_frame": 0.999999
+        },
+        "left_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.204,
+          "sharpness": 275.508,
+          "median_scale_per_frame": 1.0
+        },
+        "right_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2142,
+          "sharpness": 262.002,
+          "median_scale_per_frame": 0.999999
+        },
+        "central_foreground": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2229,
+          "sharpness": 1225.349,
+          "median_scale_per_frame": 1.0
+        },
+        "window": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2315,
+          "sharpness": 1114.973,
+          "median_scale_per_frame": 1.0
+        },
+        "title": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2414,
+          "sharpness": 899.964,
+          "median_scale_per_frame": 0.999999
+        }
+      }
+    },
+    {
+      "from_seconds": 11.5,
+      "to_seconds": 12.0,
+      "regions": {
+        "whole": {
+          "samples": 12,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2424,
+          "sharpness": 624.374,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 12,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.232,
+          "sharpness": 1227.125,
+          "median_scale_per_frame": 0.999999
+        },
+        "left_building": {
+          "samples": 12,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.001,
+          "brightness": 0.2074,
+          "sharpness": 286.406,
+          "median_scale_per_frame": 0.999997
+        },
+        "right_building": {
+          "samples": 12,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.001,
+          "median_y_px_s": -0.001,
+          "brightness": 0.2143,
+          "sharpness": 271.29,
+          "median_scale_per_frame": 0.999984
+        },
+        "central_foreground": {
+          "samples": 12,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.002,
+          "brightness": 0.2228,
+          "sharpness": 1243.24,
+          "median_scale_per_frame": 1.0
+        },
+        "window": {
+          "samples": 12,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2336,
+          "sharpness": 1128.173,
+          "median_scale_per_frame": 1.0
+        },
+        "title": {
+          "samples": 12,
+          "reliable_affine_samples": 12,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2497,
+          "sharpness": 902.067,
+          "median_scale_per_frame": 1.0
+        }
+      }
+    },
+    {
+      "from_seconds": 12.0,
+      "to_seconds": 12.5,
+      "regions": {
+        "whole": {
+          "samples": 11,
+          "reliable_affine_samples": 11,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2444,
+          "sharpness": 630.369,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 11,
+          "reliable_affine_samples": 11,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2338,
+          "sharpness": 1242.528,
+          "median_scale_per_frame": 1.0
+        },
+        "left_building": {
+          "samples": 11,
+          "reliable_affine_samples": 11,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.21,
+          "sharpness": 290.639,
+          "median_scale_per_frame": 1.0
+        },
+        "right_building": {
+          "samples": 11,
+          "reliable_affine_samples": 11,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2142,
+          "sharpness": 275.752,
+          "median_scale_per_frame": 0.999999
+        },
+        "central_foreground": {
+          "samples": 11,
+          "reliable_affine_samples": 11,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2228,
+          "sharpness": 1252.282,
+          "median_scale_per_frame": 1.0
+        },
+        "window": {
+          "samples": 11,
+          "reliable_affine_samples": 11,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.235,
+          "sharpness": 1135.728,
+          "median_scale_per_frame": 1.0
+        },
+        "title": {
+          "samples": 11,
+          "reliable_affine_samples": 11,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2549,
+          "sharpness": 910.789,
+          "median_scale_per_frame": 1.0
+        }
+      }
+    },
+    {
+      "from_seconds": 12.5,
+      "to_seconds": 13.0,
+      "regions": {
+        "whole": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2444,
+          "sharpness": 631.047,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2339,
+          "sharpness": 1243.047,
+          "median_scale_per_frame": 1.0
+        },
+        "left_building": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2101,
+          "sharpness": 291.884,
+          "median_scale_per_frame": 1.0
+        },
+        "right_building": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2142,
+          "sharpness": 276.43,
+          "median_scale_per_frame": 1.0
+        },
+        "central_foreground": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2228,
+          "sharpness": 1252.641,
+          "median_scale_per_frame": 1.0
+        },
+        "window": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2351,
+          "sharpness": 1136.05,
+          "median_scale_per_frame": 1.0
+        },
+        "title": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2549,
+          "sharpness": 911.556,
+          "median_scale_per_frame": 1.0
+        }
+      }
+    },
+    {
+      "from_seconds": 13.0,
+      "to_seconds": 13.5,
+      "regions": {
+        "whole": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2791,
+          "sharpness": 668.835,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2432,
+          "sharpness": 1402.178,
+          "median_scale_per_frame": 1.0
+        },
+        "left_building": {
+          "samples": 15,
+          "reliable_affine_samples": 14,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2797,
+          "sharpness": 351.249,
+          "median_scale_per_frame": 1.0
+        },
+        "right_building": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.227,
+          "sharpness": 271.978,
+          "median_scale_per_frame": 1.0
+        },
+        "central_foreground": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2331,
+          "sharpness": 1354.055,
+          "median_scale_per_frame": 1.0
+        },
+        "window": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2494,
+          "sharpness": 1253.945,
+          "median_scale_per_frame": 1.0
+        },
+        "title": {
+          "samples": 15,
+          "reliable_affine_samples": 15,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.2829,
+          "sharpness": 912.277,
+          "median_scale_per_frame": 1.0
+        }
+      }
+    },
+    {
+      "from_seconds": 13.5,
+      "to_seconds": 14.0,
+      "regions": {
+        "whole": {
+          "samples": 13,
+          "reliable_affine_samples": 13,
+          "median_x_px_s": -0.005,
+          "median_y_px_s": -0.022,
+          "brightness": 0.303,
+          "sharpness": 691.511,
+          "median_scale_per_frame": 0.999213
+        },
+        "sky": {
+          "samples": 13,
+          "reliable_affine_samples": 13,
+          "median_x_px_s": 0.049,
+          "median_y_px_s": 2.674,
+          "brightness": 0.2489,
+          "sharpness": 1411.864,
+          "median_scale_per_frame": 0.999011
+        },
+        "left_building": {
+          "samples": 13,
+          "reliable_affine_samples": 13,
+          "median_x_px_s": 6.571,
+          "median_y_px_s": -0.931,
+          "brightness": 0.3153,
+          "sharpness": 353.639,
+          "median_scale_per_frame": 0.998222
+        },
+        "right_building": {
+          "samples": 13,
+          "reliable_affine_samples": 13,
+          "median_x_px_s": -6.212,
+          "median_y_px_s": -0.994,
+          "brightness": 0.2478,
+          "sharpness": 272.495,
+          "median_scale_per_frame": 0.998526
+        },
+        "central_foreground": {
+          "samples": 13,
+          "reliable_affine_samples": 13,
+          "median_x_px_s": 0.167,
+          "median_y_px_s": -0.644,
+          "brightness": 0.2497,
+          "sharpness": 1424.692,
+          "median_scale_per_frame": 0.999567
+        },
+        "window": {
+          "samples": 13,
+          "reliable_affine_samples": 13,
+          "median_x_px_s": 0.057,
+          "median_y_px_s": 1.203,
+          "brightness": 0.2666,
+          "sharpness": 1307.685,
+          "median_scale_per_frame": 0.999299
+        },
+        "title": {
+          "samples": 13,
+          "reliable_affine_samples": 13,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 2.273,
+          "brightness": 0.2962,
+          "sharpness": 922.559,
+          "median_scale_per_frame": 0.998998
+        }
+      }
+    },
+    {
+      "from_seconds": 14.0,
+      "to_seconds": 14.5,
+      "regions": {
+        "whole": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.017,
+          "median_y_px_s": -0.015,
+          "brightness": 0.3394,
+          "sharpness": 751.586,
+          "median_scale_per_frame": 0.999219
+        },
+        "sky": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": 0.029,
+          "median_y_px_s": 2.285,
+          "brightness": 0.2502,
+          "sharpness": 1406.75,
+          "median_scale_per_frame": 0.99921
+        },
+        "left_building": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": 5.242,
+          "median_y_px_s": -1.111,
+          "brightness": 0.3373,
+          "sharpness": 353.109,
+          "median_scale_per_frame": 0.998643
+        },
+        "right_building": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -5.283,
+          "median_y_px_s": -1.067,
+          "brightness": 0.32,
+          "sharpness": 256.542,
+          "median_scale_per_frame": 0.998525
+        },
+        "central_foreground": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": 0.169,
+          "median_y_px_s": -0.561,
+          "brightness": 0.2886,
+          "sharpness": 1639.458,
+          "median_scale_per_frame": 0.999149
+        },
+        "window": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": 0.127,
+          "median_y_px_s": 0.922,
+          "brightness": 0.3041,
+          "sharpness": 1570.839,
+          "median_scale_per_frame": 0.999323
+        },
+        "title": {
+          "samples": 7,
+          "reliable_affine_samples": 7,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": 2.117,
+          "brightness": 0.3018,
+          "sharpness": 911.736,
+          "median_scale_per_frame": 0.999162
+        }
+      }
+    },
+    {
+      "from_seconds": 14.5,
+      "to_seconds": 15.0,
+      "regions": {
+        "whole": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.3588,
+          "sharpness": 771.708,
+          "median_scale_per_frame": 0.999999
+        },
+        "sky": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.001,
+          "brightness": 0.25,
+          "sharpness": 1413.531,
+          "median_scale_per_frame": 0.999998
+        },
+        "left_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.338,
+          "sharpness": 346.986,
+          "median_scale_per_frame": 0.999996
+        },
+        "right_building": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.001,
+          "brightness": 0.375,
+          "sharpness": 247.177,
+          "median_scale_per_frame": 0.999993
+        },
+        "central_foreground": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.3078,
+          "sharpness": 1673.071,
+          "median_scale_per_frame": 0.999998
+        },
+        "window": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.3177,
+          "sharpness": 1629.375,
+          "median_scale_per_frame": 0.999999
+        },
+        "title": {
+          "samples": 8,
+          "reliable_affine_samples": 8,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.3043,
+          "sharpness": 912.999,
+          "median_scale_per_frame": 0.999999
+        }
+      }
+    },
+    {
+      "from_seconds": 15.0,
+      "to_seconds": 15.5,
+      "regions": {
+        "whole": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.001,
+          "median_y_px_s": -0.002,
+          "brightness": 0.3803,
+          "sharpness": 761.557,
+          "median_scale_per_frame": 0.999992
+        },
+        "sky": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.02,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2502,
+          "sharpness": 1384.044,
+          "median_scale_per_frame": 0.999983
+        },
+        "left_building": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.019,
+          "median_y_px_s": -0.02,
+          "brightness": 0.3315,
+          "sharpness": 351.856,
+          "median_scale_per_frame": 0.999984
+        },
+        "right_building": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.019,
+          "median_y_px_s": -0.031,
+          "brightness": 0.4516,
+          "sharpness": 323.287,
+          "median_scale_per_frame": 1.000001
+        },
+        "central_foreground": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.032,
+          "brightness": 0.325,
+          "sharpness": 1632.207,
+          "median_scale_per_frame": 0.999981
+        },
+        "window": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.3233,
+          "sharpness": 1615.78,
+          "median_scale_per_frame": 0.999979
+        },
+        "title": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": 0.0,
+          "brightness": 0.3082,
+          "sharpness": 895.748,
+          "median_scale_per_frame": 0.999979
+        }
+      }
+    },
+    {
+      "from_seconds": 15.5,
+      "to_seconds": 16.0,
+      "regions": {
+        "whole": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.3894,
+          "sharpness": 749.516,
+          "median_scale_per_frame": 1.0
+        },
+        "sky": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.001,
+          "median_y_px_s": -0.0,
+          "brightness": 0.2516,
+          "sharpness": 1374.219,
+          "median_scale_per_frame": 1.0
+        },
+        "left_building": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.322,
+          "sharpness": 389.953,
+          "median_scale_per_frame": 0.999999
+        },
+        "right_building": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.4774,
+          "sharpness": 312.533,
+          "median_scale_per_frame": 0.999997
+        },
+        "central_foreground": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.3351,
+          "sharpness": 1597.303,
+          "median_scale_per_frame": 1.0
+        },
+        "window": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": 0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.3255,
+          "sharpness": 1603.157,
+          "median_scale_per_frame": 1.0
+        },
+        "title": {
+          "samples": 9,
+          "reliable_affine_samples": 9,
+          "median_x_px_s": -0.0,
+          "median_y_px_s": -0.0,
+          "brightness": 0.3108,
+          "sharpness": 892.496,
+          "median_scale_per_frame": 0.999999
+        }
+      }
+    }
+  ]
+}

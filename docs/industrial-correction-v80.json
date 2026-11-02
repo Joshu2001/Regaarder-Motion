@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit this atlas. Preserve the entire top strip with anonymous soldiers exactly unchanged. Replace the middle strip with a photorealistic 1940s metalworking factory: workers operating lathes producing plain metal mechanical components, industrial wartime production, neutral documentary illustration, no weapons or insignia. Replace the bottom strip with grayscale close-up of metal flywheels, lathe tools and machined steel components. No shoes, no leather, no sewing machines. Preserve the three equal horizontal strip layout, grayscale palette, panoramic photography, lighting style and grain. No text or borders. Fictional reconstruction, not archival photography.",
+  "reason": "Supplied transcript identifies metal/tank-part manufacturing in this passage.",
+  "source": "shelter-illustrations-v80.png",
+  "result": "shelter-industrial-metal-v80.png",
+  "retention": "Both generated original and correction retained unchanged. Soldiers slot uses original; workers/machines use correction.",
+  "status": "Selected illustrative substitute; verified archival moving footage remains unavailable."
+}

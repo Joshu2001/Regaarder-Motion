@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28",
+  "sky": {
+    "prompt": "Use case: historical-scene. Asset type: independent background sky plate for editable documentary parallax animation. Wide 16:9 luminous PALE YELLOW sky with wispy horizontal PEACH cloud streaks, brightest toward lower right horizon. Soft vintage cinematic photographic illustration, restrained saturation. Sky only fills entire image: no land, buildings, people, fire, sun disk, text or symbols. Sun bloom is added separately in compositor. Match a softly glowing cream-yellow early morning sky, NOT a dramatic orange sunset.",
+    "output": "exec-da3a0fcb-9628-415b-9cbf-6123ff556315.png"
+  },
+  "landscape": {
+    "prompt": "Use case: historical-scene. Asset type: transparent landscape depth layer for 16:9 cinematic parallax scene. A distant ruined early twentieth century European industrial town and muddy desolate terrain, low roofs, damaged church, scattered chimneys, faint smoke haze. Foreground dark olive brown rubble softly out of focus, horizon level across upper third. Entire skyline cut out on genuine transparent alpha, NO SKY. Wide landscape 16:9. Soft photographic documentary illustration with warm pale yellow rim lighting from right, neutral dusty olive/brown ground. No people, no fire, no sun, no symbols, text or logos. This is an illustration, not archival evidence.",
+    "output": "exec-5ae8394c-d489-41a4-950c-77c16b103902.png"
+  },
+  "boys": {
+    "note": "Recovered original generated PNGs byte-for-byte. Original generation prompt unavailable; no regeneration or identity edits.",
+    "front": "libfile_9d8b0cbb19dc8191bf757adcc858d26c",
+    "rear": "libfile_cbbff1b6368481918afebf7c18f1c9f8"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "sourceAssetLicense": "CC0 graphical assets; MakeHuman application AGPL code not incorporated",
+  "sources": [
+    {
+      "path": "assets/humanoid-v89/base-original.obj",
+      "bytes": 1749303,
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/3dobjs/base.obj"
+    },
+    {
+      "path": "assets/humanoid-v89/caucasian-male-young.target",
+      "bytes": 396479,
+      "sha256": "70e228ba7164737dae664454394536fc5935fa48d333c1a97d77e2dc6eacc5f5",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/targets/macrodetails/caucasian-male-young.target"
+    },
+    {
+      "path": "assets/humanoid-v89/LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/LICENSE.ASSETS.md"
+    },
+    {
+      "path": "assets/humanoid-v89/default.mhskel",
+      "bytes": 117790,
+      "sha256": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/rigs/default.mhskel"
+    },
+    {
+      "path": "assets/humanoid-v89/LICENSE.md",
+      "bytes": 3598,
+      "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/LICENSE.md"
+    },
+    {
+      "path": "assets/humanoid-v89/humanoid.json",
+      "bytes": 10591470,
+      "sha256": "0ed1eeafb1ed3b15c8c249a37fe704d205bab3c8d4baaedb6ee8e84dad2d2ad5",
+      "active": true,
+      "source": "Project source scripts/v89/build_humanoid.py and dist/native3d"
+    },
+    {
+      "path": "assets/humanoid-v89/default_weights.mhw",
+      "bytes": 897521,
+      "sha256": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+      "active": true,
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/rigs/default_weights.mhw"
+    },
+    {
+      "path": "assets/humanoid-v89/vendor-originals/GLTFExporter.js",
+      "bytes": 81884,
+      "sha256": "76526d2be01c3fdf17c8efcf7c1c67dfd1ef30ede3196865eb69fa49196f80aa",
+      "active": false,
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r170/examples/jsm/exporters/GLTFExporter.js"
+    },
+    {
+      "path": "assets/humanoid-v89/vendor-originals/BufferGeometryUtils.js",
+      "bytes": 31768,
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6",
+      "active": false,
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r170/examples/jsm/utils/BufferGeometryUtils.js"
+    },
+    {
+      "path": "assets/humanoid-v89/candidates/100169ac1394/humanoid.json",
+      "bytes": 10591470,
+      "sha256": "100169ac13945881cc16eee7943d8922f8aa719da3cf8354f369a914632a1515",
+      "active": false,
+      "source": "Project source scripts/v89/build_humanoid.py and dist/native3d"
+    },
+    {
+      "path": "assets/humanoid-v89/candidates/127b55537268/humanoid.json",
+      "bytes": 10591970,
+      "sha256": "127b555372681673ef7558a6f7848e4853b204e689251aea12fba0f6d08d1779",
+      "active": false,
+      "source": "Project source scripts/v89/build_humanoid.py and dist/native3d"
+    }
+  ],
+  "nativeModules": [
+    {
+      "path": "dist/native3d/editor.js",
+      "sha256": "18cbfe56d14931a5af4d92a3bee6930c12ab677c8b6402350635c7b8aedf88af"
+    },
+    {
+      "path": "dist/native3d/checkpoint.js",
+      "sha256": "448bc812a4ab1328be1ab3c0d8e4cf0e224be0eb105ecf3073b59b4a81ef454c"
+    },
+    {
+      "path": "dist/native3d/engine.js",
+      "sha256": "2f4c8c3950d2222922f76f78dccda039705dc0392180d6018aa5aab39a7025d1"
+    },
+    {
+      "path": "dist/native3d/editor.css",
+      "sha256": "54d407fac9279684e093cc1163dd0871f77ef382ff7d6b98068298dda10fe498"
+    },
+    {
+      "path": "dist/native3d/scene.js",
+      "sha256": "73bb62629f0a2b459beaf22b6f2f72ce20403fd75fdcef82b192b7ab12513cab"
+    },
+    {
+      "path": "dist/native3d/lab.js",
+      "sha256": "fe6ef44372154c2301b3a3e0effc46571cc64567b15319268b293312e142ee67"
+    },
+    {
+      "path": "dist/native3d/export.js",
+      "sha256": "123ba20803d17068e6cbbbea7e7f2a048d81ba9de597bf13aa40462ee2aa5143"
+    },
+    {
+      "path": "dist/native3d/atmosphere.js",
+      "sha256": "3eb69b99990b5b925a925aef8e8c93118982d0f121d2a48de895f0fabd25b1a4"
+    }
+  ],
+  "referenceMedia": "User-provided original documentary is used only for diagnostic comparison, never as a humanoid video texture",
+  "runtime": "Bundled Three.js r170 MIT; no runtime external app, CDN, API key or model service"
+}

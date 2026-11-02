@@ -1,0 +1,351 @@
+{
+  "status": "V86analysis-only; V85 remains implemented through835",
+  "sourceInterval": [
+    835,
+    895
+  ],
+  "sourceTime": "localTime+835",
+  "defaultTemplateTime": "sourceTime+10 if prior settings remain default",
+  "stages": [
+    {
+      "id": "opportunity-display-continuation",
+      "from": 835,
+      "to": 835.5,
+      "localFrom": 0,
+      "localTo": 0.5,
+      "observed": "A black low-cut boot remains over the wooden ledge with a blurred street behind it; pale projections are visible below its sole.",
+      "proposed": "Preserve the V85 incoming frame, then continue the same first boot. The projections appear to be sole studs; do not assume separate acrylic display supports.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-second-boot-entrance",
+      "from": 835.5,
+      "to": 837,
+      "localFrom": 0.5,
+      "localTo": 2,
+      "observed": "A second black boot enters from image-right with its toe facing LEFT; the first boot points RIGHT.",
+      "proposed": "Independent opposite-facing boot, sole studs and arrival curve. Retain the same first boot rather than substituting an unrelated shoe.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-comparison-hold",
+      "from": 837,
+      "to": 840,
+      "localFrom": 2,
+      "localTo": 5,
+      "observed": "Both boots settle side by side over the bowed wooden ledge while the framed street view slowly changes scale.",
+      "proposed": "Separate shoe transforms, depth/focus, street plate and curved frame. Keep the three-stripe treatment absent on the first boot at this stage.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-panels-up",
+      "from": 840,
+      "to": 841.4,
+      "localFrom": 5,
+      "localTo": 6.399999999999977,
+      "observed": "The shoe/street panel leaves upward while blue-cloud panes appear from below, separated by a central dark mullion.",
+      "proposed": "Linked vertical panel travel with bowed/trapezoidal masks and dark surrounding space. This black surround is not an all-frame black hold.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-inspector-rise",
+      "from": 841.4,
+      "to": 842.6,
+      "localFrom": 6.399999999999977,
+      "localTo": 7.600000000000023,
+      "observed": "A monochrome man holding a studded, striped boot rises into the cloud-window view.",
+      "proposed": "Separate inspector cutout and boot where practical; preserve hand contact and the visible inverted sole orientation.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-inspector-hold",
+      "from": 842.6,
+      "to": 846.25,
+      "localFrom": 7.600000000000023,
+      "localTo": 11.25,
+      "observed": "The man holds the boot near his face with both hands; scale/framing shifts slightly. The sampled pose does not establish active shoe-making.",
+      "proposed": "Held photographic pose with an authored camera/panel move; do not claim finger articulation or a sewing performance.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-panels-return",
+      "from": 846.25,
+      "to": 847.6,
+      "localFrom": 11.25,
+      "localTo": 12.600000000000023,
+      "observed": "The inspector panel moves down; the street/boot panel returns from above with a large red1949 behind the boot.",
+      "proposed": "Reverse the linked panel movement. Keep the date behind the shoe and preserve the curved frame/ledge.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-date-hold",
+      "from": 847.6,
+      "to": 849.3,
+      "localFrom": 12.600000000000023,
+      "localTo": 14.299999999999955,
+      "observed": "Red1949 fills much of the street window behind the unstriped boot, with a gentle approach.",
+      "proposed": "Editable date text, font metrics, scale, depth order and camera; do not draw the date across the shoe.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-date-fade",
+      "from": 849.3,
+      "to": 849.9,
+      "localFrom": 14.299999999999955,
+      "localTo": 14.899999999999977,
+      "observed": "The date becomes translucent while the same boot remains in front.",
+      "proposed": "Separate date opacity from shoe and street exposure. The fade overlaps the following stripe reveal.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-white-stripe-reveal",
+      "from": 849.9,
+      "to": 850.8,
+      "localFrom": 14.899999999999977,
+      "localTo": 15.799999999999955,
+      "observed": "Three pale stripe segments appear low on the boot side and lengthen upward into full white stripes.",
+      "proposed": "Three masks anchored to the same shoe surface, revealed upward. Do not replace the entire boot or introduce a physical paintbrush that is not visible.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-striped-boot-hold",
+      "from": 850.8,
+      "to": 854.1666666666666,
+      "localFrom": 15.799999999999955,
+      "localTo": 19.16666666666663,
+      "observed": "The now-striped boot holds and grows subtly over the same ledge and street.",
+      "proposed": "Retain shoe identity, studs, stripes and camera relation; expose each stripe and its reveal timing.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-warm-flare",
+      "from": 854.1666666666666,
+      "to": 855.3,
+      "localFrom": 19.16666666666663,
+      "localTo": 20.299999999999955,
+      "observed": "A warm/chromatic flare blooms to near-white; the street gives way to split blue/red clouds with two tiny differentiated boots.",
+      "proposed": "Layered bloom and chromatic accents hide the scene substitution; preserve the brief overexposure rather than using a simple dissolve.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-rival-boots-grow",
+      "from": 855.3,
+      "to": 859,
+      "localFrom": 20.299999999999955,
+      "localTo": 24,
+      "observed": "Striped boot on the blue half and formstrip boot on the red half expand from small distant forms.",
+      "proposed": "Independent correctly facing boot sources and shared approach/depth controls. Verify model geometry; do not substitute generic trainers.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-founders-rise",
+      "from": 859,
+      "to": 860.1666666666666,
+      "localFrom": 24,
+      "localTo": 25.16666666666663,
+      "observed": "Two founder figures rise behind the growing boots with bent arms/clenched hands; their faces remain visible.",
+      "proposed": "Verify reusable pose atlases first; otherwise create correct gesture cutouts. Keep the boots in front of bodies without covering faces.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-rivals-foreground",
+      "from": 860.1666666666666,
+      "to": 862.1666666666666,
+      "localFrom": 25.16666666666663,
+      "localTo": 27.16666666666663,
+      "observed": "The boots dominate the lower foreground while the two founders hold on opposite halves; approach continues.",
+      "proposed": "Separate foreground shoes, founders and clouds with relative depth, not one uniform flat zoom.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-dark-transition",
+      "from": 862.1666666666666,
+      "to": 863.4,
+      "localFrom": 27.16666666666663,
+      "localTo": 28.399999999999977,
+      "observed": "The rivalry composition darkens almost to black, but small visible highlights remain during the darkest sampled frames.",
+      "proposed": "Fade outgoing exposure and incoming trophy/ball separately. Do not invent a full black hold here.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-trophy-ball-reveal",
+      "from": 863.4,
+      "to": 865.1666666666666,
+      "localFrom": 28.399999999999977,
+      "localTo": 30.16666666666663,
+      "observed": "A gold winged trophy and brown panelled football emerge on a ledge as the background brightens from dark teal.",
+      "proposed": "Independent props, reflections/shadows and background exposure; match visible reference shapes without claiming authenticated artifact models.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-green-cloud-build",
+      "from": 865.1666666666666,
+      "to": 867.3666666666667,
+      "localFrom": 30.16666666666663,
+      "localTo": 32.366666666666674,
+      "observed": "The cloud field intensifies to vivid green behind the trophy/ball, with changing relative size/framing. The next frame after867.333 s is black-luma.",
+      "proposed": "Animate the cloud/exposure/color build and prop camera, then end the scene at the measured abrupt boundary.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-black-hold-a",
+      "from": 867.3666666666667,
+      "to": 870.1333333333333,
+      "localFrom": 32.366666666666674,
+      "localTo": 35.133333333333326,
+      "observed": "83 consecutive source frames have uniform black luma. Minute compression chroma residuals remain.",
+      "proposed": "Explicit black hold; do not fill it with a trophy freeze or begin Chapter 5 early.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-chapter-assembly",
+      "from": 870.1333333333333,
+      "to": 871.7,
+      "localFrom": 35.133333333333326,
+      "localTo": 36.700000000000045,
+      "observed": "Blurred, displaced letters and small floating shoes assemble into CHAPTER 5: THE MIRACLE OF BERN.",
+      "proposed": "New editable chapter instance with per-letter movement/blur/settling, glow, depth and independent shoes; leave earlier chapter instances untouched.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-chapter-hold",
+      "from": 871.7,
+      "to": 876.7,
+      "localFrom": 36.700000000000045,
+      "localTo": 41.700000000000045,
+      "observed": "The gold/cream title holds over a dark blue/red atmospheric field while shoes drift around it and framing opens.",
+      "proposed": "Reuse the established chapter system where suitable, with separate text, shoe motion and background controls.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-chapter-fade",
+      "from": 876.7,
+      "to": 878.3666666666667,
+      "localFrom": 41.700000000000045,
+      "localTo": 43.366666666666674,
+      "observed": "The complete chapter composition dims to black.",
+      "proposed": "Fade environment, title/glow and shoes with measured exit, ensuring complete disappearance.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-black-hold-b",
+      "from": 878.3666666666667,
+      "to": 879.3666666666667,
+      "localFrom": 43.366666666666674,
+      "localTo": 44.366666666666674,
+      "observed": "30 consecutive source frames have uniform black luma before the sports-emblem scene appears.",
+      "proposed": "Explicit one-second black hold, distinct from the preceding fade.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-truss-reveal",
+      "from": 879.3666666666667,
+      "to": 880.3,
+      "localFrom": 44.366666666666674,
+      "localTo": 45.299999999999955,
+      "observed": "A monochrome triangular truss/tunnel and circular eagle football emblem emerge from darkness with bright particles and lighting.",
+      "proposed": "Separate truss geometry, emblem/medallion, sparks, lights and camera; avoid one flattened poster.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-emblem-spin-approach",
+      "from": 880.3,
+      "to": 882.7,
+      "localFrom": 45.299999999999955,
+      "localTo": 47.700000000000045,
+      "observed": "The round DEUTSCHER FUSSBALL BUND emblem turns from a narrow edge toward its face as the camera approaches through the lit structure.",
+      "proposed": "Authored medallion yaw and camera move, with front/back/thickness, metal response and particle bloom. Exact original geometry/software is not recovered.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-badge-to-office",
+      "from": 882.7,
+      "to": 884.1,
+      "localFrom": 47.700000000000045,
+      "localTo": 49.10000000000002,
+      "observed": "The emblem suddenly fills the view on a pale surface; that badge-bearing panel moves/turns left as a red-wall office appears at right.",
+      "proposed": "Match the badge identity across the transition, then use a lateral/hinged-panel reveal. A match cut/hinge technique is inferred rather than recovered.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-coach-office",
+      "from": 884.1,
+      "to": 885.8,
+      "localFrom": 49.10000000000002,
+      "localTo": 50.799999999999955,
+      "observed": "A faceless, hat-wearing mannequin sits by a desk, lockers and framed portrait. The visible nameplate reads Sepp Herberger; exposure settles from near-white to cream.",
+      "proposed": "A consistent articulated coach model, hat, desk/chair, lockers, portrait and nameplate. Use a verified portrait or a clearly labelled illustrative alternative; do not present invented imagery as archival.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-office-defocus",
+      "from": 885.8,
+      "to": 886.0666666666667,
+      "localFrom": 50.799999999999955,
+      "localTo": 51.06666666666672,
+      "observed": "The office defocuses strongly; source886.033 s still shows the room, while886.067 s starts the new negotiation view.",
+      "proposed": "Separate focus ramp and a bounded hard scene change at source frame1532, not a long unobserved dissolve.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-negotiation-reveal",
+      "from": 886.0666666666667,
+      "to": 887.2,
+      "localFrom": 51.06666666666672,
+      "localTo": 52.200000000000045,
+      "observed": "The cream hat mannequin stands in the foreground and a red mannequin stands across a rounded desk. A bright white irregular field recedes into a luminous plume against dark maroon.",
+      "proposed": "Use the same coach rig in a new set, plus red figure, desk and separate luminous cloud/matte. The exact smoke simulation is unconfirmed.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-shoe-presentation",
+      "from": 887.2,
+      "to": 889.2,
+      "localFrom": 52.200000000000045,
+      "localTo": 54.200000000000045,
+      "observed": "The coach extends an open hand. The red figure raises and presents a shoe on an upturned palm while another hand gestures.",
+      "proposed": "Articulated shoulders/elbows/wrists/fingers and a shoe constrained to the presenting palm. A completed transfer to the coach is not established.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-camera-around-figures",
+      "from": 889.2,
+      "to": 891.2666666666667,
+      "localFrom": 54.200000000000045,
+      "localTo": 56.26666666666665,
+      "observed": "The camera/view moves around the desk and red figure; the red back comes into the foreground as the coach becomes more distant. Hands and torso change pose.",
+      "proposed": "Author a 3D camera/figure pose sequence with correct desk occlusion and depth. A sliding photograph will not reproduce these view changes.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-whip-reframe",
+      "from": 891.2666666666667,
+      "to": 891.6333333333333,
+      "localFrom": 56.26666666666665,
+      "localTo": 56.633333333333326,
+      "observed": "Fast blur/reframing culminates in a new close arrangement at891.633 s.",
+      "proposed": "Bound the whip and view handoff; whether the source uses one continuous camera move plus a cut is unresolved.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-chair-foreground",
+      "from": 891.6333333333333,
+      "to": 894.1,
+      "localFrom": 56.633333333333326,
+      "localTo": 59.10000000000002,
+      "observed": "The red figure passes close in the foreground beside a chair; the bright hat figure remains behind the desk, with wispy smoke around the set.",
+      "proposed": "Separate chair, foreground actor, coach, desk and smoke. Preserve shared figure identity and pose continuity across the reframing.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    },
+    {
+      "id": "opportunity-bend-to-chair",
+      "from": 894.1,
+      "to": 895,
+      "localFrom": 59.10000000000002,
+      "localTo": 60,
+      "observed": "The red figure bends forward beside the chair while the coach gestures behind the desk. The motion is unfinished at the minute endpoint.",
+      "proposed": "Keyframe pelvis/spine/knees/arms and preserve the active endpoint for the next5 seconds to15:00. Do not freeze an upright pose or claim a completed sit.",
+      "timingStatus": "Candidate frame-aligned authoring divisions; effects can overlap. Black-luma holds and selected hard-change frames are directly measured."
+    }
+  ]
+}

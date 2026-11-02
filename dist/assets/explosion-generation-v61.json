@@ -1,0 +1,12 @@
+{
+  "version": 61,
+  "date": "2026-10-29",
+  "tool": "built-in image_gen",
+  "original": "../generated_images/exec-68ee6f4a-df67-40d6-81b1-2378f149ac7f.png",
+  "output": "dist/assets/explosion-smoke-v61.png",
+  "sha256": "66dbddd627d3e922394aec249e2d7bfce13ce27a1cf79dbe4b2f70d5fee9219e",
+  "promptSummary": "Photographic transparent broad explosion with curling charcoal/blue-gray smoke, pale-yellow hot lower core, orange lobes; no ground/buildings/people/text; fully visible effect with transparent margins.",
+  "modifications": "Copied byte-for-byte. Runtime scales, grades and composites the alpha sprite. Procedural smoke evolution remains separate.",
+  "limitations": "Generated illustration, not archival evidence; one photographic source, not a filmed or fluid-simulated explosion.",
+  "prompt": "Use case: historical-scene. Asset type: transparent visual-effects sprite for an editable cinematic documentary. Create a highly realistic photographic broad spherical orange yellow explosion fireball with dense curling charcoal black and blue-gray smoke billowing upward, rising from a low central base. Turbulent detailed combustion, bright pale yellow hot core in lower half and orange lobes, sooty dark rolling cauliflower smoke in upper half; textured sharp detail and soft natural alpha edges. Entire isolated effect fully visible with empty transparent margins. Wide roughly square composition. No ground, no buildings, no people, no red backdrop, no text, no border. Actual transparent background, not a checkerboard. Documentary archival compositing quality. This is a VFX element, not a rectangular scene image."
+}

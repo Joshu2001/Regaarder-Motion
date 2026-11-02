@@ -1,0 +1,2085 @@
+{
+  "schema": "motion-model-scene-v1",
+  "camera": {
+    "position": [
+      0.5,
+      2,
+      8
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ],
+    "fov": 42
+  },
+  "lights": {
+    "ambient": 0.45,
+    "direction": [
+      -0.3,
+      0.8,
+      0.6
+    ],
+    "intensity": 0.65
+  },
+  "nodes": [
+    {
+      "id": "bicycle",
+      "name": "Wheel-driven bicycle assembly",
+      "children": [
+        {
+          "id": "bicycle/rear-wheel",
+          "position": [
+            -1.15,
+            1,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "animation": {
+            "spin": [
+              0,
+              0,
+              100
+            ]
+          },
+          "children": [
+            {
+              "id": "bicycle/rear-wheel/rim",
+              "name": "rim",
+              "geometry": {
+                "kind": "torus",
+                "segments": 32,
+                "tube": 0.025
+              },
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.85,
+                1.85,
+                1.85
+              ],
+              "material": {
+                "color": "#453d31"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/tire",
+              "name": "tire",
+              "geometry": {
+                "kind": "torus",
+                "segments": 40,
+                "tube": 0.018
+              },
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.95,
+                1.95,
+                1.95
+              ],
+              "material": {
+                "color": "#272522"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/hub",
+              "name": "hub",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                90,
+                0,
+                0
+              ],
+              "scale": [
+                0.13,
+                0.2,
+                0.13
+              ],
+              "material": {
+                "color": "#777777"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-0",
+              "name": "spoke-0",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.46,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -90
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-1",
+              "name": "spoke-1",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.451161228985486,
+                0.089741548127419,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -78.75
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-2",
+              "name": "spoke-2",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.4249845849551919,
+                0.1760343788879413,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -67.5
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-3",
+              "name": "spoke-3",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.38247602165917083,
+                0.255562307189017,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -56.25000000000001
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-4",
+              "name": "spoke-4",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.3252691193458119,
+                0.3252691193458118,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -45.00000000000001
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-5",
+              "name": "spoke-5",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.25556230718901707,
+                0.38247602165917083,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -33.75000000000001
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-6",
+              "name": "spoke-6",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.17603437888794132,
+                0.4249845849551919,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -22.500000000000004
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-7",
+              "name": "spoke-7",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.08974154812741904,
+                0.451161228985486,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -11.250000000000005
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-8",
+              "name": "spoke-8",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                2.816687638038912e-17,
+                0.46,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -3.5083546492674384e-15
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-9",
+              "name": "spoke-9",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.08974154812741897,
+                0.451161228985486,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                11.249999999999996
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-10",
+              "name": "spoke-10",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.1760343788879413,
+                0.4249845849551919,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                22.5
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-11",
+              "name": "spoke-11",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.2555623071890169,
+                0.3824760216591709,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                33.74999999999998
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-12",
+              "name": "spoke-12",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.3252691193458118,
+                0.3252691193458119,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                44.99999999999999
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-13",
+              "name": "spoke-13",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.3824760216591709,
+                0.255562307189017,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                56.25000000000001
+              ],
+              "scale": [
+                0.014,
+                0.9200000000000002,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-14",
+              "name": "spoke-14",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.4249845849551919,
+                0.17603437888794135,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                67.5
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-15",
+              "name": "spoke-15",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.451161228985486,
+                0.08974154812741916,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                78.74999999999999
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-16",
+              "name": "spoke-16",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.46,
+                5.633375276077825e-17,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-17",
+              "name": "spoke-17",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.451161228985486,
+                -0.08974154812741905,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                101.25000000000001
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-18",
+              "name": "spoke-18",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.424984584955192,
+                -0.17603437888794127,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                112.5
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-19",
+              "name": "spoke-19",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.38247602165917094,
+                -0.2555623071890169,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                123.74999999999999
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-20",
+              "name": "spoke-20",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.32526911934581193,
+                -0.3252691193458118,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                135
+              ],
+              "scale": [
+                0.014,
+                0.9200000000000002,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-21",
+              "name": "spoke-21",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.255562307189017,
+                -0.38247602165917083,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                146.25000000000003
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-22",
+              "name": "spoke-22",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.17603437888794157,
+                -0.4249845849551918,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                157.49999999999997
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-23",
+              "name": "spoke-23",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.08974154812741919,
+                -0.45116122898548594,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                168.74999999999997
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-24",
+              "name": "spoke-24",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -8.450062914116737e-17,
+                -0.46,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                180
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-25",
+              "name": "spoke-25",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.08974154812741902,
+                -0.451161228985486,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -168.75000000000003
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-26",
+              "name": "spoke-26",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.1760343788879414,
+                -0.42498458495519187,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -157.5
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-27",
+              "name": "spoke-27",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.25556230718901685,
+                -0.38247602165917094,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -146.25000000000003
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-28",
+              "name": "spoke-28",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.3252691193458118,
+                -0.32526911934581193,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -135
+              ],
+              "scale": [
+                0.014,
+                0.9200000000000002,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-29",
+              "name": "spoke-29",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.38247602165917083,
+                -0.255562307189017,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -123.74999999999999
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-30",
+              "name": "spoke-30",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.4249845849551918,
+                -0.1760343788879416,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -112.50000000000006
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/rear-wheel/spoke-31",
+              "name": "spoke-31",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.45116122898548594,
+                -0.08974154812741922,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -101.25000000000004
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bicycle/front-wheel",
+          "position": [
+            1.15,
+            1,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "animation": {
+            "spin": [
+              0,
+              0,
+              100
+            ]
+          },
+          "children": [
+            {
+              "id": "bicycle/front-wheel/rim",
+              "name": "rim",
+              "geometry": {
+                "kind": "torus",
+                "segments": 32,
+                "tube": 0.025
+              },
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.85,
+                1.85,
+                1.85
+              ],
+              "material": {
+                "color": "#453d31"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/tire",
+              "name": "tire",
+              "geometry": {
+                "kind": "torus",
+                "segments": 40,
+                "tube": 0.018
+              },
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1.95,
+                1.95,
+                1.95
+              ],
+              "material": {
+                "color": "#272522"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/hub",
+              "name": "hub",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                90,
+                0,
+                0
+              ],
+              "scale": [
+                0.13,
+                0.2,
+                0.13
+              ],
+              "material": {
+                "color": "#777777"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-0",
+              "name": "spoke-0",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.46,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -90
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-1",
+              "name": "spoke-1",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.451161228985486,
+                0.089741548127419,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -78.75
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-2",
+              "name": "spoke-2",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.4249845849551919,
+                0.1760343788879413,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -67.5
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-3",
+              "name": "spoke-3",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.38247602165917083,
+                0.255562307189017,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -56.25000000000001
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-4",
+              "name": "spoke-4",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.3252691193458119,
+                0.3252691193458118,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -45.00000000000001
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-5",
+              "name": "spoke-5",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.25556230718901707,
+                0.38247602165917083,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -33.75000000000001
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-6",
+              "name": "spoke-6",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.17603437888794132,
+                0.4249845849551919,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -22.500000000000004
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-7",
+              "name": "spoke-7",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.08974154812741904,
+                0.451161228985486,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -11.250000000000005
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-8",
+              "name": "spoke-8",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                2.816687638038912e-17,
+                0.46,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -3.5083546492674384e-15
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-9",
+              "name": "spoke-9",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.08974154812741897,
+                0.451161228985486,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                11.249999999999996
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-10",
+              "name": "spoke-10",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.1760343788879413,
+                0.4249845849551919,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                22.5
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-11",
+              "name": "spoke-11",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.2555623071890169,
+                0.3824760216591709,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                33.74999999999998
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-12",
+              "name": "spoke-12",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.3252691193458118,
+                0.3252691193458119,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                44.99999999999999
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-13",
+              "name": "spoke-13",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.3824760216591709,
+                0.255562307189017,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                56.25000000000001
+              ],
+              "scale": [
+                0.014,
+                0.9200000000000002,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-14",
+              "name": "spoke-14",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.4249845849551919,
+                0.17603437888794135,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                67.5
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-15",
+              "name": "spoke-15",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.451161228985486,
+                0.08974154812741916,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                78.74999999999999
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-16",
+              "name": "spoke-16",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.46,
+                5.633375276077825e-17,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-17",
+              "name": "spoke-17",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.451161228985486,
+                -0.08974154812741905,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                101.25000000000001
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-18",
+              "name": "spoke-18",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.424984584955192,
+                -0.17603437888794127,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                112.5
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-19",
+              "name": "spoke-19",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.38247602165917094,
+                -0.2555623071890169,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                123.74999999999999
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-20",
+              "name": "spoke-20",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.32526911934581193,
+                -0.3252691193458118,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                135
+              ],
+              "scale": [
+                0.014,
+                0.9200000000000002,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-21",
+              "name": "spoke-21",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.255562307189017,
+                -0.38247602165917083,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                146.25000000000003
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-22",
+              "name": "spoke-22",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.17603437888794157,
+                -0.4249845849551918,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                157.49999999999997
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-23",
+              "name": "spoke-23",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -0.08974154812741919,
+                -0.45116122898548594,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                168.74999999999997
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-24",
+              "name": "spoke-24",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                -8.450062914116737e-17,
+                -0.46,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                180
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-25",
+              "name": "spoke-25",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.08974154812741902,
+                -0.451161228985486,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -168.75000000000003
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-26",
+              "name": "spoke-26",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.1760343788879414,
+                -0.42498458495519187,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -157.5
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-27",
+              "name": "spoke-27",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.25556230718901685,
+                -0.38247602165917094,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -146.25000000000003
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-28",
+              "name": "spoke-28",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.3252691193458118,
+                -0.32526911934581193,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -135
+              ],
+              "scale": [
+                0.014,
+                0.9200000000000002,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-29",
+              "name": "spoke-29",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.38247602165917083,
+                -0.255562307189017,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -123.74999999999999
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-30",
+              "name": "spoke-30",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.4249845849551918,
+                -0.1760343788879416,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -112.50000000000006
+              ],
+              "scale": [
+                0.014,
+                0.92,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            },
+            {
+              "id": "bicycle/front-wheel/spoke-31",
+              "name": "spoke-31",
+              "geometry": {
+                "kind": "cylinder"
+              },
+              "position": [
+                0.45116122898548594,
+                -0.08974154812741922,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -101.25000000000004
+              ],
+              "scale": [
+                0.014,
+                0.9199999999999999,
+                0.014
+              ],
+              "material": {
+                "color": "#8b8981"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bicycle/frame-0",
+          "name": "frame-0",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            -0.725,
+            1.4,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -46.73570458892839
+          ],
+          "scale": [
+            0.07,
+            1.167261752992875,
+            0.07
+          ],
+          "material": {
+            "color": "#3b302a"
+          }
+        },
+        {
+          "id": "bicycle/frame-1",
+          "name": "frame-1",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            -0.09999999999999999,
+            1.325,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -157.16634582208246
+          ],
+          "scale": [
+            0.07,
+            1.0307764064044151,
+            0.07
+          ],
+          "material": {
+            "color": "#3b302a"
+          }
+        },
+        {
+          "id": "bicycle/frame-2",
+          "name": "frame-2",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            -0.5249999999999999,
+            0.925,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            83.15722658736905
+          ],
+          "scale": [
+            0.07,
+            1.2589678312014172,
+            0.07
+          ],
+          "material": {
+            "color": "#3b302a"
+          }
+        },
+        {
+          "id": "bicycle/frame-3",
+          "name": "frame-3",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            0.32499999999999996,
+            1.85,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -85.42607874009916
+          ],
+          "scale": [
+            0.07,
+            1.2539936203984454,
+            0.07
+          ],
+          "material": {
+            "color": "#3b302a"
+          }
+        },
+        {
+          "id": "bicycle/frame-4",
+          "name": "frame-4",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            0.525,
+            1.375,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            141.00900595749454
+          ],
+          "scale": [
+            0.07,
+            1.3509256086106294,
+            0.07
+          ],
+          "material": {
+            "color": "#3b302a"
+          }
+        },
+        {
+          "id": "bicycle/frame-5",
+          "name": "frame-5",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            1.0499999999999998,
+            1.45,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -167.47119229084848
+          ],
+          "scale": [
+            0.07,
+            0.9219544457292888,
+            0.07
+          ],
+          "material": {
+            "color": "#3b302a"
+          }
+        },
+        {
+          "id": "bicycle/frame-6",
+          "name": "frame-6",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            -0.35,
+            1.975,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            15.945395900922867
+          ],
+          "scale": [
+            0.07,
+            0.3640054944640258,
+            0.07
+          ],
+          "material": {
+            "color": "#3b302a"
+          }
+        },
+        {
+          "id": "bicycle/frame-7",
+          "name": "frame-7",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            0.8999999999999999,
+            2.075,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            15.945395900922849
+          ],
+          "scale": [
+            0.07,
+            0.364005494464026,
+            0.07
+          ],
+          "material": {
+            "color": "#3b302a"
+          }
+        },
+        {
+          "id": "bicycle/seat",
+          "name": "seat",
+          "geometry": {
+            "kind": "box"
+          },
+          "position": [
+            -0.45,
+            2.16,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.45,
+            0.08,
+            0.25
+          ],
+          "material": {
+            "color": "#342923"
+          }
+        },
+        {
+          "id": "bicycle/handlebar",
+          "name": "handlebar",
+          "geometry": {
+            "kind": "cylinder"
+          },
+          "position": [
+            0.85,
+            2.25,
+            0
+          ],
+          "rotation": [
+            90,
+            0,
+            0
+          ],
+          "scale": [
+            0.05,
+            0.76,
+            0.05
+          ],
+          "material": {
+            "color": "#665b4b"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "render_resolution": [
+    960,
+    540
+  ],
+  "renderer": "offline @napi-rs/canvas",
+  "nursery_to_window": {
+    "maximum_channel_difference": 0,
+    "mean_channel_difference": 0
+  },
+  "blouse_to_laundry": {
+    "maximum_channel_difference": 0,
+    "mean_channel_difference": 0
+  },
+  "scope": "Exact boundary pixels only. Does not establish intervening fidelity or real-time performance."
+}

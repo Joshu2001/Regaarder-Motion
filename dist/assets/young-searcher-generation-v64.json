@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-30",
+  "input": "salvage-searcher-v58.png",
+  "output": "assets/young-searcher-v64.png",
+  "sha256": "bafb4df72a412a3fb5ca39fa876f64e3bad8626253930d04945c0b8ce7c19aa5",
+  "prompt": "Use case: precise-object-edit. Edit target: supplied full-body grayscale walking searcher cutout. Replace the adult with a clearly young boy about 12-14 years old, youthful face, softer features, smaller adolescent proportions. Preserve EXACT canvas 1024x1536, silhouette placement, pose and all limb endpoints: leaning forward facing right, hanging near arm, bent far arm holding small flashlight, legs spread in same walking stride and boots touching same source coordinates. Same vintage documentary photographic grayscale style, worn knee-length 1940s civilian coat and boots, no uniform insignia. Both hands clearly visible, anatomically coherent, crisp clean opaque clothing edges. Truly transparent background, no dark matte, no halo, no cast backdrop, no text. Preserve flashlight at same position. This is a replacement animation source and position/pose invariants are crucial.",
+  "limits": "Generated identity and age impression; no archival authenticity. Source pose retained for calibrated masks; not automatic rig retargeting."
+}

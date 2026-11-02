@@ -1,0 +1,1038 @@
+{
+  "schema": "motion-model-scene-v1",
+  "camera": {
+    "position": [
+      0,
+      1.8,
+      7
+    ],
+    "target": [
+      0,
+      1,
+      -20
+    ],
+    "fov": 56
+  },
+  "lights": {
+    "ambient": 0.65,
+    "direction": [
+      -0.3,
+      0.8,
+      0.5
+    ],
+    "intensity": 0.45
+  },
+  "nodes": [
+    {
+      "id": "ground",
+      "name": "ground",
+      "geometry": {
+        "kind": "heightfield",
+        "columns": 30,
+        "rows": 48,
+        "amplitude": 0.025,
+        "repeatX": 4,
+        "repeatY": 12
+      },
+      "position": [
+        0,
+        -0.1,
+        -18
+      ],
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        22,
+        65,
+        1
+      ],
+      "material": {
+        "color": "#777777",
+        "textureSlot": "salvageGround"
+      }
+    },
+    {
+      "id": "facade--1-0",
+      "name": "facade--1-0",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        -5,
+        3,
+        0
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade--1-1",
+      "name": "facade--1-1",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        -5,
+        3,
+        -9
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade--1-2",
+      "name": "facade--1-2",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        -5,
+        3,
+        -18
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade--1-3",
+      "name": "facade--1-3",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        -5,
+        3,
+        -27
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade--1-4",
+      "name": "facade--1-4",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        -5,
+        3,
+        -36
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade-1-0",
+      "name": "facade-1-0",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        5,
+        3,
+        0
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade-1-1",
+      "name": "facade-1-1",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        5,
+        3,
+        -9
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade-1-2",
+      "name": "facade-1-2",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        5,
+        3,
+        -18
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade-1-3",
+      "name": "facade-1-3",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        5,
+        3,
+        -27
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "facade-1-4",
+      "name": "facade-1-4",
+      "geometry": {
+        "kind": "plane",
+        "columns": 6,
+        "rows": 6
+      },
+      "position": [
+        5,
+        3,
+        -36
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        8,
+        7,
+        1
+      ],
+      "material": {
+        "color": "#888888",
+        "textureSlot": "salvageFacade"
+      }
+    },
+    {
+      "id": "rubble-0",
+      "name": "rubble-0",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        0,
+        0.05,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-1",
+      "name": "rubble-1",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -6.769763233401365,
+        0.05,
+        -1.8
+      ],
+      "rotation": [
+        17,
+        31,
+        7
+      ],
+      "scale": [
+        0.44999999999999996,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-2",
+      "name": "rubble-2",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.214306781190473,
+        0.05,
+        -3.6
+      ],
+      "rotation": [
+        34,
+        62,
+        14
+      ],
+      "scale": [
+        0.6,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-3",
+      "name": "rubble-3",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -0.9182785102654982,
+        0.05,
+        -5.4
+      ],
+      "rotation": [
+        51,
+        93,
+        21
+      ],
+      "scale": [
+        0.75,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-4",
+      "name": "rubble-4",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -6.235728556926437,
+        0.05,
+        -7.2
+      ],
+      "rotation": [
+        68,
+        124,
+        28
+      ],
+      "scale": [
+        0.3,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-5",
+      "name": "rubble-5",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.5634826721981625,
+        0.05,
+        -9
+      ],
+      "rotation": [
+        85,
+        155,
+        35
+      ],
+      "scale": [
+        0.44999999999999996,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-6",
+      "name": "rubble-6",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -1.8244180760068893,
+        0.05,
+        -10.8
+      ],
+      "rotation": [
+        102,
+        186,
+        42
+      ],
+      "scale": [
+        0.6,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-7",
+      "name": "rubble-7",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -5.619262284618968,
+        0.05,
+        -12.6
+      ],
+      "rotation": [
+        119,
+        217,
+        49
+      ],
+      "scale": [
+        0.75,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-8",
+      "name": "rubble-8",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.812675066325035,
+        0.05,
+        -14.4
+      ],
+      "rotation": [
+        136,
+        248,
+        56
+      ],
+      "scale": [
+        0.3,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-9",
+      "name": "rubble-9",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -2.7064402203278224,
+        0.05,
+        -16.2
+      ],
+      "rotation": [
+        153,
+        279,
+        63
+      ],
+      "scale": [
+        0.44999999999999996,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-10",
+      "name": "rubble-10",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -4.928513632426916,
+        0.05,
+        -18
+      ],
+      "rotation": [
+        170,
+        310,
+        70
+      ],
+      "scale": [
+        0.6,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-11",
+      "name": "rubble-11",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.958589829368538,
+        0.05,
+        -19.8
+      ],
+      "rotation": [
+        187,
+        341,
+        77
+      ],
+      "scale": [
+        0.75,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-12",
+      "name": "rubble-12",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -3.552685280327279,
+        0.05,
+        -21.6
+      ],
+      "rotation": [
+        204,
+        372,
+        84
+      ],
+      "scale": [
+        0.3,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-13",
+      "name": "rubble-13",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -4.1726137729469635,
+        0.05,
+        -23.400000000000002
+      ],
+      "rotation": [
+        221,
+        403,
+        91
+      ],
+      "scale": [
+        0.44999999999999996,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-14",
+      "name": "rubble-14",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.999298078975407,
+        0.05,
+        -25.2
+      ],
+      "rotation": [
+        238,
+        434,
+        98
+      ],
+      "scale": [
+        0.6,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-15",
+      "name": "rubble-15",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -4.3519665389882585,
+        0.05,
+        -27
+      ],
+      "rotation": [
+        255,
+        465,
+        105
+      ],
+      "scale": [
+        0.75,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-16",
+      "name": "rubble-16",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -3.3615551282574145,
+        0.05,
+        -28.8
+      ],
+      "rotation": [
+        272,
+        496,
+        112
+      ],
+      "scale": [
+        0.3,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-17",
+      "name": "rubble-17",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.934261683001498,
+        0.05,
+        -30.6
+      ],
+      "rotation": [
+        289,
+        527,
+        119
+      ],
+      "scale": [
+        0.44999999999999996,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-18",
+      "name": "rubble-18",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -5.093718105081054,
+        0.05,
+        -32.4
+      ],
+      "rotation": [
+        306,
+        558,
+        126
+      ],
+      "scale": [
+        0.6,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-19",
+      "name": "rubble-19",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -2.506059277687001,
+        0.05,
+        -34.2
+      ],
+      "rotation": [
+        323,
+        589,
+        133
+      ],
+      "scale": [
+        0.75,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-20",
+      "name": "rubble-20",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.764340373210048,
+        0.05,
+        -36
+      ],
+      "rotation": [
+        340,
+        620,
+        140
+      ],
+      "scale": [
+        0.3,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-21",
+      "name": "rubble-21",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -5.768134586221098,
+        0.05,
+        -37.800000000000004
+      ],
+      "rotation": [
+        357,
+        651,
+        147
+      ],
+      "scale": [
+        0.44999999999999996,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-22",
+      "name": "rubble-22",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -1.6174352266786087,
+        0.05,
+        -39.6
+      ],
+      "rotation": [
+        374,
+        682,
+        154
+      ],
+      "scale": [
+        0.6,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-23",
+      "name": "rubble-23",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.49178038027069,
+        0.05,
+        -41.4
+      ],
+      "rotation": [
+        391,
+        713,
+        161
+      ],
+      "scale": [
+        0.75,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-24",
+      "name": "rubble-24",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -6.366300708709636,
+        0.05,
+        -43.2
+      ],
+      "rotation": [
+        408,
+        744,
+        168
+      ],
+      "scale": [
+        0.3,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-25",
+      "name": "rubble-25",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -0.7074299103258817,
+        0.05,
+        -45
+      ],
+      "rotation": [
+        425,
+        775,
+        175
+      ],
+      "scale": [
+        0.44999999999999996,
+        0.22999999999999998,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-26",
+      "name": "rubble-26",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        7.120184740295883,
+        0.05,
+        -46.800000000000004
+      ],
+      "rotation": [
+        442,
+        806,
+        182
+      ],
+      "scale": [
+        0.6,
+        0.31,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    },
+    {
+      "id": "rubble-27",
+      "name": "rubble-27",
+      "geometry": {
+        "kind": "sphere"
+      },
+      "position": [
+        -6.8803091706813655,
+        0.05,
+        -48.6
+      ],
+      "rotation": [
+        459,
+        837,
+        189
+      ],
+      "scale": [
+        0.75,
+        0.15,
+        0.45
+      ],
+      "material": {
+        "color": "#666667"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "sourceFrames": 150,
+  "sourceFPS": 30,
+  "sourceInterval": [
+    895,
+    900
+  ],
+  "turntableFrames": 0,
+  "turntableFPS": 25,
+  "browser": "Headless Chrome131; WebGL2 with SwiftShader",
+  "pageErrors": [],
+  "turntableNote": "Not regenerated for this release; source interval150frames is current."
+}

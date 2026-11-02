@@ -1,0 +1,13 @@
+# V74 editing and reuse guide
+
+Run `npm start`. The inspector section “Success → worldwide orders → betrayal” follows Olympics. Source-landmark buttons seek the appended minute. Hide the new sequence to restore the previous425-second endpoint; earlier controls and settings remain. Missing defaults only are filled, and the pre-V74 duration/values snapshot is retained.
+
+Edit sequence speed, each of29 durations, camera XY/zoom, focus, flash, red light, banknote count, glyph stagger/settle, route width/gap/speed/draw timing and live title text. Route appearance selects dots, dashes, solid or arrows; animation selects static, draw, flow, draw-flow, pulse or trace. The existing content-independent V68 engine remains reusable for other lines/shapes/objects.
+
+Individual objects expose visibility, XY, scale, rotation, opacity, depth, blur, brightness and shared none/float/pulse/spin/shake/fade/follow-path presets. Motion clock uses NEW-SEQUENCE LOCAL seconds (0–60 at native pace), unlike the old V73 absolute-source object clock. Example: `{"objectMotionPreset":"float","objectMotionStart":2.233,"objectMotionDuration":3,"objectMotionDistance":8}`. Advanced JSON accepts source bindings, full-source flags, grip normalized centerXY/width, route longitude/latitude targets and object motion keys. Imported values validate before application. The holder, shoe and optional finger matte have separate slots; replace/hide the finger overlay when replacing the holder. Previous browser-local replacement images are archived.
+
+Animation library: search “success-betrayal-continuation” for the whole60s, or one of29 scene IDs in factory-defaults-v74.json. Inserted instances have independent media and common MotionCore speed/reverse/delay/transform settings. Motion-only preset import/export preserves bindings. Exact defaults and limitations are registered, not inferred from preview visuals.
+
+Modules: betrayal-sequence.js shared deterministic renderer; betrayal-director.js reversible template append; animation-library-director.js insertion adapter. V73 module adds named exports for existing scene primitives only. Six new generated originals and exact prompts/hashes are in assets/betrayal-generation-record-v74.json. Existing NASA map/photo licenses remain in the asset register. All earlier source assets are preserved unchanged.
+
+The reconstruction master is silent. Delivered preview/comparison may carry the supplied reference audio for review only, clearly labelled; no newly composed or synchronized sound design is claimed. The user reference video is not embedded into the editable source. Native browser playback/performance and exhaustive audiovisual viewing are unverified. No full26-minute reconstruction, remote commit or deployment claim.

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "garmentVertices": {
+    "shirt": 26950,
+    "trousers": 25970
+  },
+  "checks": [
+    "normalized skin weights",
+    "outgoing coach faces +X away from red",
+    "finite pose transforms across cut",
+    "invalid scope/fit/duration/offset imports rejected"
+  ],
+  "contact": {
+    "distance": 0.0020853034261913935,
+    "world": [
+      1.1789675766422556,
+      0.5991971924960819,
+      -0.2079240410652485
+    ]
+  }
+}

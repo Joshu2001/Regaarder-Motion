@@ -1,0 +1,8 @@
+{
+  "hashes": {
+    "dist/trial-sequence.js": "070eb1bca46f24d591d34f3405f0ae26896bc540562d92c03b369fc9246dacd5",
+    "dist/trial-director.js": "1bdf3d72f6639c15fdaf1b7eda832d62a6be773189ef2b6ab3fe4ba4d720146d",
+    "dist/shelter-sequence.js": "6e55eccff601ebf8b17bfc85c530daa489f861668e6496ec570cf9f679137353",
+    "dist/shelter-director.js": "e88f007f5a2915459708aa0eabc9c64a6a1775b658fe0b2c7cfca9789442d57c"
+  }
+}

@@ -1,0 +1,1442 @@
+[
+  {
+    "source": 535.0,
+    "local": 0.0,
+    "template": 545.0,
+    "file": "encoded/0001.jpg"
+  },
+  {
+    "source": 535.25,
+    "local": 0.25,
+    "template": 545.25,
+    "file": "encoded/0002.jpg"
+  },
+  {
+    "source": 535.5,
+    "local": 0.5,
+    "template": 545.5,
+    "file": "encoded/0003.jpg"
+  },
+  {
+    "source": 535.75,
+    "local": 0.75,
+    "template": 545.75,
+    "file": "encoded/0004.jpg"
+  },
+  {
+    "source": 536.0,
+    "local": 1.0,
+    "template": 546.0,
+    "file": "encoded/0005.jpg"
+  },
+  {
+    "source": 536.25,
+    "local": 1.25,
+    "template": 546.25,
+    "file": "encoded/0006.jpg"
+  },
+  {
+    "source": 536.5,
+    "local": 1.5,
+    "template": 546.5,
+    "file": "encoded/0007.jpg"
+  },
+  {
+    "source": 536.75,
+    "local": 1.75,
+    "template": 546.75,
+    "file": "encoded/0008.jpg"
+  },
+  {
+    "source": 537.0,
+    "local": 2.0,
+    "template": 547.0,
+    "file": "encoded/0009.jpg"
+  },
+  {
+    "source": 537.25,
+    "local": 2.25,
+    "template": 547.25,
+    "file": "encoded/0010.jpg"
+  },
+  {
+    "source": 537.5,
+    "local": 2.5,
+    "template": 547.5,
+    "file": "encoded/0011.jpg"
+  },
+  {
+    "source": 537.75,
+    "local": 2.75,
+    "template": 547.75,
+    "file": "encoded/0012.jpg"
+  },
+  {
+    "source": 538.0,
+    "local": 3.0,
+    "template": 548.0,
+    "file": "encoded/0013.jpg"
+  },
+  {
+    "source": 538.25,
+    "local": 3.25,
+    "template": 548.25,
+    "file": "encoded/0014.jpg"
+  },
+  {
+    "source": 538.5,
+    "local": 3.5,
+    "template": 548.5,
+    "file": "encoded/0015.jpg"
+  },
+  {
+    "source": 538.75,
+    "local": 3.75,
+    "template": 548.75,
+    "file": "encoded/0016.jpg"
+  },
+  {
+    "source": 539.0,
+    "local": 4.0,
+    "template": 549.0,
+    "file": "encoded/0017.jpg"
+  },
+  {
+    "source": 539.25,
+    "local": 4.25,
+    "template": 549.25,
+    "file": "encoded/0018.jpg"
+  },
+  {
+    "source": 539.5,
+    "local": 4.5,
+    "template": 549.5,
+    "file": "encoded/0019.jpg"
+  },
+  {
+    "source": 539.75,
+    "local": 4.75,
+    "template": 549.75,
+    "file": "encoded/0020.jpg"
+  },
+  {
+    "source": 540.0,
+    "local": 5.0,
+    "template": 550.0,
+    "file": "encoded/0021.jpg"
+  },
+  {
+    "source": 540.25,
+    "local": 5.25,
+    "template": 550.25,
+    "file": "encoded/0022.jpg"
+  },
+  {
+    "source": 540.5,
+    "local": 5.5,
+    "template": 550.5,
+    "file": "encoded/0023.jpg"
+  },
+  {
+    "source": 540.75,
+    "local": 5.75,
+    "template": 550.75,
+    "file": "encoded/0024.jpg"
+  },
+  {
+    "source": 541.0,
+    "local": 6.0,
+    "template": 551.0,
+    "file": "encoded/0025.jpg"
+  },
+  {
+    "source": 541.25,
+    "local": 6.25,
+    "template": 551.25,
+    "file": "encoded/0026.jpg"
+  },
+  {
+    "source": 541.5,
+    "local": 6.5,
+    "template": 551.5,
+    "file": "encoded/0027.jpg"
+  },
+  {
+    "source": 541.75,
+    "local": 6.75,
+    "template": 551.75,
+    "file": "encoded/0028.jpg"
+  },
+  {
+    "source": 542.0,
+    "local": 7.0,
+    "template": 552.0,
+    "file": "encoded/0029.jpg"
+  },
+  {
+    "source": 542.25,
+    "local": 7.25,
+    "template": 552.25,
+    "file": "encoded/0030.jpg"
+  },
+  {
+    "source": 542.5,
+    "local": 7.5,
+    "template": 552.5,
+    "file": "encoded/0031.jpg"
+  },
+  {
+    "source": 542.75,
+    "local": 7.75,
+    "template": 552.75,
+    "file": "encoded/0032.jpg"
+  },
+  {
+    "source": 543.0,
+    "local": 8.0,
+    "template": 553.0,
+    "file": "encoded/0033.jpg"
+  },
+  {
+    "source": 543.25,
+    "local": 8.25,
+    "template": 553.25,
+    "file": "encoded/0034.jpg"
+  },
+  {
+    "source": 543.5,
+    "local": 8.5,
+    "template": 553.5,
+    "file": "encoded/0035.jpg"
+  },
+  {
+    "source": 543.75,
+    "local": 8.75,
+    "template": 553.75,
+    "file": "encoded/0036.jpg"
+  },
+  {
+    "source": 544.0,
+    "local": 9.0,
+    "template": 554.0,
+    "file": "encoded/0037.jpg"
+  },
+  {
+    "source": 544.25,
+    "local": 9.25,
+    "template": 554.25,
+    "file": "encoded/0038.jpg"
+  },
+  {
+    "source": 544.5,
+    "local": 9.5,
+    "template": 554.5,
+    "file": "encoded/0039.jpg"
+  },
+  {
+    "source": 544.75,
+    "local": 9.75,
+    "template": 554.75,
+    "file": "encoded/0040.jpg"
+  },
+  {
+    "source": 545.0,
+    "local": 10.0,
+    "template": 555.0,
+    "file": "encoded/0041.jpg"
+  },
+  {
+    "source": 545.25,
+    "local": 10.25,
+    "template": 555.25,
+    "file": "encoded/0042.jpg"
+  },
+  {
+    "source": 545.5,
+    "local": 10.5,
+    "template": 555.5,
+    "file": "encoded/0043.jpg"
+  },
+  {
+    "source": 545.75,
+    "local": 10.75,
+    "template": 555.75,
+    "file": "encoded/0044.jpg"
+  },
+  {
+    "source": 546.0,
+    "local": 11.0,
+    "template": 556.0,
+    "file": "encoded/0045.jpg"
+  },
+  {
+    "source": 546.25,
+    "local": 11.25,
+    "template": 556.25,
+    "file": "encoded/0046.jpg"
+  },
+  {
+    "source": 546.5,
+    "local": 11.5,
+    "template": 556.5,
+    "file": "encoded/0047.jpg"
+  },
+  {
+    "source": 546.75,
+    "local": 11.75,
+    "template": 556.75,
+    "file": "encoded/0048.jpg"
+  },
+  {
+    "source": 547.0,
+    "local": 12.0,
+    "template": 557.0,
+    "file": "encoded/0049.jpg"
+  },
+  {
+    "source": 547.25,
+    "local": 12.25,
+    "template": 557.25,
+    "file": "encoded/0050.jpg"
+  },
+  {
+    "source": 547.5,
+    "local": 12.5,
+    "template": 557.5,
+    "file": "encoded/0051.jpg"
+  },
+  {
+    "source": 547.75,
+    "local": 12.75,
+    "template": 557.75,
+    "file": "encoded/0052.jpg"
+  },
+  {
+    "source": 548.0,
+    "local": 13.0,
+    "template": 558.0,
+    "file": "encoded/0053.jpg"
+  },
+  {
+    "source": 548.25,
+    "local": 13.25,
+    "template": 558.25,
+    "file": "encoded/0054.jpg"
+  },
+  {
+    "source": 548.5,
+    "local": 13.5,
+    "template": 558.5,
+    "file": "encoded/0055.jpg"
+  },
+  {
+    "source": 548.75,
+    "local": 13.75,
+    "template": 558.75,
+    "file": "encoded/0056.jpg"
+  },
+  {
+    "source": 549.0,
+    "local": 14.0,
+    "template": 559.0,
+    "file": "encoded/0057.jpg"
+  },
+  {
+    "source": 549.25,
+    "local": 14.25,
+    "template": 559.25,
+    "file": "encoded/0058.jpg"
+  },
+  {
+    "source": 549.5,
+    "local": 14.5,
+    "template": 559.5,
+    "file": "encoded/0059.jpg"
+  },
+  {
+    "source": 549.75,
+    "local": 14.75,
+    "template": 559.75,
+    "file": "encoded/0060.jpg"
+  },
+  {
+    "source": 550.0,
+    "local": 15.0,
+    "template": 560.0,
+    "file": "encoded/0061.jpg"
+  },
+  {
+    "source": 550.25,
+    "local": 15.25,
+    "template": 560.25,
+    "file": "encoded/0062.jpg"
+  },
+  {
+    "source": 550.5,
+    "local": 15.5,
+    "template": 560.5,
+    "file": "encoded/0063.jpg"
+  },
+  {
+    "source": 550.75,
+    "local": 15.75,
+    "template": 560.75,
+    "file": "encoded/0064.jpg"
+  },
+  {
+    "source": 551.0,
+    "local": 16.0,
+    "template": 561.0,
+    "file": "encoded/0065.jpg"
+  },
+  {
+    "source": 551.25,
+    "local": 16.25,
+    "template": 561.25,
+    "file": "encoded/0066.jpg"
+  },
+  {
+    "source": 551.5,
+    "local": 16.5,
+    "template": 561.5,
+    "file": "encoded/0067.jpg"
+  },
+  {
+    "source": 551.75,
+    "local": 16.75,
+    "template": 561.75,
+    "file": "encoded/0068.jpg"
+  },
+  {
+    "source": 552.0,
+    "local": 17.0,
+    "template": 562.0,
+    "file": "encoded/0069.jpg"
+  },
+  {
+    "source": 552.25,
+    "local": 17.25,
+    "template": 562.25,
+    "file": "encoded/0070.jpg"
+  },
+  {
+    "source": 552.5,
+    "local": 17.5,
+    "template": 562.5,
+    "file": "encoded/0071.jpg"
+  },
+  {
+    "source": 552.75,
+    "local": 17.75,
+    "template": 562.75,
+    "file": "encoded/0072.jpg"
+  },
+  {
+    "source": 553.0,
+    "local": 18.0,
+    "template": 563.0,
+    "file": "encoded/0073.jpg"
+  },
+  {
+    "source": 553.25,
+    "local": 18.25,
+    "template": 563.25,
+    "file": "encoded/0074.jpg"
+  },
+  {
+    "source": 553.5,
+    "local": 18.5,
+    "template": 563.5,
+    "file": "encoded/0075.jpg"
+  },
+  {
+    "source": 553.75,
+    "local": 18.75,
+    "template": 563.75,
+    "file": "encoded/0076.jpg"
+  },
+  {
+    "source": 554.0,
+    "local": 19.0,
+    "template": 564.0,
+    "file": "encoded/0077.jpg"
+  },
+  {
+    "source": 554.25,
+    "local": 19.25,
+    "template": 564.25,
+    "file": "encoded/0078.jpg"
+  },
+  {
+    "source": 554.5,
+    "local": 19.5,
+    "template": 564.5,
+    "file": "encoded/0079.jpg"
+  },
+  {
+    "source": 554.75,
+    "local": 19.75,
+    "template": 564.75,
+    "file": "encoded/0080.jpg"
+  },
+  {
+    "source": 555.0,
+    "local": 20.0,
+    "template": 565.0,
+    "file": "encoded/0081.jpg"
+  },
+  {
+    "source": 555.25,
+    "local": 20.25,
+    "template": 565.25,
+    "file": "encoded/0082.jpg"
+  },
+  {
+    "source": 555.5,
+    "local": 20.5,
+    "template": 565.5,
+    "file": "encoded/0083.jpg"
+  },
+  {
+    "source": 555.75,
+    "local": 20.75,
+    "template": 565.75,
+    "file": "encoded/0084.jpg"
+  },
+  {
+    "source": 556.0,
+    "local": 21.0,
+    "template": 566.0,
+    "file": "encoded/0085.jpg"
+  },
+  {
+    "source": 556.25,
+    "local": 21.25,
+    "template": 566.25,
+    "file": "encoded/0086.jpg"
+  },
+  {
+    "source": 556.5,
+    "local": 21.5,
+    "template": 566.5,
+    "file": "encoded/0087.jpg"
+  },
+  {
+    "source": 556.75,
+    "local": 21.75,
+    "template": 566.75,
+    "file": "encoded/0088.jpg"
+  },
+  {
+    "source": 557.0,
+    "local": 22.0,
+    "template": 567.0,
+    "file": "encoded/0089.jpg"
+  },
+  {
+    "source": 557.25,
+    "local": 22.25,
+    "template": 567.25,
+    "file": "encoded/0090.jpg"
+  },
+  {
+    "source": 557.5,
+    "local": 22.5,
+    "template": 567.5,
+    "file": "encoded/0091.jpg"
+  },
+  {
+    "source": 557.75,
+    "local": 22.75,
+    "template": 567.75,
+    "file": "encoded/0092.jpg"
+  },
+  {
+    "source": 558.0,
+    "local": 23.0,
+    "template": 568.0,
+    "file": "encoded/0093.jpg"
+  },
+  {
+    "source": 558.25,
+    "local": 23.25,
+    "template": 568.25,
+    "file": "encoded/0094.jpg"
+  },
+  {
+    "source": 558.5,
+    "local": 23.5,
+    "template": 568.5,
+    "file": "encoded/0095.jpg"
+  },
+  {
+    "source": 558.75,
+    "local": 23.75,
+    "template": 568.75,
+    "file": "encoded/0096.jpg"
+  },
+  {
+    "source": 559.0,
+    "local": 24.0,
+    "template": 569.0,
+    "file": "encoded/0097.jpg"
+  },
+  {
+    "source": 559.25,
+    "local": 24.25,
+    "template": 569.25,
+    "file": "encoded/0098.jpg"
+  },
+  {
+    "source": 559.5,
+    "local": 24.5,
+    "template": 569.5,
+    "file": "encoded/0099.jpg"
+  },
+  {
+    "source": 559.75,
+    "local": 24.75,
+    "template": 569.75,
+    "file": "encoded/0100.jpg"
+  },
+  {
+    "source": 560.0,
+    "local": 25.0,
+    "template": 570.0,
+    "file": "encoded/0101.jpg"
+  },
+  {
+    "source": 560.25,
+    "local": 25.25,
+    "template": 570.25,
+    "file": "encoded/0102.jpg"
+  },
+  {
+    "source": 560.5,
+    "local": 25.5,
+    "template": 570.5,
+    "file": "encoded/0103.jpg"
+  },
+  {
+    "source": 560.75,
+    "local": 25.75,
+    "template": 570.75,
+    "file": "encoded/0104.jpg"
+  },
+  {
+    "source": 561.0,
+    "local": 26.0,
+    "template": 571.0,
+    "file": "encoded/0105.jpg"
+  },
+  {
+    "source": 561.25,
+    "local": 26.25,
+    "template": 571.25,
+    "file": "encoded/0106.jpg"
+  },
+  {
+    "source": 561.5,
+    "local": 26.5,
+    "template": 571.5,
+    "file": "encoded/0107.jpg"
+  },
+  {
+    "source": 561.75,
+    "local": 26.75,
+    "template": 571.75,
+    "file": "encoded/0108.jpg"
+  },
+  {
+    "source": 562.0,
+    "local": 27.0,
+    "template": 572.0,
+    "file": "encoded/0109.jpg"
+  },
+  {
+    "source": 562.25,
+    "local": 27.25,
+    "template": 572.25,
+    "file": "encoded/0110.jpg"
+  },
+  {
+    "source": 562.5,
+    "local": 27.5,
+    "template": 572.5,
+    "file": "encoded/0111.jpg"
+  },
+  {
+    "source": 562.75,
+    "local": 27.75,
+    "template": 572.75,
+    "file": "encoded/0112.jpg"
+  },
+  {
+    "source": 563.0,
+    "local": 28.0,
+    "template": 573.0,
+    "file": "encoded/0113.jpg"
+  },
+  {
+    "source": 563.25,
+    "local": 28.25,
+    "template": 573.25,
+    "file": "encoded/0114.jpg"
+  },
+  {
+    "source": 563.5,
+    "local": 28.5,
+    "template": 573.5,
+    "file": "encoded/0115.jpg"
+  },
+  {
+    "source": 563.75,
+    "local": 28.75,
+    "template": 573.75,
+    "file": "encoded/0116.jpg"
+  },
+  {
+    "source": 564.0,
+    "local": 29.0,
+    "template": 574.0,
+    "file": "encoded/0117.jpg"
+  },
+  {
+    "source": 564.25,
+    "local": 29.25,
+    "template": 574.25,
+    "file": "encoded/0118.jpg"
+  },
+  {
+    "source": 564.5,
+    "local": 29.5,
+    "template": 574.5,
+    "file": "encoded/0119.jpg"
+  },
+  {
+    "source": 564.75,
+    "local": 29.75,
+    "template": 574.75,
+    "file": "encoded/0120.jpg"
+  },
+  {
+    "source": 565.0,
+    "local": 30.0,
+    "template": 575.0,
+    "file": "encoded/0121.jpg"
+  },
+  {
+    "source": 565.25,
+    "local": 30.25,
+    "template": 575.25,
+    "file": "encoded/0122.jpg"
+  },
+  {
+    "source": 565.5,
+    "local": 30.5,
+    "template": 575.5,
+    "file": "encoded/0123.jpg"
+  },
+  {
+    "source": 565.75,
+    "local": 30.75,
+    "template": 575.75,
+    "file": "encoded/0124.jpg"
+  },
+  {
+    "source": 566.0,
+    "local": 31.0,
+    "template": 576.0,
+    "file": "encoded/0125.jpg"
+  },
+  {
+    "source": 566.25,
+    "local": 31.25,
+    "template": 576.25,
+    "file": "encoded/0126.jpg"
+  },
+  {
+    "source": 566.5,
+    "local": 31.5,
+    "template": 576.5,
+    "file": "encoded/0127.jpg"
+  },
+  {
+    "source": 566.75,
+    "local": 31.75,
+    "template": 576.75,
+    "file": "encoded/0128.jpg"
+  },
+  {
+    "source": 567.0,
+    "local": 32.0,
+    "template": 577.0,
+    "file": "encoded/0129.jpg"
+  },
+  {
+    "source": 567.25,
+    "local": 32.25,
+    "template": 577.25,
+    "file": "encoded/0130.jpg"
+  },
+  {
+    "source": 567.5,
+    "local": 32.5,
+    "template": 577.5,
+    "file": "encoded/0131.jpg"
+  },
+  {
+    "source": 567.75,
+    "local": 32.75,
+    "template": 577.75,
+    "file": "encoded/0132.jpg"
+  },
+  {
+    "source": 568.0,
+    "local": 33.0,
+    "template": 578.0,
+    "file": "encoded/0133.jpg"
+  },
+  {
+    "source": 568.25,
+    "local": 33.25,
+    "template": 578.25,
+    "file": "encoded/0134.jpg"
+  },
+  {
+    "source": 568.5,
+    "local": 33.5,
+    "template": 578.5,
+    "file": "encoded/0135.jpg"
+  },
+  {
+    "source": 568.75,
+    "local": 33.75,
+    "template": 578.75,
+    "file": "encoded/0136.jpg"
+  },
+  {
+    "source": 569.0,
+    "local": 34.0,
+    "template": 579.0,
+    "file": "encoded/0137.jpg"
+  },
+  {
+    "source": 569.25,
+    "local": 34.25,
+    "template": 579.25,
+    "file": "encoded/0138.jpg"
+  },
+  {
+    "source": 569.5,
+    "local": 34.5,
+    "template": 579.5,
+    "file": "encoded/0139.jpg"
+  },
+  {
+    "source": 569.75,
+    "local": 34.75,
+    "template": 579.75,
+    "file": "encoded/0140.jpg"
+  },
+  {
+    "source": 570.0,
+    "local": 35.0,
+    "template": 580.0,
+    "file": "encoded/0141.jpg"
+  },
+  {
+    "source": 570.25,
+    "local": 35.25,
+    "template": 580.25,
+    "file": "encoded/0142.jpg"
+  },
+  {
+    "source": 570.5,
+    "local": 35.5,
+    "template": 580.5,
+    "file": "encoded/0143.jpg"
+  },
+  {
+    "source": 570.75,
+    "local": 35.75,
+    "template": 580.75,
+    "file": "encoded/0144.jpg"
+  },
+  {
+    "source": 571.0,
+    "local": 36.0,
+    "template": 581.0,
+    "file": "encoded/0145.jpg"
+  },
+  {
+    "source": 571.25,
+    "local": 36.25,
+    "template": 581.25,
+    "file": "encoded/0146.jpg"
+  },
+  {
+    "source": 571.5,
+    "local": 36.5,
+    "template": 581.5,
+    "file": "encoded/0147.jpg"
+  },
+  {
+    "source": 571.75,
+    "local": 36.75,
+    "template": 581.75,
+    "file": "encoded/0148.jpg"
+  },
+  {
+    "source": 572.0,
+    "local": 37.0,
+    "template": 582.0,
+    "file": "encoded/0149.jpg"
+  },
+  {
+    "source": 572.25,
+    "local": 37.25,
+    "template": 582.25,
+    "file": "encoded/0150.jpg"
+  },
+  {
+    "source": 572.5,
+    "local": 37.5,
+    "template": 582.5,
+    "file": "encoded/0151.jpg"
+  },
+  {
+    "source": 572.75,
+    "local": 37.75,
+    "template": 582.75,
+    "file": "encoded/0152.jpg"
+  },
+  {
+    "source": 573.0,
+    "local": 38.0,
+    "template": 583.0,
+    "file": "encoded/0153.jpg"
+  },
+  {
+    "source": 573.25,
+    "local": 38.25,
+    "template": 583.25,
+    "file": "encoded/0154.jpg"
+  },
+  {
+    "source": 573.5,
+    "local": 38.5,
+    "template": 583.5,
+    "file": "encoded/0155.jpg"
+  },
+  {
+    "source": 573.75,
+    "local": 38.75,
+    "template": 583.75,
+    "file": "encoded/0156.jpg"
+  },
+  {
+    "source": 574.0,
+    "local": 39.0,
+    "template": 584.0,
+    "file": "encoded/0157.jpg"
+  },
+  {
+    "source": 574.25,
+    "local": 39.25,
+    "template": 584.25,
+    "file": "encoded/0158.jpg"
+  },
+  {
+    "source": 574.5,
+    "local": 39.5,
+    "template": 584.5,
+    "file": "encoded/0159.jpg"
+  },
+  {
+    "source": 574.75,
+    "local": 39.75,
+    "template": 584.75,
+    "file": "encoded/0160.jpg"
+  },
+  {
+    "source": 575.0,
+    "local": 40.0,
+    "template": 585.0,
+    "file": "encoded/0161.jpg"
+  },
+  {
+    "source": 575.25,
+    "local": 40.25,
+    "template": 585.25,
+    "file": "encoded/0162.jpg"
+  },
+  {
+    "source": 575.5,
+    "local": 40.5,
+    "template": 585.5,
+    "file": "encoded/0163.jpg"
+  },
+  {
+    "source": 575.75,
+    "local": 40.75,
+    "template": 585.75,
+    "file": "encoded/0164.jpg"
+  },
+  {
+    "source": 576.0,
+    "local": 41.0,
+    "template": 586.0,
+    "file": "encoded/0165.jpg"
+  },
+  {
+    "source": 576.25,
+    "local": 41.25,
+    "template": 586.25,
+    "file": "encoded/0166.jpg"
+  },
+  {
+    "source": 576.5,
+    "local": 41.5,
+    "template": 586.5,
+    "file": "encoded/0167.jpg"
+  },
+  {
+    "source": 576.75,
+    "local": 41.75,
+    "template": 586.75,
+    "file": "encoded/0168.jpg"
+  },
+  {
+    "source": 577.0,
+    "local": 42.0,
+    "template": 587.0,
+    "file": "encoded/0169.jpg"
+  },
+  {
+    "source": 577.25,
+    "local": 42.25,
+    "template": 587.25,
+    "file": "encoded/0170.jpg"
+  },
+  {
+    "source": 577.5,
+    "local": 42.5,
+    "template": 587.5,
+    "file": "encoded/0171.jpg"
+  },
+  {
+    "source": 577.75,
+    "local": 42.75,
+    "template": 587.75,
+    "file": "encoded/0172.jpg"
+  },
+  {
+    "source": 578.0,
+    "local": 43.0,
+    "template": 588.0,
+    "file": "encoded/0173.jpg"
+  },
+  {
+    "source": 578.25,
+    "local": 43.25,
+    "template": 588.25,
+    "file": "encoded/0174.jpg"
+  },
+  {
+    "source": 578.5,
+    "local": 43.5,
+    "template": 588.5,
+    "file": "encoded/0175.jpg"
+  },
+  {
+    "source": 578.75,
+    "local": 43.75,
+    "template": 588.75,
+    "file": "encoded/0176.jpg"
+  },
+  {
+    "source": 579.0,
+    "local": 44.0,
+    "template": 589.0,
+    "file": "encoded/0177.jpg"
+  },
+  {
+    "source": 579.25,
+    "local": 44.25,
+    "template": 589.25,
+    "file": "encoded/0178.jpg"
+  },
+  {
+    "source": 579.5,
+    "local": 44.5,
+    "template": 589.5,
+    "file": "encoded/0179.jpg"
+  },
+  {
+    "source": 579.75,
+    "local": 44.75,
+    "template": 589.75,
+    "file": "encoded/0180.jpg"
+  },
+  {
+    "source": 580.0,
+    "local": 45.0,
+    "template": 590.0,
+    "file": "encoded/0181.jpg"
+  },
+  {
+    "source": 580.25,
+    "local": 45.25,
+    "template": 590.25,
+    "file": "encoded/0182.jpg"
+  },
+  {
+    "source": 580.5,
+    "local": 45.5,
+    "template": 590.5,
+    "file": "encoded/0183.jpg"
+  },
+  {
+    "source": 580.75,
+    "local": 45.75,
+    "template": 590.75,
+    "file": "encoded/0184.jpg"
+  },
+  {
+    "source": 581.0,
+    "local": 46.0,
+    "template": 591.0,
+    "file": "encoded/0185.jpg"
+  },
+  {
+    "source": 581.25,
+    "local": 46.25,
+    "template": 591.25,
+    "file": "encoded/0186.jpg"
+  },
+  {
+    "source": 581.5,
+    "local": 46.5,
+    "template": 591.5,
+    "file": "encoded/0187.jpg"
+  },
+  {
+    "source": 581.75,
+    "local": 46.75,
+    "template": 591.75,
+    "file": "encoded/0188.jpg"
+  },
+  {
+    "source": 582.0,
+    "local": 47.0,
+    "template": 592.0,
+    "file": "encoded/0189.jpg"
+  },
+  {
+    "source": 582.25,
+    "local": 47.25,
+    "template": 592.25,
+    "file": "encoded/0190.jpg"
+  },
+  {
+    "source": 582.5,
+    "local": 47.5,
+    "template": 592.5,
+    "file": "encoded/0191.jpg"
+  },
+  {
+    "source": 582.75,
+    "local": 47.75,
+    "template": 592.75,
+    "file": "encoded/0192.jpg"
+  },
+  {
+    "source": 583.0,
+    "local": 48.0,
+    "template": 593.0,
+    "file": "encoded/0193.jpg"
+  },
+  {
+    "source": 583.25,
+    "local": 48.25,
+    "template": 593.25,
+    "file": "encoded/0194.jpg"
+  },
+  {
+    "source": 583.5,
+    "local": 48.5,
+    "template": 593.5,
+    "file": "encoded/0195.jpg"
+  },
+  {
+    "source": 583.75,
+    "local": 48.75,
+    "template": 593.75,
+    "file": "encoded/0196.jpg"
+  },
+  {
+    "source": 584.0,
+    "local": 49.0,
+    "template": 594.0,
+    "file": "encoded/0197.jpg"
+  },
+  {
+    "source": 584.25,
+    "local": 49.25,
+    "template": 594.25,
+    "file": "encoded/0198.jpg"
+  },
+  {
+    "source": 584.5,
+    "local": 49.5,
+    "template": 594.5,
+    "file": "encoded/0199.jpg"
+  },
+  {
+    "source": 584.75,
+    "local": 49.75,
+    "template": 594.75,
+    "file": "encoded/0200.jpg"
+  },
+  {
+    "source": 585.0,
+    "local": 50.0,
+    "template": 595.0,
+    "file": "encoded/0201.jpg"
+  },
+  {
+    "source": 585.25,
+    "local": 50.25,
+    "template": 595.25,
+    "file": "encoded/0202.jpg"
+  },
+  {
+    "source": 585.5,
+    "local": 50.5,
+    "template": 595.5,
+    "file": "encoded/0203.jpg"
+  },
+  {
+    "source": 585.75,
+    "local": 50.75,
+    "template": 595.75,
+    "file": "encoded/0204.jpg"
+  },
+  {
+    "source": 586.0,
+    "local": 51.0,
+    "template": 596.0,
+    "file": "encoded/0205.jpg"
+  },
+  {
+    "source": 586.25,
+    "local": 51.25,
+    "template": 596.25,
+    "file": "encoded/0206.jpg"
+  },
+  {
+    "source": 586.5,
+    "local": 51.5,
+    "template": 596.5,
+    "file": "encoded/0207.jpg"
+  },
+  {
+    "source": 586.75,
+    "local": 51.75,
+    "template": 596.75,
+    "file": "encoded/0208.jpg"
+  },
+  {
+    "source": 587.0,
+    "local": 52.0,
+    "template": 597.0,
+    "file": "encoded/0209.jpg"
+  },
+  {
+    "source": 587.25,
+    "local": 52.25,
+    "template": 597.25,
+    "file": "encoded/0210.jpg"
+  },
+  {
+    "source": 587.5,
+    "local": 52.5,
+    "template": 597.5,
+    "file": "encoded/0211.jpg"
+  },
+  {
+    "source": 587.75,
+    "local": 52.75,
+    "template": 597.75,
+    "file": "encoded/0212.jpg"
+  },
+  {
+    "source": 588.0,
+    "local": 53.0,
+    "template": 598.0,
+    "file": "encoded/0213.jpg"
+  },
+  {
+    "source": 588.25,
+    "local": 53.25,
+    "template": 598.25,
+    "file": "encoded/0214.jpg"
+  },
+  {
+    "source": 588.5,
+    "local": 53.5,
+    "template": 598.5,
+    "file": "encoded/0215.jpg"
+  },
+  {
+    "source": 588.75,
+    "local": 53.75,
+    "template": 598.75,
+    "file": "encoded/0216.jpg"
+  },
+  {
+    "source": 589.0,
+    "local": 54.0,
+    "template": 599.0,
+    "file": "encoded/0217.jpg"
+  },
+  {
+    "source": 589.25,
+    "local": 54.25,
+    "template": 599.25,
+    "file": "encoded/0218.jpg"
+  },
+  {
+    "source": 589.5,
+    "local": 54.5,
+    "template": 599.5,
+    "file": "encoded/0219.jpg"
+  },
+  {
+    "source": 589.75,
+    "local": 54.75,
+    "template": 599.75,
+    "file": "encoded/0220.jpg"
+  },
+  {
+    "source": 590.0,
+    "local": 55.0,
+    "template": 600.0,
+    "file": "encoded/0221.jpg"
+  },
+  {
+    "source": 590.25,
+    "local": 55.25,
+    "template": 600.25,
+    "file": "encoded/0222.jpg"
+  },
+  {
+    "source": 590.5,
+    "local": 55.5,
+    "template": 600.5,
+    "file": "encoded/0223.jpg"
+  },
+  {
+    "source": 590.75,
+    "local": 55.75,
+    "template": 600.75,
+    "file": "encoded/0224.jpg"
+  },
+  {
+    "source": 591.0,
+    "local": 56.0,
+    "template": 601.0,
+    "file": "encoded/0225.jpg"
+  },
+  {
+    "source": 591.25,
+    "local": 56.25,
+    "template": 601.25,
+    "file": "encoded/0226.jpg"
+  },
+  {
+    "source": 591.5,
+    "local": 56.5,
+    "template": 601.5,
+    "file": "encoded/0227.jpg"
+  },
+  {
+    "source": 591.75,
+    "local": 56.75,
+    "template": 601.75,
+    "file": "encoded/0228.jpg"
+  },
+  {
+    "source": 592.0,
+    "local": 57.0,
+    "template": 602.0,
+    "file": "encoded/0229.jpg"
+  },
+  {
+    "source": 592.25,
+    "local": 57.25,
+    "template": 602.25,
+    "file": "encoded/0230.jpg"
+  },
+  {
+    "source": 592.5,
+    "local": 57.5,
+    "template": 602.5,
+    "file": "encoded/0231.jpg"
+  },
+  {
+    "source": 592.75,
+    "local": 57.75,
+    "template": 602.75,
+    "file": "encoded/0232.jpg"
+  },
+  {
+    "source": 593.0,
+    "local": 58.0,
+    "template": 603.0,
+    "file": "encoded/0233.jpg"
+  },
+  {
+    "source": 593.25,
+    "local": 58.25,
+    "template": 603.25,
+    "file": "encoded/0234.jpg"
+  },
+  {
+    "source": 593.5,
+    "local": 58.5,
+    "template": 603.5,
+    "file": "encoded/0235.jpg"
+  },
+  {
+    "source": 593.75,
+    "local": 58.75,
+    "template": 603.75,
+    "file": "encoded/0236.jpg"
+  },
+  {
+    "source": 594.0,
+    "local": 59.0,
+    "template": 604.0,
+    "file": "encoded/0237.jpg"
+  },
+  {
+    "source": 594.25,
+    "local": 59.25,
+    "template": 604.25,
+    "file": "encoded/0238.jpg"
+  },
+  {
+    "source": 594.5,
+    "local": 59.5,
+    "template": 604.5,
+    "file": "encoded/0239.jpg"
+  },
+  {
+    "source": 594.75,
+    "local": 59.75,
+    "template": 604.75,
+    "file": "encoded/0240.jpg"
+  }
+]

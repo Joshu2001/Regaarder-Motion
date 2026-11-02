@@ -1,0 +1,118 @@
+{
+  "schema": "regaarder-animation-instance-v1",
+  "effectId": "natural-mesh-walk",
+  "parameters": {
+    "walkCycleRate": 0.85,
+    "walkStepLength": 210,
+    "walkStance": 0.64,
+    "walkLift": 52,
+    "walkHipBob": 7,
+    "walkHipSway": 5,
+    "walkHipRoll": 2,
+    "walkTorsoLean": 9,
+    "walkTorsoTwist": 4,
+    "walkHeadNod": 3,
+    "walkArmSwing": 15,
+    "walkElbowBend": 18,
+    "walkWristRoll": 4,
+    "walkCoatFlutter": 9,
+    "walkBreath": 2,
+    "walkFootRoll": 16,
+    "walkGroundSlope": 0,
+    "walkThighLength": 185,
+    "walkShinLength": 185,
+    "walkBodyWidth": 1,
+    "walkLimbWidth": 1,
+    "walkMeshColumns": 6,
+    "walkMeshRows": 12,
+    "walkFacing": 1,
+    "walkPhase": 0,
+    "walkMode": "walk",
+    "walkHeadSize": 1,
+    "walkFootSize": 1,
+    "walkHeadAngle": 0,
+    "walkFrontFootAngle": 0,
+    "walkBackFootAngle": 0,
+    "walkPartAnchors": {},
+    "walkPosePhase": 0.2,
+    "walkTorchTipX": 0.91,
+    "walkTorchTipY": 0.88,
+    "walkJointOffsets": {
+      "head": [
+        -10,
+        32
+      ]
+    },
+    "walkPartBindings": {},
+    "walkPartRects": {
+      "torso": [
+        35,
+        5,
+        370,
+        400
+      ],
+      "head": [
+        470,
+        45,
+        365,
+        355
+      ],
+      "coat": [
+        840,
+        5,
+        410,
+        405
+      ],
+      "thigh": [
+        110,
+        418,
+        225,
+        400
+      ],
+      "shin": [
+        550,
+        418,
+        160,
+        395
+      ],
+      "boot": [
+        825,
+        505,
+        420,
+        290
+      ],
+      "upperarm": [
+        75,
+        815,
+        275,
+        415
+      ],
+      "torcharm": [
+        445,
+        805,
+        395,
+        405
+      ],
+      "forearm": [
+        935,
+        800,
+        245,
+        415
+      ]
+    }
+  },
+  "playback": {
+    "speed": 1,
+    "reverse": false,
+    "delay": 0,
+    "pauseAt": 0.5,
+    "pauseFor": 0,
+    "ease": "linear",
+    "slowFast": false,
+    "slowStart": 0.3,
+    "slowEnd": 0.65,
+    "slowSpeed": 0.35,
+    "fastSpeed": 2
+  },
+  "duration": 8
+}
