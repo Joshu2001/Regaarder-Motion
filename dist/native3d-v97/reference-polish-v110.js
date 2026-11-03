@@ -27,7 +27,7 @@ export function applyReferencePolishV110(scene){
   // Screen registration: in the reconstruction the cream actor stands too
   // far right while the clasp is already near its correct horizontal location.
   // Move the cream character only modestly; retain a common world-space grip.
-  moveRoot(blue,.075);
+  moveRoot(blue,.115);
   moveRoot(cream,-.080);
   addYaw(cream,5);
 
