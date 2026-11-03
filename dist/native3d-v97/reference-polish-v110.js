@@ -39,7 +39,7 @@ export function applyReferencePolishV110(scene){
     cranialHeight:-.045, cranialWidth:.040, cranialDepth:-.035,
     neckShortening:.235,neckThickness:.06,napeVolume:.095,
     jawWidth:-.035,chinProjection:-.015,
-    shoulders:.065,chest:.052,waist:.052,glutes:.09,hips:.048
+    shoulders:.065,chest:.052,abdomen:-.16,waist:-.10,glutes:-.08,hips:-.035,pelvis:-.035
   });
   blue.proportions.neckLength=.97;
   leanHold(blue,10,contact.release);
