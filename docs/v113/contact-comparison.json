@@ -1,0 +1,114 @@
+[
+  {
+    "variant": "V112",
+    "time": 0.4,
+    "depth": 0,
+    "count": 0,
+    "palmError": null
+  },
+  {
+    "variant": "V112",
+    "time": 0.7,
+    "depth": 1.2797607901602572,
+    "count": 186,
+    "palmError": null
+  },
+  {
+    "variant": "V112",
+    "time": 1,
+    "depth": 2.5675351799995405,
+    "count": 244,
+    "palmError": 0.029507266543423085
+  },
+  {
+    "variant": "V112",
+    "time": 1.75,
+    "depth": 2.6341974746658265,
+    "count": 238,
+    "palmError": 0.0211866211961852
+  },
+  {
+    "variant": "V112",
+    "time": 2.417,
+    "depth": 2.5014528750817537,
+    "count": 236,
+    "palmError": 0.03376204068275749
+  },
+  {
+    "variant": "V112",
+    "time": 2.55,
+    "depth": 2.360031514427233,
+    "count": 234,
+    "palmError": 0.04096385775941401
+  },
+  {
+    "variant": "V112",
+    "time": 2.8,
+    "depth": 1.1968813309867203,
+    "count": 181,
+    "palmError": null
+  },
+  {
+    "variant": "V112",
+    "time": 3.2,
+    "depth": 0,
+    "count": 0,
+    "palmError": null
+  },
+  {
+    "variant": "V113",
+    "time": 0.4,
+    "depth": 0,
+    "count": 0,
+    "palmError": null
+  },
+  {
+    "variant": "V113",
+    "time": 0.7,
+    "depth": 1.0206498792051506,
+    "count": 157,
+    "palmError": null
+  },
+  {
+    "variant": "V113",
+    "time": 1,
+    "depth": 0.6655605260784891,
+    "count": 86,
+    "palmError": 1.4220500840710912e-16
+  },
+  {
+    "variant": "V113",
+    "time": 1.75,
+    "depth": 0.6584145130930519,
+    "count": 86,
+    "palmError": 1.5011122659325205e-16
+  },
+  {
+    "variant": "V113",
+    "time": 2.417,
+    "depth": 0.6555685566170252,
+    "count": 84,
+    "palmError": 1.3947004136484323e-16
+  },
+  {
+    "variant": "V113",
+    "time": 2.55,
+    "depth": 0.6263161504813016,
+    "count": 82,
+    "palmError": 2.237726045655905e-16
+  },
+  {
+    "variant": "V113",
+    "time": 2.8,
+    "depth": 1.02937104454321,
+    "count": 157,
+    "palmError": null
+  },
+  {
+    "variant": "V113",
+    "time": 3.2,
+    "depth": 0,
+    "count": 0,
+    "palmError": null
+  }
+]

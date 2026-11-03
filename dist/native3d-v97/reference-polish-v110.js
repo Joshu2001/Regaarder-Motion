@@ -36,7 +36,7 @@ export function applyReferencePolishV110(scene){
   // this shape morph translates only the upper torso, head, and attached rig.
   Object.assign(blue.shape,{
     upperBodyOffsetY:-.090,
-    cranialHeight:-.045, cranialWidth:.065, cranialDepth:.015,
+    cranialHeight:-.045, cranialWidth:.040, cranialDepth:-.035,
     neckShortening:.235,neckThickness:.06,napeVolume:.095,
     jawWidth:-.035,chinProjection:-.015,
     shoulders:.065,chest:.052,waist:.052,glutes:.09,hips:.048
@@ -64,9 +64,9 @@ export function applyReferencePolishV110(scene){
   // Both palms currently meet ~30px too high. Keep the target shared so that
   // wrist IK, thumb opposition and the contact correction stay coordinated.
   Object.assign(contact,{
-    center:[-.025,.905,.15],
-    approachHeight:.36,separation:.032,
-    fingerCurl:[.27,.48,.53,.56,.60],
+    center:[-.025,.960,.15],
+    approachHeight:.36,separation:.062,
+    fingerCurl:[.27,.35,.39,.43,.45],
     shakeAmplitude:.013
   });
 
@@ -99,6 +99,6 @@ export function applyReferencePolishV110(scene){
     ['key',{intensity:2.7}],
     ['fill',{intensity:.48}]
   ]) Object.assign(requireNode(scene,id),patch);
-  scene.name='Handshake · visually revised source-frame geometry V112';
+  scene.name='Handshake · targeted grip and head refinement V113';
   return scene;
 }
