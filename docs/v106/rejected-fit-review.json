@@ -1,0 +1,32 @@
+{
+  "decision": "rejected; not promoted",
+  "reason": "Adjacent-frame validation did not generalize to later poses",
+  "precision": 640,
+  "rows": [
+    {
+      "time": 0.4,
+      "beforeMean": 5.301130466904554,
+      "afterMean": 1.8929072143594023
+    },
+    {
+      "time": 2.4,
+      "beforeMean": 2.1003331379487182,
+      "afterMean": 4.436381182903557
+    },
+    {
+      "time": 2.8,
+      "beforeMean": 3.513800484546493,
+      "afterMean": 6.9844018813219435
+    },
+    {
+      "time": 3,
+      "beforeMean": 3.0240417553589243,
+      "afterMean": 5.990240707874176
+    },
+    {
+      "time": 3.2,
+      "beforeMean": 2.7116181237763137,
+      "afterMean": 5.754832515690155
+    }
+  ]
+}

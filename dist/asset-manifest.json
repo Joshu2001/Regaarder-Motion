@@ -16573,7 +16573,7 @@
   ],
   "native3DProvenance": "../docs/v93/provenance.json",
   "native3DRefinement": {
-    "version": 105,
+    "version": 106,
     "date": "2026-11-03",
     "source": "assets/humanoid-v89/humanoid.json",
     "modifications": [

@@ -1,0 +1,100 @@
+{
+  "regions": {
+    "neck": {
+      "pixels": 302,
+      "mean": 124.77971732411704
+    },
+    "hat": {
+      "pixels": 362,
+      "mean": 122.3463993495463
+    }
+  },
+  "independentHatControls": true,
+  "neckShapeControls": true,
+  "invalidArcRejected": true,
+  "rows": [
+    {
+      "time": 0,
+      "seam": 0,
+      "finite": true,
+      "palms": [],
+      "contact": [
+        {
+          "adjustments": 0
+        }
+      ]
+    },
+    {
+      "time": 0.6,
+      "seam": 0,
+      "finite": true,
+      "palms": [],
+      "contact": [
+        {
+          "adjustments": 0,
+          "before": 0,
+          "after": 0,
+          "reverted": false
+        }
+      ]
+    },
+    {
+      "time": 1.1,
+      "seam": 0,
+      "finite": true,
+      "palms": [
+        {
+          "actor": "final-blue",
+          "meters": 0.0018523202035892472
+        },
+        {
+          "actor": "final-coach",
+          "meters": 0.0017411809913737964
+        }
+      ],
+      "contact": [
+        {
+          "adjustments": 5,
+          "before": 0.0000044136809795728496,
+          "after": 1.400079352436382e-10,
+          "reverted": false
+        }
+      ]
+    },
+    {
+      "time": 2.5,
+      "seam": 0,
+      "finite": true,
+      "palms": [
+        {
+          "actor": "final-blue",
+          "meters": 0.0018523202035890818
+        },
+        {
+          "actor": "final-coach",
+          "meters": 0.0019898733012200954
+        }
+      ],
+      "contact": [
+        {
+          "adjustments": 5,
+          "before": 0.0000032131576636279833,
+          "after": 9.054379504857e-11,
+          "reverted": false
+        }
+      ]
+    },
+    {
+      "time": 3.3,
+      "seam": 0,
+      "finite": true,
+      "palms": [],
+      "contact": [
+        {
+          "adjustments": 0
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

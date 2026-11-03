@@ -1,0 +1,18 @@
+{
+  "sourcePixels": {
+    "meanBefore": 4.888390882557807,
+    "meanAfter": 3.827042802696741,
+    "reductionPercent": 21.711604193683563
+  },
+  "laterFrameMeanChanges": [
+    {
+      "time": 2.8,
+      "change": 0.15227029353528865
+    },
+    {
+      "time": 3.2,
+      "change": 0.2303722870727296
+    }
+  ],
+  "scope": "4 supplied head/neck contours, center aligned, native displayed subdivision at source resolution 640x360; not full-scene fidelity"
+}

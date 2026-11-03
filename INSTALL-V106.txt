@@ -1,0 +1,5 @@
+V106 cumulative update for Regaarder-Motion V97 or later.
+Extract over the repository root, retaining existing assets and vendor directories.
+Serve dist through the existing deployment or an HTTP server. Open the native editor
+and choose Load updated handshake to create the revised template. Existing saved
+compositions remain unchanged. This archive is an update, not a standalone repository.

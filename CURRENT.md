@@ -1,5 +1,5 @@
-# Current release: V105
+# Current release: V106
 
-See [CURRENT-V105.md](CURRENT-V105.md) and [INSTALL-V105.txt](INSTALL-V105.txt).
-The shared native 3D editor now includes the guided Reference Fit tool.
-Historical CURRENT-Vxx documents are retained as release records.
+See [CURRENT-V106.md](CURRENT-V106.md) and [docs/v106/README.md](docs/v106/README.md).
+The native 3D editor includes the guided Reference Fit tool. Historical templates
+and release records remain available.

@@ -4929,8 +4929,8 @@
       "usageLabel": "project-procedural",
       "source": "Project-authored implementation: native3d-v97/contact-rig.js",
       "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
-      "sha256": "a9c2d74b3b632dedaecdc69ade59a6051fb841d07ed78a3fb788b7a73fbd77c2",
-      "bytes": 2681
+      "sha256": "de930ad36e367fee779b307c07e0ae7da208d01f8a64cdad491ded9ded24a183",
+      "bytes": 2878
     },
     {
       "id": "asset-native3d-v97-deformation-study-js",
@@ -4949,7 +4949,7 @@
       "usageLabel": "project-procedural",
       "source": "Project-authored implementation: native3d-v97/editor.js",
       "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
-      "sha256": "730bdba2be81c5e35560dc219b7de4a1fc5495e71d8fce93aa20f39b207a4e37",
+      "sha256": "97bc2638dfc3c1a575a6fd0566f3b178bdf183f90003240594202e5fba27ae9f",
       "bytes": 33434
     },
     {
@@ -4989,8 +4989,8 @@
       "usageLabel": "project-procedural",
       "source": "Project-authored implementation: native3d-v97/final-scenes.js",
       "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
-      "sha256": "594dc4125df5fe9866e93265b29cfee045c5c7e9ca8b443d69a227b40f270e2d",
-      "bytes": 5815
+      "sha256": "5e700cac8edf3b0643494f8c97b16677bb338454b2e0cc418a3c984a19906eb1",
+      "bytes": 269
     },
     {
       "id": "asset-native3d-v97-finger-contact-js",
@@ -5103,14 +5103,24 @@
       "bytes": 5815
     },
     {
+      "id": "asset-native3d-v97-previous-scenes-v105-js",
+      "path": "native3d-v97/previous-scenes-v105.js",
+      "label": "native3d-v97/previous-scenes-v105.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/previous-scenes-v105.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "594dc4125df5fe9866e93265b29cfee045c5c7e9ca8b443d69a227b40f270e2d",
+      "bytes": 5815
+    },
+    {
       "id": "asset-native3d-v97-reference-fit-engine-js",
       "path": "native3d-v97/reference-fit-engine.js",
       "label": "native3d-v97/reference-fit-engine.js",
       "usageLabel": "project-procedural",
       "source": "Project-authored implementation: native3d-v97/reference-fit-engine.js",
       "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
-      "sha256": "912380a7fd363a9cc6f6357c1ef5729da1162916334dc893d505f833c44ef267",
-      "bytes": 23543
+      "sha256": "69017112d5edb15f95463c29baf05982904633dfcf06cdd9660055738d1b93a5",
+      "bytes": 25199
     },
     {
       "id": "asset-native3d-v97-reference-fit-math-js",
@@ -5129,8 +5139,18 @@
       "usageLabel": "project-procedural",
       "source": "Project-authored implementation: native3d-v97/reference-fit-ui.js",
       "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
-      "sha256": "e6945ff3785768899a30ad71e8e55a8bef0870bc10a29ef217c219f18226031b",
-      "bytes": 22963
+      "sha256": "dcc3383b87a786c5a8477f5c7dbb9d910a46563a95e3ecc795874b326c580ddf",
+      "bytes": 23485
+    },
+    {
+      "id": "asset-native3d-v97-refinement-v106-js",
+      "path": "native3d-v97/refinement-v106.js",
+      "label": "native3d-v97/refinement-v106.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/refinement-v106.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "cf46023bd82b5944a7e3c7b17dccbecdc06501ec29d58eff1abda85d7664db13",
+      "bytes": 1977
     },
     {
       "id": "asset-native3d-v97-rig-names-js",
@@ -5199,8 +5219,8 @@
       "usageLabel": "project-procedural",
       "source": "Project-authored implementation: native3d-v97/workshop-ui.js",
       "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
-      "sha256": "6d6d80fe7b9920abb0d5646b81d80b6f6f3adc335d9473f5c0716d2d2bc53c2e",
-      "bytes": 11666
+      "sha256": "7661bac3c3ced2f2722990195c66a1d2ece64842dd022e7a0ea809989dafb94d",
+      "bytes": 11752
     },
     {
       "id": "asset-native3d-v97-workshop-js",

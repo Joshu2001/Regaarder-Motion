@@ -1,3 +1,7 @@
+# Regaarder Motion — V106
+
+See CURRENT-V106.md and docs/v106/README.md for the current reference refinement.
+
 > **Current update: V105.** See [CURRENT-V105.md](CURRENT-V105.md) for the Reference Fit editor tool and [INSTALL-V105.txt](INSTALL-V105.txt) for installation. Earlier release notes below are retained for history.
 
 # Regaarder Motion Atelier
