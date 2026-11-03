@@ -36,9 +36,9 @@ export function applyReferencePolishV110(scene){
   // this shape morph translates only the upper torso, head, and attached rig.
   Object.assign(blue.shape,{
     upperBodyOffsetY:-.090,
-    cranialHeight:-.045, cranialWidth:.040, cranialDepth:-.035,
+    cranialHeight:-.18, cranialWidth:.105, cranialDepth:-.085,
     neckShortening:.235,neckThickness:.06,napeVolume:.095,
-    jawWidth:-.035,chinProjection:-.015,
+    jawWidth:.015,chinProjection:-.025,
     shoulders:.065,chest:.052,abdomen:-.16,waist:-.10,glutes:-.08,hips:-.035,pelvis:-.035
   });
   blue.proportions.neckLength=.97;
@@ -86,7 +86,7 @@ export function applyReferencePolishV110(scene){
   blue.material.color=blueColor;
   blue.parts.shirt.color=blueColor;
   blue.parts.trousers.color=blueColor;
-  blue.material.roughness=.46;
+  blue.material.roughness=.36;
   blue.parts.shirt.roughness=.52;
   cream.material.color=creamColor;
   cream.parts.shirt.color=creamColor;
