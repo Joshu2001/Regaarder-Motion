@@ -42,6 +42,7 @@ export function applyReferencePolishV110(scene){
     shoulders:.065,chest:.052,abdomen:-.16,waist:-.10,glutes:-.08,hips:-.035,pelvis:-.035
   });
   blue.proportions.neckLength=.97;
+  blue.handOffsets.L=[-.015,-.035,-.055];
   leanHold(blue,10,contact.release);
 
   // The cream hat/head are lower than the reference, while the pelvis needs
