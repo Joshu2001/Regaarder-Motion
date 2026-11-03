@@ -27,7 +27,7 @@ export function applyReferencePolishV110(scene){
   // Screen registration: in the reconstruction the cream actor stands too
   // far right while the clasp is already near its correct horizontal location.
   // Move the cream character only modestly; retain a common world-space grip.
-  moveRoot(blue,.016);
+  moveRoot(blue,.075);
   moveRoot(cream,-.080);
   addYaw(cream,5);
 
@@ -35,15 +35,14 @@ export function applyReferencePolishV110(scene){
   // pelvis is almost registered. Do not move the whole object below the floor:
   // this shape morph translates only the upper torso, head, and attached rig.
   Object.assign(blue.shape,{
-    upperBodyOffsetY:-.100,
+    upperBodyOffsetY:-.090,
     cranialHeight:-.045, cranialWidth:.065, cranialDepth:.015,
     neckShortening:.235,neckThickness:.06,napeVolume:.095,
     jawWidth:-.035,chinProjection:-.015,
     shoulders:.065,chest:.052,waist:.052,glutes:.09,hips:.048
   });
   blue.proportions.neckLength=.97;
-  leanHold(blue,17,contact.release);
-  headShift(blue,.024);
+  leanHold(blue,10,contact.release);
 
   // The cream hat/head are lower than the reference, while the pelvis needs
   // its original height. Lift only the upper body, not the standing root.
@@ -100,6 +99,6 @@ export function applyReferencePolishV110(scene){
     ['key',{intensity:2.7}],
     ['fill',{intensity:.48}]
   ]) Object.assign(requireNode(scene,id),patch);
-  scene.name='Handshake · source-frame geometric polish V110';
+  scene.name='Handshake · visually revised source-frame geometry V112';
   return scene;
 }
