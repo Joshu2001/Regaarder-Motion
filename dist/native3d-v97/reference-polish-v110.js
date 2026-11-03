@@ -7,12 +7,12 @@ export const SOURCE_FRAME = Object.freeze({sourceTime:902.417,localTime:2.417,wi
 export const REFERENCE_LANDMARKS = Object.freeze({
   // Coordinates are relative to the left or right 643px picture, from the
   // top of the supplied screenshot (including its ~30px title strip).
-  blueHeadTop: {reference:[220,82],before:[840,56],afterGoal:'lower head / round silhouette'},
-  blueShoulder: {reference:[181,176],before:[823,151],afterGoal:'lower upper body without moving feet'},
-  blueHip: {reference:[177,335],before:[812,326],afterGoal:'preserve stance'},
-  creamHatTop: {reference:[381,74],before:[1055,83],afterGoal:'raise hat without raising hips'},
-  creamHip: {reference:[393,292],before:[1054,279],afterGoal:'move partner left'},
-  handshake: {reference:[309,284],before:[955,251],afterGoal:'lower joint grip target'}
+  blueHeadTop: {reference:[220,82],before:[197,56],afterGoal:'lower head / round silhouette'},
+  blueShoulder: {reference:[181,176],before:[180,151],afterGoal:'lower upper body without moving feet'},
+  blueHip: {reference:[177,335],before:[169,326],afterGoal:'preserve stance'},
+  creamHatTop: {reference:[381,74],before:[412,83],afterGoal:'raise hat without raising hips'},
+  creamHip: {reference:[393,292],before:[411,279],afterGoal:'move partner left'},
+  handshake: {reference:[309,284],before:[312,251],afterGoal:'lower joint grip target'}
 });
 const requireNode=(scene,id)=>{const n=scene.nodes.find(n=>n.id===id);if(!n)throw Error('Missing handshake node: '+id);return n;};
 function moveRoot(n,dx){n.position=[n.position[0]+dx,n.position[1],n.position[2]];for(const key of n.tracks?.position||[])key.value=[key.value[0]+dx,key.value[1],key.value[2]];}
