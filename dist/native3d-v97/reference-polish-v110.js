@@ -86,8 +86,8 @@ export function applyReferencePolishV110(scene){
   blue.material.color=blueColor;
   blue.parts.shirt.color=blueColor;
   blue.parts.trousers.color=blueColor;
-  blue.material.roughness=.32;
-  blue.parts.shirt.roughness=.39;
+  blue.material.roughness=.46;
+  blue.parts.shirt.roughness=.52;
   cream.material.color=creamColor;
   cream.parts.shirt.color=creamColor;
   cream.parts.trousers.color=creamColor;
@@ -95,7 +95,7 @@ export function applyReferencePolishV110(scene){
   for(const[id,patch]of[
     ['blue-key',{position:[-3,2.8,1.0],intensity:2.1}],
     ['blue-fill',{intensity:1.75}],
-    ['blue-rim',{position:[-3.5,1.9,-.7],intensity:5.6,color:'#eee2fa'}],
+    ['blue-rim',{position:[-3.2,2.8,-2.4],intensity:4.8,color:'#eee2fa'}],
     ['key',{position:[-3,2.7,3],intensity:2.9}],
     ['fill',{intensity:.38}],
     ['rim',{position:[2.8,2.0,-.5],intensity:2.8}]
