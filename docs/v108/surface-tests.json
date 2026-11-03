@@ -1,0 +1,19 @@
+{
+  "detailLevels": 2,
+  "separateLayers": true,
+  "stableRefinedObject": true,
+  "basePreserved": true,
+  "levelSwitchPreservesDetail": true,
+  "uvTransforms": true,
+  "vertexColors": true,
+  "topology": {
+    "storedVertices": 24,
+    "geometricVertices": 8,
+    "triangles": 12,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "degenerateTriangles": 0
+  },
+  "extrusion": true,
+  "roundTrip": true
+}

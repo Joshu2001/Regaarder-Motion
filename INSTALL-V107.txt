@@ -1,0 +1,7 @@
+Apply this cumulative update to your existing Regaarder-Motion project folder.
+Keep your original project and user-created scenes as a backup.
+Replace files with the same paths; retain all other files/assets.
+Serve dist/ through a local HTTP server, or deploy it as the static output folder.
+Open character-editor-v97.html; the editor header should read V107.
+The integrated application remains index.html.
+No external modeling application or remote AI service is required for these tools.

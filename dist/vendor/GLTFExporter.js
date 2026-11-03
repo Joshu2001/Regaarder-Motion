@@ -3454,3 +3454,4 @@ GLTFExporter.Utils = {
 };
 
 export { GLTFExporter };
+

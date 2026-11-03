@@ -1,5 +1,5 @@
-# Current release: V106
+# Current release: V108
 
-See [CURRENT-V106.md](CURRENT-V106.md) and [docs/v106/README.md](docs/v106/README.md).
-The native 3D editor includes the guided Reference Fit tool. Historical templates
-and release records remain available.
+See CURRENT-V108.md and docs/v108/README.md.
+Shared builder, multiresolution detail, UV/color layers and embedded PBR maps.
+Historical templates and reference scenes are retained.

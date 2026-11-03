@@ -1,1 +1,4 @@
+Current cumulative update: V108. See INSTALL-V108.txt and CURRENT-V108.md.
+
+Historical V100 instructions:
 Overlay these files onto the existing Regaarder-Motion repository. This is an update, not a standalone application. Includes V98/V99 prerequisites over main ab0de263. Serve dist over HTTP; open character-editor-v97.html. New V100 session preserves previous saved scenes under Restore previous saved scene. Read CURRENT-V100.md for capabilities, tests and remaining limitations. No push or deployment performed.

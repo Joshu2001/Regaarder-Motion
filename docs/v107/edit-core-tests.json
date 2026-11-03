@@ -1,0 +1,33 @@
+{
+  "strokeDabs": 11,
+  "disconnectedVerticesProtected": true,
+  "previewAndStaleRevision": true,
+  "bevels": [
+    {
+      "scale": [
+        1.82,
+        0.018,
+        0.42
+      ],
+      "radius": 0.002,
+      "maxError": 1.877871212219509e-8
+    },
+    {
+      "scale": [
+        2,
+        0.04,
+        0.8
+      ],
+      "radius": 0.002,
+      "maxError": 2.412641923873679e-8
+    }
+  ],
+  "primitiveTypes": [
+    "box",
+    "ellipsoid",
+    "curve",
+    "lathe",
+    "mesh"
+  ],
+  "roundTrip": true
+}

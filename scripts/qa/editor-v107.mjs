@@ -1,0 +1,24 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import{launch}from'./browser.mjs';
+const r=await launch();try{
+ await r.page.goto(r.url+'/character-editor-v97.html');await r.page.waitForFunction(()=>window.native3DReady,null,{timeout:90000});
+ const result=await r.page.evaluate(async()=>{
+  const{createNativeScene,validateScene}=await import('/native3d-v97/scene.js'),{meshRevision}=await import('/native3d-v97/edit-core.js');const api=Native3DLab.api,s=createNativeScene('crimson');api.setScene(s);api.select('table-top');api.render();const o=api.engine.objects.get('table-top');const before=api.getScene(),surface=o.userData.surface,topology=meshRevision(o.geometry);api.selectMesh({surface,topology,mode:'vertex',ids:[0]});const rev=api.getEditRevision(),preview=api.applyOperation({displacement:[.002,0,0],expectedRevision:rev,preview:true});const previewUnchanged=JSON.stringify(before)===JSON.stringify(api.getScene());const edit=api.applyOperation({displacement:[.002,0,0],expectedRevision:rev});api.saveSelection('table corner');const saved=api.getScene();validateScene(saved);api.setScene(JSON.parse(JSON.stringify(saved)));api.select('table-top');api.loadSelection('table corner');const restored=api.getSelection();api.render();const c=api.getScene().nodes.find(n=>n.type==='camera');return{previewUnchanged,preview,edit,restored,sceneCamera:JSON.stringify(c),nodeCount:api.getScene().nodes.length};
+ });assert.ok(result.previewUnchanged);assert.equal(result.edit.changedVertices,1);assert.deepEqual(result.restored.ids,[0]);
+ // One precise operation is one Undo, including after loading a saved scene.
+ await r.page.evaluate(()=>Native3DLab.api.applyOperation({displacement:[.003,0,0]}));
+ await r.page.locator('[data-act="undo"]').click();assert.equal(await r.page.evaluate(()=>Native3DLab.api.getScene().nodes.find(n=>n.id==='table-top').sculpt.mesh.vertices[0][0]),.002);
+ await r.page.locator('[data-act="redo"]').click();assert.equal(await r.page.evaluate(()=>Native3DLab.api.getScene().nodes.find(n=>n.id==='table-top').sculpt.mesh.vertices[0][0]),.005);
+ await r.page.locator('.n3-precision select').first().selectOption('vertex');await r.page.waitForFunction(()=>Native3DLab.api.engine.scene.children.find(o=>o.isTransformControlsRoot)?.controls.object,null,{timeout:20000});
+result.meshGizmo=await r.page.evaluate(()=>{const api=Native3DLab.api,c=api.engine.scene.children.find(o=>o.isTransformControlsRoot).controls;c.dragging=true;c.object.position.x+=.0182;c.dispatchEvent({type:'objectChange'});c.dragging=false;return api.getScene().nodes.find(n=>n.id==='table-top').sculpt.mesh.vertices[0][0];});assert.ok(Math.abs(result.meshGizmo-.015)<1e-8);
+for(const act of['zoom-in','zoom-out','frame-selection','view-front','view-side','view-top','camera'])await r.page.locator(`[data-act="${act}"]`).click();
+ assert.equal(await r.page.evaluate(()=>JSON.stringify(Native3DLab.api.getScene().nodes.find(n=>n.type==='camera'))),result.sceneCamera);
+ for(const type of['ellipsoid','curve','lathe']){await r.page.selectOption('.n3-add',type);await r.page.locator('[data-act="add"]').click();}
+ const props=await r.page.evaluate(()=>Native3DLab.api.getScene().nodes.filter(n=>['ellipsoid','curve','lathe'].includes(n.type)).map(n=>n.type));assert.equal(props.length,3);
+ // Visible mesh selection on a skinned cage and a generic prop.
+ await r.page.evaluate(()=>Native3DLab.api.select('red'));if(!await r.page.locator('.n3-precision').evaluate(e=>e.open))await r.page.locator('.n3-precision summary').first().click();await r.page.locator('.n3-precision select').first().selectOption('vertex');await r.page.waitForTimeout(300);
+ const point=await r.page.evaluate(()=>{const a=Native3DLab.api,e=a.engine,c=e.characters.get('red'),m=c.surfaces.find(r=>r.name==='head').mesh;let i=m.geometry.index.array[0],p=m.localToWorld(m.getVertexPosition(i,m.position.clone()));p.project(a.getViewCamera());const rect=document.querySelector('.n3-viewport canvas').getBoundingClientRect();return{x:rect.x+(p.x+1)*rect.width/2,y:rect.y+(1-p.y)*rect.height/2};});await r.page.mouse.click(point.x,point.y);await r.page.waitForTimeout(200);
+ result.pickedCharacter=await r.page.evaluate(()=>Native3DLab.api.getSelection());assert.ok(result.pickedCharacter?.ids.length);
+ await r.page.screenshot({path:'docs/v107/editor-character.png',fullPage:true});
+ await r.page.evaluate(()=>{Native3DLab.api.select('table-top');Native3DLab.api.loadSelection('table corner');});await r.page.locator('[data-act="frame-selection"]').click();await r.page.waitForTimeout(200);await r.page.screenshot({path:'docs/v107/editor-prop.png',fullPage:true});
+ result.navigationDoesNotAlterCamera=true;result.newProps=props;result.errors=r.errors;assert.deepEqual(r.errors,[]);fs.writeFileSync('docs/v107/editor-tests.json',JSON.stringify(result,null,2));console.log(result);
+}finally{await r.close();}

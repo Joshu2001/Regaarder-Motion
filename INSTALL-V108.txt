@@ -1,0 +1,13 @@
+Extract this cumulative update over the existing Regaarder-Motion project.
+Replace matching files; retain all other application assets and project files.
+Keep a backup of user-created scenes. Existing saved scenes remain supported.
+
+Serve the dist folder through HTTP, for example:
+  python3 -m http.server 8000 --directory dist
+Open http://localhost:8000/character-editor-v97.html and verify header V108.
+The native editor's required character data and vendor modules are included.
+The full documentary's video/media assets are not duplicated in this update.
+Open index.html for the integrated application using the existing full project.
+
+No external modeling application or remote AI service is required.
+This package has not been committed, pushed or deployed automatically.

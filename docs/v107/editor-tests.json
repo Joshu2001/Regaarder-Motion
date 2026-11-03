@@ -1,0 +1,57 @@
+{
+  "previewUnchanged": true,
+  "preview": {
+    "operation": "deform-selection",
+    "changedVertices": 1,
+    "topology": "24:3527341833",
+    "space": "bind-local",
+    "units": "m",
+    "displacement": [
+      0.002,
+      0,
+      0
+    ],
+    "preview": true,
+    "revision": "a6187a65"
+  },
+  "edit": {
+    "operation": "deform-selection",
+    "changedVertices": 1,
+    "topology": "24:3527341833",
+    "space": "bind-local",
+    "units": "m",
+    "displacement": [
+      0.002,
+      0,
+      0
+    ],
+    "preview": false,
+    "revision": "a096872a"
+  },
+  "restored": {
+    "surface": "mesh",
+    "topology": "24:3527341833",
+    "mode": "vertex",
+    "ids": [
+      0
+    ]
+  },
+  "sceneCamera": "{\"id\":\"camera-main\",\"type\":\"camera\",\"name\":\"Scene camera\",\"position\":[0,1,4],\"rotation\":[0,0,0],\"scale\":[1,1,1],\"visible\":true,\"target\":[0,1,0],\"fov\":28}",
+  "nodeCount": 13,
+  "meshGizmo": 0.014999999999999996,
+  "pickedCharacter": {
+    "surface": "shirt",
+    "topology": "26950:1441596649",
+    "mode": "vertex",
+    "ids": [
+      8082
+    ]
+  },
+  "navigationDoesNotAlterCamera": true,
+  "newProps": [
+    "ellipsoid",
+    "curve",
+    "lathe"
+  ],
+  "errors": []
+}

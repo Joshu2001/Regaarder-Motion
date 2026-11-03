@@ -1,0 +1,31 @@
+{
+  "map": {
+    "width": 16,
+    "colorSpace": "srgb",
+    "normalWidth": 16,
+    "glbBytes": 96380
+  },
+  "atlas": {
+    "action": "inspect",
+    "assetId": "test",
+    "surface": "mesh",
+    "storedVertices": 144,
+    "geometricVertices": 26,
+    "triangles": 48,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "degenerateTriangles": 0
+  },
+  "bake": {
+    "resolution": 128,
+    "coveredPixels": 13688,
+    "overlapSamples": 0
+  },
+  "head": {
+    "level": 1,
+    "vertices": 12513,
+    "maxWeightError": 2.9802322387695312e-8
+  },
+  "constructionRestore": true,
+  "errors": []
+}
