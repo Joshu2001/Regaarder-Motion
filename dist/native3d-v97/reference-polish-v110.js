@@ -93,11 +93,12 @@ export function applyReferencePolishV110(scene){
   cream.parts.trousers.color=creamColor;
   cream.parts.hat.color='#ecebe4';
   for(const[id,patch]of[
-    ['blue-key',{intensity:1.35}],
-    ['blue-fill',{intensity:2.30}],
-    ['blue-rim',{position:[-2.9,2.35,-2.0],intensity:5.0,color:'#eee2fa'}],
-    ['key',{intensity:2.7}],
-    ['fill',{intensity:.48}]
+    ['blue-key',{position:[-3,3.4,1.2],intensity:1.65}],
+    ['blue-fill',{intensity:1.35}],
+    ['blue-rim',{position:[-2.9,2.35,-2.0],intensity:6.2,color:'#eee2fa'}],
+    ['key',{position:[-2,3.8,2],intensity:2.7}],
+    ['fill',{intensity:.25}],
+    ['rim',{position:[1.4,2.7,-2],intensity:3.0}]
   ]) Object.assign(requireNode(scene,id),patch);
   scene.name='Handshake · targeted grip and head refinement V113';
   return scene;
