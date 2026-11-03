@@ -18,11 +18,12 @@ Run the project through its existing local web server, then:
 
 ```sh
 node scripts/qa/handshake-v109.mjs
+node scripts/qa/handshake-render-v109.mjs
 node scripts/qa/check-v106.mjs
 node scripts/qa/render-v106.mjs
 ```
 
-The new shot audit has a data-level scope. These commands must be run before claiming browser-level test success; the GitHub connector cannot execute the repository tests.
+The dense render regression samples 73 frames at 12 fps, checks every character's finite skeleton and mesh positions, verifies stitched seam coordinates, and rejects regressions in existing finger-contact correction. It is not a comprehensive body-collision or reference-fidelity validator.\n\nThe new shot audit has a data-level scope. These commands must be run before claiming browser-level test success; the GitHub connector cannot execute the repository tests.
 
 ### Manual reference comparison still required
 
