@@ -1,0 +1,8 @@
+{
+  "boundaryVertices": 130,
+  "beforeGapMeters": 0,
+  "afterSculptAndWeightGapMeters": 0,
+  "weightsPropagated": true,
+  "bodyVisibilityWorks": true,
+  "femaleRigFinite": true
+}

@@ -1,0 +1,44 @@
+{
+  "V102-reference-comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 580,
+        "r_frame_rate": "30/1",
+        "nb_frames": "169"
+      }
+    ],
+    "format": {
+      "duration": "5.633333"
+    }
+  },
+  "V102-reference-005x.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 580,
+        "r_frame_rate": "30/1",
+        "nb_frames": "3380"
+      }
+    ],
+    "format": {
+      "duration": "112.666667"
+    }
+  },
+  "V102-deformation-study.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 960,
+        "height": 580,
+        "r_frame_rate": "30/1",
+        "nb_frames": "180"
+      }
+    ],
+    "format": {
+      "duration": "6.000000"
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "nativeMetrics": [
+    {
+      "localTime": 0.4,
+      "sourceTime": 900.4,
+      "set": "fit",
+      "beforePredictorMax_px": 2.0017609236626573e-05,
+      "beforePlacementOffset_px": [
+        12.011880759918895,
+        -2.8161992624155303
+      ],
+      "before": {
+        "supportMAE_px": 5.8305774055200486,
+        "convexIoU": 0.6689517280776921
+      },
+      "afterPredictorMax_px": 0.0003911786881447767,
+      "afterPlacementOffset_px": [
+        15.82984589990916,
+        3.8827494568519967
+      ],
+      "after": {
+        "supportMAE_px": 1.2743216451766999,
+        "convexIoU": 0.917534477905995
+      }
+    },
+    {
+      "localTime": 0.5,
+      "sourceTime": 900.5,
+      "set": "held-out",
+      "beforePredictorMax_px": 1.956106120218487e-05,
+      "beforePlacementOffset_px": [
+        7.427214088379316,
+        -3.8321770957585883
+      ],
+      "before": {
+        "supportMAE_px": 5.396409995581618,
+        "convexIoU": 0.6811247382590487
+      },
+      "afterPredictorMax_px": 0.0010745019059043035,
+      "afterPlacementOffset_px": [
+        10.922655637464729,
+        2.723016292108987
+      ],
+      "after": {
+        "supportMAE_px": 1.0638508363080215,
+        "convexIoU": 0.93
+      }
+    },
+    {
+      "localTime": 0.6,
+      "sourceTime": 900.6,
+      "set": "fit",
+      "beforePredictorMax_px": 1.932185417794289e-05,
+      "beforePlacementOffset_px": [
+        6.582088387850575,
+        -4.286174712125778
+      ],
+      "before": {
+        "supportMAE_px": 5.3352028715039275,
+        "convexIoU": 0.6828746177370031
+      },
+      "afterPredictorMax_px": 0.002429093624490701,
+      "afterPlacementOffset_px": [
+        9.961951531092481,
+        2.1346086709049246
+      ],
+      "after": {
+        "supportMAE_px": 0.9882917657539189,
+        "convexIoU": 0.9308783579837006
+      }
+    },
+    {
+      "localTime": 0.7,
+      "sourceTime": 900.7,
+      "set": "held-out",
+      "beforePredictorMax_px": 2.129560042614778e-05,
+      "beforePlacementOffset_px": [
+        6.712980285403688,
+        -4.403872666990445
+      ],
+      "before": {
+        "supportMAE_px": 5.15967936710825,
+        "convexIoU": 0.6947399527186762
+      },
+      "afterPredictorMax_px": 0.001035669745046832,
+      "afterPlacementOffset_px": [
+        9.770750240140188,
+        2.345011897170494
+      ],
+      "after": {
+        "supportMAE_px": 0.9208747451600016,
+        "convexIoU": 0.9364664926022629
+      }
+    },
+    {
+      "localTime": 2.4,
+      "sourceTime": 902.4,
+      "set": "fit",
+      "beforePredictorMax_px": 0.00021236262986689032,
+      "beforePlacementOffset_px": [
+        6.835887579446933,
+        -1.1950404770518546
+      ],
+      "before": {
+        "supportMAE_px": 3.2187214576491154,
+        "convexIoU": 0.7938177182919057
+      },
+      "afterPredictorMax_px": 0.004200451993189981,
+      "afterPlacementOffset_px": [
+        10.627616360354992,
+        5.7467599120034905
+      ],
+      "after": {
+        "supportMAE_px": 2.0277236122668385,
+        "convexIoU": 0.870895312938535
+      }
+    },
+    {
+      "localTime": 2.6,
+      "sourceTime": 902.6,
+      "set": "held-out",
+      "beforePredictorMax_px": 0.0006688378068678318,
+      "beforePlacementOffset_px": [
+        7.735348941042005,
+        -1.2894120556397013
+      ],
+      "before": {
+        "supportMAE_px": 3.5716967804605786,
+        "convexIoU": 0.7749838813668601
+      },
+      "afterPredictorMax_px": 0.0002368771717426728,
+      "afterPlacementOffset_px": [
+        10.380299140425791,
+        6.125328959137818
+      ],
+      "after": {
+        "supportMAE_px": 1.8051039656643093,
+        "convexIoU": 0.8763532763532763
+      }
+    },
+    {
+      "localTime": 2.8,
+      "sourceTime": 902.8,
+      "set": "fit",
+      "beforePredictorMax_px": 0.0011526805267567406,
+      "beforePlacementOffset_px": [
+        10.536228980553744,
+        -4.854719600732466
+      ],
+      "before": {
+        "supportMAE_px": 5.1146702038908005,
+        "convexIoU": 0.6712846347607053
+      },
+      "afterPredictorMax_px": 0.00023235416915854765,
+      "afterPlacementOffset_px": [
+        12.099643873918325,
+        2.652582464614653
+      ],
+      "after": {
+        "supportMAE_px": 1.0983801522478713,
+        "convexIoU": 0.9366348815749
+      }
+    },
+    {
+      "localTime": 3,
+      "sourceTime": 903,
+      "set": "held-out",
+      "beforePredictorMax_px": 0.0014899951319171918,
+      "beforePlacementOffset_px": [
+        12.087459059492872,
+        -1.8578770869843737
+      ],
+      "before": {
+        "supportMAE_px": 4.225452537024589,
+        "convexIoU": 0.7197969543147208
+      },
+      "afterPredictorMax_px": 0.00023062169635672809,
+      "afterPlacementOffset_px": [
+        13.638704564753453,
+        5.904011322350087
+      ],
+      "after": {
+        "supportMAE_px": 1.6253548758618799,
+        "convexIoU": 0.8994082840236687
+      }
+    },
+    {
+      "localTime": 3.2,
+      "sourceTime": 903.2,
+      "set": "fit",
+      "beforePredictorMax_px": 0.0016905354455544698,
+      "beforePlacementOffset_px": [
+        6.953182901574351,
+        -7.737588389943795
+      ],
+      "before": {
+        "supportMAE_px": 5.03405156317646,
+        "convexIoU": 0.685583362707085
+      },
+      "afterPredictorMax_px": 0.00022441073762265195,
+      "afterPlacementOffset_px": [
+        8.119008060717576,
+        -0.13736003211448633
+      ],
+      "after": {
+        "supportMAE_px": 1.6122277744099527,
+        "convexIoU": 0.8901098901098901
+      }
+    }
+  ],
+  "heldOutMeanSupportErrorBefore_px": 4.588309670043759,
+  "heldOutMeanSupportErrorAfter_px": 1.353796105748553,
+  "heldOutErrorReductionPercent": 70.49466572434633,
+  "heldOutMeanIoUBefore": 0.7176613816648264,
+  "heldOutMeanIoUAfter": 0.910557013244802,
+  "browserErrors": [],
+  "definition": "Center-aligned head-only convex silhouettes at fixed torso-calibrated scale. Position errors recorded separately. Not full-scene image similarity or unique 3D recovery.",
+  "accepted": true
+}

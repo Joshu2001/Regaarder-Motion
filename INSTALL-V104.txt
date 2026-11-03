@@ -1,0 +1,6 @@
+Overlay this update on your existing Regaarder-Motion V97-or-later repository.
+Retain existing assets and vendor files. Serve dist using the existing workflow.
+Open character-editor-v97.html; choose Load updated handshake to use V104 defaults.
+Previously saved scenes are retained. All parameters/sculpt/keys remain editable.
+This is an update overlay, not a standalone repository. No external authoring app
+is required to use the updated template. No push or deployment was performed.

@@ -1,0 +1,139 @@
+{
+  "rows": [
+    {
+      "time": 0,
+      "contact": [
+        {
+          "adjustments": 0
+        }
+      ],
+      "palms": [],
+      "finite": true
+    },
+    {
+      "time": 0.566667,
+      "contact": [
+        {
+          "adjustments": 0,
+          "before": 0,
+          "after": 0,
+          "reverted": false
+        }
+      ],
+      "palms": [],
+      "finite": true
+    },
+    {
+      "time": 1,
+      "contact": [
+        {
+          "adjustments": 5,
+          "before": 0.000011348230052738739,
+          "after": 6.424274919840152e-10,
+          "reverted": false
+        }
+      ],
+      "palms": [
+        {
+          "actor": "final-blue",
+          "meters": 0.0018523202035890007
+        },
+        {
+          "actor": "final-coach",
+          "meters": 0.001741180991373626
+        }
+      ],
+      "finite": true
+    },
+    {
+      "time": 1.4,
+      "contact": [
+        {
+          "adjustments": 5,
+          "before": 0.000011348230052739183,
+          "after": 6.424274919973817e-10,
+          "reverted": false
+        }
+      ],
+      "palms": [
+        {
+          "actor": "final-blue",
+          "meters": 0.001852320203588973
+        },
+        {
+          "actor": "final-coach",
+          "meters": 0.0017411809913736908
+        }
+      ],
+      "finite": true
+    },
+    {
+      "time": 2,
+      "contact": [
+        {
+          "adjustments": 5,
+          "before": 0.000011348230052738663,
+          "after": 6.424274919919296e-10,
+          "reverted": false
+        }
+      ],
+      "palms": [
+        {
+          "actor": "final-blue",
+          "meters": 0.0018523202035890163
+        },
+        {
+          "actor": "final-coach",
+          "meters": 0.0017411809913737586
+        }
+      ],
+      "finite": true
+    },
+    {
+      "time": 2.55,
+      "contact": [
+        {
+          "adjustments": 5,
+          "before": 0.000011348230052738844,
+          "after": 6.424274919902588e-10,
+          "reverted": false
+        }
+      ],
+      "palms": [
+        {
+          "actor": "final-blue",
+          "meters": 0.0018523202035890542
+        },
+        {
+          "actor": "final-coach",
+          "meters": 0.0017411809913738948
+        }
+      ],
+      "finite": true
+    },
+    {
+      "time": 3,
+      "contact": [
+        {
+          "adjustments": 0,
+          "before": 0,
+          "after": 0,
+          "reverted": false
+        }
+      ],
+      "palms": [],
+      "finite": true
+    },
+    {
+      "time": 3.3,
+      "contact": [
+        {
+          "adjustments": 0
+        }
+      ],
+      "palms": [],
+      "finite": true
+    }
+  ],
+  "errors": []
+}

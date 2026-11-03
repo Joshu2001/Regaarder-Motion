@@ -1,0 +1,76 @@
+{
+  "integration": {
+    "duration": 970,
+    "start": 910,
+    "rows": [
+      {
+        "age": -0.04,
+        "visible": false
+      },
+      {
+        "age": 0,
+        "visible": true
+      },
+      {
+        "age": 1.6,
+        "visible": true
+      },
+      {
+        "age": 5.9,
+        "visible": true
+      },
+      {
+        "age": 6.1,
+        "visible": true
+      },
+      {
+        "age": 10.1,
+        "visible": true
+      },
+      {
+        "age": 12.5,
+        "visible": true
+      },
+      {
+        "age": 16.8,
+        "visible": true
+      },
+      {
+        "age": 20.8,
+        "visible": true
+      },
+      {
+        "age": 59.9,
+        "visible": true
+      }
+    ],
+    "build": "motion-v101",
+    "templates": "Humanoid · 3D editorUnpack 14:55 scene in Blank CompositionHandshake · editable templateThree players · editable template"
+  },
+  "editability": {
+    "renderedHead": "159fbc",
+    "rejected": true,
+    "preserved": true,
+    "savedChest": 0.08,
+    "stored": true
+  },
+  "reload": {
+    "chest": 0.08,
+    "head": "#159fbc",
+    "curl": [
+      0.3,
+      0.7,
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  "frameStep": 0.03333333333333333,
+  "slowPlaybackTime": 0.15083333333333335,
+  "glb": {
+    "magic": 1179937895,
+    "version": 2,
+    "bytes": 34373660
+  },
+  "errors": []
+}

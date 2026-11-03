@@ -1,0 +1,1 @@
+The SDF shoulder-volume experiment was rejected after rendered review: it introduced bumps and did not remove the shoulder pinch. It is retained here for audit only and is not imported by the runtime.

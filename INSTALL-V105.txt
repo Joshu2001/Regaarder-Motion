@@ -1,0 +1,7 @@
+V105 cumulative update overlay for the existing Regaarder-Motion V97-or-later repo.
+Retain the existing assets and vendor directories. This is not a standalone repo.
+Serve dist using your existing workflow. Open character-editor-v97.html or the
+native editor from Blank Composition. Select a character/mesh and click Reference Fit.
+Choose Load updated handshake for the revised blue-material defaults; saved scenes
+are retained. No Blender, external authoring application or AI service is required.
+No commit, push or deployment was performed.

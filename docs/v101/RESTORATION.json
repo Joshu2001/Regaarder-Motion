@@ -1,0 +1,14 @@
+{
+  "sourceArchiveSHA256": "3ced9e131b53b0c0e6a6aad40d2c8fee3c86a6054a65d1fc1c2b92df1be02bf1",
+  "baseCommit": "ab0de263651df94072e74b6d6788b789a110d1c1",
+  "enginePreservedByteForByte": true,
+  "addedModules": [
+    "anatomy-v101.js",
+    "anatomy-ui-v101.js"
+  ],
+  "changedRuntimeModules": [
+    "editor.js",
+    "workshop.js"
+  ],
+  "photoTo3D": "planned, not implemented"
+}

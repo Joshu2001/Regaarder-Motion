@@ -1,4 +1,4 @@
-# Animation reference · V50
+# Animation reference · V98
 
 Complete human/AI reference. Source links refer to files in the editable project. Factory values and live instance exports are distinct.
 
@@ -89,7 +89,7 @@ Automated checks cover registry/default/hash parity, timing spans, positive cont
 When reference depth is uncertain, use independently replaceable image layers by default. Keep source identity separate from motion. Do not claim recovered 3D. New chapter controls expose replacement, position, size and visibility first, with advanced depth/rotation/material/timing collapsed. All actions use the shared MotionCore playback wrapper for speed, reversal and slow/fast clocks. Preserve prior artwork and generated candidates.
 
 
-# Animation catalog · V50
+# Animation catalog · V98
 
 Human and AI share stable effect IDs, exact factory defaults and implementation evidence. Live settings are separate composition exports. Read ANIMATION-ARCHITECTURE.md for the editing contract and future-animation requirements.
 
@@ -94970,3 +94970,7 @@ Reusable chapter pose handoff stage. Native source timeline and dependencies ret
   "bindings": {}
 }
 ```
+
+## V98 editable character additions
+
+Current V98 definitions: [paired handshake](animations/native3d-handshake-v98.md), [red players](animations/native3d-team-v98.md), [final minute](animations/doc-final-minute-v98.md). Earlier definitions are retained. Exact nested defaults and limitations are in these documents and animation-registry.json.

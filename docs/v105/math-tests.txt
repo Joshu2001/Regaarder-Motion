@@ -1,0 +1,2 @@
+{"exactDistanceTransform":true,"nonconvexMask":true,"symmetric":true,"maximumShift":3}
+Lab color checks passed

@@ -1,0 +1,7 @@
+{
+  "samples": 1,
+  "status": "Trace the visible target outline. Add a second frame and reserve it for validation.",
+  "metrics": "Preview measurementsRegionMean px95th pxMaximum pxWhole outline4.598.0012.53Top band3.456.006.00Middle band4.387.077.62Base band5.849.0012.53True-mask IoU 77.82% · raster resolution 1.00 original px/sample · center offset 31.50, 10.00 pxMedian color ΔE76 10.42 · RGB error 43.82 / 255 · reference median 12, 90, 161 · native 24, 115, 187",
+  "sceneUntouched": true,
+  "errors": []
+}

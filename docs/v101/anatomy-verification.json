@@ -1,0 +1,19 @@
+{
+  "id": "final-blue",
+  "start": [
+    -0.41026101317231395,
+    1.694158615205963,
+    0.14000000000000004
+  ],
+  "after": [
+    -0.40462705397750764,
+    1.6660558697999375,
+    0.14
+  ],
+  "unchanged": true,
+  "rejected": true,
+  "savedShortening": 0.16,
+  "neckFields": 1,
+  "uiShortening": 0.12,
+  "errors": []
+}

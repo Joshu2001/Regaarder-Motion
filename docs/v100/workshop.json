@@ -1,0 +1,17 @@
+{
+  "result": {
+    "baseCount": 133872,
+    "refinedCount": 535488,
+    "taller": 1.8974576490306787,
+    "headTurns": true,
+    "neckTurns": true,
+    "targetError": 2.220446049250313e-16,
+    "painted": 618,
+    "topologyStable": true,
+    "cageVisible": true,
+    "rejected": true,
+    "normalized": true,
+    "finite": true
+  },
+  "errors": []
+}

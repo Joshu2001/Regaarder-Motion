@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-11-03",
   "assets": [
     {
       "id": "asset-animation-instance-js",
@@ -31,6 +31,26 @@
       "usageLabel": "project-procedural",
       "source": "Project source: asset-catalog.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-asset-selection-js",
+      "path": "asset-selection.js",
+      "label": "asset-selection.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: asset-selection.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "37ea83083dd9f3628b6866e0c5447d19e35e3660c2fda50396cd25c63bbc7e69",
+      "bytes": 15096
+    },
+    {
+      "id": "asset-asset-workbench-js",
+      "path": "asset-workbench.js",
+      "label": "asset-workbench.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: asset-workbench.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "2afdbf9a9b6273fbfda39ba0da1e9dbd25a0062cfed86fe88e1d26ae21143471",
+      "bytes": 37804
     },
     {
       "id": "asset-assets-archive-credits-v72-md",
@@ -3943,6 +3963,16 @@
       "license": "Unknown; do not automatically reuse outside this task"
     },
     {
+      "id": "asset-authoring-schema-js",
+      "path": "authoring-schema.js",
+      "label": "authoring-schema.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: authoring-schema.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "15314ce6ef9671a8b7e6ce5304a3842a484abc7797f8b5a56cb9611116f37503",
+      "bytes": 2994
+    },
+    {
       "id": "asset-battle-motion-js",
       "path": "battle-motion.js",
       "sha256": "fbd10dbedbd16351d654b7477e1398fa4e5cf04078f65a23aa5b0427adaf7fcf",
@@ -3951,6 +3981,26 @@
       "usageLabel": "review-required",
       "source": "Legacy project file; exact origin not documented",
       "license": "Unknown; do not automatically reuse outside this task"
+    },
+    {
+      "id": "asset-battle-scene-js",
+      "path": "battle-scene.js",
+      "label": "battle-scene.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: battle-scene.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "5539c1d365065db56d9d04cd6743993dc00fea9c8623afa989e1edf0d233def0",
+      "bytes": 8917
+    },
+    {
+      "id": "asset-battle-js",
+      "path": "battle.js",
+      "label": "battle.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: battle.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "b7522e0c540275984601121e807c14e9ff36bc8e3492f24bd3d52f8a6c39676f",
+      "bytes": 26246
     },
     {
       "id": "asset-betrayal-director-js",
@@ -3993,6 +4043,26 @@
       "license": "Unknown; do not automatically reuse outside this task"
     },
     {
+      "id": "asset-chapter-controls-js",
+      "path": "chapter-controls.js",
+      "label": "chapter-controls.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: chapter-controls.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "b0801a75f98b14a83d85a7166cffe8d6d43a7dbe9b28b231fa9ee33161d90131",
+      "bytes": 5312
+    },
+    {
+      "id": "asset-chapter-director-js",
+      "path": "chapter-director.js",
+      "label": "chapter-director.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: chapter-director.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "5a5f9392d12c2746c4630f17c2deec0c1bbe3d5ebf8ef630a5f636b7851041bf",
+      "bytes": 16862
+    },
+    {
       "id": "asset-chapter-motion-js",
       "path": "chapter-motion.js",
       "sha256": "3eef1420ebb8f5d13d0412de717ef0174da6e38b2593b2a7c64d0c7f615404ca",
@@ -4001,6 +4071,16 @@
       "usageLabel": "project-procedural",
       "source": "Project source: chapter-motion.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-chapter-sequence-js",
+      "path": "chapter-sequence.js",
+      "label": "chapter-sequence.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: chapter-sequence.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "25bba8853f5d67e4e47f901bdc5659fee274331258fb0f48b48a349425264e1a",
+      "bytes": 33420
     },
     {
       "id": "asset-chapter-shoes-js",
@@ -4043,6 +4123,16 @@
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
     },
     {
+      "id": "asset-chess-director-js",
+      "path": "chess-director.js",
+      "label": "chess-director.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: chess-director.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "931f58637d68dea023e2e434c0731ebc01aad56decd6c15c752938553ac86c31",
+      "bytes": 20395
+    },
+    {
       "id": "asset-chess-engine-js",
       "path": "chess-engine.js",
       "sha256": "c16e22aaf53de9a1a8ddece0220fab722399afbf975c797ce0c34d05601abc12",
@@ -4051,6 +4141,26 @@
       "usageLabel": "review-required",
       "source": "Legacy project file; exact origin not documented",
       "license": "Unknown; do not automatically reuse outside this task"
+    },
+    {
+      "id": "asset-chess-motion-js",
+      "path": "chess-motion.js",
+      "label": "chess-motion.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: chess-motion.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "24ca9de531ed9d8ef49a13747833d81fce55bf10f3b6565d57cb90b810fc936b",
+      "bytes": 3653
+    },
+    {
+      "id": "asset-chess-js",
+      "path": "chess.js",
+      "label": "chess.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: chess.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "5deee9fd6651e6a25058e65530ea20564b34056abc3fc05458c66433df5ff6f2",
+      "bytes": 14253
     },
     {
       "id": "asset-city-engine-js",
@@ -4063,6 +4173,26 @@
       "license": "Unknown; do not automatically reuse outside this task"
     },
     {
+      "id": "asset-city-motion-js",
+      "path": "city-motion.js",
+      "label": "city-motion.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: city-motion.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "dffb33982d51a2c481f15e59fc54c3393ab892e9864bebac8ebc470d6858458b",
+      "bytes": 978
+    },
+    {
+      "id": "asset-city-js",
+      "path": "city.js",
+      "label": "city.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: city.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "956e747231633cc4ed8ec9ab6a09445f453425e6ecf957278518ca03a9a457ef",
+      "bytes": 17907
+    },
+    {
       "id": "asset-commerce-bridge-js",
       "path": "commerce-bridge.js",
       "sha256": "a9cfd25cde2b8d4ea11796025aadac07198f700e3e2d057e19179267280600ec",
@@ -4071,6 +4201,36 @@
       "usageLabel": "project-procedural",
       "source": "Project implementation commerce-bridge.js",
       "license": "Project-scoped source code; no external model."
+    },
+    {
+      "id": "asset-communities-crops-js",
+      "path": "communities-crops.js",
+      "label": "communities-crops.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: communities-crops.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "8c92e38d391a168657aad7c1072aeb1224a56a50b3b96f825a8a215112c413ae",
+      "bytes": 2427
+    },
+    {
+      "id": "asset-communities-director-js",
+      "path": "communities-director.js",
+      "label": "communities-director.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: communities-director.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "8cf9f422271cbca20377e80971337e4584cd5ea9527bbb3a38863580816de00b",
+      "bytes": 6291
+    },
+    {
+      "id": "asset-communities-sequence-js",
+      "path": "communities-sequence.js",
+      "label": "communities-sequence.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: communities-sequence.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "205d30158d5d3b1992783cf08cc5b3baaac791697630b529fb15ae612f7f8dfe",
+      "bytes": 29312
     },
     {
       "id": "asset-composition-core-js",
@@ -4113,6 +4273,16 @@
       "license": "Project-scoped original implementation; reused image licenses remain separate"
     },
     {
+      "id": "asset-continuation-js",
+      "path": "continuation.js",
+      "label": "continuation.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: continuation.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "17ddd9afec0261e06d667b32320849b86635d120cb8dff5e5996fbba575c4df9",
+      "bytes": 43374
+    },
+    {
       "id": "asset-cutout-walk-js",
       "path": "cutout-walk.js",
       "sha256": "dcb1fca9e74bce970059d1ca73947d0260bf6d8c0c1a4ac1a78b31894afbaf76",
@@ -4121,6 +4291,26 @@
       "usageLabel": "project-procedural",
       "source": "Project source: cutout-walk.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-depot-assets-js",
+      "path": "depot-assets.js",
+      "label": "depot-assets.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: depot-assets.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "d1fae065e976135f37854b26afd31c510392dd6a14d3991f245c67d566943505",
+      "bytes": 1439
+    },
+    {
+      "id": "asset-depot-camera-js",
+      "path": "depot-camera.js",
+      "label": "depot-camera.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: depot-camera.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "048d5afa854182c7f1618004aa135da03f88de8ed3e580cab047cc1b82e503dd",
+      "bytes": 3683
     },
     {
       "id": "asset-depot-chapter-js",
@@ -4133,6 +4323,26 @@
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
     },
     {
+      "id": "asset-depot-director-js",
+      "path": "depot-director.js",
+      "label": "depot-director.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: depot-director.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "a749ffc0ad176ea206367a20c9f0f3f281810cc65d211048f4303f24b6a5aadc",
+      "bytes": 15450
+    },
+    {
+      "id": "asset-depot-finale-js",
+      "path": "depot-finale.js",
+      "label": "depot-finale.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: depot-finale.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "90d44881b9ad5d2ea000c1529e118d3a9fcdc6739813844d8d3385d329acbfc4",
+      "bytes": 12905
+    },
+    {
       "id": "asset-depot-glass-js",
       "path": "depot-glass.js",
       "sha256": "2de5d5bcbd58586c4d7a39c0771c3370102a8affa116dbffb93ad54735217027",
@@ -4143,6 +4353,16 @@
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
     },
     {
+      "id": "asset-depot-motion-js",
+      "path": "depot-motion.js",
+      "label": "depot-motion.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: depot-motion.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "ec7ac95c78d75bc0ea3bbe63a12b5aa00ce86b65a65b18379fc3249281a740c6",
+      "bytes": 2037
+    },
+    {
       "id": "asset-depot-portal-js",
       "path": "depot-portal.js",
       "sha256": "ce09769231e0808cc00d128e66b6dd6569f1a7a25981eddd17e773fe5689c32b",
@@ -4151,6 +4371,36 @@
       "usageLabel": "project-procedural",
       "source": "Project source: depot-portal.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-depot-scene-js",
+      "path": "depot-scene.js",
+      "label": "depot-scene.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: depot-scene.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "84ce38ca005a616ea88b489c5353373fe40eee1fe8949e357cf7d13c2823d211",
+      "bytes": 5579
+    },
+    {
+      "id": "asset-depot-title-js",
+      "path": "depot-title.js",
+      "label": "depot-title.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: depot-title.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "4cf8babebab60429e29d4d3718838015fc6f021b8c5c1dba9eaaa9352430529e",
+      "bytes": 2446
+    },
+    {
+      "id": "asset-depot-js",
+      "path": "depot.js",
+      "label": "depot.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: depot.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "efb647ed9696bfa9a735b9c66e56e4e18c849720a8a5b69a8a63cec588a2f6d9",
+      "bytes": 28026
     },
     {
       "id": "asset-division-director-js",
@@ -4191,6 +4441,16 @@
       "usageLabel": "project-procedural",
       "source": "Project source: effect-library.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-epilogue-js",
+      "path": "epilogue.js",
+      "label": "epilogue.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: epilogue.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "3f5f50127ff512eb2407d7f6c6c263b7382165a44f243ea4b3207e1479b48273",
+      "bytes": 13189
     },
     {
       "id": "asset-exterior-scene-js",
@@ -4241,6 +4501,56 @@
       "usageLabel": "project-procedural",
       "source": "Project source: feud-sequence.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-final-director-v97-js",
+      "path": "final-director-v97.js",
+      "label": "final-director-v97.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: final-director-v97.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "a7c17c84b9e2d851f097edc6123002dbacb9e4e0cd0eca546e405634da454da1",
+      "bytes": 6071
+    },
+    {
+      "id": "asset-final-director-js",
+      "path": "final-director.js",
+      "label": "final-director.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: final-director.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "ac2d415ca76d399f5c2209c363df3a5f063bc5066a22f10aba2ccf7772790471",
+      "bytes": 5014
+    },
+    {
+      "id": "asset-final-sequence-v97-js",
+      "path": "final-sequence-v97.js",
+      "label": "final-sequence-v97.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: final-sequence-v97.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "af39d159f3d2bfbfa7632af545b5f3d4fb88dede68230f6540934cb81a06beb9",
+      "bytes": 9820
+    },
+    {
+      "id": "asset-final-sequence-js",
+      "path": "final-sequence.js",
+      "label": "final-sequence.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: final-sequence.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "57988cf8921fba625b8575f7c16cb06bbe6d02a1f2bec9eebd432717a65099a1",
+      "bytes": 8749
+    },
+    {
+      "id": "asset-flame-engine-js",
+      "path": "flame-engine.js",
+      "label": "flame-engine.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: flame-engine.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "41593aef19a9b52cd42ad5ded7b65507077918d1de685a119c31193245d209d8",
+      "bytes": 6723
     },
     {
       "id": "asset-gesture-layers-js",
@@ -4413,6 +4723,16 @@
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
     },
     {
+      "id": "asset-layer-director-js",
+      "path": "layer-director.js",
+      "label": "layer-director.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: layer-director.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "a523197242792f02947f2777acd1c5904bfd24f06a7c289ad9f0abcb55d85b8c",
+      "bytes": 5516
+    },
+    {
       "id": "asset-layer-motion-js",
       "path": "layer-motion.js",
       "sha256": "4f3e319a0fd6e375c7b59e29bb9abe6461e9545d55caf4b5100b1d05e7752ad9",
@@ -4451,6 +4771,16 @@
       "usageLabel": "project-procedural",
       "source": "Project source: media-clip.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-media-tools-js",
+      "path": "media-tools.js",
+      "label": "media-tools.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: media-tools.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "a4c972573a5f28fde8ddba64d8de4797cf39a33bb26498b70f341db30a4b0197",
+      "bytes": 4013
     },
     {
       "id": "asset-mesh-walk-js",
@@ -4523,6 +4853,16 @@
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
     },
     {
+      "id": "asset-native3d-director-v97-js",
+      "path": "native3d-director-v97.js",
+      "label": "native3d-director-v97.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-director-v97.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "8bfee90abc8e48ff16e8aa1e75b900667f43ed93061733e95ea9ecde0759065f",
+      "bytes": 31629
+    },
+    {
       "id": "asset-native3d-director-js",
       "path": "native3d-director.js",
       "sha256": "b278600853a54f46a32c108dc7829d865965fd486464656163b77611611af818",
@@ -4531,6 +4871,346 @@
       "usageLabel": "project-procedural",
       "source": "Project source: native3d-director.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-native3d-v97-anatomy-ui-v101-js",
+      "path": "native3d-v97/anatomy-ui-v101.js",
+      "label": "native3d-v97/anatomy-ui-v101.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/anatomy-ui-v101.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "1b2d0ffa183de68543694407f93050e032d7cba3e93ab9b6311bcac54c45688b",
+      "bytes": 2805
+    },
+    {
+      "id": "asset-native3d-v97-anatomy-v101-js",
+      "path": "native3d-v97/anatomy-v101.js",
+      "label": "native3d-v97/anatomy-v101.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/anatomy-v101.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "3d7631f07602ff2401510a574c042a37f6a3717814aaa0811c28ff12e673c472",
+      "bytes": 1467
+    },
+    {
+      "id": "asset-native3d-v97-atmosphere-js",
+      "path": "native3d-v97/atmosphere.js",
+      "label": "native3d-v97/atmosphere.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/atmosphere.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "914e9c9591d249b7d56d2d9650480de4b21b5482c10ed467e2582ec1e1c5b79b",
+      "bytes": 1613
+    },
+    {
+      "id": "asset-native3d-v97-character-head-js",
+      "path": "native3d-v97/character-head.js",
+      "label": "native3d-v97/character-head.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/character-head.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "b18e78f6b2cb4df47c6e8ef1e62f7faed7fa9ad38d235f0eb41644c855dfe567",
+      "bytes": 5562
+    },
+    {
+      "id": "asset-native3d-v97-checkpoint-js",
+      "path": "native3d-v97/checkpoint.js",
+      "label": "native3d-v97/checkpoint.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/checkpoint.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "e06598a6f1b203fb1f8054f66576cef905f335ac0e83cf547a1d6750058a8368",
+      "bytes": 7221
+    },
+    {
+      "id": "asset-native3d-v97-contact-rig-js",
+      "path": "native3d-v97/contact-rig.js",
+      "label": "native3d-v97/contact-rig.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/contact-rig.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "a9c2d74b3b632dedaecdc69ade59a6051fb841d07ed78a3fb788b7a73fbd77c2",
+      "bytes": 2681
+    },
+    {
+      "id": "asset-native3d-v97-deformation-study-js",
+      "path": "native3d-v97/deformation-study.js",
+      "label": "native3d-v97/deformation-study.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/deformation-study.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "121a6fb80dcb4bec89125596cbffef3d357850571e8e7857830b151aad540b35",
+      "bytes": 1111
+    },
+    {
+      "id": "asset-native3d-v97-editor-js",
+      "path": "native3d-v97/editor.js",
+      "label": "native3d-v97/editor.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/editor.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "730bdba2be81c5e35560dc219b7de4a1fc5495e71d8fce93aa20f39b207a4e37",
+      "bytes": 33434
+    },
+    {
+      "id": "asset-native3d-v97-engine-js",
+      "path": "native3d-v97/engine.js",
+      "label": "native3d-v97/engine.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/engine.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "b3806d75e6843bb7cee8a564bf3d7bbc6c5deea68678110f408c00ea0a5d21d8",
+      "bytes": 39693
+    },
+    {
+      "id": "asset-native3d-v97-export-js",
+      "path": "native3d-v97/export.js",
+      "label": "native3d-v97/export.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/export.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "244905c2069ec1338f7a26118c9cffb62b7be74030db7f84963f105002ec4d61",
+      "bytes": 2649
+    },
+    {
+      "id": "asset-native3d-v97-exterior-neck-js",
+      "path": "native3d-v97/exterior-neck.js",
+      "label": "native3d-v97/exterior-neck.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/exterior-neck.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "02349ecb6e88fd9f76dbe655f2d30644c0f762e80a5dd0d7803f467748c6c0eb",
+      "bytes": 971
+    },
+    {
+      "id": "asset-native3d-v97-final-scenes-js",
+      "path": "native3d-v97/final-scenes.js",
+      "label": "native3d-v97/final-scenes.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/final-scenes.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "594dc4125df5fe9866e93265b29cfee045c5c7e9ca8b443d69a227b40f270e2d",
+      "bytes": 5815
+    },
+    {
+      "id": "asset-native3d-v97-finger-contact-js",
+      "path": "native3d-v97/finger-contact.js",
+      "label": "native3d-v97/finger-contact.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/finger-contact.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "5f166dcb7e2cf5fbc1381797af9e7fa7d3ceede11c0e76d8326c41906be2c42d",
+      "bytes": 3300
+    },
+    {
+      "id": "asset-native3d-v97-finishes-js",
+      "path": "native3d-v97/finishes.js",
+      "label": "native3d-v97/finishes.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/finishes.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "a89b7bb626c2d0e5211610b110b86cbf88f8c4b45cc35e6dc984e660afed30f6",
+      "bytes": 1408
+    },
+    {
+      "id": "asset-native3d-v97-garment-trim-js",
+      "path": "native3d-v97/garment-trim.js",
+      "label": "native3d-v97/garment-trim.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/garment-trim.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "d4cdfe76480d0f3beafbed525da3cedf072aac644a39c11c7afa65f8091e3d8c",
+      "bytes": 1744
+    },
+    {
+      "id": "asset-native3d-v97-hat-seat-js",
+      "path": "native3d-v97/hat-seat.js",
+      "label": "native3d-v97/hat-seat.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/hat-seat.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "5826006dc9e0448311cdd0b4e69ccd1fc00791a228ea4a0b8d602312b0c8f360",
+      "bytes": 1176
+    },
+    {
+      "id": "asset-native3d-v97-head-fit-v104-js",
+      "path": "native3d-v97/head-fit-v104.js",
+      "label": "native3d-v97/head-fit-v104.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/head-fit-v104.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "ac98d4f59bf6ba7433f720e61d6201d96f63d3516e2961f1221495aef4cc612e",
+      "bytes": 186498
+    },
+    {
+      "id": "asset-native3d-v97-lab-js",
+      "path": "native3d-v97/lab.js",
+      "label": "native3d-v97/lab.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/lab.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "02b046ce155290b371b68067eeb404932a47a5e552800298e8ed2e99d94055cc",
+      "bytes": 1692
+    },
+    {
+      "id": "asset-native3d-v97-pose-volume-js",
+      "path": "native3d-v97/pose-volume.js",
+      "label": "native3d-v97/pose-volume.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/pose-volume.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "62f5dc1f55c244cac27ad4588287ee6baf84ee3aeb45c9cf5059516bc88636ae",
+      "bytes": 4749
+    },
+    {
+      "id": "asset-native3d-v97-previous-scenes-v101-js",
+      "path": "native3d-v97/previous-scenes-v101.js",
+      "label": "native3d-v97/previous-scenes-v101.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/previous-scenes-v101.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "b17b9ccef5a1ec23468048bb5c3ddc8973e4d98de7d245378a6991a1eea9e0a2",
+      "bytes": 4780
+    },
+    {
+      "id": "asset-native3d-v97-previous-scenes-v102-js",
+      "path": "native3d-v97/previous-scenes-v102.js",
+      "label": "native3d-v97/previous-scenes-v102.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/previous-scenes-v102.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "5ac1c6f1afe283ab357b04279067c9ec80b4fedeceeb5ab66eb1ad63afda30d5",
+      "bytes": 5398
+    },
+    {
+      "id": "asset-native3d-v97-previous-scenes-v103-js",
+      "path": "native3d-v97/previous-scenes-v103.js",
+      "label": "native3d-v97/previous-scenes-v103.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/previous-scenes-v103.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "a05c9ec2d1221bfe4ffa9b22275f1a4d18e58893d09191c998072985cde6e1be",
+      "bytes": 5747
+    },
+    {
+      "id": "asset-native3d-v97-previous-scenes-v104-js",
+      "path": "native3d-v97/previous-scenes-v104.js",
+      "label": "native3d-v97/previous-scenes-v104.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/previous-scenes-v104.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "84c3fabe03cc8fb672a11bbed4f3c5f0ab6ca086c60c4ba7af5e0ef11a210acd",
+      "bytes": 5815
+    },
+    {
+      "id": "asset-native3d-v97-reference-fit-engine-js",
+      "path": "native3d-v97/reference-fit-engine.js",
+      "label": "native3d-v97/reference-fit-engine.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/reference-fit-engine.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "912380a7fd363a9cc6f6357c1ef5729da1162916334dc893d505f833c44ef267",
+      "bytes": 23543
+    },
+    {
+      "id": "asset-native3d-v97-reference-fit-math-js",
+      "path": "native3d-v97/reference-fit-math.js",
+      "label": "native3d-v97/reference-fit-math.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/reference-fit-math.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "268f98628c90e9aaa323301cc0bcdf59b86bc6f50660e945fcae18c3434c308d",
+      "bytes": 5076
+    },
+    {
+      "id": "asset-native3d-v97-reference-fit-ui-js",
+      "path": "native3d-v97/reference-fit-ui.js",
+      "label": "native3d-v97/reference-fit-ui.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/reference-fit-ui.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "e6945ff3785768899a30ad71e8e55a8bef0870bc10a29ef217c219f18226031b",
+      "bytes": 22963
+    },
+    {
+      "id": "asset-native3d-v97-rig-names-js",
+      "path": "native3d-v97/rig-names.js",
+      "label": "native3d-v97/rig-names.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/rig-names.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "9e3f359a819fc5db1cc8a5c35e231985327fb2cf53d704a0dd2882ce2ee0dde7",
+      "bytes": 2271
+    },
+    {
+      "id": "asset-native3d-v97-scene-js",
+      "path": "native3d-v97/scene.js",
+      "label": "native3d-v97/scene.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/scene.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "65ddda5bf3fa12c7f1b059219bed8fc02bfd17ad7bd76bfd40c7db9867bead4c",
+      "bytes": 15911
+    },
+    {
+      "id": "asset-native3d-v97-subdivision-js",
+      "path": "native3d-v97/subdivision.js",
+      "label": "native3d-v97/subdivision.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/subdivision.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "5326a47f8a305f6c9411c9f84efdc41b7d1b31e76271385203387441693a9982",
+      "bytes": 5733
+    },
+    {
+      "id": "asset-native3d-v97-thumb-contact-js",
+      "path": "native3d-v97/thumb-contact.js",
+      "label": "native3d-v97/thumb-contact.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/thumb-contact.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "286f3f7a06ea78ad452c30bdee9a2f463b667675fee6b60a2d62696b7c43c7fc",
+      "bytes": 1607
+    },
+    {
+      "id": "asset-native3d-v97-underarm-profile-v103-js",
+      "path": "native3d-v97/underarm-profile-v103.js",
+      "label": "native3d-v97/underarm-profile-v103.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/underarm-profile-v103.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "e623b9c8e493e27c608bd176f4e8ad2261703faa40767bca5731054204cc0a2c",
+      "bytes": 237422
+    },
+    {
+      "id": "asset-native3d-v97-wardrobe-js",
+      "path": "native3d-v97/wardrobe.js",
+      "label": "native3d-v97/wardrobe.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/wardrobe.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "b53f769d092a1413fda507ff622319146fe0450f26d9502838e6bc809e6ec75e",
+      "bytes": 3587
+    },
+    {
+      "id": "asset-native3d-v97-workshop-ui-js",
+      "path": "native3d-v97/workshop-ui.js",
+      "label": "native3d-v97/workshop-ui.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/workshop-ui.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "6d6d80fe7b9920abb0d5646b81d80b6f6f3adc335d9473f5c0716d2d2bc53c2e",
+      "bytes": 11666
+    },
+    {
+      "id": "asset-native3d-v97-workshop-js",
+      "path": "native3d-v97/workshop.js",
+      "label": "native3d-v97/workshop.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: native3d-v97/workshop.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "de06f24745d85b9cb5c3ccfdd3042bcfa14661b06c90004a555b16c105027230",
+      "bytes": 17430
     },
     {
       "id": "asset-native3d-atmosphere-js",
@@ -4611,6 +5291,36 @@
       "usageLabel": "project-procedural",
       "source": "Project source: native3d/wardrobe.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-noir-scene-js",
+      "path": "noir-scene.js",
+      "label": "noir-scene.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: noir-scene.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "fd7e03550862a28f480102f6c5f2ae9d18297f64eb2fde75d0cfc5efa96c5e7c",
+      "bytes": 7102
+    },
+    {
+      "id": "asset-noir-js",
+      "path": "noir.js",
+      "label": "noir.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: noir.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "e81734122f21b735f51124e76dce3deaa049a43f82f68244f9e55e8f50dd3a61",
+      "bytes": 8026
+    },
+    {
+      "id": "asset-nursery-director-js",
+      "path": "nursery-director.js",
+      "label": "nursery-director.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: nursery-director.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "d93a3ff8b3a93d025b5d3e4e45325ae0dfae37d5a9b7ac8f839378c6fb2e4e46",
+      "bytes": 9969
     },
     {
       "id": "asset-nursery-motion-js",
@@ -4723,6 +5433,16 @@
       "license": "Project-scoped source code; no external imagery or model added."
     },
     {
+      "id": "asset-player-controls-js",
+      "path": "player-controls.js",
+      "label": "player-controls.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: player-controls.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "21c9f067942eb77ad25ab8a3e4e4c4e1893a565b960ebe256968ac2ca6460b27",
+      "bytes": 9554
+    },
+    {
       "id": "asset-portrait-room-js",
       "path": "portrait-room.js",
       "sha256": "baa8a92c2c61ecfe85624b2304baa448c8e26b275041571d1a1907ac190ae300",
@@ -4761,6 +5481,16 @@
       "usageLabel": "project-procedural",
       "source": "Project source: precision-scene.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-primitive-engine-js",
+      "path": "primitive-engine.js",
+      "label": "primitive-engine.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: primitive-engine.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "49f35b3ef0fe7da82d22613232479474a534f68a639208da20281663dc6b0b52",
+      "bytes": 1563
     },
     {
       "id": "asset-raster-surface-js",
@@ -4833,6 +5563,16 @@
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
     },
     {
+      "id": "asset-region-tools-js",
+      "path": "region-tools.js",
+      "label": "region-tools.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: region-tools.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "f68d50f57cbd53d18df9386346ca40eec897d7dbe02130a69bdd36b9566aced6",
+      "bytes": 702
+    },
+    {
       "id": "asset-reveal-fx-js",
       "path": "reveal-fx.js",
       "sha256": "3d5419c786b54e3abf881c39a8ed095394ccd53eb4050e9364b38f44e688e323",
@@ -4873,6 +5613,26 @@
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
     },
     {
+      "id": "asset-scene-framing-js",
+      "path": "scene-framing.js",
+      "label": "scene-framing.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: scene-framing.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "41b24a845f91f7ab2256bb0b1af6dc7b6b31e54239e89a46c899699e98fa4658",
+      "bytes": 393
+    },
+    {
+      "id": "asset-scene-geometry-js",
+      "path": "scene-geometry.js",
+      "label": "scene-geometry.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: scene-geometry.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "917f922f3b8aa79a12b9d4385123b9daffdbf46b8248f6db46956984330e84da",
+      "bytes": 3324
+    },
+    {
       "id": "asset-sequence-expansion-js",
       "path": "sequence-expansion.js",
       "sha256": "5c6c1539348ac71f5ac7608268b69f3cc8fc0d34c8230bd741e1a3179673a881",
@@ -4881,6 +5641,16 @@
       "usageLabel": "project-procedural",
       "source": "Project source: sequence-expansion.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-shared-effects-director-js",
+      "path": "shared-effects-director.js",
+      "label": "shared-effects-director.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: shared-effects-director.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "ff6ec3bab0a3ca37485a95264d9b081e30733793024e2d46168de62771c45685",
+      "bytes": 13079
     },
     {
       "id": "asset-shelter-director-js",
@@ -4923,6 +5693,16 @@
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
     },
     {
+      "id": "asset-soft-media-blur-js",
+      "path": "soft-media-blur.js",
+      "label": "soft-media-blur.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: soft-media-blur.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "83fe572ddf4e417a5dbb9aeac1f774e361388a80ccd0bad2792c78b50dace84e",
+      "bytes": 913
+    },
+    {
       "id": "asset-spatial-passage-js",
       "path": "spatial-passage.js",
       "sha256": "95d2543eb1e65816557edaebed5a73bb49cb5111acaa8842d4d62b515f3cb409",
@@ -4931,6 +5711,26 @@
       "usageLabel": "project-procedural",
       "source": "Project source: spatial-passage.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-story-context-js",
+      "path": "story-context.js",
+      "label": "story-context.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: story-context.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "2689591ad1ba06bbc0c21465bfc4df139e5f5bb486406d321acc3ada50425930",
+      "bytes": 8183
+    },
+    {
+      "id": "asset-surface-reveal-js",
+      "path": "surface-reveal.js",
+      "label": "surface-reveal.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: surface-reveal.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "135870436f09f911c942732ae40a397f4817899f924ce80f0d9144ab182ef4cf",
+      "bytes": 4518
     },
     {
       "id": "asset-texture-fill-js",
@@ -5011,6 +5811,16 @@
       "usageLabel": "project-procedural",
       "source": "Project source: v88/skin.js",
       "license": "Project-scoped code; no external model license applies. Embedded brand paths retain their brand-reference label."
+    },
+    {
+      "id": "asset-vector-trace-js",
+      "path": "vector-trace.js",
+      "label": "vector-trace.js",
+      "usageLabel": "project-procedural",
+      "source": "Project-authored implementation: vector-trace.js",
+      "license": "Project-scoped implementation. Inherited model and vendor licenses remain recorded separately.",
+      "sha256": "447613bc7281333da666cbe0dc94ae87aa33625d43a6f701d3012b1d1e387b21",
+      "bytes": 871
     },
     {
       "id": "asset-vendor-buffergeometryutils-js",

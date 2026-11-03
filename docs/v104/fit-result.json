@@ -1,0 +1,184 @@
+{
+  "fields": [
+    "cranialHeight",
+    "cranialDepth",
+    "chinProjection"
+  ],
+  "initial": {
+    "cranialHeight": -0.12,
+    "cranialDepth": -0.08,
+    "chinProjection": 0.16
+  },
+  "fitted": {
+    "cranialHeight": 0.09888584253275003,
+    "cranialDepth": 0.1264908268269831,
+    "chinProjection": -0.19999999999034762
+  },
+  "pitchOffsetTrack": [
+    {
+      "time": 0.4,
+      "degrees": -1.283434457589309
+    },
+    {
+      "time": 0.6,
+      "degrees": -5.2783827595378545
+    },
+    {
+      "time": 2.4,
+      "degrees": -3.0309715707601925
+    },
+    {
+      "time": 2.8,
+      "degrees": 8.783008336061165
+    },
+    {
+      "time": 3.2,
+      "degrees": 14.999999854022752
+    }
+  ],
+  "sculptCoefficientsMeters": [
+    -0.007997080380148163,
+    0.007999999999711358,
+    -0.002176110098058738
+  ],
+  "rows": [
+    {
+      "localTime": 0.4,
+      "sourceTime": 900.4,
+      "set": "fit",
+      "scaleCalibration": 0.8968231685173133,
+      "before": {
+        "contourSupportMAE_px": 5.830579408162593,
+        "convexSilhouetteIoU": 0.6689517280776921
+      },
+      "after": {
+        "contourSupportMAE_px": 1.2743200787057791,
+        "convexSilhouetteIoU": 0.917534477905995
+      }
+    },
+    {
+      "localTime": 0.5,
+      "sourceTime": 900.5,
+      "set": "held-out",
+      "scaleCalibration": 0.9021517987657734,
+      "before": {
+        "contourSupportMAE_px": 5.396411634643575,
+        "convexSilhouetteIoU": 0.6811247382590487
+      },
+      "after": {
+        "contourSupportMAE_px": 1.0638501818625483,
+        "convexSilhouetteIoU": 0.93
+      }
+    },
+    {
+      "localTime": 0.6,
+      "sourceTime": 900.6,
+      "set": "fit",
+      "scaleCalibration": 0.900181125168579,
+      "before": {
+        "contourSupportMAE_px": 5.335205518938879,
+        "convexSilhouetteIoU": 0.6828746177370031
+      },
+      "after": {
+        "contourSupportMAE_px": 0.9882905524633259,
+        "convexSilhouetteIoU": 0.9308783579837006
+      }
+    },
+    {
+      "localTime": 0.7,
+      "sourceTime": 900.7,
+      "set": "held-out",
+      "scaleCalibration": 0.8362247805002193,
+      "before": {
+        "contourSupportMAE_px": 5.159681496730828,
+        "convexSilhouetteIoU": 0.6947399527186762
+      },
+      "after": {
+        "contourSupportMAE_px": 0.9208741305292111,
+        "convexSilhouetteIoU": 0.9364664926022629
+      }
+    },
+    {
+      "localTime": 2.4,
+      "sourceTime": 902.4,
+      "set": "fit",
+      "scaleCalibration": 1.1824227241237544,
+      "before": {
+        "contourSupportMAE_px": 3.2187259063330753,
+        "convexSilhouetteIoU": 0.7938177182919057
+      },
+      "after": {
+        "contourSupportMAE_px": 2.027721127251429,
+        "convexSilhouetteIoU": 0.870895312938535
+      }
+    },
+    {
+      "localTime": 2.6,
+      "sourceTime": 902.6,
+      "set": "held-out",
+      "scaleCalibration": 1.2405071009010515,
+      "before": {
+        "contourSupportMAE_px": 3.5717024585150106,
+        "convexSilhouetteIoU": 0.7749838813668601
+      },
+      "after": {
+        "contourSupportMAE_px": 1.8051043023903937,
+        "convexSilhouetteIoU": 0.8763532763532763
+      }
+    },
+    {
+      "localTime": 2.8,
+      "sourceTime": 902.8,
+      "set": "fit",
+      "scaleCalibration": 1.2009426801285266,
+      "before": {
+        "contourSupportMAE_px": 5.114732960424689,
+        "convexSilhouetteIoU": 0.6709697732997482
+      },
+      "after": {
+        "contourSupportMAE_px": 1.0983760860717668,
+        "convexSilhouetteIoU": 0.9366348815749
+      }
+    },
+    {
+      "localTime": 3,
+      "sourceTime": 903,
+      "set": "held-out",
+      "scaleCalibration": 1.223696018603565,
+      "before": {
+        "contourSupportMAE_px": 4.225379867087883,
+        "convexSilhouetteIoU": 0.7197969543147208
+      },
+      "after": {
+        "contourSupportMAE_px": 1.6253599335039786,
+        "convexSilhouetteIoU": 0.8994082840236687
+      }
+    },
+    {
+      "localTime": 3.2,
+      "sourceTime": 903.2,
+      "set": "fit",
+      "scaleCalibration": 1.2016352180383487,
+      "before": {
+        "contourSupportMAE_px": 5.034053033403638,
+        "convexSilhouetteIoU": 0.685583362707085
+      },
+      "after": {
+        "contourSupportMAE_px": 1.6122268791872365,
+        "convexSilhouetteIoU": 0.8901098901098901
+      }
+    }
+  ],
+  "optimizer": {
+    "success": true,
+    "evaluations": 10,
+    "cost": 179.6710501653137
+  },
+  "calibration": "Fixed per-frame scale from neck03-to-waist anchors; contour centers aligned independently of shape. Placement errors are assessed separately. Not recovered full-scene camera.",
+  "limitations": [
+    "Convex silhouettes discard local concavities.",
+    "Manual neck-cut anchors have pixel uncertainty.",
+    "Depth and yaw are underconstrained by mostly side views.",
+    "CPU predictor omits dynamic neck DQ prewarping; verify actual native render."
+  ]
+}

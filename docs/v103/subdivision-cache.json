@@ -1,0 +1,24 @@
+{
+  "reused": true,
+  "rebuilt": true,
+  "maxPositionDifference": 0,
+  "triangleMultiplier": 4,
+  "paired": [
+    {
+      "time": 0.7,
+      "separation": 0.028000000000000004
+    },
+    {
+      "time": 1.1,
+      "separation": 0.028
+    },
+    {
+      "time": 1.6,
+      "separation": 0.028
+    },
+    {
+      "time": 2.05,
+      "separation": 0.028
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Animation catalog · V50
+# Animation catalog · V98
 
 Human and AI share stable effect IDs, exact factory defaults and implementation evidence. Live settings are separate composition exports. Read ANIMATION-ARCHITECTURE.md for the editing contract and future-animation requirements.
 
@@ -430,3 +430,7 @@ Shared speed `1.5` means 1.5×. Native rate fields retain their own renderer uni
 ## Source coverage
 
 All top-level JS modules are classified in scripts/animation-source-map.json. The generator rejects unknown modules and uncovered animation modules. Source fallbacks are retained as evidence, distinct from factory defaults. Archived shader fragments remain listed in the registry.
+
+## V98 editable character additions
+
+Current V98 definitions: [paired handshake](animations/native3d-handshake-v98.md), [red players](animations/native3d-team-v98.md), [final minute](animations/doc-final-minute-v98.md). Earlier definitions are retained. Exact nested defaults and limitations are in these documents and animation-registry.json.

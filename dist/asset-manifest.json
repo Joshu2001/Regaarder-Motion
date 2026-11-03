@@ -15648,7 +15648,9 @@
         "permission": "Project-authored geometry/renders; CC0 anatomical graphical weights, see assets/humanoid-v89/LICENSE.ASSETS.md. No MakeHuman application code bundled.",
         "detail": "Prior candidate bytes retained, inactive without renderer slots; mesh pipeline/history retained in source",
         "modifications": "End-user runtime consumes bundled geometry/Three.js only. Python numpy/scipy/scikit-image are build-only. Diagnostic images contain authored GPU render, not reference footage."
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-641e2b06d2a3",
@@ -15678,7 +15680,9 @@
         "permission": "Project-authored geometry/renders; CC0 anatomical graphical weights, see assets/humanoid-v89/LICENSE.ASSETS.md. No MakeHuman application code bundled.",
         "detail": "Prior candidate bytes retained, inactive without renderer slots; mesh pipeline/history retained in source",
         "modifications": "End-user runtime consumes bundled geometry/Three.js only. Python numpy/scipy/scikit-image are build-only. Diagnostic images contain authored GPU render, not reference footage."
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v91-ddf0bf34b480",
@@ -15996,7 +16000,9 @@
         "permission": "Project-authored geometry/renders; CC0 anatomical graphical weights, see assets/humanoid-v89/LICENSE.ASSETS.md. No MakeHuman application code bundled.",
         "detail": "Prior candidate bytes retained, inactive without renderer slots; mesh pipeline/history retained in source",
         "modifications": "End-user runtime consumes bundled geometry/Three.js only. Python numpy/scipy/scikit-image are build-only. Diagnostic images contain authored GPU render, not reference footage."
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-f29edfaf6550",
@@ -16026,7 +16032,9 @@
         "permission": "Project-authored geometry/renders; CC0 anatomical graphical weights, see assets/humanoid-v89/LICENSE.ASSETS.md. No MakeHuman application code bundled.",
         "detail": "Prior candidate bytes retained, inactive without renderer slots; mesh pipeline/history retained in source",
         "modifications": "End-user runtime consumes bundled geometry/Three.js only. Python numpy/scipy/scikit-image are build-only. Diagnostic images contain authored GPU render, not reference footage."
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-6c1971c4d2eb",
@@ -16069,7 +16077,9 @@
           0.021484375,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-c1aea8d63ac9",
@@ -16112,7 +16122,9 @@
           0.03515625,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-2e50d0062973",
@@ -16155,7 +16167,9 @@
           0.0224609375,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-27fdfe4486d3",
@@ -16198,7 +16212,9 @@
           0.078125,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-453e6f192f05",
@@ -16241,7 +16257,9 @@
           0.0224609375,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-c3df2df32b96",
@@ -16284,7 +16302,9 @@
           0.0283203125,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-431073d3990c",
@@ -16327,7 +16347,9 @@
           0.1103515625,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-c2f6e776d958",
@@ -16370,7 +16392,9 @@
           0.0419921875,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-95baaa409245",
@@ -16413,7 +16437,9 @@
           0.0146484375,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v92-d8db9cf9d4f8",
@@ -16456,7 +16482,9 @@
           0.0400390625,
           0.0
         ]
-      }
+      },
+      "availability": "missing-from-repository",
+      "retentionGap": "Legacy inactive archive reference; bytes were not present in the V97 repository. Metadata retained."
     },
     {
       "id": "v93-38f8ae0b7212",
@@ -16543,5 +16571,23 @@
       }
     }
   ],
-  "native3DProvenance": "../docs/v93/provenance.json"
+  "native3DProvenance": "../docs/v93/provenance.json",
+  "native3DRefinement": {
+    "version": 105,
+    "date": "2026-11-03",
+    "source": "assets/humanoid-v89/humanoid.json",
+    "modifications": [
+      "Oval head, stitched neck, fitted skinned hem and shoulder weights",
+      "Paired world-space grip",
+      "Shared seam normals",
+      "Reference-timed camera",
+      "Separate head material"
+    ],
+    "implementation": "native3d-v97/engine.js",
+    "limitations": [
+      "Not a scan or exact source mesh",
+      "No full mesh collision solver",
+      "Historical live-action slots remain illustrative"
+    ]
+  }
 }

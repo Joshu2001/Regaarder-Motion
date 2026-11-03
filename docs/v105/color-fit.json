@@ -1,0 +1,541 @@
+{
+  "report": {
+    "mode": "color",
+    "before": {
+      "score": 8.390318866615932,
+      "rows": [
+        {
+          "time": 0.6,
+          "sourceTime": 900.6,
+          "validation": false,
+          "mean": 5.203591571713039,
+          "p95": 12.5,
+          "maximum": 18.200274723201293,
+          "iou": 0.7066473988439307,
+          "pins": [],
+          "regions": [
+            {
+              "mean": 5.7334237244501995,
+              "p95": 9.013878188659973,
+              "maximum": 10,
+              "samples": 64
+            },
+            {
+              "mean": 2.516850047716617,
+              "p95": 5,
+              "maximum": 5,
+              "samples": 36
+            },
+            {
+              "mean": 6.064049614023895,
+              "p95": 15.811388300841896,
+              "maximum": 18.200274723201293,
+              "samples": 73
+            }
+          ],
+          "placementOffsetSourcePixels": [
+            -63.75,
+            6.25
+          ],
+          "appearance": {
+            "medianDeltaE76": 5.989432704380076,
+            "meanAbsoluteRGB": 24.008861622358555,
+            "nativeMedianRGB": [
+              0,
+              115,
+              181
+            ],
+            "referenceMedianRGB": [
+              20,
+              106,
+              177
+            ],
+            "pixels": 489
+          },
+          "geometry": {
+            "newFlips": 0,
+            "newCollapsed": 0,
+            "maxEdgeStretch": 1,
+            "rejected": false
+          },
+          "contactRejected": false
+        }
+      ]
+    },
+    "after": {
+      "score": 4.600848069306176,
+      "rows": [
+        {
+          "time": 0.6,
+          "sourceTime": 900.6,
+          "validation": false,
+          "mean": 5.203591571713039,
+          "p95": 12.5,
+          "maximum": 18.200274723201293,
+          "iou": 0.7066473988439307,
+          "pins": [],
+          "regions": [
+            {
+              "mean": 5.7334237244501995,
+              "p95": 9.013878188659973,
+              "maximum": 10,
+              "samples": 64
+            },
+            {
+              "mean": 2.516850047716617,
+              "p95": 5,
+              "maximum": 5,
+              "samples": 36
+            },
+            {
+              "mean": 6.064049614023895,
+              "p95": 15.811388300841896,
+              "maximum": 18.200274723201293,
+              "samples": 73
+            }
+          ],
+          "placementOffsetSourcePixels": [
+            -63.75,
+            6.25
+          ],
+          "appearance": {
+            "medianDeltaE76": 2.424433618045099,
+            "meanAbsoluteRGB": 21.76414451261077,
+            "nativeMedianRGB": [
+              24,
+              112,
+              184
+            ],
+            "referenceMedianRGB": [
+              20,
+              106,
+              177
+            ],
+            "pixels": 489
+          },
+          "geometry": {
+            "newFlips": 0,
+            "newCollapsed": 0,
+            "maxEdgeStretch": 1,
+            "rejected": false
+          },
+          "contactRejected": false
+        }
+      ]
+    },
+    "heldBefore": {
+      "score": 13.195410241429595,
+      "rows": [
+        {
+          "time": 3,
+          "sourceTime": 903,
+          "validation": true,
+          "mean": 3.054991911954742,
+          "p95": 7.5,
+          "maximum": 10,
+          "iou": 0.7926565874730022,
+          "pins": [],
+          "regions": [
+            {
+              "mean": 1.7242640687119286,
+              "p95": 3.5355339059327378,
+              "maximum": 3.5355339059327378,
+              "samples": 50
+            },
+            {
+              "mean": 3.6209816405368715,
+              "p95": 5,
+              "maximum": 5,
+              "samples": 36
+            },
+            {
+              "mean": 3.978207150618417,
+              "p95": 9.013878188659973,
+              "maximum": 10,
+              "samples": 50
+            }
+          ],
+          "placementOffsetSourcePixels": [
+            -46.25,
+            12.5
+          ],
+          "appearance": {
+            "medianDeltaE76": 10.917571912637587,
+            "meanAbsoluteRGB": 22.77838328792007,
+            "nativeMedianRGB": [
+              0,
+              117,
+              182
+            ],
+            "referenceMedianRGB": [
+              14,
+              105,
+              183
+            ],
+            "pixels": 367
+          },
+          "geometry": {
+            "newFlips": 0,
+            "newCollapsed": 0,
+            "maxEdgeStretch": 1,
+            "rejected": false
+          },
+          "contactRejected": false
+        }
+      ]
+    },
+    "heldAfter": {
+      "score": 7.840182039491172,
+      "rows": [
+        {
+          "time": 3,
+          "sourceTime": 903,
+          "validation": true,
+          "mean": 3.054991911954742,
+          "p95": 7.5,
+          "maximum": 10,
+          "iou": 0.7926565874730022,
+          "pins": [],
+          "regions": [
+            {
+              "mean": 1.7242640687119286,
+              "p95": 3.5355339059327378,
+              "maximum": 3.5355339059327378,
+              "samples": 50
+            },
+            {
+              "mean": 3.6209816405368715,
+              "p95": 5,
+              "maximum": 5,
+              "samples": 36
+            },
+            {
+              "mean": 3.978207150618417,
+              "p95": 9.013878188659973,
+              "maximum": 10,
+              "samples": 50
+            }
+          ],
+          "placementOffsetSourcePixels": [
+            -46.25,
+            12.5
+          ],
+          "appearance": {
+            "medianDeltaE76": 5.719019460017965,
+            "meanAbsoluteRGB": 21.21162579473206,
+            "nativeMedianRGB": [
+              26,
+              114,
+              186
+            ],
+            "referenceMedianRGB": [
+              14,
+              105,
+              183
+            ],
+            "pixels": 367
+          },
+          "geometry": {
+            "newFlips": 0,
+            "newCollapsed": 0,
+            "maxEdgeStretch": 1,
+            "rejected": false
+          },
+          "contactRejected": false
+        }
+      ]
+    },
+    "fineBefore": {
+      "score": 7.332202999429969,
+      "rows": [
+        {
+          "time": 0.6,
+          "sourceTime": 900.6,
+          "validation": false,
+          "mean": 5.19737228671924,
+          "p95": 11.661903789690601,
+          "maximum": 18.788294228055936,
+          "iou": 0.7000943841434639,
+          "pins": [],
+          "regions": [
+            {
+              "mean": 6.417524742379882,
+              "p95": 9.219544457292887,
+              "maximum": 10,
+              "samples": 160
+            },
+            {
+              "mean": 2.200661330873479,
+              "p95": 4.123105625617661,
+              "maximum": 4.47213595499958,
+              "samples": 92
+            },
+            {
+              "mean": 5.614330913828603,
+              "p95": 14.7648230602334,
+              "maximum": 18.788294228055936,
+              "samples": 193
+            }
+          ],
+          "placementOffsetSourcePixels": [
+            -63.5,
+            5
+          ],
+          "appearance": {
+            "medianDeltaE76": 4.971176148514341,
+            "meanAbsoluteRGB": 23.610268509156274,
+            "nativeMedianRGB": [
+              0,
+              113,
+              180
+            ],
+            "referenceMedianRGB": [
+              19,
+              107,
+              179
+            ],
+            "pixels": 2967
+          },
+          "geometry": {
+            "newFlips": 0,
+            "newCollapsed": 0,
+            "maxEdgeStretch": 1,
+            "rejected": false
+          },
+          "contactRejected": false
+        }
+      ]
+    },
+    "fineAfter": {
+      "score": 3.417757472795164,
+      "rows": [
+        {
+          "time": 0.6,
+          "sourceTime": 900.6,
+          "validation": false,
+          "mean": 5.19737228671924,
+          "p95": 11.661903789690601,
+          "maximum": 18.788294228055936,
+          "iou": 0.7000943841434639,
+          "pins": [],
+          "regions": [
+            {
+              "mean": 6.417524742379882,
+              "p95": 9.219544457292887,
+              "maximum": 10,
+              "samples": 160
+            },
+            {
+              "mean": 2.200661330873479,
+              "p95": 4.123105625617661,
+              "maximum": 4.47213595499958,
+              "samples": 92
+            },
+            {
+              "mean": 5.614330913828603,
+              "p95": 14.7648230602334,
+              "maximum": 18.788294228055936,
+              "samples": 193
+            }
+          ],
+          "placementOffsetSourcePixels": [
+            -63.5,
+            5
+          ],
+          "appearance": {
+            "medianDeltaE76": 1.3111177693910518,
+            "meanAbsoluteRGB": 21.06639703404112,
+            "nativeMedianRGB": [
+              17,
+              110,
+              183
+            ],
+            "referenceMedianRGB": [
+              19,
+              107,
+              179
+            ],
+            "pixels": 2967
+          },
+          "geometry": {
+            "newFlips": 0,
+            "newCollapsed": 0,
+            "maxEdgeStretch": 1,
+            "rejected": false
+          },
+          "contactRejected": false
+        }
+      ]
+    },
+    "fineHeldBefore": {
+      "score": 13.37000292686422,
+      "rows": [
+        {
+          "time": 3,
+          "sourceTime": 903,
+          "validation": true,
+          "mean": 3.0240417553589243,
+          "p95": 6.324555320336759,
+          "maximum": 8,
+          "iou": 0.7911281872162068,
+          "pins": [],
+          "regions": [
+            {
+              "mean": 2.1136197980151175,
+              "p95": 3.605551275463989,
+              "maximum": 4.123105625617661,
+              "samples": 128
+            },
+            {
+              "mean": 3.646987125082552,
+              "p95": 5,
+              "maximum": 5,
+              "samples": 88
+            },
+            {
+              "mean": 3.4951472363079925,
+              "p95": 7.0710678118654755,
+              "maximum": 8,
+              "samples": 131
+            }
+          ],
+          "placementOffsetSourcePixels": [
+            -44.5,
+            13.5
+          ],
+          "appearance": {
+            "medianDeltaE76": 10.874535671529415,
+            "meanAbsoluteRGB": 24.95467255334805,
+            "nativeMedianRGB": [
+              0,
+              117,
+              182
+            ],
+            "referenceMedianRGB": [
+              12,
+              105,
+              183
+            ],
+            "pixels": 2265
+          },
+          "geometry": {
+            "newFlips": 0,
+            "newCollapsed": 0,
+            "maxEdgeStretch": 1,
+            "rejected": false
+          },
+          "contactRejected": false
+        }
+      ]
+    },
+    "fineHeldAfter": {
+      "score": 8.626767933598824,
+      "rows": [
+        {
+          "time": 3,
+          "sourceTime": 903,
+          "validation": true,
+          "mean": 3.0240417553589243,
+          "p95": 6.324555320336759,
+          "maximum": 8,
+          "iou": 0.7911281872162068,
+          "pins": [],
+          "regions": [
+            {
+              "mean": 2.1136197980151175,
+              "p95": 3.605551275463989,
+              "maximum": 4.123105625617661,
+              "samples": 128
+            },
+            {
+              "mean": 3.646987125082552,
+              "p95": 5,
+              "maximum": 5,
+              "samples": 88
+            },
+            {
+              "mean": 3.4951472363079925,
+              "p95": 7.0710678118654755,
+              "maximum": 8,
+              "samples": 131
+            }
+          ],
+          "placementOffsetSourcePixels": [
+            -44.5,
+            13.5
+          ],
+          "appearance": {
+            "medianDeltaE76": 6.290358809242679,
+            "meanAbsoluteRGB": 23.364091243561443,
+            "nativeMedianRGB": [
+              22,
+              114,
+              185
+            ],
+            "referenceMedianRGB": [
+              12,
+              105,
+              183
+            ],
+            "pixels": 2265
+          },
+          "geometry": {
+            "newFlips": 0,
+            "newCollapsed": 0,
+            "maxEdgeStretch": 1,
+            "rejected": false
+          },
+          "contactRejected": false
+        }
+      ]
+    },
+    "evaluations": 18,
+    "localGuardPassed": true,
+    "accepted": true,
+    "validated": true,
+    "settings": {
+      "region": "head",
+      "align": true,
+      "precision": 256,
+      "weights": [
+        1,
+        1,
+        1
+      ],
+      "maxChange": 0.12,
+      "maxMove": 0.08,
+      "maxAngle": 12,
+      "passes": 3,
+      "localTolerance": 1
+    },
+    "regularization": 0.004999999999999994,
+    "parameters": [
+      {
+        "name": "linear material r",
+        "value": 0.028023192982520564,
+        "initial": 0.008023192982520563,
+        "minimum": 0,
+        "maximum": 0.18802319298252057
+      },
+      {
+        "name": "linear material g",
+        "value": 0.19155625378383745,
+        "initial": 0.20155625378383743,
+        "minimum": 0.021556253783837437,
+        "maximum": 0.3815562537838374
+      },
+      {
+        "name": "linear material b",
+        "value": 0.44869049660389154,
+        "initial": 0.4286904966038916,
+        "minimum": 0.2486904966038916,
+        "maximum": 0.6086904966038915
+      }
+    ],
+    "measurement": "True projected masks and symmetric Euclidean boundary distances in source pixels. Fine head/full-body verification uses the displayed subdivision surface; partial regions use cage labels. No unique 3D recovery claim."
+  },
+  "color": "#2f79b3",
+  "bodyMaterialPreserved": true,
+  "shirtMaterialPreserved": true,
+  "errors": []
+}

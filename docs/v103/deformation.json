@@ -1,0 +1,107 @@
+{
+  "removedMouthVertices": 0,
+  "rows": [
+    {
+      "pose": "neutral",
+      "linear": {
+        "finite": true,
+        "triangles": 5296,
+        "collapsed": 0,
+        "minRatio": 0.10236432672230567,
+        "median": 1.0012548458907276
+      },
+      "volume-v102": {
+        "finite": true,
+        "triangles": 5296,
+        "collapsed": 0,
+        "minRatio": 0.10236432672230567,
+        "median": 1.0012548458907276
+      }
+    },
+    {
+      "pose": "neck-left",
+      "linear": {
+        "finite": true,
+        "triangles": 5296,
+        "collapsed": 0,
+        "minRatio": 0.10236409954484449,
+        "median": 1.0022177357022064
+      },
+      "volume-v102": {
+        "finite": true,
+        "triangles": 5296,
+        "collapsed": 0,
+        "minRatio": 0.10236409954484449,
+        "median": 1.0022228248470488
+      }
+    },
+    {
+      "pose": "neck-right",
+      "linear": {
+        "finite": true,
+        "triangles": 5296,
+        "collapsed": 0,
+        "minRatio": 0.10236409954484449,
+        "median": 1.0022177357022064
+      },
+      "volume-v102": {
+        "finite": true,
+        "triangles": 5296,
+        "collapsed": 0,
+        "minRatio": 0.10236409954484449,
+        "median": 1.0022228248470488
+      }
+    },
+    {
+      "pose": "arm-raised",
+      "linear": {
+        "finite": true,
+        "triangles": 5296,
+        "collapsed": 2,
+        "minRatio": 0.07024975835177878,
+        "median": 1.002436600128876
+      },
+      "volume-v102": {
+        "finite": true,
+        "triangles": 5296,
+        "collapsed": 0,
+        "minRatio": 0.10236432672230567,
+        "median": 1.0035080608719196
+      }
+    }
+  ],
+  "palms": [
+    {
+      "time": 1.1,
+      "actor": "final-blue",
+      "meters": 0.00185232020358926
+    },
+    {
+      "time": 1.1,
+      "actor": "final-coach",
+      "meters": 0.0017411809913738833
+    },
+    {
+      "time": 1.6,
+      "actor": "final-blue",
+      "meters": 0.0018523202035891173
+    },
+    {
+      "time": 1.6,
+      "actor": "final-coach",
+      "meters": 0.0017411809913737177
+    },
+    {
+      "time": 2.05,
+      "actor": "final-blue",
+      "meters": 0.0018523202035892958
+    },
+    {
+      "time": 2.05,
+      "actor": "final-coach",
+      "meters": 0.001741180991373789
+    }
+  ],
+  "rejects": true,
+  "errors": []
+}

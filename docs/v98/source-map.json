@@ -1,0 +1,8 @@
+{
+ "sourceOffset":900,
+ "sourceFps":30,
+ "observedCutFrames":[169,243,285,450,628,794,1170,1205,1594,1668,1693,1775,1781],
+ "method":"FFmpeg scene-score candidates above0.35, with visual checks of selected frames; not all candidates define semantic scene boundaries.",
+ "handshakeEndFrame":169,
+ "limitations":"Camera and pose reconstruction are authored approximations; archival slots are illustrative. Source frame numbers are relative to15:00."
+}

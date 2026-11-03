@@ -1,0 +1,5 @@
+Overlay this update onto the Regaarder-Motion repository (V97 or later).
+Keep the existing assets and vendor directories. This is an update, not a standalone app.
+Serve dist using the existing project workflow. Open character-editor-v97.html,
+then choose Load updated handshake to avoid retaining an older saved scene.
+No external 3D authoring application is required.

@@ -1,0 +1,47 @@
+{
+  "regions": [
+    {
+      "region": "head",
+      "pixels": 684,
+      "finite": true
+    },
+    {
+      "region": "chest",
+      "pixels": 1793,
+      "finite": true
+    },
+    {
+      "region": "left-hand",
+      "pixels": 208,
+      "finite": true
+    },
+    {
+      "region": "right-hand",
+      "pixels": 201,
+      "finite": true
+    },
+    {
+      "region": "legs",
+      "pixels": 1041,
+      "finite": true
+    },
+    {
+      "region": "body",
+      "pixels": 5150,
+      "finite": true
+    }
+  ],
+  "independentIndex": true,
+  "middleUnchanged": true,
+  "shared": [
+    "shared palm contact 0",
+    "shared palm contact 1",
+    "shared palm contact 2"
+  ],
+  "sculpt": {
+    "maxDelta": 0.002997552024386974,
+    "seamChanged": false,
+    "restored": true
+  },
+  "errors": []
+}

@@ -1,3 +1,5 @@
+> **Current update: V105.** See [CURRENT-V105.md](CURRENT-V105.md) for the Reference Fit editor tool and [INSTALL-V105.txt](INSTALL-V105.txt) for installation. Earlier release notes below are retained for history.
+
 # Regaarder Motion Atelier
 
 Live template: https://regaarder-motion-atelier.grandleaf1025.chatgpt.site
