@@ -1,0 +1,114 @@
+[
+  {
+    "id": "layer-path",
+    "description": "Replaceable sprite travel with position, scale, rotation and reversible time",
+    "units": "px, seconds, degrees",
+    "defaults": {
+      "start": 0,
+      "end": 1,
+      "from": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "id": "family-panel-rise",
+    "description": "Masked panel rise with separate adult, son, logo and reflection",
+    "defaults": {
+      "redStart": 12.5,
+      "blueStart": 13.1,
+      "riseDuration": 2.3,
+      "exitStart": 25.5,
+      "exitEnd": 27.3
+    }
+  },
+  {
+    "id": "framed-photo-retreat",
+    "description": "One archival image moves as a framed plane; subject pixels stay coherent",
+    "defaults": {
+      "start": 25.5,
+      "end": 35.5,
+      "startWidth": 650,
+      "endWidth": 410,
+      "perspective": 0.04
+    }
+  },
+  {
+    "id": "photo-split-flare",
+    "description": "Complementary masks split the same photo into cyan/red fragments",
+    "defaults": {
+      "start": 35.5,
+      "duration": 3,
+      "gap": 160,
+      "tilt": 28,
+      "fadeStart": 38.5,
+      "fadeEnd": 41
+    }
+  },
+  {
+    "id": "rain-fog-reflection",
+    "description": "Seeded rain, drifting fog, mirrored masked image reflections",
+    "defaults": {
+      "seed": 17,
+      "rainCount": 180,
+      "rainSpeed": 0.65,
+      "rainOpacity": 0.22,
+      "fogOpacity": 0.12
+    }
+  },
+  {
+    "id": "original-motion-bridge",
+    "description": "Editable original graphics replacing sponsor visuals; no sponsor identity",
+    "defaults": {
+      "start": 43,
+      "end": 60,
+      "title": "REGAARDER",
+      "subtitle": "MOTION ATELIER"
+    }
+  },
+  {
+    "id": "localized-hair-wind",
+    "defaults": {
+      "hairWind": 1.8,
+      "hairSpeed": 1.3
+    },
+    "units": "screen pixels; phase speed",
+    "note": "Only top 20% of portrait source is displaced. Face/glasses remain stable."
+  },
+  {
+    "id": "heat-shimmer",
+    "defaults": {
+      "heat": 1.1
+    },
+    "units": "screen pixels",
+    "note": "Strip displacement on product/logo planes, independent of glow."
+  },
+  {
+    "id": "panel-pullback-light",
+    "defaults": {
+      "panelPullback": 0.15,
+      "panelPullbackStart": 16,
+      "panelPullbackEnd": 24.5,
+      "panelSmoke": 0.65
+    },
+    "note": "Camera pullback shared by figures, logo, reflections and background; opening remains covered."
+  },
+  {
+    "id": "archival-paper-wear",
+    "defaults": {
+      "photoWear": 0.8,
+      "photoAge": 0.65,
+      "photoGrain": 0.08
+    },
+    "note": "Source untouched; irregular paper clipping, generated edge texture, film grain and dust are presentation layers."
+  }
+]

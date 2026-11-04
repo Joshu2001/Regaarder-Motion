@@ -1,0 +1,91 @@
+[
+  {
+    "id": "archive-crop-to-crt",
+    "defaults": {
+      "punch": 8.8,
+      "tvStart": 11.533,
+      "tvNearScale": 1.28,
+      "tvFarScale": 0.65,
+      "reflectionOpacity": 0.28
+    },
+    "units": "seconds; scale; opacity",
+    "note": "One moving video clock; source reference framing is cropped per cue, replacement raw video bypasses that crop."
+  },
+  {
+    "id": "film-burn-overlap",
+    "defaults": {
+      "start": 11.467,
+      "end": 11.633,
+      "cut": 11.533,
+      "strength": 1
+    },
+    "units": "seconds; intensity",
+    "note": "Six supplied photographic atlas cells span both sides of destination cut."
+  },
+  {
+    "id": "neon-handshake-bob",
+    "defaults": {
+      "amplitude": 16,
+      "period": 3.4
+    },
+    "units": "pixels; seconds",
+    "note": "Joined arms/hands remain a contact group independent of receding diners."
+  },
+  {
+    "id": "amount-occluded-reveal",
+    "defaults": {
+      "text": "$125,000",
+      "start": 21.5,
+      "stagger": 0.18
+    },
+    "note": "Fixed editable amount, progressive characters; behind diners/handshake."
+  },
+  {
+    "id": "product-money-depth-field",
+    "defaults": {
+      "seed": 8,
+      "speed": 1,
+      "nearCount": 10,
+      "farCount": 10
+    },
+    "note": "Separate front/back appearance, depth/focus, explicit shoe entry paths; deterministic seeking."
+  },
+  {
+    "id": "two-side-flow-matte",
+    "defaults": {
+      "speed": 6,
+      "blueStrength": 0.65,
+      "redStrength": 0.65
+    },
+    "note": "Luminance-derived alpha with separately chosen cyan emission or dark normal blend; not black screen blend."
+  },
+  {
+    "id": "staggered-vertical-panels",
+    "defaults": {
+      "start": 39,
+      "delay": 0.5,
+      "duration": 1.5,
+      "direction": 1
+    },
+    "note": "Red first then blue; direction is reversible."
+  },
+  {
+    "id": "profile-to-memorial",
+    "defaults": {
+      "profileStart": 45.5,
+      "leftStart": 53.8,
+      "rightStart": 61.5,
+      "riseDuration": 1.3
+    },
+    "note": "Outward profile poses yield to separate coffins with parented archival portraits."
+  },
+  {
+    "id": "grave-perimeter-reveal",
+    "defaults": {
+      "groundStart": 64.5,
+      "outlineStart": 65.3,
+      "pullback": 0.58
+    },
+    "note": "Grass/soil and memorials share camera; endpoint retains visible cyan/red outlines."
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "newspaper_01",
+    "top_line": "MAKE WAY FOR",
+    "headline": "PELÉ",
+    "deck": "THE WORLD OF FOOTBALL HAS A NEW SUPERSTAR",
+    "photo_asset": "pele_inspired_portrait_ILLUSTRATION_BW.jpg",
+    "body": "The greatest players on earth have become the focus of an extraordinary sponsorship race. Sporting ambition meets commercial competition in a new era for football.",
+    "label": "EDITORIAL RECONSTRUCTION; not an authentic published newspaper"
+  },
+  {
+    "id": "newspaper_02",
+    "top_line": "THE RACE TO",
+    "headline": "SIGN THE KING",
+    "deck": "TWO RIVAL COMPANIES FACE RISING SPONSORSHIP COSTS",
+    "photo_asset": "pele_inspired_celebration_ILLUSTRATION_BW.jpg",
+    "body": "In Europe, rival sporting-goods companies are increasing their bids for the world’s leading athletes. The contest for endorsement deals has changed the economics of the game.",
+    "label": "EDITORIAL RECONSTRUCTION; not an authentic published newspaper"
+  },
+  {
+    "id": "newspaper_03",
+    "top_line": "MEXICO 1970",
+    "headline": "WORLD CUP",
+    "deck": "THE GAME THAT CAPTURED THE WORLD",
+    "photo_asset": "football_1970_crowd_ILLUSTRATION.jpg",
+    "body": "Supporters across continents will follow the 1970 World Cup in Mexico. Brazil and its stars are expected to command worldwide attention.",
+    "label": "EDITORIAL RECONSTRUCTION; not an authentic published newspaper"
+  },
+  {
+    "id": "newspaper_04",
+    "top_line": "THE SECRET",
+    "headline": "PACT",
+    "deck": "AN UNUSUAL UNDERSTANDING BETWEEN COMPETITORS",
+    "photo_asset": "pele_inspired_portrait_ILLUSTRATION_BW.jpg",
+    "body": "A mutual promise may control spending on a football legend. Whether the uneasy agreement survives will depend on rivalry and ambition.",
+    "label": "EDITORIAL RECONSTRUCTION; not an authentic published newspaper"
+  },
+  {
+    "id": "newspaper_05",
+    "top_line": "FOOTBALL",
+    "headline": "AND FORTUNES",
+    "deck": "THE COSTLY PURSUIT OF SPORTING GLORY",
+    "photo_asset": "pele_inspired_celebration_ILLUSTRATION_BW.jpg",
+    "body": "The pursuit of sporting stars has brought prestige and enormous expense. Both success and restraint may define the next chapter of the industry.",
+    "label": "EDITORIAL RECONSTRUCTION; not an authentic published newspaper"
+  }
+]

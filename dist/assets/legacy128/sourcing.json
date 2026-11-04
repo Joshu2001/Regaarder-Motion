@@ -1,0 +1,20 @@
+[
+  {
+    "file": "rudolf-original.jpg",
+    "url": "https://www.deutsche-biographie.de/downloadImage?image=%2Fimages%2Fc%2Fcd%2FRudolf-dassler-portr%C3%A4t.jpg",
+    "bytes": 262089,
+    "status": "retrieved"
+  },
+  {
+    "file": "adi-original.jpg",
+    "url": "https://res.cloudinary.com/confirmed-web/image/upload/c_lfill,w_1200,h_900,c_fill/v1710235199/adidas-group/I3S/stories/images/adidas-background-adidas-adi-dassler-adolf-shoemaker-german-company-Germany-1440x9999_yk2igv.jpg",
+    "bytes": 78727,
+    "status": "retrieved"
+  },
+  {
+    "file": "king-original.png",
+    "url": "https://images.puma.com/image/upload/f_png,q_auto,w_1600,h_1600/global/105607/01/sv01/fnd/GBR/fmt/png/KING-Top-FG-Football-Boots",
+    "status": "retrieved",
+    "classification": "official product photograph, modern relaunch, not claimed1970 exact model"
+  }
+]

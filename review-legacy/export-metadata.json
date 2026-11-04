@@ -1,0 +1,47 @@
+[
+  {
+    "file": "Regaarder-V128-20m14-to-21m25-review.mp4",
+    "programs": [],
+    "streams": [
+      {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "24/1"
+      }
+    ],
+    "format": {
+      "duration": "71.000000",
+      "size": "16487439"
+    }
+  },
+  {
+    "file": "Regaarder-V128-20m14-to-21m25-comparison.mp4",
+    "programs": [],
+    "streams": [
+      {
+        "width": 1280,
+        "height": 384,
+        "avg_frame_rate": "24/1"
+      }
+    ],
+    "format": {
+      "duration": "71.000000",
+      "size": "9539602"
+    }
+  },
+  {
+    "file": "Regaarder-V128-18m50-to-21m25-continuous.mp4",
+    "programs": [],
+    "streams": [
+      {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "24/1"
+      }
+    ],
+    "format": {
+      "duration": "155.000000",
+      "size": "45394218"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Regaarder V129 · Motion editor</title>
+<style>
+:root{color-scheme:dark}body{background:#10141c;color:#eef2f6;font:15px system-ui;max-width:1100px;margin:24px auto;padding:0 18px}canvas{width:100%;display:block;background:black}a{color:#78d9ee}button,input,select{font:inherit;padding:.38rem}input[type=range]{width:65%}fieldset{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0;border:1px solid #485361}label{display:grid;gap:3px}input[type=number]{width:6rem}summary{cursor:pointer}#status{color:#8cd7e5}
+</style>
+<h1>Regaarder V129 · 21:25–23:25</h1>
+<canvas id="stage" width="960" height="540"></canvas>
+<p><button id="play">Play</button> <input type="range" id="time" min="0" max="120" step=".01" value="0" aria-label="Timeline"> <output id="clock"></output></p>
+<p><a href="review-17-23.html">Continuous review</a> · <a href="chapter-editor.html">V130 controls</a></p>
+<fieldset><legend>Scene and media</legend>
+<label>Jump to scene<select id="scene"></select></label><label>Layer<select id="layer"></select></label>
+<label>Replace selected layer<input id="replace" type="file" accept="image/png,image/jpeg,image/webp,video/mp4,video/webm"></label><div id="layerControls" style="display:contents"></div></fieldset>
+<details><summary>Timing and motion</summary><fieldset id="motion"></fieldset><fieldset id="cues"></fieldset></details>
+<details><summary>Text and counter</summary><fieldset id="copy"></fieldset></details>
+<p><button id="save">Save preset</button> <button id="reset">Reset</button> <label>Import preset<input id="load" type="file" accept="application/json"></label></p>
+<p role="status" id="status">Loading…</p>
+<script type="module" src="./promo-editor.js"></script>
+</html>

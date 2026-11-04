@@ -1,0 +1,26 @@
+{
+  "version": 128,
+  "assetsLoaded": 36,
+  "duration": 71,
+  "master": [
+    1214,
+    1285
+  ],
+  "deterministicSeeking": true,
+  "reverse": true,
+  "speed": true,
+  "movingArchive": true,
+  "crtRetreat": true,
+  "reflectionToggle": true,
+  "staggeredPanels": true,
+  "parentedPortraitBinding": true,
+  "flowToggle": true,
+  "graveOutlines": true,
+  "invalidTimingsRejected": true,
+  "sampledStates": 54,
+  "softwareChecksOnly": true,
+  "fidelity": "approximate reconstruction; review required",
+  "audio": "silent",
+  "archive": "cropped supplied360p reference, not a clean recovered master",
+  "browser": "passed"
+}

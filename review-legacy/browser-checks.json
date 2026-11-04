@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "chromium": true,
+  "archiveVideoSeek": true,
+  "independentShoeTiming": true,
+  "layerPosition": true,
+  "imageReplacement": true,
+  "sourceTags": true,
+  "archiveReplacementRawMode": true,
+  "presetExport": true,
+  "presetEmbeddedImages": true,
+  "presetImport": true,
+  "reverseReset": true,
+  "sampledStates": 16,
+  "errors": []
+}

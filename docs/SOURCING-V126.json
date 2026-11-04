@@ -1,0 +1,32 @@
+[
+  {
+    "file": "pele-bicycle-archival.jpg",
+    "url": "https://images.ctfassets.net/pjshm78m9jt4/4si4HH3GCCjH5sWIs6CaCc/0f0b243cb1cc0f667b9738b28ff1ea6a/pele_2.jpeg",
+    "status": "retrieved",
+    "bytes": 1279684
+  },
+  {
+    "file": "pele-ball-archival.jpg",
+    "url": "https://cloudfront-us-east-1.images.arcpublishing.com/bloomberglinea/MKCHIGBUXNBWBGWK3YMRNSPPBM.jpg",
+    "status": "retrieved",
+    "bytes": 960772
+  },
+  {
+    "file": "horst-archival.jpg",
+    "url": "https://www.pagina12.com.ar/resizer/v2/G44DQN3DHBRWGNZRGEYGMNBUMI.jpg?auth=7064f39397847ed023da74242b5bb86c3d561ea903dc465437372dba84837ea4&width=950",
+    "status": "retrieved",
+    "bytes": 33140
+  },
+  {
+    "file": "dollar-one.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/1_USD_2009_obverse_F_star_note.jpg",
+    "status": "retrieved",
+    "bytes": 332254
+  },
+  {
+    "file": "dollar-hundred.jpg",
+    "url": "https://xtb.scdn5.secure.raxcdn.com/default/0104/22/b3f382dd-0484-4305-a42f-6371056ad849/engin-akyurt-7awvqdr36y0-unsplash.jpg",
+    "status": "retrieved",
+    "bytes": 7468674
+  }
+]

@@ -1,0 +1,656 @@
+{
+  "assets": [
+    {
+      "path": "README.md",
+      "bytes": 3441,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "6e51508b433d7482cc35023cea75ed3ad07726d522676458f7a91a8d95e50494"
+    },
+    {
+      "path": "06_brand_cards/puma_card_PRECOMPOSED_OPTIONAL.png",
+      "bytes": 67506,
+      "dimensions": [
+        980,
+        870
+      ],
+      "has_transparency": true,
+      "sha256": "8ab3767f3815a1981ca7731cc3584cc0c195ca2793ac87e4582e38d9f937e46b"
+    },
+    {
+      "path": "06_brand_cards/red_blank_distressed_card.png",
+      "bytes": 32820,
+      "dimensions": [
+        980,
+        870
+      ],
+      "has_transparency": true,
+      "sha256": "b2589cb6072b2e1cf8be7bb61f5fbbc81edcfa849356d49c96111fc301d86cdf"
+    },
+    {
+      "path": "06_brand_cards/blue_blank_distressed_card.png",
+      "bytes": 32829,
+      "dimensions": [
+        980,
+        870
+      ],
+      "has_transparency": true,
+      "sha256": "b20fd5510f414a0363de82b4316994fb4fd7c3eb5b2f0a56e33c2f5fc6c124a8"
+    },
+    {
+      "path": "06_brand_cards/adidas_editable_logo.svg",
+      "bytes": 531,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "2905d0e052fc2b186768c53a825570f3f6935323a9fcbdcd0400c197ce67ebc0"
+    },
+    {
+      "path": "06_brand_cards/puma_white_mark.png",
+      "bytes": 23718,
+      "dimensions": [
+        1100,
+        630
+      ],
+      "has_transparency": true,
+      "sha256": "66662888213006f4d547de3ed95f58929fb59cc10e6b532e5cd081f69b151650"
+    },
+    {
+      "path": "06_brand_cards/puma_editable_logo.svg",
+      "bytes": 543,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "1f3d380e1eab19896746568223e58e324aebd359b412f85d6349c91fca619c5e"
+    },
+    {
+      "path": "06_brand_cards/adidas_card_PRECOMPOSED_OPTIONAL.png",
+      "bytes": 66219,
+      "dimensions": [
+        980,
+        870
+      ],
+      "has_transparency": true,
+      "sha256": "a7d52cde8b38505bd4ba21181020184ad960eaeab9daddd343698bd6d69f543d"
+    },
+    {
+      "path": "06_brand_cards/red_X_stroke_b.png",
+      "bytes": 50049,
+      "dimensions": [
+        1000,
+        900
+      ],
+      "has_transparency": true,
+      "sha256": "5f16449ca92007d3f910d81fd420a25e324461b94c1ce226c5782b4af81a3c69"
+    },
+    {
+      "path": "06_brand_cards/red_X_stroke_a.svg",
+      "bytes": 423,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "05583c4f49220ab7c52ff10b8cd84b0b23140f6b01ee471e7b69c81c4f3c87e7"
+    },
+    {
+      "path": "06_brand_cards/adidas_white_mark.png",
+      "bytes": 20831,
+      "dimensions": [
+        1100,
+        630
+      ],
+      "has_transparency": true,
+      "sha256": "1f92b1d5dd17c6d1c6c81bad3f0c5ec0fe7007cc08d54d2421629b3e54b5be31"
+    },
+    {
+      "path": "06_brand_cards/red_X_stroke_a.png",
+      "bytes": 48045,
+      "dimensions": [
+        1000,
+        900
+      ],
+      "has_transparency": true,
+      "sha256": "16ec7777ca6049e052818e71ee71a638b43e569d33e7c1dfa938406e5541370d"
+    },
+    {
+      "path": "06_brand_cards/red_X_stroke_b.svg",
+      "bytes": 423,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "399d8c69782e322098e12771ff0cac7ae7b17b31b857ae5592f5322dd8564657"
+    },
+    {
+      "path": "01_backgrounds/negotiation_room_clean.png",
+      "bytes": 2399468,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "159ff81b7a0d39bb89d332d477345eeb8f343ece9b6ac0f0daf662c69fd70ea7"
+    },
+    {
+      "path": "01_backgrounds/split_brand_stage_no_logos.png",
+      "bytes": 3800478,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "3a44fcb672f65d5fd00547d08d5280bcff63cba29ae30f5567f52f1341a7c4f5"
+    },
+    {
+      "path": "01_backgrounds/interstitial_smoky_cyan_crimson.png",
+      "bytes": 3627543,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "b676e5a52dcf4eef8d71039b2fa4c84c2f2de5b8e08f1f4293aa61de9a518104"
+    },
+    {
+      "path": "01_backgrounds/mexico_blue_red_wood_no_emblem.png",
+      "bytes": 4091044,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "eb9fcd9af33d44ca2d49b84843520f74863d1ff5e089206ddc739fb7d1068e5b"
+    },
+    {
+      "path": "01_backgrounds/newspaper_mahogany_table.png",
+      "bytes": 3815002,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "4085a935c7da40b03afd24d21f719a7fb09eec190f4997b18e477a06b5ca9243"
+    },
+    {
+      "path": "08_preview/08_brand_cards.jpg",
+      "bytes": 351101,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "0d9fe8e19d92b8d3aa74056b04dca4058473d67faace1c133beb7cf905d00537"
+    },
+    {
+      "path": "08_preview/06_pelé_headline.jpg",
+      "bytes": 360980,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "06ed5bf79994e7dbcdc126a15bd6979f6a78798c47d1ebaa31b740274f9683aa"
+    },
+    {
+      "path": "08_preview/02_handshake_occlusion.jpg",
+      "bytes": 250913,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "4fe80e5062a12d410bb8b1831bbe71d072658506d5e82cde73427ef6e7ae32e3"
+    },
+    {
+      "path": "08_preview/03_rival_executives.jpg",
+      "bytes": 347638,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "a0dc92c5fa5e7b0c5c9b073ba084089e451059efa5d224117f584b01ff73562e"
+    },
+    {
+      "path": "08_preview/04_bidding_money.jpg",
+      "bytes": 355624,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "ae13fc31cc2f80fe49aa15f126e10fa433cb4935fd05ce29c2de182bbe3b5818"
+    },
+    {
+      "path": "08_preview/storyboard_all.jpg",
+      "bytes": 702438,
+      "dimensions": [
+        2700,
+        1683
+      ],
+      "has_transparency": false,
+      "sha256": "267caf0b3355b6a8ab397121e39aa8b7761a29538f7b68a3a39b5107be5dac83"
+    },
+    {
+      "path": "08_preview/01_negotiation_room.jpg",
+      "bytes": 178317,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "1c71435fc8419b868d5231f9b8aa777a6eaf6e858418469ae7aabc878b929842"
+    },
+    {
+      "path": "08_preview/05_mexico_1970.jpg",
+      "bytes": 403946,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "a27eed207543f46e0ec1d24c779c07970b258934af83fe5a0075d6010b4ea4c0"
+    },
+    {
+      "path": "08_preview/09_crossed_out_competitors.jpg",
+      "bytes": 353687,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "e232a832f04e6a8d1a3326e0ef32bc943194d992ca500c6a7d01be05cf4a6684"
+    },
+    {
+      "path": "08_preview/07_historical_photo_collage.jpg",
+      "bytes": 396575,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": false,
+      "sha256": "85af83753177f9b8ae92b612d25c6c5a7177b557c67f6d5d8061558fdba3c8ab"
+    },
+    {
+      "path": "03_sponsorship_money/sponsorship_prop_note_02.png",
+      "bytes": 38920,
+      "dimensions": [
+        1040,
+        480
+      ],
+      "has_transparency": true,
+      "sha256": "7b2d678cf939d7dc1f579be144874d25480ccd1b83a20234a9135d7cb9f46297"
+    },
+    {
+      "path": "03_sponsorship_money/sponsorship_prop_note_03.png",
+      "bytes": 39103,
+      "dimensions": [
+        1040,
+        480
+      ],
+      "has_transparency": true,
+      "sha256": "3bfed1fde5be6b27cb3ea5293ad20ca3c106796bb0bd817e0cc615189f207f68"
+    },
+    {
+      "path": "03_sponsorship_money/currency_fan_02.png",
+      "bytes": 589449,
+      "dimensions": [
+        1350,
+        850
+      ],
+      "has_transparency": true,
+      "sha256": "5013dd256666fef5353d7c55d8d40de2b9fd7a8eeb0dffb9f6d85ee9618c3347"
+    },
+    {
+      "path": "03_sponsorship_money/sponsorship_prop_note_01.png",
+      "bytes": 38440,
+      "dimensions": [
+        1040,
+        480
+      ],
+      "has_transparency": true,
+      "sha256": "0971b06711e1d1048da04f42c899988e242c9d10dbc40d8915948e8c99dfb285"
+    },
+    {
+      "path": "03_sponsorship_money/money_gold_reflections.png",
+      "bytes": 766080,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "18f111f520070c0612745c4d746133630f3135032ed4fa4586deff875fe8bbaf"
+    },
+    {
+      "path": "03_sponsorship_money/currency_fan_01.png",
+      "bytes": 516768,
+      "dimensions": [
+        1350,
+        850
+      ],
+      "has_transparency": true,
+      "sha256": "51649886ea939b1a3e7ddad3268438232160a810557d6335e03f7a942faa3cef"
+    },
+    {
+      "path": "09_manifest/scene_layer_order_and_timing.json",
+      "bytes": 6893,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "7e63f3e2371775da4fc8eabe74445f3a7e62c00b6d5ec393deec845a646d5f1c"
+    },
+    {
+      "path": "09_manifest/assets_inventory.json",
+      "bytes": 17744,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "6dced6c49b51d824006d2afb4c6ab1e09927410c39df35cb13935240934df147"
+    },
+    {
+      "path": "09_manifest/reference_sources_and_rights.json",
+      "bytes": 1333,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "ac5eae7d9d7952bd408760b3b58317bf900f53e673cc3aa6b4b4b3d48597c38e"
+    },
+    {
+      "path": "05_historical_editorial/photoprint_02.png",
+      "bytes": 863381,
+      "dimensions": [
+        1180,
+        990
+      ],
+      "has_transparency": true,
+      "sha256": "ee8e647e30f4c71b47e7fc56abf1688d2090d7acef1e4b98a5e6be0fddf8aada"
+    },
+    {
+      "path": "05_historical_editorial/pele_inspired_portrait_ILLUSTRATION_BW.jpg",
+      "bytes": 110916,
+      "dimensions": [
+        1000,
+        780
+      ],
+      "has_transparency": false,
+      "sha256": "95338898f22fb346422d0687ff4d5a240b094f9da95c0702788b3660d9979aba"
+    },
+    {
+      "path": "05_historical_editorial/photoprint_01.png",
+      "bytes": 794482,
+      "dimensions": [
+        1180,
+        990
+      ],
+      "has_transparency": true,
+      "sha256": "1764d8e06c50815a99e4a90a9c62f186ae03dfc41702fbfefa9c021f18cd9aa5"
+    },
+    {
+      "path": "05_historical_editorial/newspaper_02_full_cutout.png",
+      "bytes": 1945465,
+      "dimensions": [
+        1120,
+        1530
+      ],
+      "has_transparency": true,
+      "sha256": "c02e90977636f34c61396117fa367e1cf50ef24843dd88e444e0688f5966256d"
+    },
+    {
+      "path": "05_historical_editorial/photoprint_03.png",
+      "bytes": 896699,
+      "dimensions": [
+        1180,
+        990
+      ],
+      "has_transparency": true,
+      "sha256": "3e0388d6dc8de50144fc5a9a6108d88d5c7869b82ba8733857769d3b202ab7cb"
+    },
+    {
+      "path": "05_historical_editorial/newspaper_04_full_cutout.png",
+      "bytes": 1893736,
+      "dimensions": [
+        1120,
+        1530
+      ],
+      "has_transparency": true,
+      "sha256": "89fbd42c124ba48bc74d73c9f18e43555252c1cafb8636907a51fd4b773df6c6"
+    },
+    {
+      "path": "05_historical_editorial/football_1970_crowd_ILLUSTRATION.jpg",
+      "bytes": 83621,
+      "dimensions": [
+        1100,
+        770
+      ],
+      "has_transparency": false,
+      "sha256": "0e476f0338cc3987a00513ee13c9a85e6ee2a021a2f5c97b81e2f88154565bf4"
+    },
+    {
+      "path": "05_historical_editorial/newspaper_text_EDITABLE.json",
+      "bytes": 2302,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "bdaade73ff8de4296f2836a2e615ee1da8e6edcd1256c228feaa2f8d75b1a867"
+    },
+    {
+      "path": "05_historical_editorial/newspaper_05_full_cutout.png",
+      "bytes": 1920741,
+      "dimensions": [
+        1120,
+        1530
+      ],
+      "has_transparency": true,
+      "sha256": "1dd3f09d9b789b2b712f00a5c189e846ffe158681cda0c7be3febed21bc4b25d"
+    },
+    {
+      "path": "05_historical_editorial/pele_inspired_portrait_ILLUSTRATION.jpg",
+      "bytes": 63802,
+      "dimensions": [
+        1000,
+        780
+      ],
+      "has_transparency": false,
+      "sha256": "e871f1d052afc1f2b4d8f3c98e685df7c98e0ff08665d0f7ef17550c692a0810"
+    },
+    {
+      "path": "05_historical_editorial/newspaper_01_full_cutout.png",
+      "bytes": 1912388,
+      "dimensions": [
+        1120,
+        1530
+      ],
+      "has_transparency": true,
+      "sha256": "0617921dfc21f9f290c8e48683d1990a982961fc18bcfd4c3adad9caef744f23"
+    },
+    {
+      "path": "05_historical_editorial/pele_inspired_celebration_ILLUSTRATION_BW.jpg",
+      "bytes": 154462,
+      "dimensions": [
+        1000,
+        900
+      ],
+      "has_transparency": false,
+      "sha256": "8ff5e0c310ff2b6c157555e435dc8ee0d9659cc356bbedcb82812d89b0383f89"
+    },
+    {
+      "path": "05_historical_editorial/newspaper_03_full_cutout.png",
+      "bytes": 2007577,
+      "dimensions": [
+        1120,
+        1530
+      ],
+      "has_transparency": true,
+      "sha256": "91db71d285b8138ddb9f26420274157194db1b45681d9a0e7d8e61ab4e12a791"
+    },
+    {
+      "path": "05_historical_editorial/pele_inspired_celebration_ILLUSTRATION.jpg",
+      "bytes": 99814,
+      "dimensions": [
+        1000,
+        900
+      ],
+      "has_transparency": false,
+      "sha256": "ecf975320184d35acc46db3eeea7fca754a6221678dcbf36615c0502d188c97c"
+    },
+    {
+      "path": "02_figures/executive_blue_illustration.png",
+      "bytes": 2086281,
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "has_transparency": true,
+      "sha256": "2d4b0d16ebb1163c36bf26a39e00da2d86edb43991b6460946d1d8f8e98e08b4"
+    },
+    {
+      "path": "02_figures/foreground_audience_occlusion.png",
+      "bytes": 91542,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "01263580f9f72278895d46abd64b087cb68120564a78b0a3ceba722946e921fa"
+    },
+    {
+      "path": "02_figures/handshake_clasp_both_arms.png",
+      "bytes": 2378667,
+      "dimensions": [
+        2172,
+        724
+      ],
+      "has_transparency": true,
+      "sha256": "e16fb2a30a57eacf865e589d5211054ef7ced889ea566039c54cc6a17933659d"
+    },
+    {
+      "path": "02_figures/seated_negotiator_right_silhouette.png",
+      "bytes": 6040,
+      "dimensions": [
+        630,
+        800
+      ],
+      "has_transparency": true,
+      "sha256": "ac6aab8125f015ed027da8bec2d1d5ca12e475c3a86662677d66009b08d2e800"
+    },
+    {
+      "path": "02_figures/seated_negotiator_left_silhouette.png",
+      "bytes": 6042,
+      "dimensions": [
+        630,
+        800
+      ],
+      "has_transparency": true,
+      "sha256": "96cb33d0ff4af291bdb5cbdee70fd3d9a573621a1e691fb09436a3679a674b53"
+    },
+    {
+      "path": "02_figures/executive_red_illustration.png",
+      "bytes": 2689697,
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "has_transparency": true,
+      "sha256": "a2c7e636f32f0b2e857ff65b7a08309fdd5368f998da5b34a662a731858a217b"
+    },
+    {
+      "path": "07_motion_overlays/golden_spotlight_beams.png",
+      "bytes": 404291,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "dd8088bfa6880f8cd595b1383f460256273f75f031ffe6ece53817b48e0624ed"
+    },
+    {
+      "path": "07_motion_overlays/warm_gold_dust_haze.png",
+      "bytes": 105106,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "2d947b953ba5b46418dc959541d8d684844c4fcd0c07b2e619a852b3f8764c28"
+    },
+    {
+      "path": "07_motion_overlays/film_grain_alpha_overlay.png",
+      "bytes": 8228770,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "044b9ee984560cf1e313e92c5e81c4e17cc345a681c0f13cb5cc7859268de88b"
+    },
+    {
+      "path": "07_motion_overlays/golden_embers_particles.png",
+      "bytes": 17276,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "662d2f55e45f37535dcd10ddb3eee326368d01fc1d7dd858997b85d081f935c7"
+    },
+    {
+      "path": "07_motion_overlays/vignette_alpha.png",
+      "bytes": 136852,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "9a80625c268379eb527b180a5be6dc5d000ede45785eec9758007df6d810149b"
+    },
+    {
+      "path": "07_motion_overlays/cool_cyan_volumetric_haze.png",
+      "bytes": 120043,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "1ad77cf9fde3dd65169ced8cd4593884b71202e6965e7710167427e8793735cc"
+    },
+    {
+      "path": "07_motion_overlays/red_crimson_volumetric_haze.png",
+      "bytes": 100829,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "fb815b6f1dace2b38390632906b83821540ab2d2bb977cb2605e9873a63269d2"
+    },
+    {
+      "path": "04_mexico_1970/mexico70_emblem_transparent.png",
+      "bytes": 62842,
+      "dimensions": [
+        1000,
+        1080
+      ],
+      "has_transparency": true,
+      "sha256": "9324c1a883a0d69468764a8b2c15540a1b42c303b29a535322e53e1cc4b1369c"
+    },
+    {
+      "path": "04_mexico_1970/mexico70_poster_PRECOMPOSED_OPTIONAL.png",
+      "bytes": 177492,
+      "dimensions": [
+        1070,
+        1280
+      ],
+      "has_transparency": true,
+      "sha256": "793564d58df9e0156faedfa58fe1cbd64134418c676e347fbaf03b11739ab420"
+    },
+    {
+      "path": "04_mexico_1970/mexico70_logo_EDITABLE.svg",
+      "bytes": 608,
+      "dimensions": null,
+      "has_transparency": null,
+      "sha256": "3b9a226216d9e20a03153f0fed1ae2f3d5c7b5fa3b55eff34d79f05d2e3fcd48"
+    },
+    {
+      "path": "04_mexico_1970/vintage_mustard_poster_blank.png",
+      "bytes": 82379,
+      "dimensions": [
+        1070,
+        1280
+      ],
+      "has_transparency": true,
+      "sha256": "2390e28e210ea9ad14ed5e2f131cb8e5af9749dcd220f6a147f9d013d3e57ffc"
+    }
+  ],
+  "count": 68,
+  "context": "Fictionalized cinematic illustration of historical events, organized for editing"
+}

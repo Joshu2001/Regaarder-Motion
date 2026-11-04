@@ -1,0 +1,15 @@
+{
+  "name": "regaarder-motion-v128",
+  "version": "1.28.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node --expose-gc scripts/render-legacy-v128.mjs --video",
+    "checks": "node --expose-gc scripts/render-legacy-v128.mjs",
+    "browser": "node scripts/check-legacy-browser.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "playwright": "1.62.1"
+  }
+}

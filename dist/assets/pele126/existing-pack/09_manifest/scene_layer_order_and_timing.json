@@ -1,0 +1,258 @@
+{
+  "schema": "regaarder-pele-pact-assets-v1",
+  "reference_window": [
+    "19:00:00",
+    "20:00:00"
+  ],
+  "fps_reference": 30,
+  "canvas_size": [
+    1920,
+    1080
+  ],
+  "type": "asset_only_no_animation",
+  "scenes": [
+    {
+      "id": "club",
+      "from": "19:00.0",
+      "to": "19:04.0",
+      "environment": "01_backgrounds/negotiation_room_clean.png",
+      "layers": [
+        "02_figures/seated_negotiator_left_silhouette.png",
+        "02_figures/seated_negotiator_right_silhouette.png",
+        "02_figures/foreground_audience_occlusion.png",
+        "07_motion_overlays/cool_cyan_volumetric_haze.png",
+        "07_motion_overlays/red_crimson_volumetric_haze.png"
+      ],
+      "camera": "slow controlled push, low-angle establishing shot",
+      "editable_controls": [
+        "asset",
+        "position",
+        "scale",
+        "rotation",
+        "depth",
+        "opacity",
+        "blur",
+        "direction",
+        "ease",
+        "time_in",
+        "time_out",
+        "foreground_occlusion",
+        "lighting",
+        "glow",
+        "color_grade"
+      ]
+    },
+    {
+      "id": "handshake",
+      "from": "19:04.0",
+      "to": "19:12.2",
+      "environment": "01_backgrounds/negotiation_room_clean.png",
+      "layers": [
+        "02_figures/handshake_clasp_both_arms.png",
+        "02_figures/foreground_audience_occlusion.png",
+        "07_motion_overlays/golden_embers_particles.png"
+      ],
+      "camera": "large foreground reveal and contact hold; hand cutout is single layer",
+      "editable_controls": [
+        "asset",
+        "position",
+        "scale",
+        "rotation",
+        "depth",
+        "opacity",
+        "blur",
+        "direction",
+        "ease",
+        "time_in",
+        "time_out",
+        "foreground_occlusion",
+        "lighting",
+        "glow",
+        "color_grade"
+      ]
+    },
+    {
+      "id": "rival_executives",
+      "from": "19:12.2",
+      "to": "19:19.5",
+      "environment": "01_backgrounds/split_brand_stage_no_logos.png",
+      "layers": [
+        "06_brand_cards/adidas_white_mark.png",
+        "06_brand_cards/puma_white_mark.png",
+        "02_figures/executive_blue_illustration.png",
+        "02_figures/executive_red_illustration.png"
+      ],
+      "camera": "red panel and portrait enter first, blue enters second",
+      "editable_controls": [
+        "asset",
+        "position",
+        "scale",
+        "rotation",
+        "depth",
+        "opacity",
+        "blur",
+        "direction",
+        "ease",
+        "time_in",
+        "time_out",
+        "foreground_occlusion",
+        "lighting",
+        "glow",
+        "color_grade"
+      ]
+    },
+    {
+      "id": "bidding_war",
+      "from": "19:19.5",
+      "to": "19:27.0",
+      "environment": "01_backgrounds/split_brand_stage_no_logos.png",
+      "layers": [
+        "02_figures/executive_blue_illustration.png",
+        "02_figures/executive_red_illustration.png",
+        "03_sponsorship_money/sponsorship_prop_note_01.png",
+        "03_sponsorship_money/sponsorship_prop_note_02.png",
+        "03_sponsorship_money/sponsorship_prop_note_03.png",
+        "03_sponsorship_money/currency_fan_01.png",
+        "03_sponsorship_money/currency_fan_02.png"
+      ],
+      "camera": "foreground notes rise and cover faces; layered parallax",
+      "editable_controls": [
+        "asset",
+        "position",
+        "scale",
+        "rotation",
+        "depth",
+        "opacity",
+        "blur",
+        "direction",
+        "ease",
+        "time_in",
+        "time_out",
+        "foreground_occlusion",
+        "lighting",
+        "glow",
+        "color_grade"
+      ]
+    },
+    {
+      "id": "mexico70",
+      "from": "19:27.0",
+      "to": "19:34.5",
+      "environment": "01_backgrounds/mexico_blue_red_wood_no_emblem.png",
+      "layers": [
+        "04_mexico_1970/vintage_mustard_poster_blank.png",
+        "04_mexico_1970/mexico70_emblem_transparent.png"
+      ],
+      "camera": "tournament graphic approaches and straightens",
+      "editable_controls": [
+        "asset",
+        "position",
+        "scale",
+        "rotation",
+        "depth",
+        "opacity",
+        "blur",
+        "direction",
+        "ease",
+        "time_in",
+        "time_out",
+        "foreground_occlusion",
+        "lighting",
+        "glow",
+        "color_grade"
+      ]
+    },
+    {
+      "id": "pele_press",
+      "from": "19:34.5",
+      "to": "19:42.5",
+      "environment": "01_backgrounds/newspaper_mahogany_table.png",
+      "layers": [
+        "05_historical_editorial/newspaper_01_full_cutout.png"
+      ],
+      "camera": "first newspaper flies in from the right and holds",
+      "editable_controls": [
+        "asset",
+        "position",
+        "scale",
+        "rotation",
+        "depth",
+        "opacity",
+        "blur",
+        "direction",
+        "ease",
+        "time_in",
+        "time_out",
+        "foreground_occlusion",
+        "lighting",
+        "glow",
+        "color_grade"
+      ]
+    },
+    {
+      "id": "press_collage",
+      "from": "19:42.5",
+      "to": "19:50.0",
+      "environment": "01_backgrounds/newspaper_mahogany_table.png",
+      "layers": [
+        "05_historical_editorial/newspaper_01_full_cutout.png",
+        "05_historical_editorial/newspaper_02_full_cutout.png",
+        "05_historical_editorial/newspaper_03_full_cutout.png",
+        "05_historical_editorial/photoprint_02.png"
+      ],
+      "camera": "multiple articles overlap, slight rotations, continuous drift",
+      "editable_controls": [
+        "asset",
+        "position",
+        "scale",
+        "rotation",
+        "depth",
+        "opacity",
+        "blur",
+        "direction",
+        "ease",
+        "time_in",
+        "time_out",
+        "foreground_occlusion",
+        "lighting",
+        "glow",
+        "color_grade"
+      ]
+    },
+    {
+      "id": "no_bidding",
+      "from": "19:50.0",
+      "to": "20:00.0",
+      "environment": "01_backgrounds/newspaper_mahogany_table.png",
+      "layers": [
+        "05_historical_editorial/newspaper_01_full_cutout.png",
+        "05_historical_editorial/photoprint_02.png",
+        "06_brand_cards/blue_blank_distressed_card.png",
+        "06_brand_cards/adidas_white_mark.png",
+        "06_brand_cards/red_blank_distressed_card.png",
+        "06_brand_cards/puma_white_mark.png",
+        "03_sponsorship_money/currency_fan_01.png",
+        "06_brand_cards/red_X_stroke_a.svg",
+        "06_brand_cards/red_X_stroke_b.svg"
+      ],
+      "camera": "both brand cards rise; red X strokes draw near 19:58; vector stroke can animate path",
+      "editable_controls": [
+        "asset",
+        "position",
+        "scale",
+        "rotation",
+        "depth",
+        "opacity",
+        "blur",
+        "direction",
+        "ease",
+        "time_in",
+        "time_out",
+        "foreground_occlusion",
+        "lighting",
+        "glow",
+        "color_grade"
+      ]
+    }
+  ]
+}

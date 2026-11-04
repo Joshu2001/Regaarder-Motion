@@ -1,0 +1,109 @@
+[
+  {
+    "id": "layered-person-room",
+    "description": "Separate people, chairs, tables and camera with exposure reveal and near/far blur",
+    "defaults": {
+      "roomRevealStart": 10,
+      "roomRevealEnd": 13.3,
+      "roomExitStart": 20.7,
+      "roomExitEnd": 22.6
+    }
+  },
+  {
+    "id": "connected-handshake",
+    "description": "Joined contact group descends from top, shared transform retains grip",
+    "defaults": {
+      "handStart": 13.5,
+      "handEnd": 15.2,
+      "handExit": 22.6
+    }
+  },
+  {
+    "id": "flame-flipbook",
+    "description": "Reusable interpolated6-frame fire atlas, independent emission anchor and light",
+    "defaults": {
+      "speed": 8,
+      "strength": 0.8
+    }
+  },
+  {
+    "id": "tabletop-camera-roll",
+    "description": "Shared poster/table camera rotation, approach and lateral transition",
+    "defaults": {
+      "start": 37,
+      "end": 43,
+      "fromRoll": -90,
+      "toRoll": 0
+    }
+  },
+  {
+    "id": "cash-fan",
+    "description": "Staggered individual note planes with fixed pivot and independent sway",
+    "defaults": {
+      "start": 29.5,
+      "stagger": 0.4,
+      "count": 3
+    }
+  },
+  {
+    "id": "attached-cross",
+    "description": "Two overlapping drawn strokes attached to a card/photo",
+    "defaults": {
+      "duration": 0.9,
+      "secondStrokeOffset": 0.28
+    }
+  },
+  {
+    "id": "boot-emphasis",
+    "description": "Pullback followed by distinct boot punch-in, localized flex and separate ball drift",
+    "defaults": {
+      "revealStart": 75.3,
+      "revealEnd": 77.6,
+      "punchStart": 80.9,
+      "punchEnd": 81
+    }
+  },
+  {
+    "id": "occluded-boot-ring",
+    "description": "Clockwise red arc drawn below isolated foreground player layer",
+    "defaults": {
+      "start": 81.2,
+      "duration": 1.25,
+      "radius": 75
+    }
+  },
+  {
+    "id": "continuous-depth-pullback",
+    "description": "Uninterrupted linear camera retreat through chairs, diners and a later near-guest layer",
+    "defaults": {
+      "start": 10,
+      "end": 22.6,
+      "roomPullback": 0.55
+    }
+  },
+  {
+    "id": "opposed-brand-entry",
+    "description": "Exact SVG alpha tinted independently; blue enters from left, red from right with editable direction",
+    "defaults": {
+      "start": 25,
+      "duration": 2,
+      "direction": 1
+    }
+  },
+  {
+    "id": "burning-cash-approach",
+    "description": "Quadratic approach shared by bundle, flame anchor and flame scale before transition",
+    "defaults": {
+      "start": 30,
+      "end": 36.3,
+      "strength": 3.2
+    }
+  },
+  {
+    "id": "archival-print-surface",
+    "description": "Sourced historical scans with independent material wear and temporal grain",
+    "defaults": {
+      "paperAge": 0.85
+    }
+  }
+]
